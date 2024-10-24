@@ -1,0 +1,11 @@
+{
+  "Proxy6Data": {
+    "InstancesCoefficient": "3"
+  },
+  "SecretKeys": {
+    "ProxySecretApiKey": "b6060a081c-09d8b7afed-8360521158"
+  },
+  "Counties": {
+    "Russia": "ru"
+  }
+}

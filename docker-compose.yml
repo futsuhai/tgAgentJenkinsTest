@@ -1,0 +1,56 @@
+﻿services:
+  postgres:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=pguser
+      - POSTGRES_PASSWORD=pgpassword
+    ports:
+      - 5434:5432
+      
+  commandsPostgres:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=pguser
+      - POSTGRES_PASSWORD=pgpassword
+    ports:
+      - 5439:5432
+        
+  webhooksRabbitmq:
+    image: rabbitmq:3.12.10-management
+    hostname: webhook
+    environment:
+      - RABBITMQ_DEFAULT_USER=rmuser
+      - RABBITMQ_DEFAULT_PASS=rmpassword
+    ports:
+      - 15676:15672
+      - 5676:5672
+
+  rabbitmq:
+    image: rabbitmq:3.12.10-management
+    hostname: rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=rmuser
+      - RABBITMQ_DEFAULT_PASS=rmpassword
+    ports:
+      - 15672:15672
+      - 5672:5672
+
+  elasticsearch:
+    image: elasticsearch:8.14.1
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=true
+      - ELASTIC_PASSWORD=espassword
+    ports:
+      - 9200:9200
+
+  kibana:
+    image: kibana:8.14.1
+    container_name: kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      - ELASTICSEARCH_USERNAME=elastic
+      - ELASTICSEARCH_PASSWORD=espassword
+    ports:
+      - "5601:5601"

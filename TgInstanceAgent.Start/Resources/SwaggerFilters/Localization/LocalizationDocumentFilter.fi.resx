@@ -1,0 +1,818 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AuthSetPhone" xml:space="preserve">
+        <value>Aseta puhelinnumero</value>
+    </data>
+    <data name="ParameterinstanceId" xml:space="preserve">
+        <value>Ilmentymän tunnus</value>
+    </data>
+    <data name="AuthSetPhoneRequest" xml:space="preserve">
+        <value>Puhelinnumero</value>
+    </data>
+    <data name="Response200" xml:space="preserve">
+        <value>Menestys</value>
+    </data>
+    <data name="Response400" xml:space="preserve">
+        <value>Virheelliset syötetiedot tai virheellinen pyyntö</value>
+    </data>
+    <data name="Response500" xml:space="preserve">
+        <value>Palvelimessa tapahtui virhe</value>
+    </data>
+    <data name="AuthCheckCode" xml:space="preserve">
+        <value>Lähetä vahvistuskoodi</value>
+    </data>
+    <data name="AuthCheckCodeRequest" xml:space="preserve">
+        <value>Vahvistuskoodi</value>
+    </data>
+    <data name="AuthCheckPassword" xml:space="preserve">
+        <value>Lähetä salasana</value>
+    </data>
+    <data name="AuthCheckPasswordRequest" xml:space="preserve">
+        <value>Salasana</value>
+    </data>
+    <data name="ChatsGetChatHistory" xml:space="preserve">
+        <value>Hae chat-historia</value>
+    </data>
+    <data name="ParameterChatId" xml:space="preserve">
+        <value>Chat-tunnus.</value>
+    </data>
+    <data name="ParameterUsername" xml:space="preserve">
+        <value>Käyttäjätunnus.</value>
+    </data>
+    <data name="ParameterPhoneNumber" xml:space="preserve">
+        <value>Puhelinnumero.</value>
+    </data>
+    <data name="ParameterLimit" xml:space="preserve">
+        <value>Viestirajoitus.</value>
+    </data>
+    <data name="ParameterOffset" xml:space="preserve">
+        <value>Puolueellisuus.</value>
+    </data>
+    <data name="ParameterFromMessageId" xml:space="preserve">
+        <value>Alkaen viestin tunnuksella.</value>
+    </data>
+    <data name="ChatsGetMessage" xml:space="preserve">
+        <value>Hae viestitiedot</value>
+    </data>
+    <data name="ParameterMessageId" xml:space="preserve">
+        <value>Viestin tunnus.</value>
+    </data>
+    <data name="ChatsGetMessageAvailableReactions" xml:space="preserve">
+        <value>Hanki luettelo viestiin käytettävissä olevista reaktioista</value>
+    </data>
+    <data name="ContactsGetContacts" xml:space="preserve">
+        <value>Hanki yhteystietoluettelo</value>
+    </data>
+    <data name="ContactsImportContacts" xml:space="preserve">
+        <value>Tuo yhteystiedot</value>
+    </data>
+    <data name="ContactsImportContactsRequest" xml:space="preserve">
+        <value>Yhteystiedot</value>
+    </data>
+    <data name="ContactsAddContact" xml:space="preserve">
+        <value>Lisää yhteystieto</value>
+    </data>
+    <data name="ContactsAddContactRequest" xml:space="preserve">
+        <value>Käyttäjän yhteystiedot</value>
+    </data>
+    <data name="ContactsRemoveContact" xml:space="preserve">
+        <value>Poista yhteystieto</value>
+    </data>
+    <data name="ContactsRemoveContactRequest" xml:space="preserve">
+        <value>Käyttäjän yhteystiedot</value>
+    </data>
+    <data name="FileStartDownload" xml:space="preserve">
+        <value>Pyydä ladata tiedosto tiedostotunnuksella</value>
+    </data>
+    <data name="FileStartDownloadRequest" xml:space="preserve">
+        <value>Malli tiedostotunnuksella</value>
+    </data>
+    <data name="FileGetFile" xml:space="preserve">
+        <value>Haetaan tiedostoa tiedostotunnuksella</value>
+    </data>
+    <data name="ParameterLocalId" xml:space="preserve">
+        <value>Paikallinen tiedostotunnus</value>
+    </data>
+    <data name="ParameterRemoteId" xml:space="preserve">
+        <value>Etätiedoston tunnus</value>
+    </data>
+    <data name="FileStartDownloadFromMessage" xml:space="preserve">
+        <value>Pyydä ladata tiedosto viestistä.</value>
+    </data>
+    <data name="FileStartDownloadFromMessageRequest" xml:space="preserve">
+        <value>Malli chatilla ja viestitunnuksella</value>
+    </data>
+    <data name="FileGetFileFromMessage" xml:space="preserve">
+        <value>Tiedoston vastaanottaminen viestistä</value>
+    </data>
+    <data name="InstanceGetInstance" xml:space="preserve">
+        <value>Haetaan ilmentymän tietoja</value>
+    </data>
+    <data name="MessageSendTextMessage" xml:space="preserve">
+        <value>Tekstiviestin lähettäminen</value>
+    </data>
+    <data name="MessageSendTextMessageRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="MessageSendLocationMessage" xml:space="preserve">
+        <value>Lähetetään maantieteellistä sijaintia</value>
+    </data>
+    <data name="MessageSendLocationMessageRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="MessageSendAudioMessage" xml:space="preserve">
+        <value>Ääniviestin lähettäminen</value>
+    </data>
+    <data name="MessageSendAudioMessageRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessage" xml:space="preserve">
+        <value>Ääniviestin lähettäminen</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessageRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="MessageSendVideoNoteMessage" xml:space="preserve">
+        <value>Piirin lähettäminen</value>
+    </data>
+    <data name="MessageSendVideoNoteMessageRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="MessageSendVideoMessage" xml:space="preserve">
+        <value>Videon lähettäminen</value>
+    </data>
+    <data name="MessageSendVideoMessageRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="MessageSendDocumentMessage" xml:space="preserve">
+        <value>Asiakirjan lähettäminen</value>
+    </data>
+    <data name="MessageSendDocumentMessageRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="MessageSendPhotoMessage" xml:space="preserve">
+        <value>Valokuvan lähettäminen</value>
+    </data>
+    <data name="MessageSendPhotoMessageRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="MessageSendStickerMessage" xml:space="preserve">
+        <value>Tarran lähettäminen</value>
+    </data>
+    <data name="MessageSendStickerMessageRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="MessageSendStoryMessage" xml:space="preserve">
+        <value>Tarinan lähettäminen</value>
+    </data>
+    <data name="MessageSendStoryMessageRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="MessageSendAnimationMessage" xml:space="preserve">
+        <value>Lähetetään animaatiota (gif)</value>
+    </data>
+    <data name="MessageSendAnimationMessageRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="MessageSendContactMessage" xml:space="preserve">
+        <value>Lähetä yhteystieto</value>
+    </data>
+    <data name="MessageSendContactMessageRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="MessageAddMessageReaction" xml:space="preserve">
+        <value>Reaktion lisääminen viestiin</value>
+    </data>
+    <data name="MessageAddMessageReactionRequest" xml:space="preserve">
+        <value>Reaktiotiedot</value>
+    </data>
+    <data name="MessageRemoveMessageReaction" xml:space="preserve">
+        <value>Reaktion poistaminen viestistä</value>
+    </data>
+    <data name="MessageRemoveMessageReactionRequest" xml:space="preserve">
+        <value>Reaktiotiedot</value>
+    </data>
+    <data name="MessageForwardMessages" xml:space="preserve">
+        <value>Viestien välittäminen</value>
+    </data>
+    <data name="MessageForwardMessagesRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="MessageDeleteMessages" xml:space="preserve">
+        <value>Viestien poistaminen</value>
+    </data>
+    <data name="MessageDeleteMessagesRequest" xml:space="preserve">
+        <value>Viestitiedot</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhoto" xml:space="preserve">
+        <value>Asettaa profiilikuvan. Ennen kuin asennat tiedostotunnuksella, sinun on ensin varmistettava, että tiedosto on ladattu palvelimelle.</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhotoRequest" xml:space="preserve">
+        <value>Tiedot profiilikuvan asettamiseen.</value>
+    </data>
+    <data name="ProfileSetPreviousProfilePhoto" xml:space="preserve">
+        <value>Asettaa yhden käyttäjän aiemmista kuvista kuvatunnuksen perusteella.</value>
+    </data>
+    <data name="ParameterphotoId" xml:space="preserve">
+        <value>Kuvallinen henkilöllisyystodistus.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhoto" xml:space="preserve">
+        <value>Asettaa profiilikuvan mukautetuksi emojiksi.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhotoRequest" xml:space="preserve">
+        <value>Tiedot profiilikuvan asettamiseen.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhoto" xml:space="preserve">
+        <value>Asettaa profiilikuvasi tarraksi.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhotoRequest" xml:space="preserve">
+        <value>Tiedot profiilikuvan asettamiseen.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhoto" xml:space="preserve">
+        <value>Asettaa profiilikuvan animaatioksi. Ennen kuin asennat tiedostotunnuksella, sinun on ensin varmistettava, että tiedosto on ladattu palvelimelle.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhotoRequest" xml:space="preserve">
+        <value>Tiedot profiilikuvan asettamiseen.</value>
+    </data>
+    <data name="ProfileSetBio" xml:space="preserve">
+        <value>Aseta bio käyttäjälle.</value>
+    </data>
+    <data name="ProfileSetBioRequest" xml:space="preserve">
+        <value>Malli, jossa on tietoja käyttäjän elämäkerrasta.</value>
+    </data>
+    <data name="StoryPostPhotoStory" xml:space="preserve">
+        <value>Asettaa käyttäjälle uuden tarinan valokuvan muodossa</value>
+    </data>
+    <data name="StoryPostPhotoStoryRequest" xml:space="preserve">
+        <value>Historian asetustiedot.</value>
+    </data>
+    <data name="StoryPostVideoStory" xml:space="preserve">
+        <value>Tuo käyttäjälle uuden tarinan videon muodossa</value>
+    </data>
+    <data name="StoryPostVideoStoryRequest" xml:space="preserve">
+        <value>Historian asetustiedot.</value>
+    </data>
+    <data name="StoryGetStory" xml:space="preserve">
+        <value>Hakee käyttäjän historian sen tunnuksen perusteella</value>
+    </data>
+    <data name="ParameterStoryId" xml:space="preserve">
+        <value>Historian tunnus</value>
+    </data>
+    <data name="StoryGetUserActiveStories" xml:space="preserve">
+        <value>Hanki tietoa käyttäjän aktiivisista tarinoista</value>
+    </data>
+    <data name="UsersGetUser" xml:space="preserve">
+        <value>Käyttäjätietojen hankkiminen</value>
+    </data>
+    <data name="UsersGetMe" xml:space="preserve">
+        <value>Tietojen saaminen valtuutetusta käyttäjästä</value>
+    </data>
+    <data name="UsersGetUserFullInfo" xml:space="preserve">
+        <value>Hanki käyttäjän bio</value>
+    </data>
+    <data name="UsersGetUserProfilePhotos" xml:space="preserve">
+        <value>Hanki luettelo käyttäjien valokuvista</value>
+    </data>
+    <data name="SetPhoneNumberInputModel" xml:space="preserve">
+        <value>Syötetietomalli sähketilin puhelinnumeron asettamiseen</value>
+    </data>
+    <data name="CheckCodeInputModel" xml:space="preserve">
+        <value>Syötä malli vahvistuskoodin tarkistamiseksi</value>
+    </data>
+    <data name="Parametercode" xml:space="preserve">
+        <value>Vahvistuskoodi.</value>
+    </data>
+    <data name="CheckPasswordInputModel" xml:space="preserve">
+        <value>Syöttömalli salasanan vahvistusta varten</value>
+    </data>
+    <data name="Parameterpassword" xml:space="preserve">
+        <value>Salasana</value>
+    </data>
+    <data name="TgReplyTo" xml:space="preserve">
+        <value>Tietoa viestiin vastaamiseen.</value>
+    </data>
+    <data name="ParameterchatId" xml:space="preserve">
+        <value>Chat-tunnus.</value>
+    </data>
+    <data name="TgForwardInfo" xml:space="preserve">
+        <value>Tiedot viestistä eteenpäin.</value>
+    </data>
+    <data name="Parameterdate" xml:space="preserve">
+        <value>Postituspäivämäärä.</value>
+    </data>
+    <data name="TgMessageContent" xml:space="preserve">
+        <value>Abstrakti viestin tiedot.</value>
+    </data>
+    <data name="TgMessage" xml:space="preserve">
+        <value>Viestiluokka.</value>
+    </data>
+    <data name="ParametersenderId" xml:space="preserve">
+        <value>Lähettäjän ID.</value>
+    </data>
+    <data name="ParametermessageId" xml:space="preserve">
+        <value>Viestin tunnus.</value>
+    </data>
+    <data name="ParameterisOutgoing" xml:space="preserve">
+        <value>Onko lähtevä viesti.</value>
+    </data>
+    <data name="ParametercanBeEdited" xml:space="preserve">
+        <value>Voidaan muokata.</value>
+    </data>
+    <data name="ParametercanBeForwarded" xml:space="preserve">
+        <value>Voidaan lähettää eteenpäin.</value>
+    </data>
+    <data name="ParametercanBeDeletedForAllUsers" xml:space="preserve">
+        <value>Voidaan poistaa kaikilta käyttäjiltä.</value>
+    </data>
+    <data name="ParametereditDate" xml:space="preserve">
+        <value>Muokkaa päivämäärää.</value>
+    </data>
+    <data name="TgReactionType" xml:space="preserve">
+        <value>Reaktioluokka</value>
+    </data>
+    <data name="TgAvailableReaction" xml:space="preserve">
+        <value>Reaktioluokka</value>
+    </data>
+    <data name="ParameterisNeedPremium" xml:space="preserve">
+        <value>Merkitse, onko reaktio huippureaktio</value>
+    </data>
+    <data name="TgMessageAvailableReactions" xml:space="preserve">
+        <value>Luokka, joka edustaa Telegram-viestin käytettävissä olevia reaktioita.</value>
+    </data>
+    <data name="ParametertopReactions" xml:space="preserve">
+        <value>Hakee tai asettaa kokoelman suosituimpia reaktioita.</value>
+    </data>
+    <data name="ParameterrecentReactions" xml:space="preserve">
+        <value>Hakee tai asettaa kokoelman viimeaikaisia reaktioita.</value>
+    </data>
+    <data name="ParameterpopularReactions" xml:space="preserve">
+        <value>Hakee tai asettaa kokoelman viimeaikaisia reaktioita.</value>
+    </data>
+    <data name="TgFile" xml:space="preserve">
+        <value>Edustaa tiedostoa</value>
+    </data>
+    <data name="ParameterfileId" xml:space="preserve">
+        <value>Tiedoston tunnus.</value>
+    </data>
+    <data name="Parametersize" xml:space="preserve">
+        <value>Tiedoston koko.</value>
+    </data>
+    <data name="ParameterremoteId" xml:space="preserve">
+        <value>Etätiedoston tunnus.</value>
+    </data>
+    <data name="TgProfilePhoto" xml:space="preserve">
+        <value>Profiilikuva</value>
+    </data>
+    <data name="ParameterhasAnimation" xml:space="preserve">
+        <value>Animoitu valokuva</value>
+    </data>
+    <data name="ParameterisPersonal" xml:space="preserve">
+        <value>Nykyisen käyttäjän asentama</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Käyttäjän tila&lt;p&gt;Jäsenet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Verkossa&lt;/i&gt; - Online-käyttäjä&lt;/li&gt;&lt;li&gt;&lt;i&gt;Äskettäin&lt;/i&gt; - Käyttäjä kirjautunut äskettäin&lt;/i&gt; li &gt;&lt;li&gt;&lt;i&gt;Viime viikko&lt;/i&gt; - Käyttäjä ei ole kirjautunut sisään viikkoon&lt;/li&gt;&lt;li&gt;&lt;i&gt;Viime kuukausi&lt;/i&gt; - Käyttäjä ei ole kirjautunut kuukauteen&lt;/i&gt; li&gt;&lt;li&gt;&lt;i&gt;Offline&lt;/ i&gt; - Offline-käyttäjä&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgUser" xml:space="preserve">
+        <value>Yhteyshenkilöä edustava luokka.</value>
+    </data>
+    <data name="Parameterid" xml:space="preserve">
+        <value>Tunniste.</value>
+    </data>
+    <data name="ParameterfirstName" xml:space="preserve">
+        <value>Nimi.</value>
+    </data>
+    <data name="ParameterlastName" xml:space="preserve">
+        <value>Sukunimi.</value>
+    </data>
+    <data name="Parameterusername" xml:space="preserve">
+        <value>Käyttäjätunnus.</value>
+    </data>
+    <data name="ParameterisContact" xml:space="preserve">
+        <value>Tämä on kontakti</value>
+    </data>
+    <data name="ParameterisCloseFriend" xml:space="preserve">
+        <value>On läheinen ystävä.</value>
+    </data>
+    <data name="ParameterisMutualContact" xml:space="preserve">
+        <value>On keskinäinen kontakti.</value>
+    </data>
+    <data name="ParameterisFake" xml:space="preserve">
+        <value>Onko väärennetty kontakti.</value>
+    </data>
+    <data name="ParameterisScum" xml:space="preserve">
+        <value>Onko huijaus.</value>
+    </data>
+    <data name="ParameterisVerified" xml:space="preserve">
+        <value>Vahvistettu.</value>
+    </data>
+    <data name="ParameterhasActiveStories" xml:space="preserve">
+        <value>Tarinoita on</value>
+    </data>
+    <data name="ParameterhasUnreadActiveStories" xml:space="preserve">
+        <value>On näkemättömiä tarinoita</value>
+    </data>
+    <data name="ParameterisPremium" xml:space="preserve">
+        <value>Premium tili</value>
+    </data>
+    <data name="ParameterstatusEmojiId" xml:space="preserve">
+        <value>Hymiö tilassa</value>
+    </data>
+    <data name="ImportContactInputModel" xml:space="preserve">
+        <value>Syöttömalli kontaktin lisäämistä varten</value>
+    </data>
+    <data name="AddContactInputModel" xml:space="preserve">
+        <value>Syöttömalli kontaktin lisäämistä varten</value>
+    </data>
+    <data name="RemoveContactInputModel" xml:space="preserve">
+        <value>Malli käyttäjäkontaktin poistamiseksi</value>
+    </data>
+    <data name="FileIdRequestInputModel" xml:space="preserve">
+        <value>Syötä malli pyynnölle tiedostotunnuksella.</value>
+    </data>
+    <data name="ParameterlocalId" xml:space="preserve">
+        <value>Paikallinen tiedostotunnus</value>
+    </data>
+    <data name="FileMessageRequestInputModel" xml:space="preserve">
+        <value>Pyynnön syöttömalli viestitunnuksella ja chat-tunnuksella.</value>
+    </data>
+    <data name="SchedulingStateInputModel" xml:space="preserve">
+        <value>Syöttömalli, joka määrittää viestin lähetyksen ajoituksen tyypin</value>
+    </data>
+    <data name="ParametersendDate" xml:space="preserve">
+        <value>Viestin lähetyspäivämäärä Jos päivämäärä on tyhjä, niin viestin ajoitustyyppi on, kun vastaanottaja tulee online-tilaan</value>
+    </data>
+    <data name="MessageSendOptionsInputModel" xml:space="preserve">
+        <value>Viestin lähettämisen syöttöparametrien malli</value>
+    </data>
+    <data name="ParameterdisableNotification" xml:space="preserve">
+        <value>Lippu - poista vastaanottajan ilmoitus käytöstä</value>
+    </data>
+    <data name="ParameterprotectContent" xml:space="preserve">
+        <value>Lippu - voidaanko lähetetty viesti välittää eteenpäin vai tallentaa</value>
+    </data>
+    <data name="SendTextMessageInputModel" xml:space="preserve">
+        <value>Syöttömalli tekstiviestin lähettämiseen.</value>
+    </data>
+    <data name="Parametermessage" xml:space="preserve">
+        <value>Viestin teksti.</value>
+    </data>
+    <data name="ParameterurlPreview" xml:space="preserve">
+        <value>URL-esikatselu.</value>
+    </data>
+    <data name="ParameterdisableUrlPreview" xml:space="preserve">
+        <value>Poista URL-esikatselut käytöstä.</value>
+    </data>
+    <data name="ParameterneedShowActivity" xml:space="preserve">
+        <value>Lippu, joka ilmaisee, pitäisikö aktiviteetti lähettää ennen viestiä</value>
+    </data>
+    <data name="SendLocationMessageInputModel" xml:space="preserve">
+        <value>Syöttömalli sijaintiviestin lähettämistä varten.</value>
+    </data>
+    <data name="Parameterlatitude" xml:space="preserve">
+        <value>Sijainnin leveysaste.</value>
+    </data>
+    <data name="Parameterlongitude" xml:space="preserve">
+        <value>Sijainnin pituusaste.</value>
+    </data>
+    <data name="ParameterhorizontalAccuracy" xml:space="preserve">
+        <value>Vaakasuuntaisen sijainnin tarkkuus.</value>
+    </data>
+    <data name="SendAudioMessageInputModel" xml:space="preserve">
+        <value>Syötetietomalli ääniviestin lähettämistä varten.</value>
+    </data>
+    <data name="ParameterfileInBase64" xml:space="preserve">
+        <value>Base64-tiedosto, joka lähetetään viestissä.</value>
+    </data>
+    <data name="ParameterlocalFileId" xml:space="preserve">
+        <value>Paikallinen tiedostotunnus</value>
+    </data>
+    <data name="ParameterremoteFileId" xml:space="preserve">
+        <value>Etätiedoston tunnus</value>
+    </data>
+    <data name="Parametercaption" xml:space="preserve">
+        <value>Tiedostoviestin allekirjoitus.</value>
+    </data>
+    <data name="Parametertitle" xml:space="preserve">
+        <value>Ääniviestin otsikko.</value>
+    </data>
+    <data name="Parameterperformer" xml:space="preserve">
+        <value>Ääniviestin esittäjä.</value>
+    </data>
+    <data name="ParameteralbumCoverThumbnailBase64" xml:space="preserve">
+        <value>Albumin esikatselu Base64-muodossa.</value>
+    </data>
+    <data name="SendVoiceNoteMessageInputModel" xml:space="preserve">
+        <value>Syötetietomalli ääniviestin lähettämistä varten.</value>
+    </data>
+    <data name="SendVideoNoteMessageInputModel" xml:space="preserve">
+        <value>Syöttötietojen malli ympyrän lähettämistä varten.</value>
+    </data>
+    <data name="SendVideoMessageInputModel" xml:space="preserve">
+        <value>Syötetietojen malli viestin lähettämiseen videolla.</value>
+    </data>
+    <data name="ParameterneedShowRecordingActivity" xml:space="preserve">
+        <value>Lippu, joka ilmaisee, onko käyttäjän videota kuvaavan toiminnan näyttäminen tarpeellista.</value>
+    </data>
+    <data name="SendDocumentMessageInputModel" xml:space="preserve">
+        <value>Syötetietojen malli asiakirjan lähettämistä varten.</value>
+    </data>
+    <data name="SendPhotoMessageInputModel" xml:space="preserve">
+        <value>Syötetietomalli valokuvan sisältävän viestin lähettämistä varten.</value>
+    </data>
+    <data name="SendStickerMessageInputModel" xml:space="preserve">
+        <value>Syöttömalli viestin lähettämiseen tarralla.</value>
+    </data>
+    <data name="SendStoryMessageInputModel" xml:space="preserve">
+        <value>Viestin syöttömalli historialla</value>
+    </data>
+    <data name="ParameterstorySenderChatId" xml:space="preserve">
+        <value>Sen chatin tunnus, jossa tarina julkaistiin</value>
+    </data>
+    <data name="ParameterstoryId" xml:space="preserve">
+        <value>Historian tunnus</value>
+    </data>
+    <data name="SendAnimationMessageInputModel" xml:space="preserve">
+        <value>Syöttömalli viestin lähettämiseen animaatiolla</value>
+    </data>
+    <data name="ParameterhasSpoiler" xml:space="preserve">
+        <value>Tosi, jos animaation esikatselu pitäisi sulkea.</value>
+    </data>
+    <data name="Parameterheight" xml:space="preserve">
+        <value>Animaation korkeus</value>
+    </data>
+    <data name="Parameterwidth" xml:space="preserve">
+        <value>Animaation leveys</value>
+    </data>
+    <data name="SendContactMessageInputModel" xml:space="preserve">
+        <value>Syötetietomalli viestin lähettämistä varten yhteyshenkilölle.</value>
+    </data>
+    <data name="ParametercontactPhoneNumber" xml:space="preserve">
+        <value>Kontakti puhelin numero.</value>
+    </data>
+    <data name="ParametercontactId" xml:space="preserve">
+        <value>Yhteyshenkilötunnus.</value>
+    </data>
+    <data name="ParametervCard" xml:space="preserve">
+        <value>Käyntikortti VCard.</value>
+    </data>
+    <data name="AddMessageReactionInputModel" xml:space="preserve">
+        <value>Syötetietomalli reaktion lähettämiseen viestistä</value>
+    </data>
+    <data name="Parameteremoji" xml:space="preserve">
+        <value>Reaktio</value>
+    </data>
+    <data name="ParameteremojiId" xml:space="preserve">
+        <value>Ensiluokkainen reaktio</value>
+    </data>
+    <data name="RemoveMessageReactionInputModel" xml:space="preserve">
+        <value>Syöttömalli reaktion poistamiseksi viestistä</value>
+    </data>
+    <data name="ForwardMessagesInputModel" xml:space="preserve">
+        <value>Syöttömalli viestien edelleenlähetystä varten</value>
+    </data>
+    <data name="ParameterfromChatId" xml:space="preserve">
+        <value>Sen chatin tunnus, josta viestit välitetään</value>
+    </data>
+    <data name="ParametermessageIds" xml:space="preserve">
+        <value>Joukko viestitunnisteita edelleenlähetettäväksi</value>
+    </data>
+    <data name="ParameterremoveCaption" xml:space="preserve">
+        <value>Tosi, jos haluat poistaa allekirjoituksen mediatiedostoista</value>
+    </data>
+    <data name="ParametersendCopy" xml:space="preserve">
+        <value>Tosi, jos haluat välittää viestejä ilman viittauksia näiden viestien käyttäjiin</value>
+    </data>
+    <data name="DeleteMessagesInputModel" xml:space="preserve">
+        <value>Syöttömalli chat-viestien poistamiseen</value>
+    </data>
+    <data name="Parameterrevoke" xml:space="preserve">
+        <value>Tosi, jos haluat poistaa kaikkien chatin osallistujien osalta</value>
+    </data>
+    <data name="SetPictureProfilePhotoInputModel" xml:space="preserve">
+        <value>Syötä tietomalli profiilikuvan asettamista varten.</value>
+    </data>
+    <data name="BackgroundGradientInputModel" xml:space="preserve">
+        <value>Syöttötietomalli kyvylle asettaa gradientin tausta</value>
+    </data>
+    <data name="ParametertopColor" xml:space="preserve">
+        <value>Ylin taustaväri HEX-muodossa.</value>
+    </data>
+    <data name="ParameterbottomColor" xml:space="preserve">
+        <value>Pohjan taustaväri HEX-muodossa.</value>
+    </data>
+    <data name="ParameterrotationAngle" xml:space="preserve">
+        <value>Gradientin kiertokulma myötäpäivään, asteina; 0-359. Sen on aina oltava jaollinen 45:llä</value>
+    </data>
+    <data name="BackgroundInputModel" xml:space="preserve">
+        <value>Syötetietomalli, joka sisältää ominaisuuksia, joista voit valita profiilikuvasi eri taustojen asettamiseen</value>
+    </data>
+    <data name="Parametercolor" xml:space="preserve">
+        <value>Taustaväri HEX-muodossa</value>
+    </data>
+    <data name="Parametercolors" xml:space="preserve">
+        <value>Luettelo 3 tai 4 vapaamuotoisesta gradienttiväristä HEX-muodossa</value>
+    </data>
+    <data name="SetEmojiProfilePhotoInputModel" xml:space="preserve">
+        <value>Syöttömalli hymiön asettamiseen profiilikuvaksi.</value>
+    </data>
+    <data name="ParametercustomEmojiId" xml:space="preserve">
+        <value>Tarran tunnus</value>
+    </data>
+    <data name="SetStickerProfilePhotoInputModel" xml:space="preserve">
+        <value>Syöttömalli tarran asettamiseen profiilikuvaksi.</value>
+    </data>
+    <data name="ParameterstickerSetId" xml:space="preserve">
+        <value>Tarrapakkauksen tunnus</value>
+    </data>
+    <data name="ParameterstickerId" xml:space="preserve">
+        <value>Tarran tunnus</value>
+    </data>
+    <data name="SetAnimationProfilePhotoInputModel" xml:space="preserve">
+        <value>Syöttömalli animaation asettamiseen profiilikuvan muodossa.</value>
+    </data>
+    <data name="ParametermainFrameTimestamp" xml:space="preserve">
+        <value>Kehyksen aikaleima, kun animaatio näyttää staattiselta.</value>
+    </data>
+    <data name="SetUserBioInputModel" xml:space="preserve">
+        <value>Syöttötietomalli käyttäjän bion asettamista varten</value>
+    </data>
+    <data name="Parameterbio" xml:space="preserve">
+        <value>Bio linja</value>
+    </data>
+    <data name="StoryPrivacySettingsContactsInputModel" xml:space="preserve">
+        <value>Yksityisyysasetukset, joiden avulla voit nähdä käyttäjän yhteystietojen historian</value>
+    </data>
+    <data name="ParameterexceptUserIds" xml:space="preserve">
+        <value>Joukko käyttäjätunnuksia, joiden ei pitäisi nähdä historiaa</value>
+    </data>
+    <data name="StoryPrivacySettingsEveryoneInputModel" xml:space="preserve">
+        <value>Yksityisyysasetukset, joiden avulla kaikki käyttäjät voivat nähdä historian</value>
+    </data>
+    <data name="StoryPrivacySettingsSelectedUsersInputModel" xml:space="preserve">
+        <value>Yksityisyysasetukset, joiden avulla valitut käyttäjät voivat nähdä historian</value>
+    </data>
+    <data name="ParameteruserIds" xml:space="preserve">
+        <value>Joukko käyttäjätunnuksia, jotka näkevät tarinan</value>
+    </data>
+    <data name="StoryPrivacySettingsCloseFriendsInputModel" xml:space="preserve">
+        <value>Yksityisyysasetukset, joiden avulla läheisten ystäväluettelon käyttäjät voivat nähdä historiansa</value>
+    </data>
+    <data name="StoryPrivacySettingsInputModel" xml:space="preserve">
+        <value>Syötä tietomalli, joka sisältää valittavia ominaisuuksia. Historian yksityisyyden määrittäminen</value>
+    </data>
+    <data name="PostPhotoStoryInputModel" xml:space="preserve">
+        <value>Syöttömalli tarinan lähettämiseen valokuvan kanssa</value>
+    </data>
+    <data name="ParameteractivePeriod" xml:space="preserve">
+        <value>Aika, jonka historia on saatavilla (tunteina)</value>
+    </data>
+    <data name="ParameterisPinned" xml:space="preserve">
+        <value>Totta, jos haluat historian pysyvän saatavilla vanhenemisen jälkeen</value>
+    </data>
+    <data name="TgStoryContent" xml:space="preserve">
+        <value>Abstrakti historian konteksti.</value>
+    </data>
+    <data name="TgStoryPrivacySettings" xml:space="preserve">
+        <value>Yksityisyysasetusten luettelo&lt;p&gt;Jäsenet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Lähiystävät&lt;/i&gt; - Läheisille ystäville&lt;/li&gt;&lt;li&gt;&lt;i&gt;Yhteystiedot&lt;/i&gt; - Yhteystiedot&lt; /li&gt;&lt;li&gt;&lt;i&gt;EveryOne&lt;/i&gt; - Kaikille&lt;/li&gt;&lt;li&gt;&lt;i&gt;Valitut käyttäjät&lt;/i&gt; - Valituille käyttäjille&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryFullInfo" xml:space="preserve">
+        <value>Tarjoaa täydelliset tiedot historiasta sähkeessä</value>
+    </data>
+    <data name="ParametersenderChatId" xml:space="preserve">
+        <value>Historian lähettäjän tunnus (käyttäjä)</value>
+    </data>
+    <data name="ParameterviewCount" xml:space="preserve">
+        <value>Näyttökertojen määrä</value>
+    </data>
+    <data name="ParameterforwardCount" xml:space="preserve">
+        <value>Kuinka monta kertaa tarina on välitetty eteenpäin?</value>
+    </data>
+    <data name="ParameterreactionCount" xml:space="preserve">
+        <value>Tarinoiden reaktioiden määrä</value>
+    </data>
+    <data name="ParameterrecentViewerUserIds" xml:space="preserve">
+        <value>Enintään kolmen viimeisimmän historian katsojan tunnukset</value>
+    </data>
+    <data name="ParameterisBeingSent" xml:space="preserve">
+        <value>Tosi, jos nykyinen käyttäjä lähettää tarinan</value>
+    </data>
+    <data name="ParameterisBeingEdited" xml:space="preserve">
+        <value>Tosi, jos nykyinen käyttäjä muokkaa tarinaa</value>
+    </data>
+    <data name="ParameterisEdited" xml:space="preserve">
+        <value>Totta, jos tarinaa on muokattu</value>
+    </data>
+    <data name="ParameterisVisibleOnlyForSelf" xml:space="preserve">
+        <value>Tosi, jos se näkyy vain historian omistajalle</value>
+    </data>
+    <data name="ParametercanBeDeleted" xml:space="preserve">
+        <value>Totta, jos voidaan poistaa</value>
+    </data>
+    <data name="ParametercanBeReplied" xml:space="preserve">
+        <value>Totta, jos historiaan voidaan vastata</value>
+    </data>
+    <data name="ParametercanToggleIsPinned" xml:space="preserve">
+        <value>Totta, jos IsPinned voidaan muuttaa</value>
+    </data>
+    <data name="ParametercanGetViewers" xml:space="preserve">
+        <value>Totta, jos on mahdollista saada käyttäjiä, jotka ovat katsoneet historian</value>
+    </data>
+    <data name="PostVideoStoryInputModel" xml:space="preserve">
+        <value>Syöttömalli historian lähettämiseen videon kanssa</value>
+    </data>
+    <data name="ParameterisAnimation" xml:space="preserve">
+        <value>Totta, jos videossa ei ole ääntä</value>
+    </data>
+    <data name="TgStoryTypeList" xml:space="preserve">
+        <value>Historialuettelotyyppien luettelointi&lt;p&gt;Jäsenet:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Pää&lt;/i&gt; - Pää&lt;/li&gt;&lt;li&gt;&lt;i&gt;Arkisto&lt;/i&gt; - Arkisto&lt;/li &gt; &lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryInfo" xml:space="preserve">
+        <value>Edustaa tietoja käyttäjän aktiivisesta historiasta</value>
+    </data>
+    <data name="ParameterisForCloseFriends" xml:space="preserve">
+        <value>Totta, jos tarina on läheisille ystäville</value>
+    </data>
+    <data name="TgUserActiveStories" xml:space="preserve">
+        <value>Edustaa tietoja käyttäjän aktiivisista tarinoista</value>
+    </data>
+    <data name="Parameterorder" xml:space="preserve">
+        <value>Käytetään määrittämään tarinoiden järjestys luettelossa</value>
+    </data>
+    <data name="ParametermaxReadStoryId" xml:space="preserve">
+        <value>Viimeksi katsottu aktiivisen historian tunnus</value>
+    </data>
+    <data name="Parameterstories" xml:space="preserve">
+        <value>Taulukko, joka sisältää tietoja jokaisesta tarinasta</value>
+    </data>
+    <data name="TgMiniThumbnail" xml:space="preserve">
+        <value>Esittää pienen esikatselun</value>
+    </data>
+    <data name="ParameterminiThumbnail" xml:space="preserve">
+        <value>Pieni esittely.</value>
+    </data>
+    <data name="TgPhotoSize" xml:space="preserve">
+        <value>Edustaa valokuvan kokoa</value>
+    </data>
+    <data name="TgAnimatedChatPhoto" xml:space="preserve">
+        <value>Edustaa animaatiosarjaa profiilikuvana</value>
+    </data>
+    <data name="Parameterlength" xml:space="preserve">
+        <value>Animaation leveys ja korkeus.</value>
+    </data>
+    <data name="TgChatPhoto" xml:space="preserve">
+        <value>Edustaa profiilikuvaa</value>
+    </data>
+    <data name="ParameteraddedDate" xml:space="preserve">
+        <value>Ajankohta, jolloin kuva lisättiin.</value>
+    </data>
+    <data name="ParameterphotoSizes" xml:space="preserve">
+        <value>Valokuvien muunnelmia eri kokoisina.</value>
+    </data>
+    <data name="TgText" xml:space="preserve">
+        <value>Edustaa tekstiä.</value>
+    </data>
+    <data name="Parametertext" xml:space="preserve">
+        <value>Viestin teksti.</value>
+    </data>
+    <data name="TgUserFullInfo" xml:space="preserve">
+        <value>Edustaa täydellisiä tietoja käyttäjästä.</value>
+    </data>
+    <data name="ParameterisStoriesBlocked" xml:space="preserve">
+        <value>Ilmoita, onko käyttäjien tarinat estetty.</value>
+    </data>
+    <data name="ParameterisBlocked" xml:space="preserve">
+        <value>Ilmoita, onko käyttäjä estetty.</value>
+    </data>
+    <data name="ParametercanBeCalled" xml:space="preserve">
+        <value>Totta, jos käyttäjälle voidaan kutsua.</value>
+    </data>
+    <data name="ParametersupportsVideoCalls" xml:space="preserve">
+        <value>Totta, jos voit luoda videopuhelun käyttäjän kanssa.</value>
+    </data>
+    <data name="ParameterhasPrivateCalls" xml:space="preserve">
+        <value>Tosi, jos käyttäjälle ei voida soittaa hänen tietosuoja-asetustensa vuoksi.</value>
+    </data>
+    <data name="ParameterhasPrivateForwards" xml:space="preserve">
+        <value>Tosi, jos käyttäjää ei voida liittää edelleenlähetettyihin viesteihin hänen tietosuoja-asetustensa vuoksi.</value>
+    </data>
+    <data name="ParameterhasRestrictedVoiceAndVideoNoteMessages" xml:space="preserve">
+        <value>Tosi, jos ääni- ja videomuistiinpanoja ei voi lähettää tai välittää käyttäjälle.</value>
+    </data>
+    <data name="ParameterhasPinnedStories" xml:space="preserve">
+        <value>Totta, jos käyttäjä on kiinnittänyt tarinoita.</value>
+    </data>
+    <data name="ParameterneedPhoneNumberPrivacyException" xml:space="preserve">
+        <value>Tosi, jos nykyisen käyttäjän pitäisi nimenomaisesti sallia jakaa puhelinnumeronsa käyttäjän kanssa addContact-menetelmää käytettäessä.</value>
+    </data>
+</root>

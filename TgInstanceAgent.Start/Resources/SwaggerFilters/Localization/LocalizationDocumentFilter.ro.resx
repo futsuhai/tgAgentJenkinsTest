@@ -1,0 +1,818 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AuthSetPhone" xml:space="preserve">
+        <value>Setați numărul de telefon</value>
+    </data>
+    <data name="ParameterinstanceId" xml:space="preserve">
+        <value>ID de instanță</value>
+    </data>
+    <data name="AuthSetPhoneRequest" xml:space="preserve">
+        <value>Număr de telefon</value>
+    </data>
+    <data name="Response200" xml:space="preserve">
+        <value>Succes</value>
+    </data>
+    <data name="Response400" xml:space="preserve">
+        <value>Date de intrare nevalide sau solicitare nevalidă</value>
+    </data>
+    <data name="Response500" xml:space="preserve">
+        <value>A apărut o eroare pe server</value>
+    </data>
+    <data name="AuthCheckCode" xml:space="preserve">
+        <value>Trimite codul de verificare</value>
+    </data>
+    <data name="AuthCheckCodeRequest" xml:space="preserve">
+        <value>Cod de verificare</value>
+    </data>
+    <data name="AuthCheckPassword" xml:space="preserve">
+        <value>Trimite parola</value>
+    </data>
+    <data name="AuthCheckPasswordRequest" xml:space="preserve">
+        <value>Parola</value>
+    </data>
+    <data name="ChatsGetChatHistory" xml:space="preserve">
+        <value>Obțineți istoricul chat-urilor</value>
+    </data>
+    <data name="ParameterChatId" xml:space="preserve">
+        <value>ID chat.</value>
+    </data>
+    <data name="ParameterUsername" xml:space="preserve">
+        <value>Nume de utilizator.</value>
+    </data>
+    <data name="ParameterPhoneNumber" xml:space="preserve">
+        <value>Număr de telefon.</value>
+    </data>
+    <data name="ParameterLimit" xml:space="preserve">
+        <value>Limită de mesaje.</value>
+    </data>
+    <data name="ParameterOffset" xml:space="preserve">
+        <value>Părtinire.</value>
+    </data>
+    <data name="ParameterFromMessageId" xml:space="preserve">
+        <value>Începând cu ID-ul mesajului.</value>
+    </data>
+    <data name="ChatsGetMessage" xml:space="preserve">
+        <value>Obțineți date despre mesaje</value>
+    </data>
+    <data name="ParameterMessageId" xml:space="preserve">
+        <value>ID mesaj.</value>
+    </data>
+    <data name="ChatsGetMessageAvailableReactions" xml:space="preserve">
+        <value>Obțineți o listă de reacții disponibile la un mesaj</value>
+    </data>
+    <data name="ContactsGetContacts" xml:space="preserve">
+        <value>Obțineți lista de contacte</value>
+    </data>
+    <data name="ContactsImportContacts" xml:space="preserve">
+        <value>Importați contacte</value>
+    </data>
+    <data name="ContactsImportContactsRequest" xml:space="preserve">
+        <value>Detalii de contact</value>
+    </data>
+    <data name="ContactsAddContact" xml:space="preserve">
+        <value>Adaugă contact</value>
+    </data>
+    <data name="ContactsAddContactRequest" xml:space="preserve">
+        <value>Datele de contact ale utilizatorului</value>
+    </data>
+    <data name="ContactsRemoveContact" xml:space="preserve">
+        <value>Ștergeți contactul</value>
+    </data>
+    <data name="ContactsRemoveContactRequest" xml:space="preserve">
+        <value>Datele de contact ale utilizatorului</value>
+    </data>
+    <data name="FileStartDownload" xml:space="preserve">
+        <value>Solicitați descărcarea unui fișier după ID-ul fișierului</value>
+    </data>
+    <data name="FileStartDownloadRequest" xml:space="preserve">
+        <value>Model cu ID-ul fișierului</value>
+    </data>
+    <data name="FileGetFile" xml:space="preserve">
+        <value>Preluarea unui fișier după ID-ul fișierului</value>
+    </data>
+    <data name="ParameterLocalId" xml:space="preserve">
+        <value>ID-ul fișierului local</value>
+    </data>
+    <data name="ParameterRemoteId" xml:space="preserve">
+        <value>ID fișier de la distanță</value>
+    </data>
+    <data name="FileStartDownloadFromMessage" xml:space="preserve">
+        <value>Solicitați descărcarea unui fișier dintr-un mesaj.</value>
+    </data>
+    <data name="FileStartDownloadFromMessageRequest" xml:space="preserve">
+        <value>Model cu chat și ID de mesaj</value>
+    </data>
+    <data name="FileGetFileFromMessage" xml:space="preserve">
+        <value>Primirea unui fișier dintr-un mesaj</value>
+    </data>
+    <data name="InstanceGetInstance" xml:space="preserve">
+        <value>Preluarea datelor de instanță</value>
+    </data>
+    <data name="MessageSendTextMessage" xml:space="preserve">
+        <value>Trimiterea unui mesaj text</value>
+    </data>
+    <data name="MessageSendTextMessageRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="MessageSendLocationMessage" xml:space="preserve">
+        <value>Se trimite geolocalizare</value>
+    </data>
+    <data name="MessageSendLocationMessageRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="MessageSendAudioMessage" xml:space="preserve">
+        <value>Trimiterea unui mesaj audio</value>
+    </data>
+    <data name="MessageSendAudioMessageRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessage" xml:space="preserve">
+        <value>Trimiterea unui mesaj vocal</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessageRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="MessageSendVideoNoteMessage" xml:space="preserve">
+        <value>Trimiterea unui cerc</value>
+    </data>
+    <data name="MessageSendVideoNoteMessageRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="MessageSendVideoMessage" xml:space="preserve">
+        <value>Se trimite un videoclip</value>
+    </data>
+    <data name="MessageSendVideoMessageRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="MessageSendDocumentMessage" xml:space="preserve">
+        <value>Trimiterea unui document</value>
+    </data>
+    <data name="MessageSendDocumentMessageRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="MessageSendPhotoMessage" xml:space="preserve">
+        <value>Se trimite o fotografie</value>
+    </data>
+    <data name="MessageSendPhotoMessageRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="MessageSendStickerMessage" xml:space="preserve">
+        <value>Se trimite un autocolant</value>
+    </data>
+    <data name="MessageSendStickerMessageRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="MessageSendStoryMessage" xml:space="preserve">
+        <value>Trimiterea unei povești</value>
+    </data>
+    <data name="MessageSendStoryMessageRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="MessageSendAnimationMessage" xml:space="preserve">
+        <value>Se trimite animație (gif)</value>
+    </data>
+    <data name="MessageSendAnimationMessageRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="MessageSendContactMessage" xml:space="preserve">
+        <value>Trimiteți o persoană de contact</value>
+    </data>
+    <data name="MessageSendContactMessageRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="MessageAddMessageReaction" xml:space="preserve">
+        <value>Adăugarea unei reacții la un mesaj</value>
+    </data>
+    <data name="MessageAddMessageReactionRequest" xml:space="preserve">
+        <value>Date de reacție</value>
+    </data>
+    <data name="MessageRemoveMessageReaction" xml:space="preserve">
+        <value>Eliminarea unei reacții dintr-un mesaj</value>
+    </data>
+    <data name="MessageRemoveMessageReactionRequest" xml:space="preserve">
+        <value>Date de reacție</value>
+    </data>
+    <data name="MessageForwardMessages" xml:space="preserve">
+        <value>Redirecționarea mesajelor</value>
+    </data>
+    <data name="MessageForwardMessagesRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="MessageDeleteMessages" xml:space="preserve">
+        <value>Ștergerea mesajelor</value>
+    </data>
+    <data name="MessageDeleteMessagesRequest" xml:space="preserve">
+        <value>Datele mesajului</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhoto" xml:space="preserve">
+        <value>Setează fotografia de profil. Înainte de a instala prin ID-ul fișierului, trebuie să vă asigurați că fișierul este încărcat pe server.</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhotoRequest" xml:space="preserve">
+        <value>Date pentru setarea unei fotografii de profil.</value>
+    </data>
+    <data name="ProfileSetPreviousProfilePhoto" xml:space="preserve">
+        <value>Setează una dintre fotografiile anterioare ale utilizatorului după id-ul fotografiei.</value>
+    </data>
+    <data name="ParameterphotoId" xml:space="preserve">
+        <value>ID foto.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhoto" xml:space="preserve">
+        <value>Setează fotografia de profil ca emoji personalizat.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhotoRequest" xml:space="preserve">
+        <value>Date pentru setarea unei fotografii de profil.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhoto" xml:space="preserve">
+        <value>Setează fotografia de profil ca autocolant.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhotoRequest" xml:space="preserve">
+        <value>Date pentru setarea unei fotografii de profil.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhoto" xml:space="preserve">
+        <value>Setează fotografia de profil ca animație. Înainte de a instala prin ID-ul fișierului, trebuie să vă asigurați că fișierul este încărcat pe server.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhotoRequest" xml:space="preserve">
+        <value>Date pentru setarea unei fotografii de profil.</value>
+    </data>
+    <data name="ProfileSetBio" xml:space="preserve">
+        <value>Setați biografia pentru utilizator.</value>
+    </data>
+    <data name="ProfileSetBioRequest" xml:space="preserve">
+        <value>Model cu informații despre biografia utilizatorului.</value>
+    </data>
+    <data name="StoryPostPhotoStory" xml:space="preserve">
+        <value>Setează o nouă poveste pentru utilizator sub forma unei fotografii</value>
+    </data>
+    <data name="StoryPostPhotoStoryRequest" xml:space="preserve">
+        <value>Date de setare a istoricului.</value>
+    </data>
+    <data name="StoryPostVideoStory" xml:space="preserve">
+        <value>Setează utilizatorului o nouă poveste sub forma unui videoclip</value>
+    </data>
+    <data name="StoryPostVideoStoryRequest" xml:space="preserve">
+        <value>Date de setare a istoricului.</value>
+    </data>
+    <data name="StoryGetStory" xml:space="preserve">
+        <value>Preia istoricul unui utilizator prin ID-ul acestuia</value>
+    </data>
+    <data name="ParameterStoryId" xml:space="preserve">
+        <value>ID istoric</value>
+    </data>
+    <data name="StoryGetUserActiveStories" xml:space="preserve">
+        <value>Obțineți informații despre poveștile active ale unui utilizator</value>
+    </data>
+    <data name="UsersGetUser" xml:space="preserve">
+        <value>Obținerea de informații despre utilizator</value>
+    </data>
+    <data name="UsersGetMe" xml:space="preserve">
+        <value>Obținerea de informații despre un utilizator autorizat</value>
+    </data>
+    <data name="UsersGetUserFullInfo" xml:space="preserve">
+        <value>Obțineți biografia utilizatorului</value>
+    </data>
+    <data name="UsersGetUserProfilePhotos" xml:space="preserve">
+        <value>Obțineți o listă cu fotografiile utilizatorului</value>
+    </data>
+    <data name="SetPhoneNumberInputModel" xml:space="preserve">
+        <value>Model de date de intrare pentru setarea numărului de telefon al unui cont Telegram</value>
+    </data>
+    <data name="CheckCodeInputModel" xml:space="preserve">
+        <value>Model de intrare pentru verificarea codului de confirmare</value>
+    </data>
+    <data name="Parametercode" xml:space="preserve">
+        <value>Cod de confirmare.</value>
+    </data>
+    <data name="CheckPasswordInputModel" xml:space="preserve">
+        <value>Model de intrare pentru verificarea parolei</value>
+    </data>
+    <data name="Parameterpassword" xml:space="preserve">
+        <value>Parola</value>
+    </data>
+    <data name="TgReplyTo" xml:space="preserve">
+        <value>Informații pentru a răspunde la un mesaj.</value>
+    </data>
+    <data name="ParameterchatId" xml:space="preserve">
+        <value>ID chat.</value>
+    </data>
+    <data name="TgForwardInfo" xml:space="preserve">
+        <value>Informații despre mesajul redirecționat.</value>
+    </data>
+    <data name="Parameterdate" xml:space="preserve">
+        <value>Data postării.</value>
+    </data>
+    <data name="TgMessageContent" xml:space="preserve">
+        <value>Date abstracte ale mesajului.</value>
+    </data>
+    <data name="TgMessage" xml:space="preserve">
+        <value>Clasa de mesaje.</value>
+    </data>
+    <data name="ParametersenderId" xml:space="preserve">
+        <value>ID-ul expeditorului.</value>
+    </data>
+    <data name="ParametermessageId" xml:space="preserve">
+        <value>ID mesaj.</value>
+    </data>
+    <data name="ParameterisOutgoing" xml:space="preserve">
+        <value>Este un mesaj de ieșire.</value>
+    </data>
+    <data name="ParametercanBeEdited" xml:space="preserve">
+        <value>Poate fi editat.</value>
+    </data>
+    <data name="ParametercanBeForwarded" xml:space="preserve">
+        <value>Poate fi transmis.</value>
+    </data>
+    <data name="ParametercanBeDeletedForAllUsers" xml:space="preserve">
+        <value>Poate fi eliminat pentru toți utilizatorii.</value>
+    </data>
+    <data name="ParametereditDate" xml:space="preserve">
+        <value>Editeaza data.</value>
+    </data>
+    <data name="TgReactionType" xml:space="preserve">
+        <value>Clasa de reactie</value>
+    </data>
+    <data name="TgAvailableReaction" xml:space="preserve">
+        <value>Clasa de reactie</value>
+    </data>
+    <data name="ParameterisNeedPremium" xml:space="preserve">
+        <value>Indicați dacă reacția este o reacție premium</value>
+    </data>
+    <data name="TgMessageAvailableReactions" xml:space="preserve">
+        <value>clasă care reprezintă reacțiile disponibile pentru un mesaj Telegram.</value>
+    </data>
+    <data name="ParametertopReactions" xml:space="preserve">
+        <value>Obține sau setează o colecție a celor mai populare reacții.</value>
+    </data>
+    <data name="ParameterrecentReactions" xml:space="preserve">
+        <value>Obține sau setează o colecție de reacții recente.</value>
+    </data>
+    <data name="ParameterpopularReactions" xml:space="preserve">
+        <value>Obține sau setează o colecție de reacții recente.</value>
+    </data>
+    <data name="TgFile" xml:space="preserve">
+        <value>Reprezintă un fișier</value>
+    </data>
+    <data name="ParameterfileId" xml:space="preserve">
+        <value>ID fișier.</value>
+    </data>
+    <data name="Parametersize" xml:space="preserve">
+        <value>Mărime fișier.</value>
+    </data>
+    <data name="ParameterremoteId" xml:space="preserve">
+        <value>ID fișier de la distanță.</value>
+    </data>
+    <data name="TgProfilePhoto" xml:space="preserve">
+        <value>Fotografie de profil</value>
+    </data>
+    <data name="ParameterhasAnimation" xml:space="preserve">
+        <value>Fotografie animată</value>
+    </data>
+    <data name="ParameterisPersonal" xml:space="preserve">
+        <value>Instalat de utilizatorul actual</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Stare utilizator&lt;p&gt;Membri:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Online&lt;/i&gt; - Utilizator online&lt;/li&gt;&lt;li&gt;&lt;i&gt;Recent&lt;/i&gt; - Utilizator conectat recent&lt;/ li &gt;&lt;li&gt;&lt;i&gt;LastWeek&lt;/i&gt; - Utilizatorul nu s-a conectat de o săptămână&lt;/li&gt;&lt;li&gt;&lt;i&gt;LastMonth&lt;/i&gt; - Utilizatorul nu s-a conectat de o lună&lt;/ li&gt;&lt;li&gt;&lt;i&gt;Offline&lt;/ i&gt; - Utilizator offline&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgUser" xml:space="preserve">
+        <value>O clasă care reprezintă un contact.</value>
+    </data>
+    <data name="Parameterid" xml:space="preserve">
+        <value>Identificator.</value>
+    </data>
+    <data name="ParameterfirstName" xml:space="preserve">
+        <value>Nume.</value>
+    </data>
+    <data name="ParameterlastName" xml:space="preserve">
+        <value>Nume de familie.</value>
+    </data>
+    <data name="Parameterusername" xml:space="preserve">
+        <value>Nume de utilizator.</value>
+    </data>
+    <data name="ParameterisContact" xml:space="preserve">
+        <value>Acesta este contactul</value>
+    </data>
+    <data name="ParameterisCloseFriend" xml:space="preserve">
+        <value>Este un prieten apropiat.</value>
+    </data>
+    <data name="ParameterisMutualContact" xml:space="preserve">
+        <value>Este un contact reciproc.</value>
+    </data>
+    <data name="ParameterisFake" xml:space="preserve">
+        <value>Este un contact fals.</value>
+    </data>
+    <data name="ParameterisScum" xml:space="preserve">
+        <value>Este o înșelătorie.</value>
+    </data>
+    <data name="ParameterisVerified" xml:space="preserve">
+        <value>Verificat.</value>
+    </data>
+    <data name="ParameterhasActiveStories" xml:space="preserve">
+        <value>Există povești</value>
+    </data>
+    <data name="ParameterhasUnreadActiveStories" xml:space="preserve">
+        <value>Sunt povești nevăzute</value>
+    </data>
+    <data name="ParameterisPremium" xml:space="preserve">
+        <value>Cont premium</value>
+    </data>
+    <data name="ParameterstatusEmojiId" xml:space="preserve">
+        <value>Smiley în stare</value>
+    </data>
+    <data name="ImportContactInputModel" xml:space="preserve">
+        <value>Model de intrare pentru adăugarea unui contact</value>
+    </data>
+    <data name="AddContactInputModel" xml:space="preserve">
+        <value>Model de intrare pentru adăugarea unui contact</value>
+    </data>
+    <data name="RemoveContactInputModel" xml:space="preserve">
+        <value>Model pentru ștergerea unui contact utilizator</value>
+    </data>
+    <data name="FileIdRequestInputModel" xml:space="preserve">
+        <value>Model de intrare pentru o solicitare cu un ID de fișier.</value>
+    </data>
+    <data name="ParameterlocalId" xml:space="preserve">
+        <value>ID-ul fișierului local</value>
+    </data>
+    <data name="FileMessageRequestInputModel" xml:space="preserve">
+        <value>Model de introducere pentru solicitare cu ID de mesaj și ID de chat.</value>
+    </data>
+    <data name="SchedulingStateInputModel" xml:space="preserve">
+        <value>Model de intrare care definește tipul de programare a trimiterii mesajului</value>
+    </data>
+    <data name="ParametersendDate" xml:space="preserve">
+        <value>Data la care a fost trimis mesajul Dacă data este nulă, atunci tipul de programare a mesajului va fi atunci când destinatarul devine online</value>
+    </data>
+    <data name="MessageSendOptionsInputModel" xml:space="preserve">
+        <value>Model de parametri de intrare pentru trimiterea unui mesaj</value>
+    </data>
+    <data name="ParameterdisableNotification" xml:space="preserve">
+        <value>Flag - dezactivați notificarea destinatarului</value>
+    </data>
+    <data name="ParameterprotectContent" xml:space="preserve">
+        <value>Flag - dacă mesajul trimis poate fi redirecționat sau salvat</value>
+    </data>
+    <data name="SendTextMessageInputModel" xml:space="preserve">
+        <value>Model de intrare pentru trimiterea unui mesaj text.</value>
+    </data>
+    <data name="Parametermessage" xml:space="preserve">
+        <value>Mesaj text.</value>
+    </data>
+    <data name="ParameterurlPreview" xml:space="preserve">
+        <value>Previzualizare URL.</value>
+    </data>
+    <data name="ParameterdisableUrlPreview" xml:space="preserve">
+        <value>Dezactivați previzualizările URL.</value>
+    </data>
+    <data name="ParameterneedShowActivity" xml:space="preserve">
+        <value>Flag care indică dacă activitatea trebuie trimisă înainte de mesaj</value>
+    </data>
+    <data name="SendLocationMessageInputModel" xml:space="preserve">
+        <value>Model de intrare pentru trimiterea unui mesaj de locație.</value>
+    </data>
+    <data name="Parameterlatitude" xml:space="preserve">
+        <value>Latitudinea locației.</value>
+    </data>
+    <data name="Parameterlongitude" xml:space="preserve">
+        <value>Longitudinea locației.</value>
+    </data>
+    <data name="ParameterhorizontalAccuracy" xml:space="preserve">
+        <value>Precizia locației orizontale.</value>
+    </data>
+    <data name="SendAudioMessageInputModel" xml:space="preserve">
+        <value>Model de date de intrare pentru trimiterea unui mesaj audio.</value>
+    </data>
+    <data name="ParameterfileInBase64" xml:space="preserve">
+        <value>Fișierul Base64 care va fi trimis în mesaj.</value>
+    </data>
+    <data name="ParameterlocalFileId" xml:space="preserve">
+        <value>ID-ul fișierului local</value>
+    </data>
+    <data name="ParameterremoteFileId" xml:space="preserve">
+        <value>ID fișier de la distanță</value>
+    </data>
+    <data name="Parametercaption" xml:space="preserve">
+        <value>Semnătura mesajului fișierului.</value>
+    </data>
+    <data name="Parametertitle" xml:space="preserve">
+        <value>Titlul mesajului audio.</value>
+    </data>
+    <data name="Parameterperformer" xml:space="preserve">
+        <value>Interpret de mesaje audio.</value>
+    </data>
+    <data name="ParameteralbumCoverThumbnailBase64" xml:space="preserve">
+        <value>Previzualizare album în format Base64.</value>
+    </data>
+    <data name="SendVoiceNoteMessageInputModel" xml:space="preserve">
+        <value>Model de date de intrare pentru trimiterea unui mesaj vocal.</value>
+    </data>
+    <data name="SendVideoNoteMessageInputModel" xml:space="preserve">
+        <value>Model de date de intrare pentru trimiterea unui cerc.</value>
+    </data>
+    <data name="SendVideoMessageInputModel" xml:space="preserve">
+        <value>Model de date de intrare pentru trimiterea unui mesaj cu video.</value>
+    </data>
+    <data name="ParameterneedShowRecordingActivity" xml:space="preserve">
+        <value>Flag care indică dacă este necesar să se arate activitatea că utilizatorul înregistrează un videoclip.</value>
+    </data>
+    <data name="SendDocumentMessageInputModel" xml:space="preserve">
+        <value>Model de date de intrare pentru trimiterea unui document.</value>
+    </data>
+    <data name="SendPhotoMessageInputModel" xml:space="preserve">
+        <value>Model de date de intrare pentru trimiterea unui mesaj cu o fotografie.</value>
+    </data>
+    <data name="SendStickerMessageInputModel" xml:space="preserve">
+        <value>Model de intrare pentru trimiterea unui mesaj cu un autocolant.</value>
+    </data>
+    <data name="SendStoryMessageInputModel" xml:space="preserve">
+        <value>Model de introducere a mesajelor cu istoric</value>
+    </data>
+    <data name="ParameterstorySenderChatId" xml:space="preserve">
+        <value>ID-ul chat-ului în care a fost postată povestea</value>
+    </data>
+    <data name="ParameterstoryId" xml:space="preserve">
+        <value>ID istoric</value>
+    </data>
+    <data name="SendAnimationMessageInputModel" xml:space="preserve">
+        <value>Model de intrare pentru trimiterea unui mesaj cu animație</value>
+    </data>
+    <data name="ParameterhasSpoiler" xml:space="preserve">
+        <value>Adevărat dacă previzualizarea animației ar trebui să fie închisă.</value>
+    </data>
+    <data name="Parameterheight" xml:space="preserve">
+        <value>Înălțimea animației</value>
+    </data>
+    <data name="Parameterwidth" xml:space="preserve">
+        <value>Lățimea animației</value>
+    </data>
+    <data name="SendContactMessageInputModel" xml:space="preserve">
+        <value>Model de date de intrare pentru trimiterea unui mesaj către o persoană de contact.</value>
+    </data>
+    <data name="ParametercontactPhoneNumber" xml:space="preserve">
+        <value>Numar de telefon de contact.</value>
+    </data>
+    <data name="ParametercontactId" xml:space="preserve">
+        <value>ID de contact.</value>
+    </data>
+    <data name="ParametervCard" xml:space="preserve">
+        <value>Carte de vizită VCard.</value>
+    </data>
+    <data name="AddMessageReactionInputModel" xml:space="preserve">
+        <value>Model de date de intrare pentru trimiterea unei reacții dintr-un mesaj</value>
+    </data>
+    <data name="Parameteremoji" xml:space="preserve">
+        <value>Reacţie</value>
+    </data>
+    <data name="ParameteremojiId" xml:space="preserve">
+        <value>Reacție premium</value>
+    </data>
+    <data name="RemoveMessageReactionInputModel" xml:space="preserve">
+        <value>Model de intrare pentru eliminarea unei reacții dintr-un mesaj</value>
+    </data>
+    <data name="ForwardMessagesInputModel" xml:space="preserve">
+        <value>Model de intrare pentru redirecționarea mesajelor</value>
+    </data>
+    <data name="ParameterfromChatId" xml:space="preserve">
+        <value>ID-ul chat-ului de la care sunt redirecționate mesajele</value>
+    </data>
+    <data name="ParametermessageIds" xml:space="preserve">
+        <value>Matrice de identificatori de mesaj de redirecționat</value>
+    </data>
+    <data name="ParameterremoveCaption" xml:space="preserve">
+        <value>Adevărat dacă doriți să eliminați semnătura din fișierele media</value>
+    </data>
+    <data name="ParametersendCopy" xml:space="preserve">
+        <value>Adevărat dacă doriți să redirecționați mesaje fără referințe la utilizatorii acestor mesaje</value>
+    </data>
+    <data name="DeleteMessagesInputModel" xml:space="preserve">
+        <value>Model de intrare pentru ștergerea mesajelor de chat</value>
+    </data>
+    <data name="Parameterrevoke" xml:space="preserve">
+        <value>Adevărat dacă doriți să ștergeți pentru toți participanții la chat</value>
+    </data>
+    <data name="SetPictureProfilePhotoInputModel" xml:space="preserve">
+        <value>Model de date de intrare pentru setarea unei fotografii de profil.</value>
+    </data>
+    <data name="BackgroundGradientInputModel" xml:space="preserve">
+        <value>Model de date de intrare pentru capacitatea de a seta un fundal gradient</value>
+    </data>
+    <data name="ParametertopColor" xml:space="preserve">
+        <value>Culoare de fundal de sus în format HEX.</value>
+    </data>
+    <data name="ParameterbottomColor" xml:space="preserve">
+        <value>Culoare de fundal de jos în format HEX.</value>
+    </data>
+    <data name="ParameterrotationAngle" xml:space="preserve">
+        <value>Unghiul de rotație al gradientului în sensul acelor de ceasornic, în grade; 0-359. Trebuie să fie întotdeauna divizibil cu 45</value>
+    </data>
+    <data name="BackgroundInputModel" xml:space="preserve">
+        <value>Un model de date de intrare care conține proprietăți din care să alegeți pentru a seta diferite fundaluri pe fotografia dvs. de profil</value>
+    </data>
+    <data name="Parametercolor" xml:space="preserve">
+        <value>Culoare de fundal în format HEX</value>
+    </data>
+    <data name="Parametercolors" xml:space="preserve">
+        <value>Lista cu 3 sau 4 culori gradiente libere în format HEX</value>
+    </data>
+    <data name="SetEmojiProfilePhotoInputModel" xml:space="preserve">
+        <value>Model de introducere pentru setarea unui emoji ca fotografie de profil.</value>
+    </data>
+    <data name="ParametercustomEmojiId" xml:space="preserve">
+        <value>ID autocolant</value>
+    </data>
+    <data name="SetStickerProfilePhotoInputModel" xml:space="preserve">
+        <value>Model de introducere pentru setarea unui autocolant ca fotografie de profil.</value>
+    </data>
+    <data name="ParameterstickerSetId" xml:space="preserve">
+        <value>ID pachet de autocolante</value>
+    </data>
+    <data name="ParameterstickerId" xml:space="preserve">
+        <value>ID autocolant</value>
+    </data>
+    <data name="SetAnimationProfilePhotoInputModel" xml:space="preserve">
+        <value>Model de intrare pentru setarea animației sub forma unei fotografii de profil.</value>
+    </data>
+    <data name="ParametermainFrameTimestamp" xml:space="preserve">
+        <value>Marca temporală a cadrului când animația va apărea statică.</value>
+    </data>
+    <data name="SetUserBioInputModel" xml:space="preserve">
+        <value>Model de date de intrare pentru setarea biografiei utilizatorului</value>
+    </data>
+    <data name="Parameterbio" xml:space="preserve">
+        <value>Linie bio</value>
+    </data>
+    <data name="StoryPrivacySettingsContactsInputModel" xml:space="preserve">
+        <value>Setări de confidențialitate care vă permit să vedeți istoricul persoanelor de contact ale utilizatorului</value>
+    </data>
+    <data name="ParameterexceptUserIds" xml:space="preserve">
+        <value>serie de ID-uri de utilizator care nu ar trebui să vadă istoricul</value>
+    </data>
+    <data name="StoryPrivacySettingsEveryoneInputModel" xml:space="preserve">
+        <value>Setări de confidențialitate care permit tuturor utilizatorilor să vadă istoricul</value>
+    </data>
+    <data name="StoryPrivacySettingsSelectedUsersInputModel" xml:space="preserve">
+        <value>Setări de confidențialitate permițând utilizatorilor selectați să vadă istoricul</value>
+    </data>
+    <data name="ParameteruserIds" xml:space="preserve">
+        <value>O serie de ID-uri de utilizator care vor vedea povestea</value>
+    </data>
+    <data name="StoryPrivacySettingsCloseFriendsInputModel" xml:space="preserve">
+        <value>Setări de confidențialitate care permit utilizatorilor din lista de prieteni apropiați să-și vadă istoricul</value>
+    </data>
+    <data name="StoryPrivacySettingsInputModel" xml:space="preserve">
+        <value>Model de date de intrare care conține proprietăți din care să alegeți Pentru a configura confidențialitatea istoricului</value>
+    </data>
+    <data name="PostPhotoStoryInputModel" xml:space="preserve">
+        <value>Model de intrare pentru trimiterea unei povești cu o fotografie</value>
+    </data>
+    <data name="ParameteractivePeriod" xml:space="preserve">
+        <value>Perioada în care istoricul va fi disponibil (în ore)</value>
+    </data>
+    <data name="ParameterisPinned" xml:space="preserve">
+        <value>Adevărat dacă doriți ca istoricul să rămână disponibil după expirare</value>
+    </data>
+    <data name="TgStoryContent" xml:space="preserve">
+        <value>Context abstract al istoriei.</value>
+    </data>
+    <data name="TgStoryPrivacySettings" xml:space="preserve">
+        <value>Enumerare pentru setările de confidențialitate&lt;p&gt;Membri:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Prieteni apropiați&lt;/i&gt; - Pentru prieteni apropiați&lt;/li&gt;&lt;li&gt;&lt;i&gt;Agendă&lt;/i&gt; - Pentru persoane de contact&lt; /li&gt;&lt;li&gt;&lt;i&gt;EveryOne&lt;/i&gt; - Pentru toată lumea&lt;/li&gt;&lt;li&gt;&lt;i&gt;SelectedUsers&lt;/i&gt; - Pentru utilizatorii selectați&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryFullInfo" xml:space="preserve">
+        <value>Oferă informații complete despre istoric în telegramă</value>
+    </data>
+    <data name="ParametersenderChatId" xml:space="preserve">
+        <value>ID-ul expeditorului istoric (utilizator)</value>
+    </data>
+    <data name="ParameterviewCount" xml:space="preserve">
+        <value>Numărul de vizualizări</value>
+    </data>
+    <data name="ParameterforwardCount" xml:space="preserve">
+        <value>De câte ori a fost transmisă povestea?</value>
+    </data>
+    <data name="ParameterreactionCount" xml:space="preserve">
+        <value>Numărul de reacții la povești</value>
+    </data>
+    <data name="ParameterrecentViewerUserIds" xml:space="preserve">
+        <value>ID-urile celor mai recente 3 utilizatori ai istoricului</value>
+    </data>
+    <data name="ParameterisBeingSent" xml:space="preserve">
+        <value>Adevărat dacă utilizatorul actual trimite povestea</value>
+    </data>
+    <data name="ParameterisBeingEdited" xml:space="preserve">
+        <value>Adevărat dacă utilizatorul actual editează povestea</value>
+    </data>
+    <data name="ParameterisEdited" xml:space="preserve">
+        <value>Adevărat dacă povestea a fost editată</value>
+    </data>
+    <data name="ParameterisVisibleOnlyForSelf" xml:space="preserve">
+        <value>Adevărat dacă este vizibil numai pentru proprietarul istoricului</value>
+    </data>
+    <data name="ParametercanBeDeleted" xml:space="preserve">
+        <value>Adevărat dacă poate fi eliminat</value>
+    </data>
+    <data name="ParametercanBeReplied" xml:space="preserve">
+        <value>Adevărat dacă istoria poate primi un răspuns</value>
+    </data>
+    <data name="ParametercanToggleIsPinned" xml:space="preserve">
+        <value>Adevărat dacă IsPinned poate fi schimbat</value>
+    </data>
+    <data name="ParametercanGetViewers" xml:space="preserve">
+        <value>Adevărat dacă este posibil să obțineți utilizatori care au vizualizat istoricul</value>
+    </data>
+    <data name="PostVideoStoryInputModel" xml:space="preserve">
+        <value>Model de intrare pentru trimiterea istoricului cu video</value>
+    </data>
+    <data name="ParameterisAnimation" xml:space="preserve">
+        <value>Adevărat dacă videoclipul nu are sunet</value>
+    </data>
+    <data name="TgStoryTypeList" xml:space="preserve">
+        <value>Enumerarea tipurilor de liste istorice&lt;p&gt;Membri:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Principal&lt;/i&gt; - Principal&lt;/li&gt;&lt;li&gt;&lt;i&gt;Arhivă&lt;/i&gt; - Arhivă&lt;/li &gt;&gt; &lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryInfo" xml:space="preserve">
+        <value>Reprezintă informații despre istoricul activ al unui utilizator</value>
+    </data>
+    <data name="ParameterisForCloseFriends" xml:space="preserve">
+        <value>Adevărat dacă povestea este pentru prieteni apropiați</value>
+    </data>
+    <data name="TgUserActiveStories" xml:space="preserve">
+        <value>Reprezintă informații despre poveștile active ale unui utilizator</value>
+    </data>
+    <data name="Parameterorder" xml:space="preserve">
+        <value>Folosit pentru a determina ordinea poveștilor din listă</value>
+    </data>
+    <data name="ParametermaxReadStoryId" xml:space="preserve">
+        <value>Ultimul ID istoric activ vizualizat</value>
+    </data>
+    <data name="Parameterstories" xml:space="preserve">
+        <value>O matrice care conține informații despre fiecare poveste</value>
+    </data>
+    <data name="TgMiniThumbnail" xml:space="preserve">
+        <value>Prezintă o mică previzualizare</value>
+    </data>
+    <data name="ParameterminiThumbnail" xml:space="preserve">
+        <value>O mică previzualizare.</value>
+    </data>
+    <data name="TgPhotoSize" xml:space="preserve">
+        <value>Reprezintă dimensiunea unei fotografii</value>
+    </data>
+    <data name="TgAnimatedChatPhoto" xml:space="preserve">
+        <value>Reprezintă un set de animație ca fotografie de profil</value>
+    </data>
+    <data name="Parameterlength" xml:space="preserve">
+        <value>Lățimea și înălțimea animației.</value>
+    </data>
+    <data name="TgChatPhoto" xml:space="preserve">
+        <value>Reprezintă o fotografie de profil</value>
+    </data>
+    <data name="ParameteraddedDate" xml:space="preserve">
+        <value>Momentul în care a fost adăugată fotografia.</value>
+    </data>
+    <data name="ParameterphotoSizes" xml:space="preserve">
+        <value>Variații ale fotografiilor în diferite dimensiuni.</value>
+    </data>
+    <data name="TgText" xml:space="preserve">
+        <value>Reprezintă text.</value>
+    </data>
+    <data name="Parametertext" xml:space="preserve">
+        <value>Mesaj text.</value>
+    </data>
+    <data name="TgUserFullInfo" xml:space="preserve">
+        <value>Reprezintă informații complete despre utilizator.</value>
+    </data>
+    <data name="ParameterisStoriesBlocked" xml:space="preserve">
+        <value>Indicați dacă poveștile utilizatorilor sunt blocate.</value>
+    </data>
+    <data name="ParameterisBlocked" xml:space="preserve">
+        <value>Indicați dacă utilizatorul este blocat.</value>
+    </data>
+    <data name="ParametercanBeCalled" xml:space="preserve">
+        <value>Adevărat, dacă utilizatorul poate fi apelat.</value>
+    </data>
+    <data name="ParametersupportsVideoCalls" xml:space="preserve">
+        <value>Adevărat, dacă poți crea un apel video cu utilizatorul.</value>
+    </data>
+    <data name="ParameterhasPrivateCalls" xml:space="preserve">
+        <value>Adevărat dacă utilizatorul nu poate fi apelat din cauza setărilor de confidențialitate.</value>
+    </data>
+    <data name="ParameterhasPrivateForwards" xml:space="preserve">
+        <value>Adevărat dacă utilizatorul nu poate fi asociat în mesajele redirecționate din cauza setărilor de confidențialitate.</value>
+    </data>
+    <data name="ParameterhasRestrictedVoiceAndVideoNoteMessages" xml:space="preserve">
+        <value>Adevărat dacă notele vocale și video nu pot fi trimise sau redirecționate către utilizator.</value>
+    </data>
+    <data name="ParameterhasPinnedStories" xml:space="preserve">
+        <value>Adevărat dacă utilizatorul a fixat povești.</value>
+    </data>
+    <data name="ParameterneedPhoneNumberPrivacyException" xml:space="preserve">
+        <value>Este adevărat dacă utilizatorului curent ar trebui să i se permită în mod explicit să-și partajeze numărul de telefon cu utilizatorul atunci când folosește metoda addContact.</value>
+    </data>
+</root>

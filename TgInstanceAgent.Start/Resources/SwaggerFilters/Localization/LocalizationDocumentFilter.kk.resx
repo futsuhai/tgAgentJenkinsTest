@@ -1,0 +1,818 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AuthSetPhone" xml:space="preserve">
+        <value>Телефон нөмірін орнатыңыз</value>
+    </data>
+    <data name="ParameterinstanceId" xml:space="preserve">
+        <value>Дана идентификаторы</value>
+    </data>
+    <data name="AuthSetPhoneRequest" xml:space="preserve">
+        <value>Телефон нөмірі</value>
+    </data>
+    <data name="Response200" xml:space="preserve">
+        <value>Жетістік</value>
+    </data>
+    <data name="Response400" xml:space="preserve">
+        <value>Жарамсыз енгізу деректері немесе жарамсыз сұрау</value>
+    </data>
+    <data name="Response500" xml:space="preserve">
+        <value>Серверде қате орын алды</value>
+    </data>
+    <data name="AuthCheckCode" xml:space="preserve">
+        <value>Растау кодын жіберіңіз</value>
+    </data>
+    <data name="AuthCheckCodeRequest" xml:space="preserve">
+        <value>Тексеру коды</value>
+    </data>
+    <data name="AuthCheckPassword" xml:space="preserve">
+        <value>Құпия сөзді жіберу</value>
+    </data>
+    <data name="AuthCheckPasswordRequest" xml:space="preserve">
+        <value>Құпия сөз</value>
+    </data>
+    <data name="ChatsGetChatHistory" xml:space="preserve">
+        <value>Чат тарихын алыңыз</value>
+    </data>
+    <data name="ParameterChatId" xml:space="preserve">
+        <value>Чат идентификаторы.</value>
+    </data>
+    <data name="ParameterUsername" xml:space="preserve">
+        <value>Қолданушының аты.</value>
+    </data>
+    <data name="ParameterPhoneNumber" xml:space="preserve">
+        <value>Телефон нөмірі.</value>
+    </data>
+    <data name="ParameterLimit" xml:space="preserve">
+        <value>Хабарлама шегі.</value>
+    </data>
+    <data name="ParameterOffset" xml:space="preserve">
+        <value>Біржақтылық.</value>
+    </data>
+    <data name="ParameterFromMessageId" xml:space="preserve">
+        <value>Хабарлама идентификаторынан басталады.</value>
+    </data>
+    <data name="ChatsGetMessage" xml:space="preserve">
+        <value>Хабарлама деректерін алыңыз</value>
+    </data>
+    <data name="ParameterMessageId" xml:space="preserve">
+        <value>Хабар идентификаторы.</value>
+    </data>
+    <data name="ChatsGetMessageAvailableReactions" xml:space="preserve">
+        <value>Хабарға қол жетімді реакциялардың тізімін алыңыз</value>
+    </data>
+    <data name="ContactsGetContacts" xml:space="preserve">
+        <value>Контактілер тізімін алыңыз</value>
+    </data>
+    <data name="ContactsImportContacts" xml:space="preserve">
+        <value>Контактілерді импорттау</value>
+    </data>
+    <data name="ContactsImportContactsRequest" xml:space="preserve">
+        <value>Байланыс деректері</value>
+    </data>
+    <data name="ContactsAddContact" xml:space="preserve">
+        <value>Контакт қосу</value>
+    </data>
+    <data name="ContactsAddContactRequest" xml:space="preserve">
+        <value>Пайдаланушының байланыс мәліметтері</value>
+    </data>
+    <data name="ContactsRemoveContact" xml:space="preserve">
+        <value>Контактіні жою</value>
+    </data>
+    <data name="ContactsRemoveContactRequest" xml:space="preserve">
+        <value>Пайдаланушының байланыс мәліметтері</value>
+    </data>
+    <data name="FileStartDownload" xml:space="preserve">
+        <value>Файлды идентификаторы бойынша жүктеп алуды сұрау</value>
+    </data>
+    <data name="FileStartDownloadRequest" xml:space="preserve">
+        <value>Файл идентификаторы бар үлгі</value>
+    </data>
+    <data name="FileGetFile" xml:space="preserve">
+        <value>Файл идентификаторы бойынша файлды шығарып алу</value>
+    </data>
+    <data name="ParameterLocalId" xml:space="preserve">
+        <value>Жергілікті файл идентификаторы</value>
+    </data>
+    <data name="ParameterRemoteId" xml:space="preserve">
+        <value>Қашықтағы файл идентификаторы</value>
+    </data>
+    <data name="FileStartDownloadFromMessage" xml:space="preserve">
+        <value>Хабарламадан файлды жүктеп алуды сұрау.</value>
+    </data>
+    <data name="FileStartDownloadFromMessageRequest" xml:space="preserve">
+        <value>Чат және хабар идентификаторы бар үлгі</value>
+    </data>
+    <data name="FileGetFileFromMessage" xml:space="preserve">
+        <value>Хабарламадан файлды қабылдау</value>
+    </data>
+    <data name="InstanceGetInstance" xml:space="preserve">
+        <value>Дана деректерін шығарып алу</value>
+    </data>
+    <data name="MessageSendTextMessage" xml:space="preserve">
+        <value>Мәтіндік хабар жіберу</value>
+    </data>
+    <data name="MessageSendTextMessageRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="MessageSendLocationMessage" xml:space="preserve">
+        <value>Геолокация жіберу</value>
+    </data>
+    <data name="MessageSendLocationMessageRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="MessageSendAudioMessage" xml:space="preserve">
+        <value>Аудио хабарлама жіберу</value>
+    </data>
+    <data name="MessageSendAudioMessageRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessage" xml:space="preserve">
+        <value>Дауыстық хабарлама жіберу</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessageRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="MessageSendVideoNoteMessage" xml:space="preserve">
+        <value>Шеңбер жіберу</value>
+    </data>
+    <data name="MessageSendVideoNoteMessageRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="MessageSendVideoMessage" xml:space="preserve">
+        <value>Бейне жіберу</value>
+    </data>
+    <data name="MessageSendVideoMessageRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="MessageSendDocumentMessage" xml:space="preserve">
+        <value>Құжатты жіберу</value>
+    </data>
+    <data name="MessageSendDocumentMessageRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="MessageSendPhotoMessage" xml:space="preserve">
+        <value>Фото жіберу</value>
+    </data>
+    <data name="MessageSendPhotoMessageRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="MessageSendStickerMessage" xml:space="preserve">
+        <value>Стикер жіберу</value>
+    </data>
+    <data name="MessageSendStickerMessageRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="MessageSendStoryMessage" xml:space="preserve">
+        <value>Сюжетті жіберу</value>
+    </data>
+    <data name="MessageSendStoryMessageRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="MessageSendAnimationMessage" xml:space="preserve">
+        <value>Анимация жіберу (gif)</value>
+    </data>
+    <data name="MessageSendAnimationMessageRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="MessageSendContactMessage" xml:space="preserve">
+        <value>Контакт жіберу</value>
+    </data>
+    <data name="MessageSendContactMessageRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="MessageAddMessageReaction" xml:space="preserve">
+        <value>Хабарламаға реакция қосу</value>
+    </data>
+    <data name="MessageAddMessageReactionRequest" xml:space="preserve">
+        <value>Реакция деректері</value>
+    </data>
+    <data name="MessageRemoveMessageReaction" xml:space="preserve">
+        <value>Хабарламадан реакцияны жою</value>
+    </data>
+    <data name="MessageRemoveMessageReactionRequest" xml:space="preserve">
+        <value>Реакция деректері</value>
+    </data>
+    <data name="MessageForwardMessages" xml:space="preserve">
+        <value>Хабарларды қайта бағыттау</value>
+    </data>
+    <data name="MessageForwardMessagesRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="MessageDeleteMessages" xml:space="preserve">
+        <value>Хабарларды жою</value>
+    </data>
+    <data name="MessageDeleteMessagesRequest" xml:space="preserve">
+        <value>Хабарлама деректері</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhoto" xml:space="preserve">
+        <value>Профиль фотосуретін орнатады. Файл идентификаторы бойынша орнату алдында алдымен файл серверге жүктеп салынғанына көз жеткізу керек.</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhotoRequest" xml:space="preserve">
+        <value>Профиль фотосуретін орнатуға арналған деректер.</value>
+    </data>
+    <data name="ProfileSetPreviousProfilePhoto" xml:space="preserve">
+        <value>Фото идентификаторы бойынша пайдаланушының алдыңғы фотосуреттерінің бірін орнатады.</value>
+    </data>
+    <data name="ParameterphotoId" xml:space="preserve">
+        <value>Фотосурет идентификаторы.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhoto" xml:space="preserve">
+        <value>Профиль фотосуретін реттелетін эмодзи ретінде орнатады.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhotoRequest" xml:space="preserve">
+        <value>Профиль фотосуретін орнатуға арналған деректер.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhoto" xml:space="preserve">
+        <value>Профиль фотосуретіңізді стикер ретінде орнатады.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhotoRequest" xml:space="preserve">
+        <value>Профиль фотосуретін орнатуға арналған деректер.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhoto" xml:space="preserve">
+        <value>Профиль фотосуретін анимация ретінде орнатады. Файл идентификаторы бойынша орнату алдында алдымен файл серверге жүктеп салынғанына көз жеткізу керек.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhotoRequest" xml:space="preserve">
+        <value>Профиль фотосуретін орнатуға арналған деректер.</value>
+    </data>
+    <data name="ProfileSetBio" xml:space="preserve">
+        <value>Пайдаланушы үшін био орнатыңыз.</value>
+    </data>
+    <data name="ProfileSetBioRequest" xml:space="preserve">
+        <value>Пайдаланушының биографиясы туралы ақпараты бар модель.</value>
+    </data>
+    <data name="StoryPostPhotoStory" xml:space="preserve">
+        <value>Фотосурет түрінде пайдаланушыға жаңа оқиға орнатады</value>
+    </data>
+    <data name="StoryPostPhotoStoryRequest" xml:space="preserve">
+        <value>Тарих орнату деректері.</value>
+    </data>
+    <data name="StoryPostVideoStory" xml:space="preserve">
+        <value>Бейне түрінде пайдаланушыға жаңа оқиға орнатады</value>
+    </data>
+    <data name="StoryPostVideoStoryRequest" xml:space="preserve">
+        <value>Тарих орнату деректері.</value>
+    </data>
+    <data name="StoryGetStory" xml:space="preserve">
+        <value>Пайдаланушы тарихын оның идентификаторы бойынша шығарады</value>
+    </data>
+    <data name="ParameterStoryId" xml:space="preserve">
+        <value>Тарих идентификаторы</value>
+    </data>
+    <data name="StoryGetUserActiveStories" xml:space="preserve">
+        <value>Пайдаланушының белсенді оқиғалары туралы ақпарат алыңыз</value>
+    </data>
+    <data name="UsersGetUser" xml:space="preserve">
+        <value>Пайдаланушы туралы ақпаратты алу</value>
+    </data>
+    <data name="UsersGetMe" xml:space="preserve">
+        <value>Рұқсат етілген пайдаланушы туралы ақпаратты алу</value>
+    </data>
+    <data name="UsersGetUserFullInfo" xml:space="preserve">
+        <value>Пайдаланушы биоын алыңыз</value>
+    </data>
+    <data name="UsersGetUserProfilePhotos" xml:space="preserve">
+        <value>Пайдаланушы фотосуреттерінің тізімін алыңыз</value>
+    </data>
+    <data name="SetPhoneNumberInputModel" xml:space="preserve">
+        <value>Telegram тіркелгісінің телефон нөмірін орнатуға арналған кіріс деректер үлгісі</value>
+    </data>
+    <data name="CheckCodeInputModel" xml:space="preserve">
+        <value>Растау кодын тексеруге арналған енгізу үлгісі</value>
+    </data>
+    <data name="Parametercode" xml:space="preserve">
+        <value>Растау коды.</value>
+    </data>
+    <data name="CheckPasswordInputModel" xml:space="preserve">
+        <value>Құпия сөзді тексеруге арналған енгізу үлгісі</value>
+    </data>
+    <data name="Parameterpassword" xml:space="preserve">
+        <value>Құпия сөз</value>
+    </data>
+    <data name="TgReplyTo" xml:space="preserve">
+        <value>Хабарламаға жауап беруге арналған ақпарат.</value>
+    </data>
+    <data name="ParameterchatId" xml:space="preserve">
+        <value>Чат идентификаторы.</value>
+    </data>
+    <data name="TgForwardInfo" xml:space="preserve">
+        <value>Жіберілетін хабар туралы ақпарат.</value>
+    </data>
+    <data name="Parameterdate" xml:space="preserve">
+        <value>Жазба күні.</value>
+    </data>
+    <data name="TgMessageContent" xml:space="preserve">
+        <value>Абстрактілі хабарлама деректері.</value>
+    </data>
+    <data name="TgMessage" xml:space="preserve">
+        <value>Хабарлама класы.</value>
+    </data>
+    <data name="ParametersenderId" xml:space="preserve">
+        <value>Жіберушінің идентификаторы.</value>
+    </data>
+    <data name="ParametermessageId" xml:space="preserve">
+        <value>Хабар идентификаторы.</value>
+    </data>
+    <data name="ParameterisOutgoing" xml:space="preserve">
+        <value>Шығыс хабар.</value>
+    </data>
+    <data name="ParametercanBeEdited" xml:space="preserve">
+        <value>Өңделуі мүмкін.</value>
+    </data>
+    <data name="ParametercanBeForwarded" xml:space="preserve">
+        <value>Жіберілуі мүмкін.</value>
+    </data>
+    <data name="ParametercanBeDeletedForAllUsers" xml:space="preserve">
+        <value>Барлық пайдаланушылар үшін жойылуы мүмкін.</value>
+    </data>
+    <data name="ParametereditDate" xml:space="preserve">
+        <value>Өңдеу күні.</value>
+    </data>
+    <data name="TgReactionType" xml:space="preserve">
+        <value>Реакция класы</value>
+    </data>
+    <data name="TgAvailableReaction" xml:space="preserve">
+        <value>Реакция класы</value>
+    </data>
+    <data name="ParameterisNeedPremium" xml:space="preserve">
+        <value>Реакция премиум реакция екенін белгілеңіз</value>
+    </data>
+    <data name="TgMessageAvailableReactions" xml:space="preserve">
+        <value>Telegram хабарламасы үшін қолжетімді реакцияларды көрсететін сынып.</value>
+    </data>
+    <data name="ParametertopReactions" xml:space="preserve">
+        <value>Ең танымал реакциялар жинағын алады немесе орнатады.</value>
+    </data>
+    <data name="ParameterrecentReactions" xml:space="preserve">
+        <value>Соңғы реакциялар жинағын алады немесе орнатады.</value>
+    </data>
+    <data name="ParameterpopularReactions" xml:space="preserve">
+        <value>Соңғы реакциялар жинағын алады немесе орнатады.</value>
+    </data>
+    <data name="TgFile" xml:space="preserve">
+        <value>Файлды көрсетеді</value>
+    </data>
+    <data name="ParameterfileId" xml:space="preserve">
+        <value>Файл идентификаторы.</value>
+    </data>
+    <data name="Parametersize" xml:space="preserve">
+        <value>Файл өлшемі.</value>
+    </data>
+    <data name="ParameterremoteId" xml:space="preserve">
+        <value>Қашықтағы файл идентификаторы.</value>
+    </data>
+    <data name="TgProfilePhoto" xml:space="preserve">
+        <value>Профиль фотосы</value>
+    </data>
+    <data name="ParameterhasAnimation" xml:space="preserve">
+        <value>Анимациялық фото</value>
+    </data>
+    <data name="ParameterisPersonal" xml:space="preserve">
+        <value>Ағымдағы пайдаланушы орнатқан</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Пайдаланушы күйі&lt;p&gt;Мүшелер:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Онлайн&lt;/i&gt; - Желідегі пайдаланушы&lt;/li&gt;&lt;li&gt;&lt;i&gt;Жақында&lt;/i&gt; - Пайдаланушы жақында жүйеге кірді&lt;/i&gt; li &gt;&lt;li&gt;&lt;i&gt;Соңғы апта&lt;/i&gt; - Пайдаланушы бір апта бойы кірмеді&lt;/li&gt;&lt;li&gt;&lt;i&gt;Соңғы айда&lt;/i&gt; - Пайдаланушы бір ай бойы жүйеге кірмеген&lt;/i&gt; li&gt;&lt;li&gt;&lt;i&gt;Офлайн&lt;/ i&gt; - Офлайн пайдаланушы&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgUser" xml:space="preserve">
+        <value>Контактіні білдіретін сынып.</value>
+    </data>
+    <data name="Parameterid" xml:space="preserve">
+        <value>Идентификатор.</value>
+    </data>
+    <data name="ParameterfirstName" xml:space="preserve">
+        <value>Аты.</value>
+    </data>
+    <data name="ParameterlastName" xml:space="preserve">
+        <value>Тегі.</value>
+    </data>
+    <data name="Parameterusername" xml:space="preserve">
+        <value>Қолданушының аты.</value>
+    </data>
+    <data name="ParameterisContact" xml:space="preserve">
+        <value>Бұл байланыс</value>
+    </data>
+    <data name="ParameterisCloseFriend" xml:space="preserve">
+        <value>Жақын дос.</value>
+    </data>
+    <data name="ParameterisMutualContact" xml:space="preserve">
+        <value>Өзара байланыс болып табылады.</value>
+    </data>
+    <data name="ParameterisFake" xml:space="preserve">
+        <value>Жалған контакт.</value>
+    </data>
+    <data name="ParameterisScum" xml:space="preserve">
+        <value>Алаяқтық.</value>
+    </data>
+    <data name="ParameterisVerified" xml:space="preserve">
+        <value>Тексерілді.</value>
+    </data>
+    <data name="ParameterhasActiveStories" xml:space="preserve">
+        <value>Әңгімелер бар</value>
+    </data>
+    <data name="ParameterhasUnreadActiveStories" xml:space="preserve">
+        <value>Көрінбеген әңгімелер бар</value>
+    </data>
+    <data name="ParameterisPremium" xml:space="preserve">
+        <value>Премиум есептік жазба</value>
+    </data>
+    <data name="ParameterstatusEmojiId" xml:space="preserve">
+        <value>Күйдегі смайлик</value>
+    </data>
+    <data name="ImportContactInputModel" xml:space="preserve">
+        <value>Контактіні қосуға арналған енгізу үлгісі</value>
+    </data>
+    <data name="AddContactInputModel" xml:space="preserve">
+        <value>Контактіні қосуға арналған енгізу үлгісі</value>
+    </data>
+    <data name="RemoveContactInputModel" xml:space="preserve">
+        <value>Пайдаланушы контактісін жою үлгісі</value>
+    </data>
+    <data name="FileIdRequestInputModel" xml:space="preserve">
+        <value>Файл идентификаторы бар сұрау үшін енгізу үлгісі.</value>
+    </data>
+    <data name="ParameterlocalId" xml:space="preserve">
+        <value>Жергілікті файл идентификаторы</value>
+    </data>
+    <data name="FileMessageRequestInputModel" xml:space="preserve">
+        <value>Хабар идентификаторы және чат идентификаторы бар сұрау үшін енгізу үлгісі.</value>
+    </data>
+    <data name="SchedulingStateInputModel" xml:space="preserve">
+        <value>Хабарламаны жіберуді жоспарлау түрін анықтайтын енгізу үлгісі</value>
+    </data>
+    <data name="ParametersendDate" xml:space="preserve">
+        <value>Хабардың жіберілген күні Егер күн бос болса, хабарламаны жоспарлау түрі алушы желіге қосылған кезде болады.</value>
+    </data>
+    <data name="MessageSendOptionsInputModel" xml:space="preserve">
+        <value>Хабарламаны жіберуге арналған енгізу параметрлерінің моделі</value>
+    </data>
+    <data name="ParameterdisableNotification" xml:space="preserve">
+        <value>Жалауша – алушының хабарландыруын өшіру</value>
+    </data>
+    <data name="ParameterprotectContent" xml:space="preserve">
+        <value>Жалауша – жіберілген хабарламаны қайта жіберуге немесе сақтауға болады ма</value>
+    </data>
+    <data name="SendTextMessageInputModel" xml:space="preserve">
+        <value>Мәтіндік хабарлама жіберуге арналған енгізу үлгісі.</value>
+    </data>
+    <data name="Parametermessage" xml:space="preserve">
+        <value>Хабарлама мәтіні.</value>
+    </data>
+    <data name="ParameterurlPreview" xml:space="preserve">
+        <value>URL алдын ала қарау.</value>
+    </data>
+    <data name="ParameterdisableUrlPreview" xml:space="preserve">
+        <value>URL алдын ала қарауды өшіріңіз.</value>
+    </data>
+    <data name="ParameterneedShowActivity" xml:space="preserve">
+        <value>Әрекеттің хабардан бұрын жіберілу қажеттігін көрсететін жалауша</value>
+    </data>
+    <data name="SendLocationMessageInputModel" xml:space="preserve">
+        <value>Орын туралы хабарды жіберуге арналған енгізу үлгісі.</value>
+    </data>
+    <data name="Parameterlatitude" xml:space="preserve">
+        <value>Орналасу ені.</value>
+    </data>
+    <data name="Parameterlongitude" xml:space="preserve">
+        <value>Орналасқан жерінің бойлығы.</value>
+    </data>
+    <data name="ParameterhorizontalAccuracy" xml:space="preserve">
+        <value>Көлденең орналасу дәлдігі.</value>
+    </data>
+    <data name="SendAudioMessageInputModel" xml:space="preserve">
+        <value>Аудио хабарламаны жіберуге арналған кіріс деректер үлгісі.</value>
+    </data>
+    <data name="ParameterfileInBase64" xml:space="preserve">
+        <value>Хабарда жіберілетін Base64 файлы.</value>
+    </data>
+    <data name="ParameterlocalFileId" xml:space="preserve">
+        <value>Жергілікті файл идентификаторы</value>
+    </data>
+    <data name="ParameterremoteFileId" xml:space="preserve">
+        <value>Қашықтағы файл идентификаторы</value>
+    </data>
+    <data name="Parametercaption" xml:space="preserve">
+        <value>Файл хабарының қолтаңбасы.</value>
+    </data>
+    <data name="Parametertitle" xml:space="preserve">
+        <value>Аудио хабарламаның атауы.</value>
+    </data>
+    <data name="Parameterperformer" xml:space="preserve">
+        <value>Аудио хабарламаны орындаушы.</value>
+    </data>
+    <data name="ParameteralbumCoverThumbnailBase64" xml:space="preserve">
+        <value>Base64 пішіміндегі альбомды алдын ала қарау.</value>
+    </data>
+    <data name="SendVoiceNoteMessageInputModel" xml:space="preserve">
+        <value>Дауыстық хабарлама жіберуге арналған енгізу деректерінің үлгісі.</value>
+    </data>
+    <data name="SendVideoNoteMessageInputModel" xml:space="preserve">
+        <value>Шеңберді жіберуге арналған енгізу деректерінің моделі.</value>
+    </data>
+    <data name="SendVideoMessageInputModel" xml:space="preserve">
+        <value>Бейнемен хабарлама жіберуге арналған енгізу деректерінің моделі.</value>
+    </data>
+    <data name="ParameterneedShowRecordingActivity" xml:space="preserve">
+        <value>Пайдаланушы бейне жазып жатқан әрекетті көрсету қажет пе екенін көрсететін жалауша.</value>
+    </data>
+    <data name="SendDocumentMessageInputModel" xml:space="preserve">
+        <value>Құжатты жіберуге арналған енгізу деректерінің моделі.</value>
+    </data>
+    <data name="SendPhotoMessageInputModel" xml:space="preserve">
+        <value>Фотосуреті бар хабарлама жіберуге арналған кіріс деректер үлгісі.</value>
+    </data>
+    <data name="SendStickerMessageInputModel" xml:space="preserve">
+        <value>Стикермен хабарлама жіберуге арналған енгізу үлгісі.</value>
+    </data>
+    <data name="SendStoryMessageInputModel" xml:space="preserve">
+        <value>Тарихы бар хабарлама енгізу үлгісі</value>
+    </data>
+    <data name="ParameterstorySenderChatId" xml:space="preserve">
+        <value>Оқиға жарияланған чаттың идентификаторы</value>
+    </data>
+    <data name="ParameterstoryId" xml:space="preserve">
+        <value>Тарих идентификаторы</value>
+    </data>
+    <data name="SendAnimationMessageInputModel" xml:space="preserve">
+        <value>Хабарламаны анимациямен жіберуге арналған енгізу үлгісі</value>
+    </data>
+    <data name="ParameterhasSpoiler" xml:space="preserve">
+        <value>Анимацияны алдын ала қарауды жабу керек болса, бұл дұрыс.</value>
+    </data>
+    <data name="Parameterheight" xml:space="preserve">
+        <value>Анимация биіктігі</value>
+    </data>
+    <data name="Parameterwidth" xml:space="preserve">
+        <value>Анимация ені</value>
+    </data>
+    <data name="SendContactMessageInputModel" xml:space="preserve">
+        <value>Контактіге хабарлама жіберуге арналған деректер үлгісін енгізу.</value>
+    </data>
+    <data name="ParametercontactPhoneNumber" xml:space="preserve">
+        <value>Байланыс телефон нөмірі.</value>
+    </data>
+    <data name="ParametercontactId" xml:space="preserve">
+        <value>Байланыс идентификаторы.</value>
+    </data>
+    <data name="ParametervCard" xml:space="preserve">
+        <value>Визит картасы VCard.</value>
+    </data>
+    <data name="AddMessageReactionInputModel" xml:space="preserve">
+        <value>Хабарламадан реакция жіберуге арналған кіріс деректер үлгісі</value>
+    </data>
+    <data name="Parameteremoji" xml:space="preserve">
+        <value>Реакция</value>
+    </data>
+    <data name="ParameteremojiId" xml:space="preserve">
+        <value>Премиум реакция</value>
+    </data>
+    <data name="RemoveMessageReactionInputModel" xml:space="preserve">
+        <value>Хабарламадан реакцияны жоюға арналған енгізу үлгісі</value>
+    </data>
+    <data name="ForwardMessagesInputModel" xml:space="preserve">
+        <value>Хабарламаны қайта жіберуге арналған енгізу үлгісі</value>
+    </data>
+    <data name="ParameterfromChatId" xml:space="preserve">
+        <value>Хабарлар қайта жіберілетін чаттың идентификаторы</value>
+    </data>
+    <data name="ParametermessageIds" xml:space="preserve">
+        <value>Қайта жіберуге арналған хабар идентификаторларының массиві</value>
+    </data>
+    <data name="ParameterremoveCaption" xml:space="preserve">
+        <value>Медиа файлдардағы қолтаңбаны жойғыңыз келсе, бұл дұрыс</value>
+    </data>
+    <data name="ParametersendCopy" xml:space="preserve">
+        <value>Бұл хабарларды пайдаланушыларға сілтемесіз хабарларды қайта бағыттағыңыз келсе, бұл дұрыс</value>
+    </data>
+    <data name="DeleteMessagesInputModel" xml:space="preserve">
+        <value>Сөйлесу хабарламаларын жоюға арналған енгізу үлгісі</value>
+    </data>
+    <data name="Parameterrevoke" xml:space="preserve">
+        <value>Барлық чатқа қатысушыларды жойғыңыз келсе, дұрыс</value>
+    </data>
+    <data name="SetPictureProfilePhotoInputModel" xml:space="preserve">
+        <value>Профиль фотосуретін орнатуға арналған деректер үлгісін енгізу.</value>
+    </data>
+    <data name="BackgroundGradientInputModel" xml:space="preserve">
+        <value>Градиент фонын орнату мүмкіндігіне арналған кіріс деректер үлгісі</value>
+    </data>
+    <data name="ParametertopColor" xml:space="preserve">
+        <value>HEX пішіміндегі жоғарғы фон түсі.</value>
+    </data>
+    <data name="ParameterbottomColor" xml:space="preserve">
+        <value>HEX пішіміндегі төменгі фон түсі.</value>
+    </data>
+    <data name="ParameterrotationAngle" xml:space="preserve">
+        <value>Градиенттің айналу бұрышы сағат тілімен, градуспен; 0-359. Әрқашан 45-ке бөлінуі керек</value>
+    </data>
+    <data name="BackgroundInputModel" xml:space="preserve">
+        <value>Профиль фотосуретінде әртүрлі фон орнату үшін таңдауға болатын сипаттарды қамтитын кіріс деректер үлгісі</value>
+    </data>
+    <data name="Parametercolor" xml:space="preserve">
+        <value>HEX форматындағы фон түсі</value>
+    </data>
+    <data name="Parametercolors" xml:space="preserve">
+        <value>HEX пішіміндегі 3 немесе 4 еркін пішінді градиент түстерінің тізімі</value>
+    </data>
+    <data name="SetEmojiProfilePhotoInputModel" xml:space="preserve">
+        <value>Эмодзиді профильдік фотосурет ретінде орнатуға арналған енгізу үлгісі.</value>
+    </data>
+    <data name="ParametercustomEmojiId" xml:space="preserve">
+        <value>Стикер идентификаторы</value>
+    </data>
+    <data name="SetStickerProfilePhotoInputModel" xml:space="preserve">
+        <value>Стикерді профильдік фотосурет ретінде орнатуға арналған енгізу үлгісі.</value>
+    </data>
+    <data name="ParameterstickerSetId" xml:space="preserve">
+        <value>Стикерлер бумасының идентификаторы</value>
+    </data>
+    <data name="ParameterstickerId" xml:space="preserve">
+        <value>Стикер идентификаторы</value>
+    </data>
+    <data name="SetAnimationProfilePhotoInputModel" xml:space="preserve">
+        <value>Профиль фотосуреті түріндегі анимацияны орнатуға арналған енгізу үлгісі.</value>
+    </data>
+    <data name="ParametermainFrameTimestamp" xml:space="preserve">
+        <value>Анимация статикалық болып көрінетін кадр уақыт белгісі.</value>
+    </data>
+    <data name="SetUserBioInputModel" xml:space="preserve">
+        <value>Пайдаланушы биоын орнату үшін деректер үлгісін енгізу</value>
+    </data>
+    <data name="Parameterbio" xml:space="preserve">
+        <value>Био желісі</value>
+    </data>
+    <data name="StoryPrivacySettingsContactsInputModel" xml:space="preserve">
+        <value>Пайдаланушы контактілерінің тарихын көруге мүмкіндік беретін құпиялылық параметрлері</value>
+    </data>
+    <data name="ParameterexceptUserIds" xml:space="preserve">
+        <value>Тарихты көрмейтін пайдаланушы идентификаторларының жиымы</value>
+    </data>
+    <data name="StoryPrivacySettingsEveryoneInputModel" xml:space="preserve">
+        <value>Барлық пайдаланушыларға тарихты көруге мүмкіндік беретін құпиялылық параметрлері</value>
+    </data>
+    <data name="StoryPrivacySettingsSelectedUsersInputModel" xml:space="preserve">
+        <value>Таңдалған пайдаланушыларға тарихты көруге мүмкіндік беретін құпиялылық параметрлері</value>
+    </data>
+    <data name="ParameteruserIds" xml:space="preserve">
+        <value>Оқиғаны көретін пайдаланушы идентификаторларының жиыны</value>
+    </data>
+    <data name="StoryPrivacySettingsCloseFriendsInputModel" xml:space="preserve">
+        <value>Жақын достар тізіміндегі пайдаланушыларға өз тарихын көруге мүмкіндік беретін құпиялылық параметрлері</value>
+    </data>
+    <data name="StoryPrivacySettingsInputModel" xml:space="preserve">
+        <value>Таңдау үшін сипаттарды қамтитын деректер үлгісін енгізу Тарихтың құпиялылығын конфигурациялау үшін</value>
+    </data>
+    <data name="PostPhotoStoryInputModel" xml:space="preserve">
+        <value>Фотосуреті бар оқиғаны жіберуге арналған енгізу үлгісі</value>
+    </data>
+    <data name="ParameteractivePeriod" xml:space="preserve">
+        <value>Тарих қолжетімді болатын кезең (сағатпен)</value>
+    </data>
+    <data name="ParameterisPinned" xml:space="preserve">
+        <value>Тарихтың жарамдылық мерзімі аяқталғаннан кейін қол жетімді болуын қаласаңыз, бұл дұрыс</value>
+    </data>
+    <data name="TgStoryContent" xml:space="preserve">
+        <value>Тарихтың дерексіз контексі.</value>
+    </data>
+    <data name="TgStoryPrivacySettings" xml:space="preserve">
+        <value>Құпиялық параметрлеріне арналған тізім&lt;p&gt;Мүшелер:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;CloseFriends&lt;/i&gt; - Жақын достар үшін&lt;/li&gt;&lt;li&gt;&lt;i&gt;Контактілер&lt;/i&gt; - Контактілер үшін&lt; /li&gt;&lt;li&gt;&lt;i&gt;EveryOne&lt;/i&gt; - Барлығы үшін&lt;/li&gt;&lt;li&gt;&lt;i&gt;SelectedUsers&lt;/i&gt; - Таңдалған пайдаланушылар үшін&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryFullInfo" xml:space="preserve">
+        <value>Телеграмдағы тарих туралы толық ақпарат береді</value>
+    </data>
+    <data name="ParametersenderChatId" xml:space="preserve">
+        <value>Тарих жіберушінің идентификаторы (пайдаланушы)</value>
+    </data>
+    <data name="ParameterviewCount" xml:space="preserve">
+        <value>Көрулер саны</value>
+    </data>
+    <data name="ParameterforwardCount" xml:space="preserve">
+        <value>Әңгіме неше рет жіберілді?</value>
+    </data>
+    <data name="ParameterreactionCount" xml:space="preserve">
+        <value>Әңгімелерге берілген реакциялар саны</value>
+    </data>
+    <data name="ParameterrecentViewerUserIds" xml:space="preserve">
+        <value>Ең соңғы 3 тарихты көрушілердің идентификаторлары</value>
+    </data>
+    <data name="ParameterisBeingSent" xml:space="preserve">
+        <value>Ағымдағы пайдаланушы оқиғаны жіберіп жатса, дұрыс</value>
+    </data>
+    <data name="ParameterisBeingEdited" xml:space="preserve">
+        <value>Ағымдағы пайдаланушы оқиғаны өңдеп жатса, дұрыс</value>
+    </data>
+    <data name="ParameterisEdited" xml:space="preserve">
+        <value>Егер әңгіме өңделсе, бұл дұрыс</value>
+    </data>
+    <data name="ParameterisVisibleOnlyForSelf" xml:space="preserve">
+        <value>Тек тарих иесіне көрінсе, дұрыс</value>
+    </data>
+    <data name="ParametercanBeDeleted" xml:space="preserve">
+        <value>Жоюға болатын болса рас</value>
+    </data>
+    <data name="ParametercanBeReplied" xml:space="preserve">
+        <value>Тарихқа жауап беруге болатын болса, рас</value>
+    </data>
+    <data name="ParametercanToggleIsPinned" xml:space="preserve">
+        <value>IsPinned өзгертуге болатын болса, бұл дұрыс</value>
+    </data>
+    <data name="ParametercanGetViewers" xml:space="preserve">
+        <value>Тарихты көрген пайдаланушыларды алу мүмкін болса, бұл дұрыс</value>
+    </data>
+    <data name="PostVideoStoryInputModel" xml:space="preserve">
+        <value>Бейнемен тарихты жіберуге арналған енгізу үлгісі</value>
+    </data>
+    <data name="ParameterisAnimation" xml:space="preserve">
+        <value>Бейнеде дыбыс болмаса, бұл дұрыс</value>
+    </data>
+    <data name="TgStoryTypeList" xml:space="preserve">
+        <value>Тарих тізімінің түрлерінің тізімі&lt;p&gt;Мүшелер:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Негізгі&lt;/i&gt; - Негізгі&lt;/li&gt;&lt;li&gt;&lt;i&gt;Мұрағат&lt;/i&gt; - Мұрағат&lt;/li &gt; &lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryInfo" xml:space="preserve">
+        <value>Пайдаланушының белсенді тарихы туралы ақпаратты көрсетеді</value>
+    </data>
+    <data name="ParameterisForCloseFriends" xml:space="preserve">
+        <value>Егер әңгіме жақын достарға арналған болса, рас</value>
+    </data>
+    <data name="TgUserActiveStories" xml:space="preserve">
+        <value>Пайдаланушының белсенді оқиғалары туралы ақпаратты көрсетеді</value>
+    </data>
+    <data name="Parameterorder" xml:space="preserve">
+        <value>Тізімдегі әңгімелердің ретін анықтау үшін қолданылады</value>
+    </data>
+    <data name="ParametermaxReadStoryId" xml:space="preserve">
+        <value>Соңғы қаралған белсенді тарих идентификаторы</value>
+    </data>
+    <data name="Parameterstories" xml:space="preserve">
+        <value>Әрбір оқиға туралы ақпаратты қамтитын массив</value>
+    </data>
+    <data name="TgMiniThumbnail" xml:space="preserve">
+        <value>Шағын алдын ала қарауды ұсынады</value>
+    </data>
+    <data name="ParameterminiThumbnail" xml:space="preserve">
+        <value>Шағын алдын ала қарау.</value>
+    </data>
+    <data name="TgPhotoSize" xml:space="preserve">
+        <value>Фотосурет өлшемін білдіреді</value>
+    </data>
+    <data name="TgAnimatedChatPhoto" xml:space="preserve">
+        <value>Профиль фотосы ретінде анимациялар жинағын көрсетеді</value>
+    </data>
+    <data name="Parameterlength" xml:space="preserve">
+        <value>Анимацияның ені мен биіктігі.</value>
+    </data>
+    <data name="TgChatPhoto" xml:space="preserve">
+        <value>Профиль фотосуретін білдіреді</value>
+    </data>
+    <data name="ParameteraddedDate" xml:space="preserve">
+        <value>Фотосурет қосылған уақыт нүктесі.</value>
+    </data>
+    <data name="ParameterphotoSizes" xml:space="preserve">
+        <value>Әртүрлі өлшемдегі фотосуреттердің вариациялары.</value>
+    </data>
+    <data name="TgText" xml:space="preserve">
+        <value>Мәтінді білдіреді.</value>
+    </data>
+    <data name="Parametertext" xml:space="preserve">
+        <value>Хабарлама мәтіні.</value>
+    </data>
+    <data name="TgUserFullInfo" xml:space="preserve">
+        <value>Пайдаланушы туралы толық ақпаратты білдіреді.</value>
+    </data>
+    <data name="ParameterisStoriesBlocked" xml:space="preserve">
+        <value>Пайдаланушы оқиғаларының бұғатталғанын белгілеңіз.</value>
+    </data>
+    <data name="ParameterisBlocked" xml:space="preserve">
+        <value>Пайдаланушының бұғатталғанын белгілеңіз.</value>
+    </data>
+    <data name="ParametercanBeCalled" xml:space="preserve">
+        <value>Рас, егер пайдаланушыны шақыруға болады.</value>
+    </data>
+    <data name="ParametersupportsVideoCalls" xml:space="preserve">
+        <value>Рас, егер сіз пайдаланушымен бейнеқоңырау жасай алсаңыз.</value>
+    </data>
+    <data name="ParameterhasPrivateCalls" xml:space="preserve">
+        <value>Құпиялық параметрлеріне байланысты пайдаланушыға қоңырау шалу мүмкін болмаса, дұрыс.</value>
+    </data>
+    <data name="ParameterhasPrivateForwards" xml:space="preserve">
+        <value>Пайдаланушыны құпиялылық параметрлеріне байланысты қайта жіберілген хабарлармен байланыстыру мүмкін болмаса, дұрыс.</value>
+    </data>
+    <data name="ParameterhasRestrictedVoiceAndVideoNoteMessages" xml:space="preserve">
+        <value>Дауыстық және бейне жазбаларды пайдаланушыға жіберу немесе қайта жіберу мүмкін болмаса, дұрыс.</value>
+    </data>
+    <data name="ParameterhasPinnedStories" xml:space="preserve">
+        <value>Пайдаланушы оқиғаларды бекітсе, бұл дұрыс.</value>
+    </data>
+    <data name="ParameterneedPhoneNumberPrivacyException" xml:space="preserve">
+        <value>Ағымдағы пайдаланушыға addContact әдісін пайдаланған кезде пайдаланушымен телефон нөмірін бөлісуге нақты рұқсат берілсе, дұрыс.</value>
+    </data>
+</root>

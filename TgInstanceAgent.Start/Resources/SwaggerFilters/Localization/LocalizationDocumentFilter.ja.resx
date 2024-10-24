@@ -1,0 +1,818 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AuthSetPhone" xml:space="preserve">
+        <value>電話番号を設定する</value>
+    </data>
+    <data name="ParameterinstanceId" xml:space="preserve">
+        <value>インスタンスID</value>
+    </data>
+    <data name="AuthSetPhoneRequest" xml:space="preserve">
+        <value>電話番号</value>
+    </data>
+    <data name="Response200" xml:space="preserve">
+        <value>成功</value>
+    </data>
+    <data name="Response400" xml:space="preserve">
+        <value>無効な入力データまたは無効なリクエスト</value>
+    </data>
+    <data name="Response500" xml:space="preserve">
+        <value>サーバーでエラーが発生しました</value>
+    </data>
+    <data name="AuthCheckCode" xml:space="preserve">
+        <value>確認コードを送信する</value>
+    </data>
+    <data name="AuthCheckCodeRequest" xml:space="preserve">
+        <value>検証コード</value>
+    </data>
+    <data name="AuthCheckPassword" xml:space="preserve">
+        <value>パスワードを送信する</value>
+    </data>
+    <data name="AuthCheckPasswordRequest" xml:space="preserve">
+        <value>パスワード</value>
+    </data>
+    <data name="ChatsGetChatHistory" xml:space="preserve">
+        <value>チャット履歴を取得する</value>
+    </data>
+    <data name="ParameterChatId" xml:space="preserve">
+        <value>チャットID。</value>
+    </data>
+    <data name="ParameterUsername" xml:space="preserve">
+        <value>ユーザー名。</value>
+    </data>
+    <data name="ParameterPhoneNumber" xml:space="preserve">
+        <value>電話番号。</value>
+    </data>
+    <data name="ParameterLimit" xml:space="preserve">
+        <value>メッセージ制限。</value>
+    </data>
+    <data name="ParameterOffset" xml:space="preserve">
+        <value>バイアス。</value>
+    </data>
+    <data name="ParameterFromMessageId" xml:space="preserve">
+        <value>メッセージ ID から始まります。</value>
+    </data>
+    <data name="ChatsGetMessage" xml:space="preserve">
+        <value>メッセージデータの取得</value>
+    </data>
+    <data name="ParameterMessageId" xml:space="preserve">
+        <value>メッセージID。</value>
+    </data>
+    <data name="ChatsGetMessageAvailableReactions" xml:space="preserve">
+        <value>メッセージに対して利用可能な反応のリストを取得する</value>
+    </data>
+    <data name="ContactsGetContacts" xml:space="preserve">
+        <value>連絡先リストを取得する</value>
+    </data>
+    <data name="ContactsImportContacts" xml:space="preserve">
+        <value>連絡先をインポートする</value>
+    </data>
+    <data name="ContactsImportContactsRequest" xml:space="preserve">
+        <value>連絡先の詳細</value>
+    </data>
+    <data name="ContactsAddContact" xml:space="preserve">
+        <value>連絡先を追加</value>
+    </data>
+    <data name="ContactsAddContactRequest" xml:space="preserve">
+        <value>ユーザーの連絡先詳細</value>
+    </data>
+    <data name="ContactsRemoveContact" xml:space="preserve">
+        <value>連絡先を削除する</value>
+    </data>
+    <data name="ContactsRemoveContactRequest" xml:space="preserve">
+        <value>ユーザーの連絡先詳細</value>
+    </data>
+    <data name="FileStartDownload" xml:space="preserve">
+        <value>ファイルIDによるファイルのダウンロードリクエスト</value>
+    </data>
+    <data name="FileStartDownloadRequest" xml:space="preserve">
+        <value>ファイルID付きモデル</value>
+    </data>
+    <data name="FileGetFile" xml:space="preserve">
+        <value>ファイルIDによるファイルの取得</value>
+    </data>
+    <data name="ParameterLocalId" xml:space="preserve">
+        <value>ローカルファイルID</value>
+    </data>
+    <data name="ParameterRemoteId" xml:space="preserve">
+        <value>リモートファイルID</value>
+    </data>
+    <data name="FileStartDownloadFromMessage" xml:space="preserve">
+        <value>メッセージからファイルのダウンロードをリクエストします。</value>
+    </data>
+    <data name="FileStartDownloadFromMessageRequest" xml:space="preserve">
+        <value>チャットとメッセージ ID を備えたモデル</value>
+    </data>
+    <data name="FileGetFileFromMessage" xml:space="preserve">
+        <value>メッセージからファイルを受信する</value>
+    </data>
+    <data name="InstanceGetInstance" xml:space="preserve">
+        <value>インスタンスデータの取得</value>
+    </data>
+    <data name="MessageSendTextMessage" xml:space="preserve">
+        <value>テキストメッセージを送信する</value>
+    </data>
+    <data name="MessageSendTextMessageRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="MessageSendLocationMessage" xml:space="preserve">
+        <value>地理位置情報の送信</value>
+    </data>
+    <data name="MessageSendLocationMessageRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="MessageSendAudioMessage" xml:space="preserve">
+        <value>音声メッセージを送信する</value>
+    </data>
+    <data name="MessageSendAudioMessageRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessage" xml:space="preserve">
+        <value>音声メッセージを送信する</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessageRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="MessageSendVideoNoteMessage" xml:space="preserve">
+        <value>サークルを送る</value>
+    </data>
+    <data name="MessageSendVideoNoteMessageRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="MessageSendVideoMessage" xml:space="preserve">
+        <value>ビデオを送信する</value>
+    </data>
+    <data name="MessageSendVideoMessageRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="MessageSendDocumentMessage" xml:space="preserve">
+        <value>書類の送信</value>
+    </data>
+    <data name="MessageSendDocumentMessageRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="MessageSendPhotoMessage" xml:space="preserve">
+        <value>写真を送信する</value>
+    </data>
+    <data name="MessageSendPhotoMessageRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="MessageSendStickerMessage" xml:space="preserve">
+        <value>ステッカーを送る</value>
+    </data>
+    <data name="MessageSendStickerMessageRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="MessageSendStoryMessage" xml:space="preserve">
+        <value>ストーリーを投稿する</value>
+    </data>
+    <data name="MessageSendStoryMessageRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="MessageSendAnimationMessage" xml:space="preserve">
+        <value>送信アニメーション (gif)</value>
+    </data>
+    <data name="MessageSendAnimationMessageRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="MessageSendContactMessage" xml:space="preserve">
+        <value>連絡先を送信する</value>
+    </data>
+    <data name="MessageSendContactMessageRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="MessageAddMessageReaction" xml:space="preserve">
+        <value>メッセージに反応を追加する</value>
+    </data>
+    <data name="MessageAddMessageReactionRequest" xml:space="preserve">
+        <value>反応データ</value>
+    </data>
+    <data name="MessageRemoveMessageReaction" xml:space="preserve">
+        <value>メッセージからの反応の削除</value>
+    </data>
+    <data name="MessageRemoveMessageReactionRequest" xml:space="preserve">
+        <value>反応データ</value>
+    </data>
+    <data name="MessageForwardMessages" xml:space="preserve">
+        <value>メッセージの転送</value>
+    </data>
+    <data name="MessageForwardMessagesRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="MessageDeleteMessages" xml:space="preserve">
+        <value>メッセージを削除する</value>
+    </data>
+    <data name="MessageDeleteMessagesRequest" xml:space="preserve">
+        <value>メッセージデータ</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhoto" xml:space="preserve">
+        <value>プロフィール写真を設定します。ファイル ID を使用してインストールする前に、まずファイルがサーバーにアップロードされていることを確認する必要があります。</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhotoRequest" xml:space="preserve">
+        <value>プロフィール写真を設定するためのデータです。</value>
+    </data>
+    <data name="ProfileSetPreviousProfilePhoto" xml:space="preserve">
+        <value>ユーザーの以前の写真の 1 つを写真 ID によって設定します。</value>
+    </data>
+    <data name="ParameterphotoId" xml:space="preserve">
+        <value>写真付き身分証明書。</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhoto" xml:space="preserve">
+        <value>プロフィール写真をカスタム絵文字として設定します。</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhotoRequest" xml:space="preserve">
+        <value>プロフィール写真を設定するためのデータです。</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhoto" xml:space="preserve">
+        <value>プロフィール写真をステッカーとして設定します。</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhotoRequest" xml:space="preserve">
+        <value>プロフィール写真を設定するためのデータです。</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhoto" xml:space="preserve">
+        <value>プロフィール写真をアニメーションとして設定します。ファイル ID を使用してインストールする前に、まずファイルがサーバーにアップロードされていることを確認する必要があります。</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhotoRequest" xml:space="preserve">
+        <value>プロフィール写真を設定するためのデータです。</value>
+    </data>
+    <data name="ProfileSetBio" xml:space="preserve">
+        <value>ユーザーのプロフィールを設定します。</value>
+    </data>
+    <data name="ProfileSetBioRequest" xml:space="preserve">
+        <value>ユーザーの経歴に関する情報を含むモデル。</value>
+    </data>
+    <data name="StoryPostPhotoStory" xml:space="preserve">
+        <value>写真の形でユーザーに新しいストーリーを設定します</value>
+    </data>
+    <data name="StoryPostPhotoStoryRequest" xml:space="preserve">
+        <value>履歴設定データです。</value>
+    </data>
+    <data name="StoryPostVideoStory" xml:space="preserve">
+        <value>ビデオの形式でユーザーに新しいストーリーを設定します</value>
+    </data>
+    <data name="StoryPostVideoStoryRequest" xml:space="preserve">
+        <value>履歴設定データです。</value>
+    </data>
+    <data name="StoryGetStory" xml:space="preserve">
+        <value>ID によってユーザーの履歴を取得します</value>
+    </data>
+    <data name="ParameterStoryId" xml:space="preserve">
+        <value>履歴ID</value>
+    </data>
+    <data name="StoryGetUserActiveStories" xml:space="preserve">
+        <value>ユーザーのアクティブなストーリーに関する情報を取得する</value>
+    </data>
+    <data name="UsersGetUser" xml:space="preserve">
+        <value>ユーザー情報の取得</value>
+    </data>
+    <data name="UsersGetMe" xml:space="preserve">
+        <value>許可されたユーザーに関する情報の取得</value>
+    </data>
+    <data name="UsersGetUserFullInfo" xml:space="preserve">
+        <value>ユーザーのプロフィールを取得する</value>
+    </data>
+    <data name="UsersGetUserProfilePhotos" xml:space="preserve">
+        <value>ユーザーの写真のリストを取得する</value>
+    </data>
+    <data name="SetPhoneNumberInputModel" xml:space="preserve">
+        <value>電報アカウントの電話番号を設定するための入力データ モデル</value>
+    </data>
+    <data name="CheckCodeInputModel" xml:space="preserve">
+        <value>確認コード検証用入力機種</value>
+    </data>
+    <data name="Parametercode" xml:space="preserve">
+        <value>確認コード。</value>
+    </data>
+    <data name="CheckPasswordInputModel" xml:space="preserve">
+        <value>パスワード検証用の入力モデル</value>
+    </data>
+    <data name="Parameterpassword" xml:space="preserve">
+        <value>パスワード</value>
+    </data>
+    <data name="TgReplyTo" xml:space="preserve">
+        <value>メッセージに返信するための情報。</value>
+    </data>
+    <data name="ParameterchatId" xml:space="preserve">
+        <value>チャットID。</value>
+    </data>
+    <data name="TgForwardInfo" xml:space="preserve">
+        <value>転送されるメッセージに関する情報。</value>
+    </data>
+    <data name="Parameterdate" xml:space="preserve">
+        <value>投稿日。</value>
+    </data>
+    <data name="TgMessageContent" xml:space="preserve">
+        <value>抽象的なメッセージ データ。</value>
+    </data>
+    <data name="TgMessage" xml:space="preserve">
+        <value>メッセージクラス。</value>
+    </data>
+    <data name="ParametersenderId" xml:space="preserve">
+        <value>送信者ID。</value>
+    </data>
+    <data name="ParametermessageId" xml:space="preserve">
+        <value>メッセージID。</value>
+    </data>
+    <data name="ParameterisOutgoing" xml:space="preserve">
+        <value>送信メッセージです。</value>
+    </data>
+    <data name="ParametercanBeEdited" xml:space="preserve">
+        <value>編集される場合があります。</value>
+    </data>
+    <data name="ParametercanBeForwarded" xml:space="preserve">
+        <value>転送される場合があります。</value>
+    </data>
+    <data name="ParametercanBeDeletedForAllUsers" xml:space="preserve">
+        <value>すべてのユーザーが削除できます。</value>
+    </data>
+    <data name="ParametereditDate" xml:space="preserve">
+        <value>編集日。</value>
+    </data>
+    <data name="TgReactionType" xml:space="preserve">
+        <value>リアクションクラス</value>
+    </data>
+    <data name="TgAvailableReaction" xml:space="preserve">
+        <value>リアクションクラス</value>
+    </data>
+    <data name="ParameterisNeedPremium" xml:space="preserve">
+        <value>リアクションがプレミアムリアクションであるかどうかを示すフラグ</value>
+    </data>
+    <data name="TgMessageAvailableReactions" xml:space="preserve">
+        <value>Telegram メッセージに対して利用可能なリアクションを表すクラス。</value>
+    </data>
+    <data name="ParametertopReactions" xml:space="preserve">
+        <value>最も人気のある反応のコレクションを取得または設定します。</value>
+    </data>
+    <data name="ParameterrecentReactions" xml:space="preserve">
+        <value>最近の反応のコレクションを取得または設定します。</value>
+    </data>
+    <data name="ParameterpopularReactions" xml:space="preserve">
+        <value>最近の反応のコレクションを取得または設定します。</value>
+    </data>
+    <data name="TgFile" xml:space="preserve">
+        <value>ファイルを表します</value>
+    </data>
+    <data name="ParameterfileId" xml:space="preserve">
+        <value>ファイルID。</value>
+    </data>
+    <data name="Parametersize" xml:space="preserve">
+        <value>ファイルサイズ。</value>
+    </data>
+    <data name="ParameterremoteId" xml:space="preserve">
+        <value>リモートファイルID。</value>
+    </data>
+    <data name="TgProfilePhoto" xml:space="preserve">
+        <value>プロフィール写真</value>
+    </data>
+    <data name="ParameterhasAnimation" xml:space="preserve">
+        <value>アニメーション写真</value>
+    </data>
+    <data name="ParameterisPersonal" xml:space="preserve">
+        <value>現在のユーザーによってインストールされました</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>ユーザー ステータス&lt;p&gt;メンバー:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;オンライン&lt;/i&gt; - オンライン ユーザー&lt;/li&gt;&lt;li&gt;&lt;i&gt;最近&lt;/i&gt; - ユーザーが最近ログインしました。 li &gt;&lt;li&gt;&lt;i&gt;LastWeek&lt;/i&gt; - ユーザーは 1 週間ログインしていません&lt;/li&gt;&lt;li&gt;&lt;i&gt;LastMonth&lt;/i&gt; - ユーザーは 1 か月間ログインしていません&lt;/li&gt; li&gt;&lt;li&gt;&lt;i&gt;オフライン&lt;/ i&gt; - オフライン ユーザー&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgUser" xml:space="preserve">
+        <value>連絡先を表すクラス。</value>
+    </data>
+    <data name="Parameterid" xml:space="preserve">
+        <value>識別子。</value>
+    </data>
+    <data name="ParameterfirstName" xml:space="preserve">
+        <value>名前。</value>
+    </data>
+    <data name="ParameterlastName" xml:space="preserve">
+        <value>姓。</value>
+    </data>
+    <data name="Parameterusername" xml:space="preserve">
+        <value>ユーザー名。</value>
+    </data>
+    <data name="ParameterisContact" xml:space="preserve">
+        <value>こちらは連絡先です</value>
+    </data>
+    <data name="ParameterisCloseFriend" xml:space="preserve">
+        <value>親しい友人です。</value>
+    </data>
+    <data name="ParameterisMutualContact" xml:space="preserve">
+        <value>相互連絡です。</value>
+    </data>
+    <data name="ParameterisFake" xml:space="preserve">
+        <value>偽の連絡です。</value>
+    </data>
+    <data name="ParameterisScum" xml:space="preserve">
+        <value>詐欺です。</value>
+    </data>
+    <data name="ParameterisVerified" xml:space="preserve">
+        <value>検証済み。</value>
+    </data>
+    <data name="ParameterhasActiveStories" xml:space="preserve">
+        <value>物語もあるよ</value>
+    </data>
+    <data name="ParameterhasUnreadActiveStories" xml:space="preserve">
+        <value>見えない物語がある</value>
+    </data>
+    <data name="ParameterisPremium" xml:space="preserve">
+        <value>プレミアムアカウント</value>
+    </data>
+    <data name="ParameterstatusEmojiId" xml:space="preserve">
+        <value>ステータスのスマイリー</value>
+    </data>
+    <data name="ImportContactInputModel" xml:space="preserve">
+        <value>接点を追加するための入力モデル</value>
+    </data>
+    <data name="AddContactInputModel" xml:space="preserve">
+        <value>接点を追加するための入力モデル</value>
+    </data>
+    <data name="RemoveContactInputModel" xml:space="preserve">
+        <value>ユーザー連絡先を削除するためのモデル</value>
+    </data>
+    <data name="FileIdRequestInputModel" xml:space="preserve">
+        <value>ファイル ID を使用したリクエストの入力モデル。</value>
+    </data>
+    <data name="ParameterlocalId" xml:space="preserve">
+        <value>ローカルファイルID</value>
+    </data>
+    <data name="FileMessageRequestInputModel" xml:space="preserve">
+        <value>リクエストのモデルをメッセージIDとチャットIDとともに入力します。</value>
+    </data>
+    <data name="SchedulingStateInputModel" xml:space="preserve">
+        <value>メッセージ送信スケジュールのタイプを定義する入力モデル</value>
+    </data>
+    <data name="ParametersendDate" xml:space="preserve">
+        <value>メッセージが送信された日付 日付が null の場合、メッセージのスケジュール タイプは受信者がオンラインになったときになります。</value>
+    </data>
+    <data name="MessageSendOptionsInputModel" xml:space="preserve">
+        <value>メッセージ送信用の入力パラメータのモデル</value>
+    </data>
+    <data name="ParameterdisableNotification" xml:space="preserve">
+        <value>フラグ - 受信者通知を無効にする</value>
+    </data>
+    <data name="ParameterprotectContent" xml:space="preserve">
+        <value>フラグ - 送信されたメッセージを転送または保存できるかどうか</value>
+    </data>
+    <data name="SendTextMessageInputModel" xml:space="preserve">
+        <value>テキストメッセージを送信するための入力モデル。</value>
+    </data>
+    <data name="Parametermessage" xml:space="preserve">
+        <value>メッセージテキスト。</value>
+    </data>
+    <data name="ParameterurlPreview" xml:space="preserve">
+        <value>URL プレビュー。</value>
+    </data>
+    <data name="ParameterdisableUrlPreview" xml:space="preserve">
+        <value>URL プレビューを無効にします。</value>
+    </data>
+    <data name="ParameterneedShowActivity" xml:space="preserve">
+        <value>アクティビティをメッセージの前に送信する必要があるかどうかを示すフラグ</value>
+    </data>
+    <data name="SendLocationMessageInputModel" xml:space="preserve">
+        <value>位置メッセージを送信するための入力モデル。</value>
+    </data>
+    <data name="Parameterlatitude" xml:space="preserve">
+        <value>場所の緯度。</value>
+    </data>
+    <data name="Parameterlongitude" xml:space="preserve">
+        <value>場所の経度。</value>
+    </data>
+    <data name="ParameterhorizontalAccuracy" xml:space="preserve">
+        <value>水平方向の位置精度。</value>
+    </data>
+    <data name="SendAudioMessageInputModel" xml:space="preserve">
+        <value>音声メッセージを送信するための入力データ モデル。</value>
+    </data>
+    <data name="ParameterfileInBase64" xml:space="preserve">
+        <value>メッセージで送信される Base64 ファイル。</value>
+    </data>
+    <data name="ParameterlocalFileId" xml:space="preserve">
+        <value>ローカルファイルID</value>
+    </data>
+    <data name="ParameterremoteFileId" xml:space="preserve">
+        <value>リモートファイルID</value>
+    </data>
+    <data name="Parametercaption" xml:space="preserve">
+        <value>ファイルメッセージの署名。</value>
+    </data>
+    <data name="Parametertitle" xml:space="preserve">
+        <value>音声メッセージのタイトル。</value>
+    </data>
+    <data name="Parameterperformer" xml:space="preserve">
+        <value>音声メッセージ出演者。</value>
+    </data>
+    <data name="ParameteralbumCoverThumbnailBase64" xml:space="preserve">
+        <value>Base64 形式のアルバム プレビュー。</value>
+    </data>
+    <data name="SendVoiceNoteMessageInputModel" xml:space="preserve">
+        <value>音声メッセージを送信するための入力データ モデル。</value>
+    </data>
+    <data name="SendVideoNoteMessageInputModel" xml:space="preserve">
+        <value>サークル送信用の入力データのモデル。</value>
+    </data>
+    <data name="SendVideoMessageInputModel" xml:space="preserve">
+        <value>ビデオ付きメッセージを送信するための入力データのモデル。</value>
+    </data>
+    <data name="ParameterneedShowRecordingActivity" xml:space="preserve">
+        <value>ユーザーがビデオを録画しているというアクティビティを表示する必要があるかどうかを示すフラグ。</value>
+    </data>
+    <data name="SendDocumentMessageInputModel" xml:space="preserve">
+        <value>ドキュメントを送信するための入力データのモデル。</value>
+    </data>
+    <data name="SendPhotoMessageInputModel" xml:space="preserve">
+        <value>写真付きのメッセージを送信するための入力データ モデル。</value>
+    </data>
+    <data name="SendStickerMessageInputModel" xml:space="preserve">
+        <value>スタンプ付きメッセージを送るための入力モデル。</value>
+    </data>
+    <data name="SendStoryMessageInputModel" xml:space="preserve">
+        <value>履歴付きメッセージ入力モデル</value>
+    </data>
+    <data name="ParameterstorySenderChatId" xml:space="preserve">
+        <value>ストーリーが投稿されたチャットのID</value>
+    </data>
+    <data name="ParameterstoryId" xml:space="preserve">
+        <value>履歴ID</value>
+    </data>
+    <data name="SendAnimationMessageInputModel" xml:space="preserve">
+        <value>アニメーション付きメッセージを送信するための入力モデル</value>
+    </data>
+    <data name="ParameterhasSpoiler" xml:space="preserve">
+        <value>アニメーション プレビューを閉じる必要がある場合は True。</value>
+    </data>
+    <data name="Parameterheight" xml:space="preserve">
+        <value>アニメーションの高さ</value>
+    </data>
+    <data name="Parameterwidth" xml:space="preserve">
+        <value>アニメーション幅</value>
+    </data>
+    <data name="SendContactMessageInputModel" xml:space="preserve">
+        <value>連絡先にメッセージを送信するための入力データ モデル。</value>
+    </data>
+    <data name="ParametercontactPhoneNumber" xml:space="preserve">
+        <value>連絡先の電話番号。</value>
+    </data>
+    <data name="ParametercontactId" xml:space="preserve">
+        <value>連絡先ID。</value>
+    </data>
+    <data name="ParametervCard" xml:space="preserve">
+        <value>名刺VCard。</value>
+    </data>
+    <data name="AddMessageReactionInputModel" xml:space="preserve">
+        <value>メッセージからリアクションを送信するための入力データ モデル</value>
+    </data>
+    <data name="Parameteremoji" xml:space="preserve">
+        <value>反応</value>
+    </data>
+    <data name="ParameteremojiId" xml:space="preserve">
+        <value>プレミアムな反応</value>
+    </data>
+    <data name="RemoveMessageReactionInputModel" xml:space="preserve">
+        <value>メッセージから反応を削除するための入力モデル</value>
+    </data>
+    <data name="ForwardMessagesInputModel" xml:space="preserve">
+        <value>メッセージ転送の入力モデル</value>
+    </data>
+    <data name="ParameterfromChatId" xml:space="preserve">
+        <value>メッセージの転送元のチャットの ID</value>
+    </data>
+    <data name="ParametermessageIds" xml:space="preserve">
+        <value>転送するメッセージ識別子の配列</value>
+    </data>
+    <data name="ParameterremoveCaption" xml:space="preserve">
+        <value>メディア ファイルの署名を削除する場合は True</value>
+    </data>
+    <data name="ParametersendCopy" xml:space="preserve">
+        <value>これらのメッセージのユーザーを参照せずにメッセージを転送する場合は True</value>
+    </data>
+    <data name="DeleteMessagesInputModel" xml:space="preserve">
+        <value>チャットメッセージを削除するための入力モデル</value>
+    </data>
+    <data name="Parameterrevoke" xml:space="preserve">
+        <value>すべてのチャット参加者を削除する場合は True</value>
+    </data>
+    <data name="SetPictureProfilePhotoInputModel" xml:space="preserve">
+        <value>プロフィール写真を設定するための入力データモデル。</value>
+    </data>
+    <data name="BackgroundGradientInputModel" xml:space="preserve">
+        <value>グラデーション背景を設定する機能の入力データ モデル</value>
+    </data>
+    <data name="ParametertopColor" xml:space="preserve">
+        <value>HEX 形式の上部の背景色。</value>
+    </data>
+    <data name="ParameterbottomColor" xml:space="preserve">
+        <value>HEX 形式の下部の背景色。</value>
+    </data>
+    <data name="ParameterrotationAngle" xml:space="preserve">
+        <value>グラデーションの時計回りの回転角度 (度単位)。 0-359。常に 45 で割り切れる必要があります</value>
+    </data>
+    <data name="BackgroundInputModel" xml:space="preserve">
+        <value>プロフィール写真にさまざまな背景を設定するために選択できるプロパティを含む入力データ モデル</value>
+    </data>
+    <data name="Parametercolor" xml:space="preserve">
+        <value>HEX形式の背景色</value>
+    </data>
+    <data name="Parametercolors" xml:space="preserve">
+        <value>つまたは 4 つのフリーフォーム グラデーション カラーのリスト (HEX 形式)</value>
+    </data>
+    <data name="SetEmojiProfilePhotoInputModel" xml:space="preserve">
+        <value>絵文字をプロフィール写真として設定するための入力モデル。</value>
+    </data>
+    <data name="ParametercustomEmojiId" xml:space="preserve">
+        <value>ステッカーID</value>
+    </data>
+    <data name="SetStickerProfilePhotoInputModel" xml:space="preserve">
+        <value>ステッカーをプロフィール写真として設定するためのモデルを入力します。</value>
+    </data>
+    <data name="ParameterstickerSetId" xml:space="preserve">
+        <value>ステッカーパックID</value>
+    </data>
+    <data name="ParameterstickerId" xml:space="preserve">
+        <value>ステッカーID</value>
+    </data>
+    <data name="SetAnimationProfilePhotoInputModel" xml:space="preserve">
+        <value>プロフィール写真の形にアニメーションを設定するための入力モデル。</value>
+    </data>
+    <data name="ParametermainFrameTimestamp" xml:space="preserve">
+        <value>アニメーションが静的に表示されるときのフレームのタイムスタンプ。</value>
+    </data>
+    <data name="SetUserBioInputModel" xml:space="preserve">
+        <value>ユーザープロフィールを設定するための入力データモデル</value>
+    </data>
+    <data name="Parameterbio" xml:space="preserve">
+        <value>バイオライン</value>
+    </data>
+    <data name="StoryPrivacySettingsContactsInputModel" xml:space="preserve">
+        <value>ユーザーの連絡先の履歴を表示できるプライバシー設定</value>
+    </data>
+    <data name="ParameterexceptUserIds" xml:space="preserve">
+        <value>履歴を表示しないユーザー ID の配列</value>
+    </data>
+    <data name="StoryPrivacySettingsEveryoneInputModel" xml:space="preserve">
+        <value>すべてのユーザーに履歴を表示できるプライバシー設定</value>
+    </data>
+    <data name="StoryPrivacySettingsSelectedUsersInputModel" xml:space="preserve">
+        <value>選択したユーザーに履歴を表示できるプライバシー設定</value>
+    </data>
+    <data name="ParameteruserIds" xml:space="preserve">
+        <value>ストーリーを閲覧するユーザー ID の配列</value>
+    </data>
+    <data name="StoryPrivacySettingsCloseFriendsInputModel" xml:space="preserve">
+        <value>親しい友達リストに登録されているユーザーが自分の履歴を閲覧できるようにするプライバシー設定</value>
+    </data>
+    <data name="StoryPrivacySettingsInputModel" xml:space="preserve">
+        <value>選択するプロパティを含む入力データ モデル 履歴のプライバシーを構成するには</value>
+    </data>
+    <data name="PostPhotoStoryInputModel" xml:space="preserve">
+        <value>写真付きストーリーを送るための入力モデル</value>
+    </data>
+    <data name="ParameteractivePeriod" xml:space="preserve">
+        <value>履歴を利用できる期間（時間単位）</value>
+    </data>
+    <data name="ParameterisPinned" xml:space="preserve">
+        <value>有効期限が切れた後も履歴を利用できるようにする場合は True</value>
+    </data>
+    <data name="TgStoryContent" xml:space="preserve">
+        <value>歴史の抽象的な背景。</value>
+    </data>
+    <data name="TgStoryPrivacySettings" xml:space="preserve">
+        <value>プライバシー設定の列挙&lt;p&gt;メンバー:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;CloseFriends&lt;/i&gt; - 親しい友人用&lt;/li&gt;&lt;li&gt;&lt;i&gt;連絡先&lt;/i&gt; - 連絡先&lt; /li&gt;&lt;li&gt;&lt;i&gt;EveryOne&lt;/i&gt; - すべてのユーザー向け&lt;/li&gt;&lt;li&gt;&lt;i&gt;SelectedUsers&lt;/i&gt; - 選択されたユーザー向け&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryFullInfo" xml:space="preserve">
+        <value>履歴に関する完全な情報を電報で提供します</value>
+    </data>
+    <data name="ParametersenderChatId" xml:space="preserve">
+        <value>履歴送信者ID（ユーザー）</value>
+    </data>
+    <data name="ParameterviewCount" xml:space="preserve">
+        <value>閲覧数</value>
+    </data>
+    <data name="ParameterforwardCount" xml:space="preserve">
+        <value>ストーリーは何回転送されましたか？</value>
+    </data>
+    <data name="ParameterreactionCount" xml:space="preserve">
+        <value>ストーリーへのリアクション数</value>
+    </data>
+    <data name="ParameterrecentViewerUserIds" xml:space="preserve">
+        <value>最大 3 つの最新履歴ビューアの ID</value>
+    </data>
+    <data name="ParameterisBeingSent" xml:space="preserve">
+        <value>現在のユーザーがストーリーを送信している場合は True</value>
+    </data>
+    <data name="ParameterisBeingEdited" xml:space="preserve">
+        <value>現在のユーザーがストーリーを編集している場合は True</value>
+    </data>
+    <data name="ParameterisEdited" xml:space="preserve">
+        <value>ストーリーが編集されている場合は True</value>
+    </data>
+    <data name="ParameterisVisibleOnlyForSelf" xml:space="preserve">
+        <value>履歴所有者のみに表示される場合は True</value>
+    </data>
+    <data name="ParametercanBeDeleted" xml:space="preserve">
+        <value>削除できる場合は True</value>
+    </data>
+    <data name="ParametercanBeReplied" xml:space="preserve">
+        <value>歴史に答えられる場合は True</value>
+    </data>
+    <data name="ParametercanToggleIsPinned" xml:space="preserve">
+        <value>IsPinned を変更できる場合は True</value>
+    </data>
+    <data name="ParametercanGetViewers" xml:space="preserve">
+        <value>履歴を閲覧したユーザーを取得できる場合は True</value>
+    </data>
+    <data name="PostVideoStoryInputModel" xml:space="preserve">
+        <value>履歴を動画付きで送信するための入力モデル</value>
+    </data>
+    <data name="ParameterisAnimation" xml:space="preserve">
+        <value>ビデオに音声がない場合は True</value>
+    </data>
+    <data name="TgStoryTypeList" xml:space="preserve">
+        <value>履歴リスト タイプの列挙&lt;p&gt;メンバー:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;メイン&lt;/i&gt; - メイン&lt;/li&gt;&lt;li&gt;&lt;i&gt;アーカイブ&lt;/i&gt; - アーカイブ&lt;/li &gt; &lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryInfo" xml:space="preserve">
+        <value>ユーザーのアクティブな履歴に関する情報を表します</value>
+    </data>
+    <data name="ParameterisForCloseFriends" xml:space="preserve">
+        <value>親しい友人向けの話の場合は True</value>
+    </data>
+    <data name="TgUserActiveStories" xml:space="preserve">
+        <value>ユーザーのアクティブなストーリーに関する情報を表します</value>
+    </data>
+    <data name="Parameterorder" xml:space="preserve">
+        <value>リスト内のストーリーの順序を決定するために使用されます</value>
+    </data>
+    <data name="ParametermaxReadStoryId" xml:space="preserve">
+        <value>最後に閲覧したアクティブな履歴 ID</value>
+    </data>
+    <data name="Parameterstories" xml:space="preserve">
+        <value>各ストーリーに関する情報を含む配列</value>
+    </data>
+    <data name="TgMiniThumbnail" xml:space="preserve">
+        <value>小さなプレビューを表示します</value>
+    </data>
+    <data name="ParameterminiThumbnail" xml:space="preserve">
+        <value>ちょっとしたプレビュー。</value>
+    </data>
+    <data name="TgPhotoSize" xml:space="preserve">
+        <value>写真のサイズを表します</value>
+    </data>
+    <data name="TgAnimatedChatPhoto" xml:space="preserve">
+        <value>プロフィール写真として設定されたアニメーションを表します</value>
+    </data>
+    <data name="Parameterlength" xml:space="preserve">
+        <value>アニメーションの幅と高さ。</value>
+    </data>
+    <data name="TgChatPhoto" xml:space="preserve">
+        <value>プロフィール写真を表します</value>
+    </data>
+    <data name="ParameteraddedDate" xml:space="preserve">
+        <value>写真が追加された時点。</value>
+    </data>
+    <data name="ParameterphotoSizes" xml:space="preserve">
+        <value>さまざまなサイズの写真のバリエーション。</value>
+    </data>
+    <data name="TgText" xml:space="preserve">
+        <value>テキストを表します。</value>
+    </data>
+    <data name="Parametertext" xml:space="preserve">
+        <value>メッセージテキスト。</value>
+    </data>
+    <data name="TgUserFullInfo" xml:space="preserve">
+        <value>ユーザーに関する完全な情報を表します。</value>
+    </data>
+    <data name="ParameterisStoriesBlocked" xml:space="preserve">
+        <value>ユーザーストーリーがブロックされているかどうかを示すフラグ。</value>
+    </data>
+    <data name="ParameterisBlocked" xml:space="preserve">
+        <value>ユーザーがブロックされているかどうかを示すフラグ。</value>
+    </data>
+    <data name="ParametercanBeCalled" xml:space="preserve">
+        <value>ユーザーを呼び出すことができる場合は True。</value>
+    </data>
+    <data name="ParametersupportsVideoCalls" xml:space="preserve">
+        <value>ユーザーとビデオ通話を作成できる場合は True。</value>
+    </data>
+    <data name="ParameterhasPrivateCalls" xml:space="preserve">
+        <value>プライバシー設定によりユーザーに電話をかけることができない場合は True。</value>
+    </data>
+    <data name="ParameterhasPrivateForwards" xml:space="preserve">
+        <value>プライバシー設定により、転送されたメッセージにユーザーを関連付けることができない場合は True。</value>
+    </data>
+    <data name="ParameterhasRestrictedVoiceAndVideoNoteMessages" xml:space="preserve">
+        <value>True の場合、音声メモとビデオメモをユーザーに送信または転送できません。</value>
+    </data>
+    <data name="ParameterhasPinnedStories" xml:space="preserve">
+        <value>ユーザーがストーリーを固定している場合は True。</value>
+    </data>
+    <data name="ParameterneedPhoneNumberPrivacyException" xml:space="preserve">
+        <value>addContact メソッドを使用するときに、現在のユーザーが自分の電話番号をユーザーと共有することを明示的に許可する場合は True。</value>
+    </data>
+</root>

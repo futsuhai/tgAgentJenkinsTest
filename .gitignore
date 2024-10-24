@@ -1,0 +1,13 @@
+.idea/
+bin/
+obj/
+TgData/
+Logging/
+TempFiles/
+/TgInstanceAgent.sln.DotSettings.user
+*.bin
+*.config
+*.v2
+*.vsidx
+*.suo
+*.csv

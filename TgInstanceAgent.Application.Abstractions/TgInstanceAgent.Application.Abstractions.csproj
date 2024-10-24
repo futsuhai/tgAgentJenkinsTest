@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <DocumentationFile>bin\Debug\TgInstanceAgent.Application.Abstractions.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MassTransit.Abstractions" Version="8.2.2" />
+      <PackageReference Include="MediatR" Version="12.2.0" />
+      <PackageReference Include="TDLib.Api" Version="1.8.29" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\IntegrationEvents\IntegrationEvents.csproj" />
+      <ProjectReference Include="..\TgInstanceAgent.Domain.Abstractions\TgInstanceAgent.Domain.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

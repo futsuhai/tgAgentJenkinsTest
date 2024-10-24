@@ -1,0 +1,93 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.0" />
+        <PackageReference Include="MassTransit" Version="8.2.2" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.2" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson" Version="8.0.7" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="SharpGrip.FluentValidation.AutoValidation.Mvc" Version="1.4.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.5.0" />
+        <PackageReference Include="Elastic.Serilog.Sinks" Version="8.11.1" />
+        <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+        <PackageReference Include="Serilog.Sinks.Telegram.Alternative" Version="1.4.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TgInstanceAgent.Application.Abstractions\TgInstanceAgent.Application.Abstractions.csproj" />
+      <ProjectReference Include="..\TgInstanceAgent.Application.Services\TgInstanceAgent.Application.Services.csproj" />
+      <ProjectReference Include="..\TgInstanceAgent.Infrastructure.Bus\TgInstanceAgent.Infrastructure.Bus.csproj" />
+      <ProjectReference Include="..\TgInstanceAgent.Infrastructure.Proxy\TgInstanceAgent.Infrastructure.Proxy.csproj" />
+      <ProjectReference Include="..\TgInstanceAgent.Infrastructure.Storage\TgInstanceAgent.Infrastructure.Storage.csproj" />
+      <ProjectReference Include="..\TgInstanceAgent.Infrastructure.Telegram\TgInstanceAgent.Infrastructure.Telegram.csproj" />
+      <ProjectReference Include="..\TgInstanceAgent.Infrastructure.Webhook\TgInstanceAgent.Infrastructure.Webhook.csproj" />
+      <ProjectReference Include="..\TgInstanceAgent.Infrastructure.Web\TgInstanceAgent.Infrastructure.Web.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Resources\SwaggerResources\LocalizationDocumentFilter.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>LocalizationDocumentFilter.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\SwaggerFilters\Localization\LocalizationDocumentFilter.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>LocalizationDocumentFilter.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Resources\SwaggerResources\LocalizationDocumentFilter.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>LocalizationDocumentFilter.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\SwaggerFilters\Localization\LocalizationDocumentFilter.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>LocalizationDocumentFilter.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-500.eot" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-500.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-500.ttf" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-500.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-500.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-600.eot" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-600.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-600.ttf" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-600.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-600.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-regular.eot" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-regular.svg" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-regular.ttf" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-regular.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\montserrat-v14-latin_cyrillic-regular.woff2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="TgData\" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,818 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AuthSetPhone" xml:space="preserve">
+        <value>設定電話號碼</value>
+    </data>
+    <data name="ParameterinstanceId" xml:space="preserve">
+        <value>實例ID</value>
+    </data>
+    <data name="AuthSetPhoneRequest" xml:space="preserve">
+        <value>電話號碼</value>
+    </data>
+    <data name="Response200" xml:space="preserve">
+        <value>成功</value>
+    </data>
+    <data name="Response400" xml:space="preserve">
+        <value>輸入資料無效或請求無效</value>
+    </data>
+    <data name="Response500" xml:space="preserve">
+        <value>伺服器發生錯誤</value>
+    </data>
+    <data name="AuthCheckCode" xml:space="preserve">
+        <value>發送驗證碼</value>
+    </data>
+    <data name="AuthCheckCodeRequest" xml:space="preserve">
+        <value>驗證碼</value>
+    </data>
+    <data name="AuthCheckPassword" xml:space="preserve">
+        <value>發送密碼</value>
+    </data>
+    <data name="AuthCheckPasswordRequest" xml:space="preserve">
+        <value>密碼</value>
+    </data>
+    <data name="ChatsGetChatHistory" xml:space="preserve">
+        <value>取得聊天記錄</value>
+    </data>
+    <data name="ParameterChatId" xml:space="preserve">
+        <value>聊天ID。</value>
+    </data>
+    <data name="ParameterUsername" xml:space="preserve">
+        <value>使用者名稱.</value>
+    </data>
+    <data name="ParameterPhoneNumber" xml:space="preserve">
+        <value>電話號碼。</value>
+    </data>
+    <data name="ParameterLimit" xml:space="preserve">
+        <value>留言限制。</value>
+    </data>
+    <data name="ParameterOffset" xml:space="preserve">
+        <value>偏見。</value>
+    </data>
+    <data name="ParameterFromMessageId" xml:space="preserve">
+        <value>從訊息 ID 開始。</value>
+    </data>
+    <data name="ChatsGetMessage" xml:space="preserve">
+        <value>取得訊息數據</value>
+    </data>
+    <data name="ParameterMessageId" xml:space="preserve">
+        <value>訊息ID。</value>
+    </data>
+    <data name="ChatsGetMessageAvailableReactions" xml:space="preserve">
+        <value>取得對訊息的可用反應列表</value>
+    </data>
+    <data name="ContactsGetContacts" xml:space="preserve">
+        <value>取得聯絡人列表</value>
+    </data>
+    <data name="ContactsImportContacts" xml:space="preserve">
+        <value>導入聯絡人</value>
+    </data>
+    <data name="ContactsImportContactsRequest" xml:space="preserve">
+        <value>聯絡方式</value>
+    </data>
+    <data name="ContactsAddContact" xml:space="preserve">
+        <value>增加聯繫人</value>
+    </data>
+    <data name="ContactsAddContactRequest" xml:space="preserve">
+        <value>用戶聯絡方式</value>
+    </data>
+    <data name="ContactsRemoveContact" xml:space="preserve">
+        <value>刪除聯絡人</value>
+    </data>
+    <data name="ContactsRemoveContactRequest" xml:space="preserve">
+        <value>用戶聯絡方式</value>
+    </data>
+    <data name="FileStartDownload" xml:space="preserve">
+        <value>透過文件ID請求下載文件</value>
+    </data>
+    <data name="FileStartDownloadRequest" xml:space="preserve">
+        <value>帶有檔案 ID 的模型</value>
+    </data>
+    <data name="FileGetFile" xml:space="preserve">
+        <value>透過文件 ID 檢索文件</value>
+    </data>
+    <data name="ParameterLocalId" xml:space="preserve">
+        <value>本機檔案ID</value>
+    </data>
+    <data name="ParameterRemoteId" xml:space="preserve">
+        <value>遠端檔案ID</value>
+    </data>
+    <data name="FileStartDownloadFromMessage" xml:space="preserve">
+        <value>請求從訊息中下載檔案。</value>
+    </data>
+    <data name="FileStartDownloadFromMessageRequest" xml:space="preserve">
+        <value>具有聊天和訊息 ID 的模型</value>
+    </data>
+    <data name="FileGetFileFromMessage" xml:space="preserve">
+        <value>從訊息中接收文件</value>
+    </data>
+    <data name="InstanceGetInstance" xml:space="preserve">
+        <value>檢索實例數據</value>
+    </data>
+    <data name="MessageSendTextMessage" xml:space="preserve">
+        <value>傳簡訊</value>
+    </data>
+    <data name="MessageSendTextMessageRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="MessageSendLocationMessage" xml:space="preserve">
+        <value>發送地理位置</value>
+    </data>
+    <data name="MessageSendLocationMessageRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="MessageSendAudioMessage" xml:space="preserve">
+        <value>傳送音訊訊息</value>
+    </data>
+    <data name="MessageSendAudioMessageRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessage" xml:space="preserve">
+        <value>傳送語音訊息</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessageRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="MessageSendVideoNoteMessage" xml:space="preserve">
+        <value>發個圈子</value>
+    </data>
+    <data name="MessageSendVideoNoteMessageRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="MessageSendVideoMessage" xml:space="preserve">
+        <value>傳送影片</value>
+    </data>
+    <data name="MessageSendVideoMessageRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="MessageSendDocumentMessage" xml:space="preserve">
+        <value>傳送文件</value>
+    </data>
+    <data name="MessageSendDocumentMessageRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="MessageSendPhotoMessage" xml:space="preserve">
+        <value>傳送照片</value>
+    </data>
+    <data name="MessageSendPhotoMessageRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="MessageSendStickerMessage" xml:space="preserve">
+        <value>傳送貼紙</value>
+    </data>
+    <data name="MessageSendStickerMessageRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="MessageSendStoryMessage" xml:space="preserve">
+        <value>提交故事</value>
+    </data>
+    <data name="MessageSendStoryMessageRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="MessageSendAnimationMessage" xml:space="preserve">
+        <value>傳送動畫 (gif)</value>
+    </data>
+    <data name="MessageSendAnimationMessageRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="MessageSendContactMessage" xml:space="preserve">
+        <value>發送聯絡方式</value>
+    </data>
+    <data name="MessageSendContactMessageRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="MessageAddMessageReaction" xml:space="preserve">
+        <value>加入對訊息的反應</value>
+    </data>
+    <data name="MessageAddMessageReactionRequest" xml:space="preserve">
+        <value>反應數據</value>
+    </data>
+    <data name="MessageRemoveMessageReaction" xml:space="preserve">
+        <value>刪除訊息中的反應</value>
+    </data>
+    <data name="MessageRemoveMessageReactionRequest" xml:space="preserve">
+        <value>反應數據</value>
+    </data>
+    <data name="MessageForwardMessages" xml:space="preserve">
+        <value>轉發訊息</value>
+    </data>
+    <data name="MessageForwardMessagesRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="MessageDeleteMessages" xml:space="preserve">
+        <value>刪除訊息</value>
+    </data>
+    <data name="MessageDeleteMessagesRequest" xml:space="preserve">
+        <value>訊息數據</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhoto" xml:space="preserve">
+        <value>設定個人資料照片。在透過檔案ID安裝之前，首先必須確保檔案已上傳到伺服器。</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhotoRequest" xml:space="preserve">
+        <value>用於設定個人資料照片的資料。</value>
+    </data>
+    <data name="ProfileSetPreviousProfilePhoto" xml:space="preserve">
+        <value>按照片 ID 設定使用者之前的一張照片。</value>
+    </data>
+    <data name="ParameterphotoId" xml:space="preserve">
+        <value>附照片的身份證件。</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhoto" xml:space="preserve">
+        <value>將個人資料照片設定為自訂表情符號。</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhotoRequest" xml:space="preserve">
+        <value>用於設定個人資料照片的資料。</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhoto" xml:space="preserve">
+        <value>將您的個人資料照片設定為貼紙。</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhotoRequest" xml:space="preserve">
+        <value>用於設定個人資料照片的資料。</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhoto" xml:space="preserve">
+        <value>將個人資料照片設定為動畫。在透過檔案ID安裝之前，首先必須確保檔案已上傳到伺服器。</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhotoRequest" xml:space="preserve">
+        <value>用於設定個人資料照片的資料。</value>
+    </data>
+    <data name="ProfileSetBio" xml:space="preserve">
+        <value>為使用者設定個人簡介。</value>
+    </data>
+    <data name="ProfileSetBioRequest" xml:space="preserve">
+        <value>包含有關使用者生物資訊的模型。</value>
+    </data>
+    <data name="StoryPostPhotoStory" xml:space="preserve">
+        <value>以照片的形式為使用者設定一個新的故事</value>
+    </data>
+    <data name="StoryPostPhotoStoryRequest" xml:space="preserve">
+        <value>歷史設定數據。</value>
+    </data>
+    <data name="StoryPostVideoStory" xml:space="preserve">
+        <value>以影片的形式為用戶設定一個新的故事</value>
+    </data>
+    <data name="StoryPostVideoStoryRequest" xml:space="preserve">
+        <value>歷史設定數據。</value>
+    </data>
+    <data name="StoryGetStory" xml:space="preserve">
+        <value>透過 ID 檢索使用者的歷史記錄</value>
+    </data>
+    <data name="ParameterStoryId" xml:space="preserve">
+        <value>歷史ID</value>
+    </data>
+    <data name="StoryGetUserActiveStories" xml:space="preserve">
+        <value>獲取有關用戶活躍故事的信息</value>
+    </data>
+    <data name="UsersGetUser" xml:space="preserve">
+        <value>獲取用戶資訊</value>
+    </data>
+    <data name="UsersGetMe" xml:space="preserve">
+        <value>取得有關授權使用者的信息</value>
+    </data>
+    <data name="UsersGetUserFullInfo" xml:space="preserve">
+        <value>取得使用者簡介</value>
+    </data>
+    <data name="UsersGetUserProfilePhotos" xml:space="preserve">
+        <value>取得使用者照片列表</value>
+    </data>
+    <data name="SetPhoneNumberInputModel" xml:space="preserve">
+        <value>用於設定電報帳戶電話號碼的輸入資料模型</value>
+    </data>
+    <data name="CheckCodeInputModel" xml:space="preserve">
+        <value>驗證確認碼輸入模型</value>
+    </data>
+    <data name="Parametercode" xml:space="preserve">
+        <value>驗證碼。</value>
+    </data>
+    <data name="CheckPasswordInputModel" xml:space="preserve">
+        <value>密碼驗證輸入模型</value>
+    </data>
+    <data name="Parameterpassword" xml:space="preserve">
+        <value>密碼</value>
+    </data>
+    <data name="TgReplyTo" xml:space="preserve">
+        <value>用於回覆訊息的訊息。</value>
+    </data>
+    <data name="ParameterchatId" xml:space="preserve">
+        <value>聊天ID。</value>
+    </data>
+    <data name="TgForwardInfo" xml:space="preserve">
+        <value>有關正在轉發的訊息的資訊。</value>
+    </data>
+    <data name="Parameterdate" xml:space="preserve">
+        <value>發布日期。</value>
+    </data>
+    <data name="TgMessageContent" xml:space="preserve">
+        <value>抽象訊息資料。</value>
+    </data>
+    <data name="TgMessage" xml:space="preserve">
+        <value>訊息類。</value>
+    </data>
+    <data name="ParametersenderId" xml:space="preserve">
+        <value>寄件者ID。</value>
+    </data>
+    <data name="ParametermessageId" xml:space="preserve">
+        <value>訊息ID。</value>
+    </data>
+    <data name="ParameterisOutgoing" xml:space="preserve">
+        <value>是一條傳出訊息。</value>
+    </data>
+    <data name="ParametercanBeEdited" xml:space="preserve">
+        <value>可能會被編輯。</value>
+    </data>
+    <data name="ParametercanBeForwarded" xml:space="preserve">
+        <value>可以轉發。</value>
+    </data>
+    <data name="ParametercanBeDeletedForAllUsers" xml:space="preserve">
+        <value>可以為所有使用者刪除。</value>
+    </data>
+    <data name="ParametereditDate" xml:space="preserve">
+        <value>編輯日期。</value>
+    </data>
+    <data name="TgReactionType" xml:space="preserve">
+        <value>反應等級</value>
+    </data>
+    <data name="TgAvailableReaction" xml:space="preserve">
+        <value>反應等級</value>
+    </data>
+    <data name="ParameterisNeedPremium" xml:space="preserve">
+        <value>標記反應是否為優質反應</value>
+    </data>
+    <data name="TgMessageAvailableReactions" xml:space="preserve">
+        <value>表示 Telegram 訊息的可用反應的類別。</value>
+    </data>
+    <data name="ParametertopReactions" xml:space="preserve">
+        <value>取得或設定最流行反應的集合。</value>
+    </data>
+    <data name="ParameterrecentReactions" xml:space="preserve">
+        <value>取得或設定最近反應的集合。</value>
+    </data>
+    <data name="ParameterpopularReactions" xml:space="preserve">
+        <value>取得或設定最近反應的集合。</value>
+    </data>
+    <data name="TgFile" xml:space="preserve">
+        <value>代表一個文件</value>
+    </data>
+    <data name="ParameterfileId" xml:space="preserve">
+        <value>文件編號。</value>
+    </data>
+    <data name="Parametersize" xml:space="preserve">
+        <value>文件大小。</value>
+    </data>
+    <data name="ParameterremoteId" xml:space="preserve">
+        <value>遠端檔案 ID。</value>
+    </data>
+    <data name="TgProfilePhoto" xml:space="preserve">
+        <value>頭像照片</value>
+    </data>
+    <data name="ParameterhasAnimation" xml:space="preserve">
+        <value>動畫照片</value>
+    </data>
+    <data name="ParameterisPersonal" xml:space="preserve">
+        <value>由目前使用者安裝</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>使用者狀態&lt;p&gt;會員：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;線上&lt;/i&gt; - 線上使用者&lt;/li&gt;&lt;li&gt;&lt;i&gt;最近&lt;/i&gt; - 最近登入的使用者&lt;/ i&gt; li &gt;&lt;li&gt;&lt;i&gt;LastWeek&lt;/i&gt; - 使用者已經一週沒有登入&lt;/li&gt;&lt;li&gt;&lt;i&gt;LastMonth&lt;/i&gt; - 使用者已經一個月沒有登入&lt;/li&gt;&lt;li&gt; &lt;i&gt;LastMonth&lt;/i&gt; li&gt;&lt;li&gt;&lt;i&gt;離線&lt;/ i&gt; - 離線使用者&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgUser" xml:space="preserve">
+        <value>代表聯絡人的類別。</value>
+    </data>
+    <data name="Parameterid" xml:space="preserve">
+        <value>標識符。</value>
+    </data>
+    <data name="ParameterfirstName" xml:space="preserve">
+        <value>姓名。</value>
+    </data>
+    <data name="ParameterlastName" xml:space="preserve">
+        <value>姓。</value>
+    </data>
+    <data name="Parameterusername" xml:space="preserve">
+        <value>使用者名稱.</value>
+    </data>
+    <data name="ParameterisContact" xml:space="preserve">
+        <value>這是聯絡方式</value>
+    </data>
+    <data name="ParameterisCloseFriend" xml:space="preserve">
+        <value>是親密的朋友。</value>
+    </data>
+    <data name="ParameterisMutualContact" xml:space="preserve">
+        <value>是互相接觸。</value>
+    </data>
+    <data name="ParameterisFake" xml:space="preserve">
+        <value>是假聯絡方式。</value>
+    </data>
+    <data name="ParameterisScum" xml:space="preserve">
+        <value>是一個騙局。</value>
+    </data>
+    <data name="ParameterisVerified" xml:space="preserve">
+        <value>已驗證。</value>
+    </data>
+    <data name="ParameterhasActiveStories" xml:space="preserve">
+        <value>有故事</value>
+    </data>
+    <data name="ParameterhasUnreadActiveStories" xml:space="preserve">
+        <value>還有一些不為人知的故事</value>
+    </data>
+    <data name="ParameterisPremium" xml:space="preserve">
+        <value>至尊帳號</value>
+    </data>
+    <data name="ParameterstatusEmojiId" xml:space="preserve">
+        <value>狀態中的笑臉</value>
+    </data>
+    <data name="ImportContactInputModel" xml:space="preserve">
+        <value>新增聯絡人的輸入模型</value>
+    </data>
+    <data name="AddContactInputModel" xml:space="preserve">
+        <value>新增聯絡人的輸入模型</value>
+    </data>
+    <data name="RemoveContactInputModel" xml:space="preserve">
+        <value>刪除用戶聯絡人的模型</value>
+    </data>
+    <data name="FileIdRequestInputModel" xml:space="preserve">
+        <value>帶有檔案 ID 的請求的輸入模型。</value>
+    </data>
+    <data name="ParameterlocalId" xml:space="preserve">
+        <value>本機檔案ID</value>
+    </data>
+    <data name="FileMessageRequestInputModel" xml:space="preserve">
+        <value>帶有訊息 ID 和聊天 ID 的請求的輸入模型。</value>
+    </data>
+    <data name="SchedulingStateInputModel" xml:space="preserve">
+        <value>定義訊息發送調度類型的輸入模型</value>
+    </data>
+    <data name="ParametersendDate" xml:space="preserve">
+        <value>訊息發送日期 如果日期為空，則訊息調度類型將為收件人上線的時間</value>
+    </data>
+    <data name="MessageSendOptionsInputModel" xml:space="preserve">
+        <value>發送訊息的輸入參數模型</value>
+    </data>
+    <data name="ParameterdisableNotification" xml:space="preserve">
+        <value>標記 - 停用收件者通知</value>
+    </data>
+    <data name="ParameterprotectContent" xml:space="preserve">
+        <value>Flag－發送的訊息是否可以轉發或儲存</value>
+    </data>
+    <data name="SendTextMessageInputModel" xml:space="preserve">
+        <value>用於發送文字訊息的輸入模型。</value>
+    </data>
+    <data name="Parametermessage" xml:space="preserve">
+        <value>訊息文字。</value>
+    </data>
+    <data name="ParameterurlPreview" xml:space="preserve">
+        <value>網址預覽。</value>
+    </data>
+    <data name="ParameterdisableUrlPreview" xml:space="preserve">
+        <value>停用 URL 預覽。</value>
+    </data>
+    <data name="ParameterneedShowActivity" xml:space="preserve">
+        <value>指示活動是否應在訊息之前發送的標誌</value>
+    </data>
+    <data name="SendLocationMessageInputModel" xml:space="preserve">
+        <value>用於發送位置訊息的輸入模型。</value>
+    </data>
+    <data name="Parameterlatitude" xml:space="preserve">
+        <value>位置的緯度。</value>
+    </data>
+    <data name="Parameterlongitude" xml:space="preserve">
+        <value>位置的經度。</value>
+    </data>
+    <data name="ParameterhorizontalAccuracy" xml:space="preserve">
+        <value>水平定位精度。</value>
+    </data>
+    <data name="SendAudioMessageInputModel" xml:space="preserve">
+        <value>用於發送音訊訊息的輸入資料模型。</value>
+    </data>
+    <data name="ParameterfileInBase64" xml:space="preserve">
+        <value>將在訊息中發送的 Base64 檔案。</value>
+    </data>
+    <data name="ParameterlocalFileId" xml:space="preserve">
+        <value>本機檔案ID</value>
+    </data>
+    <data name="ParameterremoteFileId" xml:space="preserve">
+        <value>遠端檔案ID</value>
+    </data>
+    <data name="Parametercaption" xml:space="preserve">
+        <value>文件訊息簽名。</value>
+    </data>
+    <data name="Parametertitle" xml:space="preserve">
+        <value>音訊訊息的標題。</value>
+    </data>
+    <data name="Parameterperformer" xml:space="preserve">
+        <value>音頻訊息表演者。</value>
+    </data>
+    <data name="ParameteralbumCoverThumbnailBase64" xml:space="preserve">
+        <value>Base64 格式的專輯預覽。</value>
+    </data>
+    <data name="SendVoiceNoteMessageInputModel" xml:space="preserve">
+        <value>用於發送語音訊息的輸入資料模型。</value>
+    </data>
+    <data name="SendVideoNoteMessageInputModel" xml:space="preserve">
+        <value>發送循環的輸入資料模型。</value>
+    </data>
+    <data name="SendVideoMessageInputModel" xml:space="preserve">
+        <value>用於發送視訊訊息的輸入資料模型。</value>
+    </data>
+    <data name="ParameterneedShowRecordingActivity" xml:space="preserve">
+        <value>指示是否有必要顯示使用者正在錄製影片的活動的標誌。</value>
+    </data>
+    <data name="SendDocumentMessageInputModel" xml:space="preserve">
+        <value>用於傳送文件的輸入資料模型。</value>
+    </data>
+    <data name="SendPhotoMessageInputModel" xml:space="preserve">
+        <value>用於發送帶有照片的訊息的輸入資料模型。</value>
+    </data>
+    <data name="SendStickerMessageInputModel" xml:space="preserve">
+        <value>用於發送帶有貼紙的訊息的輸入模型。</value>
+    </data>
+    <data name="SendStoryMessageInputModel" xml:space="preserve">
+        <value>具有歷史記錄的訊息輸入模型</value>
+    </data>
+    <data name="ParameterstorySenderChatId" xml:space="preserve">
+        <value>發布故事的聊天 ID</value>
+    </data>
+    <data name="ParameterstoryId" xml:space="preserve">
+        <value>歷史ID</value>
+    </data>
+    <data name="SendAnimationMessageInputModel" xml:space="preserve">
+        <value>用於發送動畫訊息的輸入模型</value>
+    </data>
+    <data name="ParameterhasSpoiler" xml:space="preserve">
+        <value>如果應關閉動畫預覽，則為 true。</value>
+    </data>
+    <data name="Parameterheight" xml:space="preserve">
+        <value>動畫高度</value>
+    </data>
+    <data name="Parameterwidth" xml:space="preserve">
+        <value>動畫寬度</value>
+    </data>
+    <data name="SendContactMessageInputModel" xml:space="preserve">
+        <value>用於向聯絡人發送訊息的輸入資料模型。</value>
+    </data>
+    <data name="ParametercontactPhoneNumber" xml:space="preserve">
+        <value>聯絡電話。</value>
+    </data>
+    <data name="ParametercontactId" xml:space="preserve">
+        <value>聯絡方式。</value>
+    </data>
+    <data name="ParametervCard" xml:space="preserve">
+        <value>名片VCard。</value>
+    </data>
+    <data name="AddMessageReactionInputModel" xml:space="preserve">
+        <value>用於從訊息發送反應的輸入資料模型</value>
+    </data>
+    <data name="Parameteremoji" xml:space="preserve">
+        <value>反應</value>
+    </data>
+    <data name="ParameteremojiId" xml:space="preserve">
+        <value>高級反應</value>
+    </data>
+    <data name="RemoveMessageReactionInputModel" xml:space="preserve">
+        <value>用於從訊息中刪除反應的輸入模型</value>
+    </data>
+    <data name="ForwardMessagesInputModel" xml:space="preserve">
+        <value>訊息轉發的輸入模型</value>
+    </data>
+    <data name="ParameterfromChatId" xml:space="preserve">
+        <value>轉發訊息的聊天ID</value>
+    </data>
+    <data name="ParametermessageIds" xml:space="preserve">
+        <value>要轉送的訊息標識符數組</value>
+    </data>
+    <data name="ParameterremoveCaption" xml:space="preserve">
+        <value>如果您想刪除媒體檔案中的簽名，則為 True</value>
+    </data>
+    <data name="ParametersendCopy" xml:space="preserve">
+        <value>如果您想轉發訊息而不引用這些訊息的用戶，則為 True</value>
+    </data>
+    <data name="DeleteMessagesInputModel" xml:space="preserve">
+        <value>刪除聊天訊息的輸入模型</value>
+    </data>
+    <data name="Parameterrevoke" xml:space="preserve">
+        <value>如果您想刪除所有聊天參與者，則為 True</value>
+    </data>
+    <data name="SetPictureProfilePhotoInputModel" xml:space="preserve">
+        <value>用於設定個人資料照片的輸入資料模型。</value>
+    </data>
+    <data name="BackgroundGradientInputModel" xml:space="preserve">
+        <value>用於設定漸層背景的輸入資料模型</value>
+    </data>
+    <data name="ParametertopColor" xml:space="preserve">
+        <value>十六進位格式的頂部背景顏色。</value>
+    </data>
+    <data name="ParameterbottomColor" xml:space="preserve">
+        <value>十六進位格式的底部背景顏色。</value>
+    </data>
+    <data name="ParameterrotationAngle" xml:space="preserve">
+        <value>漸變順時針旋轉的角度，以度為單位； 0-359。必須隨時能被 45 整除</value>
+    </data>
+    <data name="BackgroundInputModel" xml:space="preserve">
+        <value>輸入資料模型，包含可供選擇的屬性，用於在個人資料照片上設定不同的背景</value>
+    </data>
+    <data name="Parametercolor" xml:space="preserve">
+        <value>十六進位格式的背景顏色</value>
+    </data>
+    <data name="Parametercolors" xml:space="preserve">
+        <value>十六進位格式的 3 或 4 種自由漸層顏色列表</value>
+    </data>
+    <data name="SetEmojiProfilePhotoInputModel" xml:space="preserve">
+        <value>用於將表情符號設定為個人資料照片的輸入模型。</value>
+    </data>
+    <data name="ParametercustomEmojiId" xml:space="preserve">
+        <value>貼紙ID</value>
+    </data>
+    <data name="SetStickerProfilePhotoInputModel" xml:space="preserve">
+        <value>用於將貼紙設定為個人資料照片的輸入模型。</value>
+    </data>
+    <data name="ParameterstickerSetId" xml:space="preserve">
+        <value>貼紙包ID</value>
+    </data>
+    <data name="ParameterstickerId" xml:space="preserve">
+        <value>貼紙ID</value>
+    </data>
+    <data name="SetAnimationProfilePhotoInputModel" xml:space="preserve">
+        <value>用於以個人資料照片的形式設定動畫的輸入模型。</value>
+    </data>
+    <data name="ParametermainFrameTimestamp" xml:space="preserve">
+        <value>動畫呈現靜態時的幀時間戳記。</value>
+    </data>
+    <data name="SetUserBioInputModel" xml:space="preserve">
+        <value>用於設定使用者簡介的輸入資料模型</value>
+    </data>
+    <data name="Parameterbio" xml:space="preserve">
+        <value>生物線</value>
+    </data>
+    <data name="StoryPrivacySettingsContactsInputModel" xml:space="preserve">
+        <value>隱私設定可讓您查看使用者的聯絡人歷史記錄</value>
+    </data>
+    <data name="ParameterexceptUserIds" xml:space="preserve">
+        <value>不應查看歷史記錄的使用者 ID 數組</value>
+    </data>
+    <data name="StoryPrivacySettingsEveryoneInputModel" xml:space="preserve">
+        <value>隱私設定允許所有用戶查看歷史記錄</value>
+    </data>
+    <data name="StoryPrivacySettingsSelectedUsersInputModel" xml:space="preserve">
+        <value>隱私設定允許選定的用戶查看歷史記錄</value>
+    </data>
+    <data name="ParameteruserIds" xml:space="preserve">
+        <value>將看到故事的使用者 ID 數組</value>
+    </data>
+    <data name="StoryPrivacySettingsCloseFriendsInputModel" xml:space="preserve">
+        <value>隱私設定允許好友清單中的使用者查看他們的歷史記錄</value>
+    </data>
+    <data name="StoryPrivacySettingsInputModel" xml:space="preserve">
+        <value>輸入資料模型包含可供選擇的屬性 配置歷史隱私</value>
+    </data>
+    <data name="PostPhotoStoryInputModel" xml:space="preserve">
+        <value>用於發送帶有照片的故事的輸入模型</value>
+    </data>
+    <data name="ParameteractivePeriod" xml:space="preserve">
+        <value>歷史記錄可用的時間段（以小時為單位）</value>
+    </data>
+    <data name="ParameterisPinned" xml:space="preserve">
+        <value>如果您希望歷史記錄在過期後仍然可用，則為 true</value>
+    </data>
+    <data name="TgStoryContent" xml:space="preserve">
+        <value>歷史的抽象背景。</value>
+    </data>
+    <data name="TgStoryPrivacySettings" xml:space="preserve">
+        <value>隱私設定枚舉&lt;p&gt;成員：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;CloseFriends&lt;/i&gt; - 對於親密朋友&lt;/li&gt;&lt;li&gt;&lt;i&gt;Contacts&lt;/i&gt; - 對於聯絡人&lt; /li&gt;&lt;li&gt;&lt;i&gt;EveryOne&lt;/i&gt; - 對於所有人&lt;/li&gt;&lt;li&gt;&lt;i&gt;SelectedUsers&lt;/i&gt; - 對於選定的使用者&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryFullInfo" xml:space="preserve">
+        <value>提供有關電報歷史的完整信息</value>
+    </data>
+    <data name="ParametersenderChatId" xml:space="preserve">
+        <value>歷史寄件者 ID（使用者）</value>
+    </data>
+    <data name="ParameterviewCount" xml:space="preserve">
+        <value>觀看次數</value>
+    </data>
+    <data name="ParameterforwardCount" xml:space="preserve">
+        <value>這個故事被轉發了多少次？</value>
+    </data>
+    <data name="ParameterreactionCount" xml:space="preserve">
+        <value>對故事的反應數量</value>
+    </data>
+    <data name="ParameterrecentViewerUserIds" xml:space="preserve">
+        <value>最多 3 個最近歷史檢視者的 ID</value>
+    </data>
+    <data name="ParameterisBeingSent" xml:space="preserve">
+        <value>如果目前使用者正在提交故事，則為 True</value>
+    </data>
+    <data name="ParameterisBeingEdited" xml:space="preserve">
+        <value>如果目前使用者正在編輯故事，則為 True</value>
+    </data>
+    <data name="ParameterisEdited" xml:space="preserve">
+        <value>如果故事已被編輯，則為 true</value>
+    </data>
+    <data name="ParameterisVisibleOnlyForSelf" xml:space="preserve">
+        <value>如果僅對歷史記錄擁有者可見，則為 true</value>
+    </data>
+    <data name="ParametercanBeDeleted" xml:space="preserve">
+        <value>如果可以刪除則為 True</value>
+    </data>
+    <data name="ParametercanBeReplied" xml:space="preserve">
+        <value>如果歷史可以回答的話，那就對了</value>
+    </data>
+    <data name="ParametercanToggleIsPinned" xml:space="preserve">
+        <value>如果 IsPinned 可以更改，則為 true</value>
+    </data>
+    <data name="ParametercanGetViewers" xml:space="preserve">
+        <value>如果可以取得曾經看過歷史記錄的用戶，則為 true</value>
+    </data>
+    <data name="PostVideoStoryInputModel" xml:space="preserve">
+        <value>用於發送帶有視頻的歷史記錄的輸入模型</value>
+    </data>
+    <data name="ParameterisAnimation" xml:space="preserve">
+        <value>如果影片沒有聲音則為 True</value>
+    </data>
+    <data name="TgStoryTypeList" xml:space="preserve">
+        <value>歷史清單類型列舉&lt;p&gt;成員：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Main&lt;/i&gt; - Main&lt;/li&gt;&lt;li&gt;&lt;i&gt;Archive&lt;/i&gt; - Archive&lt;/li &gt; &lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryInfo" xml:space="preserve">
+        <value>表示有關用戶的活動歷史記錄的信息</value>
+    </data>
+    <data name="ParameterisForCloseFriends" xml:space="preserve">
+        <value>如果故事是寫給親密朋友的，則屬實</value>
+    </data>
+    <data name="TgUserActiveStories" xml:space="preserve">
+        <value>表示有關用戶活動故事的信息</value>
+    </data>
+    <data name="Parameterorder" xml:space="preserve">
+        <value>用於確定清單中故事的順序</value>
+    </data>
+    <data name="ParametermaxReadStoryId" xml:space="preserve">
+        <value>上次查看的活動記錄 ID</value>
+    </data>
+    <data name="Parameterstories" xml:space="preserve">
+        <value>包含每個故事訊息的數組</value>
+    </data>
+    <data name="TgMiniThumbnail" xml:space="preserve">
+        <value>提供一個小預覽</value>
+    </data>
+    <data name="ParameterminiThumbnail" xml:space="preserve">
+        <value>一個小預覽。</value>
+    </data>
+    <data name="TgPhotoSize" xml:space="preserve">
+        <value>代表照片的大小</value>
+    </data>
+    <data name="TgAnimatedChatPhoto" xml:space="preserve">
+        <value>表示設定為個人資料照片的動畫</value>
+    </data>
+    <data name="Parameterlength" xml:space="preserve">
+        <value>動畫的寬度和高度。</value>
+    </data>
+    <data name="TgChatPhoto" xml:space="preserve">
+        <value>代表個人資料照片</value>
+    </data>
+    <data name="ParameteraddedDate" xml:space="preserve">
+        <value>新增照片的時間點。</value>
+    </data>
+    <data name="ParameterphotoSizes" xml:space="preserve">
+        <value>不同尺寸的照片變化。</value>
+    </data>
+    <data name="TgText" xml:space="preserve">
+        <value>代表文本。</value>
+    </data>
+    <data name="Parametertext" xml:space="preserve">
+        <value>訊息文字。</value>
+    </data>
+    <data name="TgUserFullInfo" xml:space="preserve">
+        <value>代表有關使用者的完整資訊。</value>
+    </data>
+    <data name="ParameterisStoriesBlocked" xml:space="preserve">
+        <value>標記使用者故事是否被封鎖。</value>
+    </data>
+    <data name="ParameterisBlocked" xml:space="preserve">
+        <value>標記用戶是否被封鎖。</value>
+    </data>
+    <data name="ParametercanBeCalled" xml:space="preserve">
+        <value>確實如此，如果可以呼叫使用者的話。</value>
+    </data>
+    <data name="ParametersupportsVideoCalls" xml:space="preserve">
+        <value>確實如此，如果您可以與用戶建立視訊通話。</value>
+    </data>
+    <data name="ParameterhasPrivateCalls" xml:space="preserve">
+        <value>如果由於用戶的隱私設定而無法呼叫用戶，則為 true。</value>
+    </data>
+    <data name="ParameterhasPrivateForwards" xml:space="preserve">
+        <value>如果由於用戶的隱私設定而無法在轉發的訊息中關聯用戶，則為 True。</value>
+    </data>
+    <data name="ParameterhasRestrictedVoiceAndVideoNoteMessages" xml:space="preserve">
+        <value>如果語音和視訊筆記無法傳送或轉發給用戶，則為 True。</value>
+    </data>
+    <data name="ParameterhasPinnedStories" xml:space="preserve">
+        <value>如果使用者已固定故事，則為 true。</value>
+    </data>
+    <data name="ParameterneedPhoneNumberPrivacyException" xml:space="preserve">
+        <value>如果在使用 addContact 方法時應明確允許目前使用者與使用者分享其電話號碼，則為 True。</value>
+    </data>
+</root>

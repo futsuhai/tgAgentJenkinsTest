@@ -1,0 +1,818 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AuthSetPhone" xml:space="preserve">
+        <value>전화번호 설정</value>
+    </data>
+    <data name="ParameterinstanceId" xml:space="preserve">
+        <value>인스턴스 ID</value>
+    </data>
+    <data name="AuthSetPhoneRequest" xml:space="preserve">
+        <value>전화 번호</value>
+    </data>
+    <data name="Response200" xml:space="preserve">
+        <value>성공</value>
+    </data>
+    <data name="Response400" xml:space="preserve">
+        <value>잘못된 입력 데이터 또는 잘못된 요청</value>
+    </data>
+    <data name="Response500" xml:space="preserve">
+        <value>서버에서 오류가 발생했습니다.</value>
+    </data>
+    <data name="AuthCheckCode" xml:space="preserve">
+        <value>인증코드 보내기</value>
+    </data>
+    <data name="AuthCheckCodeRequest" xml:space="preserve">
+        <value>확인 코드</value>
+    </data>
+    <data name="AuthCheckPassword" xml:space="preserve">
+        <value>비밀번호 보내기</value>
+    </data>
+    <data name="AuthCheckPasswordRequest" xml:space="preserve">
+        <value>비밀번호</value>
+    </data>
+    <data name="ChatsGetChatHistory" xml:space="preserve">
+        <value>채팅 기록 가져오기</value>
+    </data>
+    <data name="ParameterChatId" xml:space="preserve">
+        <value>채팅 ID입니다.</value>
+    </data>
+    <data name="ParameterUsername" xml:space="preserve">
+        <value>사용자 이름.</value>
+    </data>
+    <data name="ParameterPhoneNumber" xml:space="preserve">
+        <value>전화 번호.</value>
+    </data>
+    <data name="ParameterLimit" xml:space="preserve">
+        <value>메시지 제한.</value>
+    </data>
+    <data name="ParameterOffset" xml:space="preserve">
+        <value>편견.</value>
+    </data>
+    <data name="ParameterFromMessageId" xml:space="preserve">
+        <value>메시지 ID로 시작합니다.</value>
+    </data>
+    <data name="ChatsGetMessage" xml:space="preserve">
+        <value>메시지 데이터 가져오기</value>
+    </data>
+    <data name="ParameterMessageId" xml:space="preserve">
+        <value>메시지 ID.</value>
+    </data>
+    <data name="ChatsGetMessageAvailableReactions" xml:space="preserve">
+        <value>메시지에 대해 사용 가능한 반응 목록 가져오기</value>
+    </data>
+    <data name="ContactsGetContacts" xml:space="preserve">
+        <value>연락처 목록 가져오기</value>
+    </data>
+    <data name="ContactsImportContacts" xml:space="preserve">
+        <value>연락처 가져오기</value>
+    </data>
+    <data name="ContactsImportContactsRequest" xml:space="preserve">
+        <value>연락처 세부정보</value>
+    </data>
+    <data name="ContactsAddContact" xml:space="preserve">
+        <value>주소록에 추가</value>
+    </data>
+    <data name="ContactsAddContactRequest" xml:space="preserve">
+        <value>사용자 연락처 정보</value>
+    </data>
+    <data name="ContactsRemoveContact" xml:space="preserve">
+        <value>연락처 삭제</value>
+    </data>
+    <data name="ContactsRemoveContactRequest" xml:space="preserve">
+        <value>사용자 연락처 정보</value>
+    </data>
+    <data name="FileStartDownload" xml:space="preserve">
+        <value>파일 ID로 파일 다운로드 요청</value>
+    </data>
+    <data name="FileStartDownloadRequest" xml:space="preserve">
+        <value>파일 ID가 있는 모델</value>
+    </data>
+    <data name="FileGetFile" xml:space="preserve">
+        <value>파일 ID로 파일 검색</value>
+    </data>
+    <data name="ParameterLocalId" xml:space="preserve">
+        <value>로컬 파일 ID</value>
+    </data>
+    <data name="ParameterRemoteId" xml:space="preserve">
+        <value>원격 파일 ID</value>
+    </data>
+    <data name="FileStartDownloadFromMessage" xml:space="preserve">
+        <value>메시지에서 파일 다운로드를 요청합니다.</value>
+    </data>
+    <data name="FileStartDownloadFromMessageRequest" xml:space="preserve">
+        <value>채팅 및 메시지 ID가 있는 모델</value>
+    </data>
+    <data name="FileGetFileFromMessage" xml:space="preserve">
+        <value>메시지에서 파일 받기</value>
+    </data>
+    <data name="InstanceGetInstance" xml:space="preserve">
+        <value>인스턴스 데이터 검색</value>
+    </data>
+    <data name="MessageSendTextMessage" xml:space="preserve">
+        <value>문자 메시지 보내기</value>
+    </data>
+    <data name="MessageSendTextMessageRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="MessageSendLocationMessage" xml:space="preserve">
+        <value>지리적 위치 전송 중</value>
+    </data>
+    <data name="MessageSendLocationMessageRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="MessageSendAudioMessage" xml:space="preserve">
+        <value>오디오 메시지 보내기</value>
+    </data>
+    <data name="MessageSendAudioMessageRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessage" xml:space="preserve">
+        <value>음성 메시지 보내기</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessageRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="MessageSendVideoNoteMessage" xml:space="preserve">
+        <value>서클 보내기</value>
+    </data>
+    <data name="MessageSendVideoNoteMessageRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="MessageSendVideoMessage" xml:space="preserve">
+        <value>비디오 보내기</value>
+    </data>
+    <data name="MessageSendVideoMessageRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="MessageSendDocumentMessage" xml:space="preserve">
+        <value>문서 보내기</value>
+    </data>
+    <data name="MessageSendDocumentMessageRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="MessageSendPhotoMessage" xml:space="preserve">
+        <value>사진 보내기</value>
+    </data>
+    <data name="MessageSendPhotoMessageRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="MessageSendStickerMessage" xml:space="preserve">
+        <value>스티커 보내기</value>
+    </data>
+    <data name="MessageSendStickerMessageRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="MessageSendStoryMessage" xml:space="preserve">
+        <value>스토리 제출</value>
+    </data>
+    <data name="MessageSendStoryMessageRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="MessageSendAnimationMessage" xml:space="preserve">
+        <value>애니메이션(gif) 보내기</value>
+    </data>
+    <data name="MessageSendAnimationMessageRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="MessageSendContactMessage" xml:space="preserve">
+        <value>연락처 보내기</value>
+    </data>
+    <data name="MessageSendContactMessageRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="MessageAddMessageReaction" xml:space="preserve">
+        <value>메시지에 반응 추가하기</value>
+    </data>
+    <data name="MessageAddMessageReactionRequest" xml:space="preserve">
+        <value>반응 데이터</value>
+    </data>
+    <data name="MessageRemoveMessageReaction" xml:space="preserve">
+        <value>메시지에서 반응 제거하기</value>
+    </data>
+    <data name="MessageRemoveMessageReactionRequest" xml:space="preserve">
+        <value>반응 데이터</value>
+    </data>
+    <data name="MessageForwardMessages" xml:space="preserve">
+        <value>메시지 전달</value>
+    </data>
+    <data name="MessageForwardMessagesRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="MessageDeleteMessages" xml:space="preserve">
+        <value>메시지 삭제</value>
+    </data>
+    <data name="MessageDeleteMessagesRequest" xml:space="preserve">
+        <value>메시지 데이터</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhoto" xml:space="preserve">
+        <value>프로필 사진을 설정합니다. 파일 ID로 설치하기 전에 먼저 해당 파일이 서버에 업로드되어 있는지 확인해야 합니다.</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhotoRequest" xml:space="preserve">
+        <value>프로필 사진 설정을 위한 데이터입니다.</value>
+    </data>
+    <data name="ProfileSetPreviousProfilePhoto" xml:space="preserve">
+        <value>사용자의 이전 사진 중 하나를 사진 ID로 설정합니다.</value>
+    </data>
+    <data name="ParameterphotoId" xml:space="preserve">
+        <value>사진이 부착 된 신분증.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhoto" xml:space="preserve">
+        <value>프로필 사진을 맞춤 이모티콘으로 설정합니다.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhotoRequest" xml:space="preserve">
+        <value>프로필 사진 설정을 위한 데이터입니다.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhoto" xml:space="preserve">
+        <value>프로필 사진을 스티커로 설정합니다.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhotoRequest" xml:space="preserve">
+        <value>프로필 사진 설정을 위한 데이터입니다.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhoto" xml:space="preserve">
+        <value>프로필 사진을 애니메이션으로 설정합니다. 파일 ID로 설치하기 전에 먼저 해당 파일이 서버에 업로드되어 있는지 확인해야 합니다.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhotoRequest" xml:space="preserve">
+        <value>프로필 사진 설정을 위한 데이터입니다.</value>
+    </data>
+    <data name="ProfileSetBio" xml:space="preserve">
+        <value>사용자의 약력을 설정합니다.</value>
+    </data>
+    <data name="ProfileSetBioRequest" xml:space="preserve">
+        <value>사용자의 약력에 대한 정보가 포함된 모델입니다.</value>
+    </data>
+    <data name="StoryPostPhotoStory" xml:space="preserve">
+        <value>사진 형태로 사용자에게 새로운 스토리를 설정합니다.</value>
+    </data>
+    <data name="StoryPostPhotoStoryRequest" xml:space="preserve">
+        <value>이력 설정 데이터.</value>
+    </data>
+    <data name="StoryPostVideoStory" xml:space="preserve">
+        <value>동영상 형태로 사용자에게 새로운 스토리를 설정합니다.</value>
+    </data>
+    <data name="StoryPostVideoStoryRequest" xml:space="preserve">
+        <value>이력 설정 데이터.</value>
+    </data>
+    <data name="StoryGetStory" xml:space="preserve">
+        <value>ID로 사용자의 기록을 검색합니다.</value>
+    </data>
+    <data name="ParameterStoryId" xml:space="preserve">
+        <value>기록ID</value>
+    </data>
+    <data name="StoryGetUserActiveStories" xml:space="preserve">
+        <value>사용자의 활성 스토리에 대한 정보 얻기</value>
+    </data>
+    <data name="UsersGetUser" xml:space="preserve">
+        <value>사용자 정보 가져오기</value>
+    </data>
+    <data name="UsersGetMe" xml:space="preserve">
+        <value>승인된 사용자에 대한 정보 얻기</value>
+    </data>
+    <data name="UsersGetUserFullInfo" xml:space="preserve">
+        <value>사용자 소개 받기</value>
+    </data>
+    <data name="UsersGetUserProfilePhotos" xml:space="preserve">
+        <value>사용자의 사진 목록 가져오기</value>
+    </data>
+    <data name="SetPhoneNumberInputModel" xml:space="preserve">
+        <value>텔레그램 계정의 전화번호 설정을 위한 입력 데이터 모델</value>
+    </data>
+    <data name="CheckCodeInputModel" xml:space="preserve">
+        <value>확인코드 검증을 위한 입력 모델</value>
+    </data>
+    <data name="Parametercode" xml:space="preserve">
+        <value>확인 코드.</value>
+    </data>
+    <data name="CheckPasswordInputModel" xml:space="preserve">
+        <value>비밀번호 검증을 위한 입력 모델</value>
+    </data>
+    <data name="Parameterpassword" xml:space="preserve">
+        <value>비밀번호</value>
+    </data>
+    <data name="TgReplyTo" xml:space="preserve">
+        <value>메시지에 답장하기 위한 정보입니다.</value>
+    </data>
+    <data name="ParameterchatId" xml:space="preserve">
+        <value>채팅 ID입니다.</value>
+    </data>
+    <data name="TgForwardInfo" xml:space="preserve">
+        <value>전달되는 메시지에 대한 정보입니다.</value>
+    </data>
+    <data name="Parameterdate" xml:space="preserve">
+        <value>게시일.</value>
+    </data>
+    <data name="TgMessageContent" xml:space="preserve">
+        <value>추상 메시지 데이터.</value>
+    </data>
+    <data name="TgMessage" xml:space="preserve">
+        <value>메시지 클래스.</value>
+    </data>
+    <data name="ParametersenderId" xml:space="preserve">
+        <value>발신자 ID.</value>
+    </data>
+    <data name="ParametermessageId" xml:space="preserve">
+        <value>메시지 ID.</value>
+    </data>
+    <data name="ParameterisOutgoing" xml:space="preserve">
+        <value>발신 메시지입니다.</value>
+    </data>
+    <data name="ParametercanBeEdited" xml:space="preserve">
+        <value>편집될 수 있습니다.</value>
+    </data>
+    <data name="ParametercanBeForwarded" xml:space="preserve">
+        <value>전달될 수 있습니다.</value>
+    </data>
+    <data name="ParametercanBeDeletedForAllUsers" xml:space="preserve">
+        <value>모든 사용자에 대해 제거될 수 있습니다.</value>
+    </data>
+    <data name="ParametereditDate" xml:space="preserve">
+        <value>날짜를 수정하세요.</value>
+    </data>
+    <data name="TgReactionType" xml:space="preserve">
+        <value>반응 클래스</value>
+    </data>
+    <data name="TgAvailableReaction" xml:space="preserve">
+        <value>반응 클래스</value>
+    </data>
+    <data name="ParameterisNeedPremium" xml:space="preserve">
+        <value>반응이 프리미엄 반응인지 여부를 표시합니다.</value>
+    </data>
+    <data name="TgMessageAvailableReactions" xml:space="preserve">
+        <value>텔레그램 메시지에 사용 가능한 반응을 나타내는 클래스입니다.</value>
+    </data>
+    <data name="ParametertopReactions" xml:space="preserve">
+        <value>가장 인기 있는 반응 모음을 가져오거나 설정합니다.</value>
+    </data>
+    <data name="ParameterrecentReactions" xml:space="preserve">
+        <value>최근 반응 모음을 가져오거나 설정합니다.</value>
+    </data>
+    <data name="ParameterpopularReactions" xml:space="preserve">
+        <value>최근 반응 모음을 가져오거나 설정합니다.</value>
+    </data>
+    <data name="TgFile" xml:space="preserve">
+        <value>파일을 나타냅니다.</value>
+    </data>
+    <data name="ParameterfileId" xml:space="preserve">
+        <value>파일 ID.</value>
+    </data>
+    <data name="Parametersize" xml:space="preserve">
+        <value>파일 크기.</value>
+    </data>
+    <data name="ParameterremoteId" xml:space="preserve">
+        <value>원격 파일 ID.</value>
+    </data>
+    <data name="TgProfilePhoto" xml:space="preserve">
+        <value>프로필 사진</value>
+    </data>
+    <data name="ParameterhasAnimation" xml:space="preserve">
+        <value>애니메이션 사진</value>
+    </data>
+    <data name="ParameterisPersonal" xml:space="preserve">
+        <value>현재 사용자가 설치함</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>사용자 상태&lt;p&gt;회원:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;온라인&lt;/i&gt; - 온라인 사용자&lt;/li&gt;&lt;li&gt;&lt;i&gt;최근&lt;/i&gt; - 최근에 로그인한 사용자&lt;/i&gt; li &gt;&lt;li&gt;&lt;i&gt;LastWeek&lt;/i&gt; - 사용자가 일주일 동안 로그인하지 않았습니다.&lt;/li&gt;&lt;li&gt;&lt;i&gt;LastMonth&lt;/i&gt; - 사용자가 한 달 동안 로그인하지 않았습니다.&lt;/i li&gt;&lt;li&gt;&lt;i&gt;오프라인&lt;/ i&gt; - 오프라인 사용자&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgUser" xml:space="preserve">
+        <value>연락처를 나타내는 클래스입니다.</value>
+    </data>
+    <data name="Parameterid" xml:space="preserve">
+        <value>식별자.</value>
+    </data>
+    <data name="ParameterfirstName" xml:space="preserve">
+        <value>이름.</value>
+    </data>
+    <data name="ParameterlastName" xml:space="preserve">
+        <value>성.</value>
+    </data>
+    <data name="Parameterusername" xml:space="preserve">
+        <value>사용자 이름.</value>
+    </data>
+    <data name="ParameterisContact" xml:space="preserve">
+        <value>연락처입니다</value>
+    </data>
+    <data name="ParameterisCloseFriend" xml:space="preserve">
+        <value>친한 친구입니다.</value>
+    </data>
+    <data name="ParameterisMutualContact" xml:space="preserve">
+        <value>상호 접촉이다.</value>
+    </data>
+    <data name="ParameterisFake" xml:space="preserve">
+        <value>가짜 연락처입니다.</value>
+    </data>
+    <data name="ParameterisScum" xml:space="preserve">
+        <value>사기입니다.</value>
+    </data>
+    <data name="ParameterisVerified" xml:space="preserve">
+        <value>확인되었습니다.</value>
+    </data>
+    <data name="ParameterhasActiveStories" xml:space="preserve">
+        <value>이야기가있다</value>
+    </data>
+    <data name="ParameterhasUnreadActiveStories" xml:space="preserve">
+        <value>보이지 않는 이야기가 있어요</value>
+    </data>
+    <data name="ParameterisPremium" xml:space="preserve">
+        <value>프리미엄 계정</value>
+    </data>
+    <data name="ParameterstatusEmojiId" xml:space="preserve">
+        <value>스마일리 상태</value>
+    </data>
+    <data name="ImportContactInputModel" xml:space="preserve">
+        <value>연락처 추가를 위한 입력 모델</value>
+    </data>
+    <data name="AddContactInputModel" xml:space="preserve">
+        <value>연락처 추가를 위한 입력 모델</value>
+    </data>
+    <data name="RemoveContactInputModel" xml:space="preserve">
+        <value>사용자 연락처 삭제 모델</value>
+    </data>
+    <data name="FileIdRequestInputModel" xml:space="preserve">
+        <value>파일 ID가 있는 요청에 대한 입력 모델입니다.</value>
+    </data>
+    <data name="ParameterlocalId" xml:space="preserve">
+        <value>로컬 파일 ID</value>
+    </data>
+    <data name="FileMessageRequestInputModel" xml:space="preserve">
+        <value>메시지 ID와 채팅 ID가 포함된 요청용 입력 모델입니다.</value>
+    </data>
+    <data name="SchedulingStateInputModel" xml:space="preserve">
+        <value>메시지 전송 스케줄링 유형을 정의하는 입력 모델</value>
+    </data>
+    <data name="ParametersendDate" xml:space="preserve">
+        <value>메시지가 전송된 날짜 날짜가 null인 경우 메시지 예약 유형은 수신자가 온라인이 되는 시점이 됩니다.</value>
+    </data>
+    <data name="MessageSendOptionsInputModel" xml:space="preserve">
+        <value>메시지 전송을 위한 입력 매개변수 모델</value>
+    </data>
+    <data name="ParameterdisableNotification" xml:space="preserve">
+        <value>플래그 - 수신자 알림 비활성화</value>
+    </data>
+    <data name="ParameterprotectContent" xml:space="preserve">
+        <value>플래그 - 보낸 메시지를 전달하거나 저장할 수 있는지 여부</value>
+    </data>
+    <data name="SendTextMessageInputModel" xml:space="preserve">
+        <value>문자 메시지 전송을 위한 입력 모델입니다.</value>
+    </data>
+    <data name="Parametermessage" xml:space="preserve">
+        <value>메시지 텍스트.</value>
+    </data>
+    <data name="ParameterurlPreview" xml:space="preserve">
+        <value>URL 미리보기.</value>
+    </data>
+    <data name="ParameterdisableUrlPreview" xml:space="preserve">
+        <value>URL 미리보기를 비활성화합니다.</value>
+    </data>
+    <data name="ParameterneedShowActivity" xml:space="preserve">
+        <value>활동이 메시지 전에 전송되어야 하는지 여부를 나타내는 플래그</value>
+    </data>
+    <data name="SendLocationMessageInputModel" xml:space="preserve">
+        <value>위치 메시지 전송을 위한 입력 모델입니다.</value>
+    </data>
+    <data name="Parameterlatitude" xml:space="preserve">
+        <value>위치의 위도입니다.</value>
+    </data>
+    <data name="Parameterlongitude" xml:space="preserve">
+        <value>위치의 경도.</value>
+    </data>
+    <data name="ParameterhorizontalAccuracy" xml:space="preserve">
+        <value>수평 위치 정확도.</value>
+    </data>
+    <data name="SendAudioMessageInputModel" xml:space="preserve">
+        <value>오디오 메시지를 보내기 위한 입력 데이터 모델입니다.</value>
+    </data>
+    <data name="ParameterfileInBase64" xml:space="preserve">
+        <value>메시지로 전송될 Base64 파일입니다.</value>
+    </data>
+    <data name="ParameterlocalFileId" xml:space="preserve">
+        <value>로컬 파일 ID</value>
+    </data>
+    <data name="ParameterremoteFileId" xml:space="preserve">
+        <value>원격 파일 ID</value>
+    </data>
+    <data name="Parametercaption" xml:space="preserve">
+        <value>파일 메시지 서명.</value>
+    </data>
+    <data name="Parametertitle" xml:space="preserve">
+        <value>오디오 메시지의 제목입니다.</value>
+    </data>
+    <data name="Parameterperformer" xml:space="preserve">
+        <value>오디오 메시지 수행자.</value>
+    </data>
+    <data name="ParameteralbumCoverThumbnailBase64" xml:space="preserve">
+        <value>Base64 형식의 앨범 미리보기.</value>
+    </data>
+    <data name="SendVoiceNoteMessageInputModel" xml:space="preserve">
+        <value>음성 메시지 전송을 위한 입력 데이터 모델입니다.</value>
+    </data>
+    <data name="SendVideoNoteMessageInputModel" xml:space="preserve">
+        <value>원을 보내기 위한 입력 데이터 모델입니다.</value>
+    </data>
+    <data name="SendVideoMessageInputModel" xml:space="preserve">
+        <value>영상으로 메시지를 보내기 위한 입력 데이터 모델.</value>
+    </data>
+    <data name="ParameterneedShowRecordingActivity" xml:space="preserve">
+        <value>사용자가 비디오를 녹화하는 활동을 표시해야 하는지 여부를 나타내는 플래그입니다.</value>
+    </data>
+    <data name="SendDocumentMessageInputModel" xml:space="preserve">
+        <value>문서 전송을 위한 입력 데이터 모델입니다.</value>
+    </data>
+    <data name="SendPhotoMessageInputModel" xml:space="preserve">
+        <value>사진과 함께 메시지를 보내기 위한 입력 데이터 모델입니다.</value>
+    </data>
+    <data name="SendStickerMessageInputModel" xml:space="preserve">
+        <value>스티커와 함께 메시지를 보내기 위한 입력 모델입니다.</value>
+    </data>
+    <data name="SendStoryMessageInputModel" xml:space="preserve">
+        <value>기록이 있는 메시지 입력 모델</value>
+    </data>
+    <data name="ParameterstorySenderChatId" xml:space="preserve">
+        <value>스토리가 게시된 채팅 ID</value>
+    </data>
+    <data name="ParameterstoryId" xml:space="preserve">
+        <value>기록ID</value>
+    </data>
+    <data name="SendAnimationMessageInputModel" xml:space="preserve">
+        <value>애니메이션과 함께 메시지를 보내기 위한 입력 모델</value>
+    </data>
+    <data name="ParameterhasSpoiler" xml:space="preserve">
+        <value>애니메이션 미리보기를 닫아야 하는 경우 참입니다.</value>
+    </data>
+    <data name="Parameterheight" xml:space="preserve">
+        <value>애니메이션 높이</value>
+    </data>
+    <data name="Parameterwidth" xml:space="preserve">
+        <value>애니메이션 폭</value>
+    </data>
+    <data name="SendContactMessageInputModel" xml:space="preserve">
+        <value>연락처에 메시지를 보내기 위한 입력 데이터 모델입니다.</value>
+    </data>
+    <data name="ParametercontactPhoneNumber" xml:space="preserve">
+        <value>전화번호로 연락하세요.</value>
+    </data>
+    <data name="ParametercontactId" xml:space="preserve">
+        <value>연락처 ID.</value>
+    </data>
+    <data name="ParametervCard" xml:space="preserve">
+        <value>명함 VCard.</value>
+    </data>
+    <data name="AddMessageReactionInputModel" xml:space="preserve">
+        <value>메시지에서 반응을 보내기 위한 입력 데이터 모델</value>
+    </data>
+    <data name="Parameteremoji" xml:space="preserve">
+        <value>반응</value>
+    </data>
+    <data name="ParameteremojiId" xml:space="preserve">
+        <value>프리미엄 반응</value>
+    </data>
+    <data name="RemoveMessageReactionInputModel" xml:space="preserve">
+        <value>메시지에서 반응을 제거하기 위한 입력 모델</value>
+    </data>
+    <data name="ForwardMessagesInputModel" xml:space="preserve">
+        <value>메시지 전달을 위한 입력 모델</value>
+    </data>
+    <data name="ParameterfromChatId" xml:space="preserve">
+        <value>메시지가 전달되는 채팅의 ID</value>
+    </data>
+    <data name="ParametermessageIds" xml:space="preserve">
+        <value>전달할 메시지 식별자 배열</value>
+    </data>
+    <data name="ParameterremoveCaption" xml:space="preserve">
+        <value>미디어 파일의 서명을 제거하려면 True입니다.</value>
+    </data>
+    <data name="ParametersendCopy" xml:space="preserve">
+        <value>해당 메시지의 사용자를 참조하지 않고 메시지를 전달하려는 경우 True입니다.</value>
+    </data>
+    <data name="DeleteMessagesInputModel" xml:space="preserve">
+        <value>채팅 메시지 삭제를 위한 입력 모델</value>
+    </data>
+    <data name="Parameterrevoke" xml:space="preserve">
+        <value>모든 채팅 참가자를 삭제하려면 True입니다.</value>
+    </data>
+    <data name="SetPictureProfilePhotoInputModel" xml:space="preserve">
+        <value>프로필 사진 설정을 위한 입력 데이터 모델입니다.</value>
+    </data>
+    <data name="BackgroundGradientInputModel" xml:space="preserve">
+        <value>그라데이션 배경 설정 기능을 위한 입력 데이터 모델</value>
+    </data>
+    <data name="ParametertopColor" xml:space="preserve">
+        <value>HEX 형식의 상단 배경색입니다.</value>
+    </data>
+    <data name="ParameterbottomColor" xml:space="preserve">
+        <value>HEX 형식의 하단 배경색입니다.</value>
+    </data>
+    <data name="ParameterrotationAngle" xml:space="preserve">
+        <value>그라데이션의 시계 방향 회전 각도(도)입니다. 0-359. 항상 45로 나누어야 합니다.</value>
+    </data>
+    <data name="BackgroundInputModel" xml:space="preserve">
+        <value>프로필 사진에 다양한 배경을 설정하기 위해 선택할 수 있는 속성이 포함된 입력 데이터 모델</value>
+    </data>
+    <data name="Parametercolor" xml:space="preserve">
+        <value>HEX 형식의 배경색</value>
+    </data>
+    <data name="Parametercolors" xml:space="preserve">
+        <value>HEX 형식의 3개 또는 4개 자유형 그라데이션 색상 목록</value>
+    </data>
+    <data name="SetEmojiProfilePhotoInputModel" xml:space="preserve">
+        <value>이모티콘을 프로필 사진으로 설정하기 위한 입력 모델입니다.</value>
+    </data>
+    <data name="ParametercustomEmojiId" xml:space="preserve">
+        <value>스티커 아이디</value>
+    </data>
+    <data name="SetStickerProfilePhotoInputModel" xml:space="preserve">
+        <value>스티커를 프로필 사진으로 설정하기 위한 입력 모델입니다.</value>
+    </data>
+    <data name="ParameterstickerSetId" xml:space="preserve">
+        <value>스티커 팩 ID</value>
+    </data>
+    <data name="ParameterstickerId" xml:space="preserve">
+        <value>스티커 아이디</value>
+    </data>
+    <data name="SetAnimationProfilePhotoInputModel" xml:space="preserve">
+        <value>프로필 사진 형태의 애니메이션 설정을 위한 입력 모델입니다.</value>
+    </data>
+    <data name="ParametermainFrameTimestamp" xml:space="preserve">
+        <value>애니메이션이 정적으로 나타날 때의 프레임 타임스탬프입니다.</value>
+    </data>
+    <data name="SetUserBioInputModel" xml:space="preserve">
+        <value>사용자 바이오 설정을 위한 입력 데이터 모델</value>
+    </data>
+    <data name="Parameterbio" xml:space="preserve">
+        <value>바이오라인</value>
+    </data>
+    <data name="StoryPrivacySettingsContactsInputModel" xml:space="preserve">
+        <value>사용자의 연락처 기록을 볼 수 있는 개인 정보 보호 설정</value>
+    </data>
+    <data name="ParameterexceptUserIds" xml:space="preserve">
+        <value>기록을 볼 수 없는 사용자 ID의 배열</value>
+    </data>
+    <data name="StoryPrivacySettingsEveryoneInputModel" xml:space="preserve">
+        <value>모든 사용자가 기록을 볼 수 있도록 허용하는 개인 정보 보호 설정</value>
+    </data>
+    <data name="StoryPrivacySettingsSelectedUsersInputModel" xml:space="preserve">
+        <value>선택된 사용자가 기록을 볼 수 있도록 허용하는 개인 정보 보호 설정</value>
+    </data>
+    <data name="ParameteruserIds" xml:space="preserve">
+        <value>스토리를 볼 사용자 ID의 배열</value>
+    </data>
+    <data name="StoryPrivacySettingsCloseFriendsInputModel" xml:space="preserve">
+        <value>친한 친구 목록에 있는 사용자가 자신의 기록을 볼 수 있도록 허용하는 개인 정보 보호 설정</value>
+    </data>
+    <data name="StoryPrivacySettingsInputModel" xml:space="preserve">
+        <value>선택할 수 있는 속성이 포함된 입력 데이터 모델 기록 개인 정보 보호를 구성하려면</value>
+    </data>
+    <data name="PostPhotoStoryInputModel" xml:space="preserve">
+        <value>사진과 함께 스토리를 전송하기 위한 입력 모델</value>
+    </data>
+    <data name="ParameteractivePeriod" xml:space="preserve">
+        <value>기록을 볼 수 있는 기간(시간)</value>
+    </data>
+    <data name="ParameterisPinned" xml:space="preserve">
+        <value>만료 후에도 기록을 계속 사용할 수 있도록 하려면 True입니다.</value>
+    </data>
+    <data name="TgStoryContent" xml:space="preserve">
+        <value>역사의 추상적 맥락.</value>
+    </data>
+    <data name="TgStoryPrivacySettings" xml:space="preserve">
+        <value>개인 정보 보호 설정에 대한 열거&lt;p&gt;회원:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;CloseFriends&lt;/i&gt; - 가까운 친구용&lt;/li&gt;&lt;li&gt;&lt;i&gt;연락처&lt;/i&gt; - 연락처용&lt; /li&gt;&lt;li&gt;&lt;i&gt;EveryOne&lt;/i&gt; - 모든 사람용&lt;/li&gt;&lt;li&gt;&lt;i&gt;SelectedUsers&lt;/i&gt; - 선택된 사용자용&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryFullInfo" xml:space="preserve">
+        <value>텔레그램 내역에 대한 완전한 정보를 제공합니다.</value>
+    </data>
+    <data name="ParametersenderChatId" xml:space="preserve">
+        <value>내역 발신자 ID(사용자)</value>
+    </data>
+    <data name="ParameterviewCount" xml:space="preserve">
+        <value>조회수</value>
+    </data>
+    <data name="ParameterforwardCount" xml:space="preserve">
+        <value>그 이야기는 몇 번이나 전달되었나요?</value>
+    </data>
+    <data name="ParameterreactionCount" xml:space="preserve">
+        <value>이야기에 대한 반응 수</value>
+    </data>
+    <data name="ParameterrecentViewerUserIds" xml:space="preserve">
+        <value>최근 기록 시청자 최대 3명의 ID</value>
+    </data>
+    <data name="ParameterisBeingSent" xml:space="preserve">
+        <value>현재 사용자가 스토리를 제출하는 경우 True입니다.</value>
+    </data>
+    <data name="ParameterisBeingEdited" xml:space="preserve">
+        <value>현재 사용자가 스토리를 편집 중인 경우 True입니다.</value>
+    </data>
+    <data name="ParameterisEdited" xml:space="preserve">
+        <value>스토리가 편집된 경우 True입니다.</value>
+    </data>
+    <data name="ParameterisVisibleOnlyForSelf" xml:space="preserve">
+        <value>기록 소유자에게만 표시되는 경우 True입니다.</value>
+    </data>
+    <data name="ParametercanBeDeleted" xml:space="preserve">
+        <value>제거할 수 있으면 참</value>
+    </data>
+    <data name="ParametercanBeReplied" xml:space="preserve">
+        <value>역사에 대한 답변이 가능하다면 참입니다.</value>
+    </data>
+    <data name="ParametercanToggleIsPinned" xml:space="preserve">
+        <value>IsPinned를 변경할 수 있으면 True입니다.</value>
+    </data>
+    <data name="ParametercanGetViewers" xml:space="preserve">
+        <value>기록을 본 사용자를 얻을 수 있는 경우 True입니다.</value>
+    </data>
+    <data name="PostVideoStoryInputModel" xml:space="preserve">
+        <value>영상과 함께 이력을 전송하기 위한 입력 모델</value>
+    </data>
+    <data name="ParameterisAnimation" xml:space="preserve">
+        <value>동영상에 소리가 없으면 True입니다.</value>
+    </data>
+    <data name="TgStoryTypeList" xml:space="preserve">
+        <value>기록 목록 유형 열거&lt;p&gt;멤버:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;메인&lt;/i&gt; - 메인&lt;/li&gt;&lt;li&gt;&lt;i&gt;아카이브&lt;/i&gt; - 아카이브&lt;/li &gt; &lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryInfo" xml:space="preserve">
+        <value>사용자의 활동 기록에 대한 정보를 나타냅니다.</value>
+    </data>
+    <data name="ParameterisForCloseFriends" xml:space="preserve">
+        <value>친한 친구를 위한 이야기라면 사실입니다.</value>
+    </data>
+    <data name="TgUserActiveStories" xml:space="preserve">
+        <value>사용자의 활성 스토리에 대한 정보를 나타냅니다.</value>
+    </data>
+    <data name="Parameterorder" xml:space="preserve">
+        <value>목록의 스토리 순서를 결정하는 데 사용됩니다.</value>
+    </data>
+    <data name="ParametermaxReadStoryId" xml:space="preserve">
+        <value>마지막으로 본 활동 기록 ID</value>
+    </data>
+    <data name="Parameterstories" xml:space="preserve">
+        <value>각 스토리에 대한 정보를 포함하는 배열</value>
+    </data>
+    <data name="TgMiniThumbnail" xml:space="preserve">
+        <value>작은 미리보기를 제공합니다.</value>
+    </data>
+    <data name="ParameterminiThumbnail" xml:space="preserve">
+        <value>작은 미리보기.</value>
+    </data>
+    <data name="TgPhotoSize" xml:space="preserve">
+        <value>사진의 크기를 나타냅니다.</value>
+    </data>
+    <data name="TgAnimatedChatPhoto" xml:space="preserve">
+        <value>프로필 사진으로 설정된 애니메이션을 표현합니다.</value>
+    </data>
+    <data name="Parameterlength" xml:space="preserve">
+        <value>애니메이션의 너비와 높이입니다.</value>
+    </data>
+    <data name="TgChatPhoto" xml:space="preserve">
+        <value>프로필 사진을 나타냅니다.</value>
+    </data>
+    <data name="ParameteraddedDate" xml:space="preserve">
+        <value>사진이 추가된 시점입니다.</value>
+    </data>
+    <data name="ParameterphotoSizes" xml:space="preserve">
+        <value>다양한 크기의 사진 변형.</value>
+    </data>
+    <data name="TgText" xml:space="preserve">
+        <value>텍스트를 나타냅니다.</value>
+    </data>
+    <data name="Parametertext" xml:space="preserve">
+        <value>메시지 텍스트.</value>
+    </data>
+    <data name="TgUserFullInfo" xml:space="preserve">
+        <value>사용자에 대한 완전한 정보를 나타냅니다.</value>
+    </data>
+    <data name="ParameterisStoriesBlocked" xml:space="preserve">
+        <value>사용자 스토리가 차단되는지 여부를 플래그로 지정하세요.</value>
+    </data>
+    <data name="ParameterisBlocked" xml:space="preserve">
+        <value>사용자가 차단되었는지 여부를 표시합니다.</value>
+    </data>
+    <data name="ParametercanBeCalled" xml:space="preserve">
+        <value>사용자에게 전화를 걸 수 있으면 true입니다.</value>
+    </data>
+    <data name="ParametersupportsVideoCalls" xml:space="preserve">
+        <value>사실입니다. 사용자와 영상 통화를 할 수 있다면 그렇습니다.</value>
+    </data>
+    <data name="ParameterhasPrivateCalls" xml:space="preserve">
+        <value>개인 정보 보호 설정으로 인해 사용자에게 전화를 걸 수 없는 경우 True입니다.</value>
+    </data>
+    <data name="ParameterhasPrivateForwards" xml:space="preserve">
+        <value>개인 정보 보호 설정으로 인해 사용자가 전달된 메시지에 연결될 수 없는 경우 True입니다.</value>
+    </data>
+    <data name="ParameterhasRestrictedVoiceAndVideoNoteMessages" xml:space="preserve">
+        <value>음성 및 영상 메모를 사용자에게 보내거나 전달할 수 없는 경우 True입니다.</value>
+    </data>
+    <data name="ParameterhasPinnedStories" xml:space="preserve">
+        <value>사용자가 스토리를 고정한 경우 True입니다.</value>
+    </data>
+    <data name="ParameterneedPhoneNumberPrivacyException" xml:space="preserve">
+        <value>addContact 메소드를 사용할 때 현재 사용자가 자신의 전화번호를 사용자와 공유하도록 명시적으로 허용해야 하는 경우 true입니다.</value>
+    </data>
+</root>

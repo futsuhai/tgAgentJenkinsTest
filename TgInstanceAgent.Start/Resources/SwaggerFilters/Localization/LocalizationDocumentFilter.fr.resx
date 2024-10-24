@@ -1,0 +1,818 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AuthSetPhone" xml:space="preserve">
+        <value>Définir le numéro de téléphone</value>
+    </data>
+    <data name="ParameterinstanceId" xml:space="preserve">
+        <value>ID d'instance</value>
+    </data>
+    <data name="AuthSetPhoneRequest" xml:space="preserve">
+        <value>Numéro de téléphone</value>
+    </data>
+    <data name="Response200" xml:space="preserve">
+        <value>Succès</value>
+    </data>
+    <data name="Response400" xml:space="preserve">
+        <value>Données d'entrée invalides ou demande invalide</value>
+    </data>
+    <data name="Response500" xml:space="preserve">
+        <value>Une erreur s'est produite sur le serveur</value>
+    </data>
+    <data name="AuthCheckCode" xml:space="preserve">
+        <value>Envoyer le code de vérification</value>
+    </data>
+    <data name="AuthCheckCodeRequest" xml:space="preserve">
+        <value>Le code de vérification</value>
+    </data>
+    <data name="AuthCheckPassword" xml:space="preserve">
+        <value>Envoyer le mot de passe</value>
+    </data>
+    <data name="AuthCheckPasswordRequest" xml:space="preserve">
+        <value>Mot de passe</value>
+    </data>
+    <data name="ChatsGetChatHistory" xml:space="preserve">
+        <value>Obtenir l'historique des discussions</value>
+    </data>
+    <data name="ParameterChatId" xml:space="preserve">
+        <value>Identifiant de discussion.</value>
+    </data>
+    <data name="ParameterUsername" xml:space="preserve">
+        <value>Nom d'utilisateur.</value>
+    </data>
+    <data name="ParameterPhoneNumber" xml:space="preserve">
+        <value>Numéro de téléphone.</value>
+    </data>
+    <data name="ParameterLimit" xml:space="preserve">
+        <value>Limite de messages.</value>
+    </data>
+    <data name="ParameterOffset" xml:space="preserve">
+        <value>Biais.</value>
+    </data>
+    <data name="ParameterFromMessageId" xml:space="preserve">
+        <value>En commençant par l'ID du message.</value>
+    </data>
+    <data name="ChatsGetMessage" xml:space="preserve">
+        <value>Obtenir les données des messages</value>
+    </data>
+    <data name="ParameterMessageId" xml:space="preserve">
+        <value>ID du message.</value>
+    </data>
+    <data name="ChatsGetMessageAvailableReactions" xml:space="preserve">
+        <value>Obtenir une liste des réactions disponibles à un message</value>
+    </data>
+    <data name="ContactsGetContacts" xml:space="preserve">
+        <value>Obtenir la liste de contacts</value>
+    </data>
+    <data name="ContactsImportContacts" xml:space="preserve">
+        <value>Contacts d'importation</value>
+    </data>
+    <data name="ContactsImportContactsRequest" xml:space="preserve">
+        <value>Détails du contact</value>
+    </data>
+    <data name="ContactsAddContact" xml:space="preserve">
+        <value>Ajouter le contact</value>
+    </data>
+    <data name="ContactsAddContactRequest" xml:space="preserve">
+        <value>Coordonnées de l'utilisateur</value>
+    </data>
+    <data name="ContactsRemoveContact" xml:space="preserve">
+        <value>Effacer le contact</value>
+    </data>
+    <data name="ContactsRemoveContactRequest" xml:space="preserve">
+        <value>Coordonnées de l'utilisateur</value>
+    </data>
+    <data name="FileStartDownload" xml:space="preserve">
+        <value>Demande de téléchargement d'un fichier par ID de fichier</value>
+    </data>
+    <data name="FileStartDownloadRequest" xml:space="preserve">
+        <value>Modèle avec ID de fichier</value>
+    </data>
+    <data name="FileGetFile" xml:space="preserve">
+        <value>Récupérer un fichier par ID de fichier</value>
+    </data>
+    <data name="ParameterLocalId" xml:space="preserve">
+        <value>ID de fichier local</value>
+    </data>
+    <data name="ParameterRemoteId" xml:space="preserve">
+        <value>ID de fichier distant</value>
+    </data>
+    <data name="FileStartDownloadFromMessage" xml:space="preserve">
+        <value>Demande de téléchargement d'un fichier à partir d'un message.</value>
+    </data>
+    <data name="FileStartDownloadFromMessageRequest" xml:space="preserve">
+        <value>Modèle avec chat et identifiant de message</value>
+    </data>
+    <data name="FileGetFileFromMessage" xml:space="preserve">
+        <value>Réception d'un fichier à partir d'un message</value>
+    </data>
+    <data name="InstanceGetInstance" xml:space="preserve">
+        <value>Récupération des données d'instance</value>
+    </data>
+    <data name="MessageSendTextMessage" xml:space="preserve">
+        <value>Envoi d'un message texte</value>
+    </data>
+    <data name="MessageSendTextMessageRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="MessageSendLocationMessage" xml:space="preserve">
+        <value>Envoi de géolocalisation</value>
+    </data>
+    <data name="MessageSendLocationMessageRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="MessageSendAudioMessage" xml:space="preserve">
+        <value>Envoi d'un message audio</value>
+    </data>
+    <data name="MessageSendAudioMessageRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessage" xml:space="preserve">
+        <value>Envoi d'un message vocal</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessageRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="MessageSendVideoNoteMessage" xml:space="preserve">
+        <value>Envoi d'un cercle</value>
+    </data>
+    <data name="MessageSendVideoNoteMessageRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="MessageSendVideoMessage" xml:space="preserve">
+        <value>Envoi d'une vidéo</value>
+    </data>
+    <data name="MessageSendVideoMessageRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="MessageSendDocumentMessage" xml:space="preserve">
+        <value>Envoi d'un document</value>
+    </data>
+    <data name="MessageSendDocumentMessageRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="MessageSendPhotoMessage" xml:space="preserve">
+        <value>Envoi d'une photo</value>
+    </data>
+    <data name="MessageSendPhotoMessageRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="MessageSendStickerMessage" xml:space="preserve">
+        <value>Envoi d'un autocollant</value>
+    </data>
+    <data name="MessageSendStickerMessageRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="MessageSendStoryMessage" xml:space="preserve">
+        <value>Soumettre une histoire</value>
+    </data>
+    <data name="MessageSendStoryMessageRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="MessageSendAnimationMessage" xml:space="preserve">
+        <value>Envoi d'une animation (gif)</value>
+    </data>
+    <data name="MessageSendAnimationMessageRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="MessageSendContactMessage" xml:space="preserve">
+        <value>Envoyer un contact</value>
+    </data>
+    <data name="MessageSendContactMessageRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="MessageAddMessageReaction" xml:space="preserve">
+        <value>Ajouter une réaction à un message</value>
+    </data>
+    <data name="MessageAddMessageReactionRequest" xml:space="preserve">
+        <value>Données de réaction</value>
+    </data>
+    <data name="MessageRemoveMessageReaction" xml:space="preserve">
+        <value>Supprimer une réaction d'un message</value>
+    </data>
+    <data name="MessageRemoveMessageReactionRequest" xml:space="preserve">
+        <value>Données de réaction</value>
+    </data>
+    <data name="MessageForwardMessages" xml:space="preserve">
+        <value>Transfert de messages</value>
+    </data>
+    <data name="MessageForwardMessagesRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="MessageDeleteMessages" xml:space="preserve">
+        <value>Supprimer des messages</value>
+    </data>
+    <data name="MessageDeleteMessagesRequest" xml:space="preserve">
+        <value>Données des messages</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhoto" xml:space="preserve">
+        <value>Définit la photo de profil. Avant d'installer par ID de fichier, vous devez d'abord vous assurer que le fichier est téléchargé sur le serveur.</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhotoRequest" xml:space="preserve">
+        <value>Données pour définir une photo de profil.</value>
+    </data>
+    <data name="ProfileSetPreviousProfilePhoto" xml:space="preserve">
+        <value>Définit l'une des photos précédentes de l'utilisateur par photo d'identité.</value>
+    </data>
+    <data name="ParameterphotoId" xml:space="preserve">
+        <value>Photo d'identité.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhoto" xml:space="preserve">
+        <value>Définit la photo de profil comme emoji personnalisé.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhotoRequest" xml:space="preserve">
+        <value>Données pour définir une photo de profil.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhoto" xml:space="preserve">
+        <value>Définit votre photo de profil comme autocollant.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhotoRequest" xml:space="preserve">
+        <value>Données pour définir une photo de profil.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhoto" xml:space="preserve">
+        <value>Définit la photo de profil comme une animation. Avant d'installer par ID de fichier, vous devez d'abord vous assurer que le fichier est téléchargé sur le serveur.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhotoRequest" xml:space="preserve">
+        <value>Données pour définir une photo de profil.</value>
+    </data>
+    <data name="ProfileSetBio" xml:space="preserve">
+        <value>Définir la bio pour l'utilisateur.</value>
+    </data>
+    <data name="ProfileSetBioRequest" xml:space="preserve">
+        <value>Modèle avec des informations sur la biographie de l'utilisateur.</value>
+    </data>
+    <data name="StoryPostPhotoStory" xml:space="preserve">
+        <value>Définit une nouvelle histoire pour l'utilisateur sous la forme d'une photo</value>
+    </data>
+    <data name="StoryPostPhotoStoryRequest" xml:space="preserve">
+        <value>Données de réglage de l'historique.</value>
+    </data>
+    <data name="StoryPostVideoStory" xml:space="preserve">
+        <value>Définit une nouvelle histoire à l'utilisateur sous la forme d'une vidéo</value>
+    </data>
+    <data name="StoryPostVideoStoryRequest" xml:space="preserve">
+        <value>Données de réglage de l'historique.</value>
+    </data>
+    <data name="StoryGetStory" xml:space="preserve">
+        <value>Récupère l'historique d'un utilisateur par son identifiant</value>
+    </data>
+    <data name="ParameterStoryId" xml:space="preserve">
+        <value>Identifiant de l'historique</value>
+    </data>
+    <data name="StoryGetUserActiveStories" xml:space="preserve">
+        <value>Obtenir des informations sur les histoires actives d'un utilisateur</value>
+    </data>
+    <data name="UsersGetUser" xml:space="preserve">
+        <value>Obtenir des informations sur l'utilisateur</value>
+    </data>
+    <data name="UsersGetMe" xml:space="preserve">
+        <value>Obtention d'informations sur un utilisateur autorisé</value>
+    </data>
+    <data name="UsersGetUserFullInfo" xml:space="preserve">
+        <value>Obtenir la biographie de l'utilisateur</value>
+    </data>
+    <data name="UsersGetUserProfilePhotos" xml:space="preserve">
+        <value>Obtenir une liste des photos de l'utilisateur</value>
+    </data>
+    <data name="SetPhoneNumberInputModel" xml:space="preserve">
+        <value>Modèle de données d'entrée pour définir le numéro de téléphone d'un compte de télégramme</value>
+    </data>
+    <data name="CheckCodeInputModel" xml:space="preserve">
+        <value>Modèle de saisie pour vérifier le code de confirmation</value>
+    </data>
+    <data name="Parametercode" xml:space="preserve">
+        <value>Code de confirmation.</value>
+    </data>
+    <data name="CheckPasswordInputModel" xml:space="preserve">
+        <value>Modèle de saisie pour la vérification du mot de passe</value>
+    </data>
+    <data name="Parameterpassword" xml:space="preserve">
+        <value>Mot de passe</value>
+    </data>
+    <data name="TgReplyTo" xml:space="preserve">
+        <value>Informations pour répondre à un message.</value>
+    </data>
+    <data name="ParameterchatId" xml:space="preserve">
+        <value>Identifiant de discussion.</value>
+    </data>
+    <data name="TgForwardInfo" xml:space="preserve">
+        <value>Informations sur le message en cours de transfert.</value>
+    </data>
+    <data name="Parameterdate" xml:space="preserve">
+        <value>Date de publication.</value>
+    </data>
+    <data name="TgMessageContent" xml:space="preserve">
+        <value>Données de messages abstraits.</value>
+    </data>
+    <data name="TgMessage" xml:space="preserve">
+        <value>Classe de messages.</value>
+    </data>
+    <data name="ParametersenderId" xml:space="preserve">
+        <value>ID de l'expéditeur.</value>
+    </data>
+    <data name="ParametermessageId" xml:space="preserve">
+        <value>ID du message.</value>
+    </data>
+    <data name="ParameterisOutgoing" xml:space="preserve">
+        <value>Est un message sortant.</value>
+    </data>
+    <data name="ParametercanBeEdited" xml:space="preserve">
+        <value>Peut être modifié.</value>
+    </data>
+    <data name="ParametercanBeForwarded" xml:space="preserve">
+        <value>Peut être transmis.</value>
+    </data>
+    <data name="ParametercanBeDeletedForAllUsers" xml:space="preserve">
+        <value>Peut être supprimé pour tous les utilisateurs.</value>
+    </data>
+    <data name="ParametereditDate" xml:space="preserve">
+        <value>Date d'édition.</value>
+    </data>
+    <data name="TgReactionType" xml:space="preserve">
+        <value>Classe de réaction</value>
+    </data>
+    <data name="TgAvailableReaction" xml:space="preserve">
+        <value>Classe de réaction</value>
+    </data>
+    <data name="ParameterisNeedPremium" xml:space="preserve">
+        <value>Indiquer si la réaction est une réaction premium</value>
+    </data>
+    <data name="TgMessageAvailableReactions" xml:space="preserve">
+        <value>Une classe représentant les réactions disponibles pour un message Telegram.</value>
+    </data>
+    <data name="ParametertopReactions" xml:space="preserve">
+        <value>Obtient ou définit une collection des réactions les plus populaires.</value>
+    </data>
+    <data name="ParameterrecentReactions" xml:space="preserve">
+        <value>Obtient ou définit une collection de réactions récentes.</value>
+    </data>
+    <data name="ParameterpopularReactions" xml:space="preserve">
+        <value>Obtient ou définit une collection de réactions récentes.</value>
+    </data>
+    <data name="TgFile" xml:space="preserve">
+        <value>Représente un fichier</value>
+    </data>
+    <data name="ParameterfileId" xml:space="preserve">
+        <value>ID de fichier.</value>
+    </data>
+    <data name="Parametersize" xml:space="preserve">
+        <value>Taille du fichier.</value>
+    </data>
+    <data name="ParameterremoteId" xml:space="preserve">
+        <value>ID de fichier distant.</value>
+    </data>
+    <data name="TgProfilePhoto" xml:space="preserve">
+        <value>Photo de profil</value>
+    </data>
+    <data name="ParameterhasAnimation" xml:space="preserve">
+        <value>Photo animée</value>
+    </data>
+    <data name="ParameterisPersonal" xml:space="preserve">
+        <value>Installé par l'utilisateur actuel</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Statut de l'utilisateur&lt;p&gt;Membres :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;En ligne&lt;/i&gt; - Utilisateur en ligne&lt;/li&gt;&lt;li&gt;&lt;i&gt;Récemment&lt;/i&gt; - Utilisateur connecté récemment&lt;/ li &gt;&lt;li&gt;&lt;i&gt;LastWeek&lt;/i&gt; - L'utilisateur ne s'est pas connecté depuis une semaine&lt;/li&gt;&lt;li&gt;&lt;i&gt;LastMonth&lt;/i&gt; - L'utilisateur ne s'est pas connecté depuis un mois&lt;/li&gt; li&gt;&lt;li&gt;&lt;i&gt;Hors ligne&lt;/ i&gt; - Utilisateur hors ligne&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgUser" xml:space="preserve">
+        <value>Une classe représentant un contact.</value>
+    </data>
+    <data name="Parameterid" xml:space="preserve">
+        <value>Identifiant.</value>
+    </data>
+    <data name="ParameterfirstName" xml:space="preserve">
+        <value>Nom.</value>
+    </data>
+    <data name="ParameterlastName" xml:space="preserve">
+        <value>Nom de famille.</value>
+    </data>
+    <data name="Parameterusername" xml:space="preserve">
+        <value>Nom d'utilisateur.</value>
+    </data>
+    <data name="ParameterisContact" xml:space="preserve">
+        <value>Ceci est un contact</value>
+    </data>
+    <data name="ParameterisCloseFriend" xml:space="preserve">
+        <value>Est un ami proche.</value>
+    </data>
+    <data name="ParameterisMutualContact" xml:space="preserve">
+        <value>C'est un contact mutuel.</value>
+    </data>
+    <data name="ParameterisFake" xml:space="preserve">
+        <value>C'est un faux contact.</value>
+    </data>
+    <data name="ParameterisScum" xml:space="preserve">
+        <value>C'est une arnaque.</value>
+    </data>
+    <data name="ParameterisVerified" xml:space="preserve">
+        <value>Vérifié.</value>
+    </data>
+    <data name="ParameterhasActiveStories" xml:space="preserve">
+        <value>Il y a des histoires</value>
+    </data>
+    <data name="ParameterhasUnreadActiveStories" xml:space="preserve">
+        <value>Il y a des histoires inédites</value>
+    </data>
+    <data name="ParameterisPremium" xml:space="preserve">
+        <value>Compte Premium</value>
+    </data>
+    <data name="ParameterstatusEmojiId" xml:space="preserve">
+        <value>Smiley en statut</value>
+    </data>
+    <data name="ImportContactInputModel" xml:space="preserve">
+        <value>Modèle de saisie pour ajouter un contact</value>
+    </data>
+    <data name="AddContactInputModel" xml:space="preserve">
+        <value>Modèle de saisie pour ajouter un contact</value>
+    </data>
+    <data name="RemoveContactInputModel" xml:space="preserve">
+        <value>Modèle de suppression d'un contact utilisateur</value>
+    </data>
+    <data name="FileIdRequestInputModel" xml:space="preserve">
+        <value>Modèle d'entrée pour une requête avec un ID de fichier.</value>
+    </data>
+    <data name="ParameterlocalId" xml:space="preserve">
+        <value>ID de fichier local</value>
+    </data>
+    <data name="FileMessageRequestInputModel" xml:space="preserve">
+        <value>Modèle de saisie pour la demande avec ID de message et ID de chat.</value>
+    </data>
+    <data name="SchedulingStateInputModel" xml:space="preserve">
+        <value>Modèle d'entrée définissant le type de planification de l'envoi des messages</value>
+    </data>
+    <data name="ParametersendDate" xml:space="preserve">
+        <value>Date à laquelle le message a été envoyé Si la date est nulle, alors le type de planification du message sera lorsque le destinataire sera en ligne</value>
+    </data>
+    <data name="MessageSendOptionsInputModel" xml:space="preserve">
+        <value>Modèle de paramètres d'entrée pour l'envoi d'un message</value>
+    </data>
+    <data name="ParameterdisableNotification" xml:space="preserve">
+        <value>Indicateur - désactiver la notification du destinataire</value>
+    </data>
+    <data name="ParameterprotectContent" xml:space="preserve">
+        <value>Indicateur - si le message envoyé peut être transféré ou enregistré</value>
+    </data>
+    <data name="SendTextMessageInputModel" xml:space="preserve">
+        <value>Modèle de saisie pour envoyer un message texte.</value>
+    </data>
+    <data name="Parametermessage" xml:space="preserve">
+        <value>Texte du message.</value>
+    </data>
+    <data name="ParameterurlPreview" xml:space="preserve">
+        <value>Aperçu de l'URL.</value>
+    </data>
+    <data name="ParameterdisableUrlPreview" xml:space="preserve">
+        <value>Désactivez les aperçus d'URL.</value>
+    </data>
+    <data name="ParameterneedShowActivity" xml:space="preserve">
+        <value>Flag indiquant si l'activité doit être envoyée avant le message</value>
+    </data>
+    <data name="SendLocationMessageInputModel" xml:space="preserve">
+        <value>Modèle d'entrée pour l'envoi d'un message de localisation.</value>
+    </data>
+    <data name="Parameterlatitude" xml:space="preserve">
+        <value>Latitude du lieu.</value>
+    </data>
+    <data name="Parameterlongitude" xml:space="preserve">
+        <value>Longitude du lieu.</value>
+    </data>
+    <data name="ParameterhorizontalAccuracy" xml:space="preserve">
+        <value>Précision de localisation horizontale.</value>
+    </data>
+    <data name="SendAudioMessageInputModel" xml:space="preserve">
+        <value>Modèle de données d'entrée pour l'envoi d'un message audio.</value>
+    </data>
+    <data name="ParameterfileInBase64" xml:space="preserve">
+        <value>Fichier Base64 qui sera envoyé dans le message.</value>
+    </data>
+    <data name="ParameterlocalFileId" xml:space="preserve">
+        <value>ID de fichier local</value>
+    </data>
+    <data name="ParameterremoteFileId" xml:space="preserve">
+        <value>ID de fichier distant</value>
+    </data>
+    <data name="Parametercaption" xml:space="preserve">
+        <value>Signature du message de fichier.</value>
+    </data>
+    <data name="Parametertitle" xml:space="preserve">
+        <value>Titre du message audio.</value>
+    </data>
+    <data name="Parameterperformer" xml:space="preserve">
+        <value>Interprète de messages audio.</value>
+    </data>
+    <data name="ParameteralbumCoverThumbnailBase64" xml:space="preserve">
+        <value>Aperçu de l'album au format Base64.</value>
+    </data>
+    <data name="SendVoiceNoteMessageInputModel" xml:space="preserve">
+        <value>Modèle de données d'entrée pour l'envoi d'un message vocal.</value>
+    </data>
+    <data name="SendVideoNoteMessageInputModel" xml:space="preserve">
+        <value>Modèle de données d'entrée pour l'envoi d'un cercle.</value>
+    </data>
+    <data name="SendVideoMessageInputModel" xml:space="preserve">
+        <value>Modèle de données d'entrée pour l'envoi d'un message avec vidéo.</value>
+    </data>
+    <data name="ParameterneedShowRecordingActivity" xml:space="preserve">
+        <value>Drapeau indiquant s'il est nécessaire de montrer l'activité que l'utilisateur enregistre une vidéo.</value>
+    </data>
+    <data name="SendDocumentMessageInputModel" xml:space="preserve">
+        <value>Modèle de données d'entrée pour l'envoi d'un document.</value>
+    </data>
+    <data name="SendPhotoMessageInputModel" xml:space="preserve">
+        <value>Modèle de données d'entrée pour envoyer un message avec une photo.</value>
+    </data>
+    <data name="SendStickerMessageInputModel" xml:space="preserve">
+        <value>Modèle de saisie pour envoyer un message avec un autocollant.</value>
+    </data>
+    <data name="SendStoryMessageInputModel" xml:space="preserve">
+        <value>Modèle de saisie de message avec historique</value>
+    </data>
+    <data name="ParameterstorySenderChatId" xml:space="preserve">
+        <value>ID du chat où l'histoire a été publiée</value>
+    </data>
+    <data name="ParameterstoryId" xml:space="preserve">
+        <value>Identifiant de l'historique</value>
+    </data>
+    <data name="SendAnimationMessageInputModel" xml:space="preserve">
+        <value>Modèle de saisie pour envoyer un message avec animation</value>
+    </data>
+    <data name="ParameterhasSpoiler" xml:space="preserve">
+        <value>True si l'aperçu de l'animation doit être fermé.</value>
+    </data>
+    <data name="Parameterheight" xml:space="preserve">
+        <value>Hauteur de l'animation</value>
+    </data>
+    <data name="Parameterwidth" xml:space="preserve">
+        <value>Largeur de l'animation</value>
+    </data>
+    <data name="SendContactMessageInputModel" xml:space="preserve">
+        <value>Modèle de données d'entrée pour envoyer un message à un contact.</value>
+    </data>
+    <data name="ParametercontactPhoneNumber" xml:space="preserve">
+        <value>Numéro de téléphone de contact.</value>
+    </data>
+    <data name="ParametercontactId" xml:space="preserve">
+        <value>Identifiant du contact.</value>
+    </data>
+    <data name="ParametervCard" xml:space="preserve">
+        <value>Carte de visite VCard.</value>
+    </data>
+    <data name="AddMessageReactionInputModel" xml:space="preserve">
+        <value>Modèle de données d'entrée pour envoyer une réaction à partir d'un message</value>
+    </data>
+    <data name="Parameteremoji" xml:space="preserve">
+        <value>Réaction</value>
+    </data>
+    <data name="ParameteremojiId" xml:space="preserve">
+        <value>Réaction premium</value>
+    </data>
+    <data name="RemoveMessageReactionInputModel" xml:space="preserve">
+        <value>Modèle de saisie pour supprimer une réaction d'un message</value>
+    </data>
+    <data name="ForwardMessagesInputModel" xml:space="preserve">
+        <value>Modèle d'entrée pour le transfert de messages</value>
+    </data>
+    <data name="ParameterfromChatId" xml:space="preserve">
+        <value>ID du chat à partir duquel les messages sont transférés</value>
+    </data>
+    <data name="ParametermessageIds" xml:space="preserve">
+        <value>Tableau d'identifiants de message à transférer</value>
+    </data>
+    <data name="ParameterremoveCaption" xml:space="preserve">
+        <value>Vrai si vous souhaitez supprimer la signature dans les fichiers multimédias</value>
+    </data>
+    <data name="ParametersendCopy" xml:space="preserve">
+        <value>Vrai si vous souhaitez transférer des messages sans référence aux utilisateurs de ces messages</value>
+    </data>
+    <data name="DeleteMessagesInputModel" xml:space="preserve">
+        <value>Modèle de saisie pour supprimer les messages de chat</value>
+    </data>
+    <data name="Parameterrevoke" xml:space="preserve">
+        <value>Vrai si vous souhaitez supprimer pour tous les participants au chat</value>
+    </data>
+    <data name="SetPictureProfilePhotoInputModel" xml:space="preserve">
+        <value>Modèle de données d'entrée pour définir une photo de profil.</value>
+    </data>
+    <data name="BackgroundGradientInputModel" xml:space="preserve">
+        <value>Modèle de données d'entrée pour la possibilité de définir un arrière-plan dégradé</value>
+    </data>
+    <data name="ParametertopColor" xml:space="preserve">
+        <value>Couleur d'arrière-plan supérieure au format HEX.</value>
+    </data>
+    <data name="ParameterbottomColor" xml:space="preserve">
+        <value>Couleur d’arrière-plan inférieure au format HEX.</value>
+    </data>
+    <data name="ParameterrotationAngle" xml:space="preserve">
+        <value>Angle de rotation du dégradé dans le sens des aiguilles d'une montre, en degrés ; 0-359. Doit toujours être divisible par 45</value>
+    </data>
+    <data name="BackgroundInputModel" xml:space="preserve">
+        <value>Un modèle de données d'entrée contenant des propriétés parmi lesquelles choisir pour définir différents arrière-plans sur votre photo de profil</value>
+    </data>
+    <data name="Parametercolor" xml:space="preserve">
+        <value>Couleur de fond au format HEX</value>
+    </data>
+    <data name="Parametercolors" xml:space="preserve">
+        <value>Liste de 3 ou 4 couleurs dégradées de forme libre au format HEX</value>
+    </data>
+    <data name="SetEmojiProfilePhotoInputModel" xml:space="preserve">
+        <value>Modèle de saisie pour définir un emoji comme photo de profil.</value>
+    </data>
+    <data name="ParametercustomEmojiId" xml:space="preserve">
+        <value>Identifiant de l'autocollant</value>
+    </data>
+    <data name="SetStickerProfilePhotoInputModel" xml:space="preserve">
+        <value>Modèle de saisie pour définir un autocollant comme photo de profil.</value>
+    </data>
+    <data name="ParameterstickerSetId" xml:space="preserve">
+        <value>ID du pack d’autocollants</value>
+    </data>
+    <data name="ParameterstickerId" xml:space="preserve">
+        <value>Identifiant de l'autocollant</value>
+    </data>
+    <data name="SetAnimationProfilePhotoInputModel" xml:space="preserve">
+        <value>Modèle d'entrée pour définir une animation sous la forme d'une photo de profil.</value>
+    </data>
+    <data name="ParametermainFrameTimestamp" xml:space="preserve">
+        <value>Horodatage de l’image à laquelle l’animation apparaîtra statique.</value>
+    </data>
+    <data name="SetUserBioInputModel" xml:space="preserve">
+        <value>Modèle de données d'entrée pour définir la biographie de l'utilisateur</value>
+    </data>
+    <data name="Parameterbio" xml:space="preserve">
+        <value>Ligne bio</value>
+    </data>
+    <data name="StoryPrivacySettingsContactsInputModel" xml:space="preserve">
+        <value>Paramètres de confidentialité qui vous permettent de voir l'historique des contacts de l'utilisateur</value>
+    </data>
+    <data name="ParameterexceptUserIds" xml:space="preserve">
+        <value>Un tableau d'ID utilisateur qui ne devraient pas voir l'historique</value>
+    </data>
+    <data name="StoryPrivacySettingsEveryoneInputModel" xml:space="preserve">
+        <value>Paramètres de confidentialité permettant à tous les utilisateurs de voir l'historique</value>
+    </data>
+    <data name="StoryPrivacySettingsSelectedUsersInputModel" xml:space="preserve">
+        <value>Paramètres de confidentialité permettant aux utilisateurs sélectionnés de voir l'historique</value>
+    </data>
+    <data name="ParameteruserIds" xml:space="preserve">
+        <value>Un tableau d'identifiants d'utilisateur qui verront l'histoire</value>
+    </data>
+    <data name="StoryPrivacySettingsCloseFriendsInputModel" xml:space="preserve">
+        <value>Paramètres de confidentialité qui permettent aux utilisateurs de la liste d'amis proches de voir leur historique</value>
+    </data>
+    <data name="StoryPrivacySettingsInputModel" xml:space="preserve">
+        <value>Modèle de données d'entrée contenant des propriétés parmi lesquelles choisir Pour configurer la confidentialité de l'historique</value>
+    </data>
+    <data name="PostPhotoStoryInputModel" xml:space="preserve">
+        <value>Modèle de saisie pour envoyer une histoire avec une photo</value>
+    </data>
+    <data name="ParameteractivePeriod" xml:space="preserve">
+        <value>Période pendant laquelle l'historique sera disponible (en heures)</value>
+    </data>
+    <data name="ParameterisPinned" xml:space="preserve">
+        <value>Vrai si vous souhaitez que l'historique reste disponible après expiration</value>
+    </data>
+    <data name="TgStoryContent" xml:space="preserve">
+        <value>Contexte abstrait de l'histoire.</value>
+    </data>
+    <data name="TgStoryPrivacySettings" xml:space="preserve">
+        <value>Énumération des paramètres de confidentialité&lt;p&gt;Membres :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Amis proches&lt;/i&gt; - Pour les amis proches&lt;/li&gt;&lt;li&gt;&lt;i&gt;Contacts&lt;/i&gt; - Pour les contacts&lt; /li&gt;&lt;li&gt;&lt;i&gt;EveryOne&lt;/i&gt; - Pour tout le monde&lt;/li&gt;&lt;li&gt;&lt;i&gt;SelectedUsers&lt;/i&gt; - Pour les utilisateurs sélectionnés&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryFullInfo" xml:space="preserve">
+        <value>Fournit des informations complètes sur l'historique dans le télégramme</value>
+    </data>
+    <data name="ParametersenderChatId" xml:space="preserve">
+        <value>ID de l'expéditeur de l'historique (utilisateur)</value>
+    </data>
+    <data name="ParameterviewCount" xml:space="preserve">
+        <value>Nombre de vues</value>
+    </data>
+    <data name="ParameterforwardCount" xml:space="preserve">
+        <value>Combien de fois l’histoire a-t-elle été relayée ?</value>
+    </data>
+    <data name="ParameterreactionCount" xml:space="preserve">
+        <value>Nombre de réactions aux histoires</value>
+    </data>
+    <data name="ParameterrecentViewerUserIds" xml:space="preserve">
+        <value>ID de jusqu'à trois lecteurs d'historique les plus récents</value>
+    </data>
+    <data name="ParameterisBeingSent" xml:space="preserve">
+        <value>Vrai si l'utilisateur actuel soumet l'histoire</value>
+    </data>
+    <data name="ParameterisBeingEdited" xml:space="preserve">
+        <value>Vrai si l'utilisateur actuel modifie l'histoire</value>
+    </data>
+    <data name="ParameterisEdited" xml:space="preserve">
+        <value>Vrai si l'histoire a été modifiée</value>
+    </data>
+    <data name="ParameterisVisibleOnlyForSelf" xml:space="preserve">
+        <value>Vrai si visible uniquement par le propriétaire de l'historique</value>
+    </data>
+    <data name="ParametercanBeDeleted" xml:space="preserve">
+        <value>Vrai si peut être supprimé</value>
+    </data>
+    <data name="ParametercanBeReplied" xml:space="preserve">
+        <value>Vrai si l'on peut répondre à l'histoire</value>
+    </data>
+    <data name="ParametercanToggleIsPinned" xml:space="preserve">
+        <value>Vrai si IsPinned peut être modifié</value>
+    </data>
+    <data name="ParametercanGetViewers" xml:space="preserve">
+        <value>Vrai s'il est possible d'obtenir les utilisateurs ayant consulté l'historique</value>
+    </data>
+    <data name="PostVideoStoryInputModel" xml:space="preserve">
+        <value>Modèle d'entrée pour l'envoi de l'historique avec vidéo</value>
+    </data>
+    <data name="ParameterisAnimation" xml:space="preserve">
+        <value>Vrai si la vidéo n'a pas de son</value>
+    </data>
+    <data name="TgStoryTypeList" xml:space="preserve">
+        <value>Énumération des types de listes d'historique&lt;p&gt;Membres :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Principal&lt;/i&gt; - Principal&lt;/li&gt;&lt;li&gt;&lt;i&gt;Archive&lt;/i&gt; - Archive&lt;/li &gt; &lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryInfo" xml:space="preserve">
+        <value>Représente des informations sur l'historique actif d'un utilisateur</value>
+    </data>
+    <data name="ParameterisForCloseFriends" xml:space="preserve">
+        <value>Vrai si l'histoire est destinée à des amis proches</value>
+    </data>
+    <data name="TgUserActiveStories" xml:space="preserve">
+        <value>Représente des informations sur les histoires actives d'un utilisateur</value>
+    </data>
+    <data name="Parameterorder" xml:space="preserve">
+        <value>Utilisé pour déterminer l'ordre des histoires dans la liste</value>
+    </data>
+    <data name="ParametermaxReadStoryId" xml:space="preserve">
+        <value>ID de l'historique actif consulté pour la dernière fois</value>
+    </data>
+    <data name="Parameterstories" xml:space="preserve">
+        <value>Un tableau contenant des informations sur chaque histoire</value>
+    </data>
+    <data name="TgMiniThumbnail" xml:space="preserve">
+        <value>Présente un petit aperçu</value>
+    </data>
+    <data name="ParameterminiThumbnail" xml:space="preserve">
+        <value>Un petit aperçu.</value>
+    </data>
+    <data name="TgPhotoSize" xml:space="preserve">
+        <value>Représente la taille d'une photo</value>
+    </data>
+    <data name="TgAnimatedChatPhoto" xml:space="preserve">
+        <value>Représente une animation définie comme photo de profil</value>
+    </data>
+    <data name="Parameterlength" xml:space="preserve">
+        <value>Largeur et hauteur de l'animation.</value>
+    </data>
+    <data name="TgChatPhoto" xml:space="preserve">
+        <value>Représente une photo de profil</value>
+    </data>
+    <data name="ParameteraddedDate" xml:space="preserve">
+        <value>Le moment où la photo a été ajoutée.</value>
+    </data>
+    <data name="ParameterphotoSizes" xml:space="preserve">
+        <value>Variations de photographies en différentes tailles.</value>
+    </data>
+    <data name="TgText" xml:space="preserve">
+        <value>Représente le texte.</value>
+    </data>
+    <data name="Parametertext" xml:space="preserve">
+        <value>Texte du message.</value>
+    </data>
+    <data name="TgUserFullInfo" xml:space="preserve">
+        <value>Représente des informations complètes sur l’utilisateur.</value>
+    </data>
+    <data name="ParameterisStoriesBlocked" xml:space="preserve">
+        <value>Indiquez si les user stories sont bloquées.</value>
+    </data>
+    <data name="ParameterisBlocked" xml:space="preserve">
+        <value>Indique si l'utilisateur est bloqué.</value>
+    </data>
+    <data name="ParametercanBeCalled" xml:space="preserve">
+        <value>C'est vrai, si l'utilisateur peut être appelé.</value>
+    </data>
+    <data name="ParametersupportsVideoCalls" xml:space="preserve">
+        <value>C'est vrai, si vous pouvez créer un appel vidéo avec l'utilisateur.</value>
+    </data>
+    <data name="ParameterhasPrivateCalls" xml:space="preserve">
+        <value>Vrai si l'utilisateur ne peut pas être appelé en raison de ses paramètres de confidentialité.</value>
+    </data>
+    <data name="ParameterhasPrivateForwards" xml:space="preserve">
+        <value>Vrai si l'utilisateur ne peut pas être associé aux messages transférés en raison de ses paramètres de confidentialité.</value>
+    </data>
+    <data name="ParameterhasRestrictedVoiceAndVideoNoteMessages" xml:space="preserve">
+        <value>Vrai si les notes vocales et vidéo ne peuvent pas être envoyées ou transférées à l’utilisateur.</value>
+    </data>
+    <data name="ParameterhasPinnedStories" xml:space="preserve">
+        <value>Vrai si l’utilisateur a épinglé des histoires.</value>
+    </data>
+    <data name="ParameterneedPhoneNumberPrivacyException" xml:space="preserve">
+        <value>True si l'utilisateur actuel doit être explicitement autorisé à partager son numéro de téléphone avec l'utilisateur lors de l'utilisation de la méthode addContact.</value>
+    </data>
+</root>

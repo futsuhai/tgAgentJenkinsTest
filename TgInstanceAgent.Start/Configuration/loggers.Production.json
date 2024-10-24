@@ -1,0 +1,45 @@
+{
+  "Serilog": {
+    "Using": [
+      "Serilog.Sinks.Telegram.Alternative",
+      "Elastic.Serilog.Sinks"
+    ],
+    "MinimumLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft": "Warning",
+        "MassTransit": "Warning"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "Console"
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "Log/log_.txt",
+          "rollingInterval": "Day",
+          "restrictedToMinimumLevel": "Warning"
+        }
+      },
+      {
+        "Name": "Telegram",
+        "Args": {
+          "botToken": "5022522868:AAG18clVu5Btec3coSzwrefa-XMN1_HzgYA",
+          "chatId": "-1002222981645",
+          "applicationName": "WaInstanceAgent",
+          "dateFormat": "yyyy-MM-dd HH:mm:sszzz"
+        }
+      },
+      {
+        "Name": "Elasticsearch",
+        "Args": {
+          "nodeUris": "http://localhost:9200",
+          "indexFormat": "logstash-{0:yyyy.MM.dd}",
+          "restrictedToMinimumLevel": "Information"
+        }
+      }
+    ]
+  }
+}

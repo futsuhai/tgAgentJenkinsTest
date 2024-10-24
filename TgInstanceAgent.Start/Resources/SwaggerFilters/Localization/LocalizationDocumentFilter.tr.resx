@@ -1,0 +1,818 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AuthSetPhone" xml:space="preserve">
+        <value>Telefon numarasını ayarla</value>
+    </data>
+    <data name="ParameterinstanceId" xml:space="preserve">
+        <value>Örnek kimliği</value>
+    </data>
+    <data name="AuthSetPhoneRequest" xml:space="preserve">
+        <value>Telefon numarası</value>
+    </data>
+    <data name="Response200" xml:space="preserve">
+        <value>Başarı</value>
+    </data>
+    <data name="Response400" xml:space="preserve">
+        <value>Geçersiz giriş verileri veya geçersiz istek</value>
+    </data>
+    <data name="Response500" xml:space="preserve">
+        <value>Sunucuda bir hata oluştu</value>
+    </data>
+    <data name="AuthCheckCode" xml:space="preserve">
+        <value>Doğrulama kodu Gönder</value>
+    </data>
+    <data name="AuthCheckCodeRequest" xml:space="preserve">
+        <value>Doğrulama kodu</value>
+    </data>
+    <data name="AuthCheckPassword" xml:space="preserve">
+        <value>Şifreyi gönder</value>
+    </data>
+    <data name="AuthCheckPasswordRequest" xml:space="preserve">
+        <value>Şifre</value>
+    </data>
+    <data name="ChatsGetChatHistory" xml:space="preserve">
+        <value>Sohbet geçmişini alın</value>
+    </data>
+    <data name="ParameterChatId" xml:space="preserve">
+        <value>Sohbet kimliği.</value>
+    </data>
+    <data name="ParameterUsername" xml:space="preserve">
+        <value>Kullanıcı adı.</value>
+    </data>
+    <data name="ParameterPhoneNumber" xml:space="preserve">
+        <value>Telefon numarası.</value>
+    </data>
+    <data name="ParameterLimit" xml:space="preserve">
+        <value>Mesaj sınırı.</value>
+    </data>
+    <data name="ParameterOffset" xml:space="preserve">
+        <value>Ön yargı.</value>
+    </data>
+    <data name="ParameterFromMessageId" xml:space="preserve">
+        <value>Mesaj kimliğiyle başlayarak.</value>
+    </data>
+    <data name="ChatsGetMessage" xml:space="preserve">
+        <value>Mesaj verilerini al</value>
+    </data>
+    <data name="ParameterMessageId" xml:space="preserve">
+        <value>Mesaj Kimliği.</value>
+    </data>
+    <data name="ChatsGetMessageAvailableReactions" xml:space="preserve">
+        <value>Bir mesaja verilen mevcut tepkilerin listesini alma</value>
+    </data>
+    <data name="ContactsGetContacts" xml:space="preserve">
+        <value>Kişi listesini al</value>
+    </data>
+    <data name="ContactsImportContacts" xml:space="preserve">
+        <value>Kişileri içe aktar</value>
+    </data>
+    <data name="ContactsImportContactsRequest" xml:space="preserve">
+        <value>İletişim detayları</value>
+    </data>
+    <data name="ContactsAddContact" xml:space="preserve">
+        <value>Kişi ekle</value>
+    </data>
+    <data name="ContactsAddContactRequest" xml:space="preserve">
+        <value>Kullanıcı iletişim bilgileri</value>
+    </data>
+    <data name="ContactsRemoveContact" xml:space="preserve">
+        <value>Kişiyi silmek</value>
+    </data>
+    <data name="ContactsRemoveContactRequest" xml:space="preserve">
+        <value>Kullanıcı iletişim bilgileri</value>
+    </data>
+    <data name="FileStartDownload" xml:space="preserve">
+        <value>Dosya kimliğine göre dosya indirme isteği</value>
+    </data>
+    <data name="FileStartDownloadRequest" xml:space="preserve">
+        <value>Dosya kimliğine sahip model</value>
+    </data>
+    <data name="FileGetFile" xml:space="preserve">
+        <value>Bir dosyayı dosya kimliğine göre alma</value>
+    </data>
+    <data name="ParameterLocalId" xml:space="preserve">
+        <value>Yerel dosya kimliği</value>
+    </data>
+    <data name="ParameterRemoteId" xml:space="preserve">
+        <value>Uzak dosya kimliği</value>
+    </data>
+    <data name="FileStartDownloadFromMessage" xml:space="preserve">
+        <value>Bir mesajdan dosya indirme isteği.</value>
+    </data>
+    <data name="FileStartDownloadFromMessageRequest" xml:space="preserve">
+        <value>Sohbet ve mesaj kimliğine sahip model</value>
+    </data>
+    <data name="FileGetFileFromMessage" xml:space="preserve">
+        <value>Mesajdan dosya alma</value>
+    </data>
+    <data name="InstanceGetInstance" xml:space="preserve">
+        <value>Örnek Verilerini Alma</value>
+    </data>
+    <data name="MessageSendTextMessage" xml:space="preserve">
+        <value>Kısa mesaj gönderme</value>
+    </data>
+    <data name="MessageSendTextMessageRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="MessageSendLocationMessage" xml:space="preserve">
+        <value>Coğrafi konum gönderiliyor</value>
+    </data>
+    <data name="MessageSendLocationMessageRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="MessageSendAudioMessage" xml:space="preserve">
+        <value>Sesli mesaj gönderme</value>
+    </data>
+    <data name="MessageSendAudioMessageRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessage" xml:space="preserve">
+        <value>Sesli mesaj gönderme</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessageRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="MessageSendVideoNoteMessage" xml:space="preserve">
+        <value>Bir çevre gönderiyorum</value>
+    </data>
+    <data name="MessageSendVideoNoteMessageRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="MessageSendVideoMessage" xml:space="preserve">
+        <value>Video gönderme</value>
+    </data>
+    <data name="MessageSendVideoMessageRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="MessageSendDocumentMessage" xml:space="preserve">
+        <value>Belge gönderme</value>
+    </data>
+    <data name="MessageSendDocumentMessageRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="MessageSendPhotoMessage" xml:space="preserve">
+        <value>Fotoğraf gönderiliyor</value>
+    </data>
+    <data name="MessageSendPhotoMessageRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="MessageSendStickerMessage" xml:space="preserve">
+        <value>Çıkartma gönderme</value>
+    </data>
+    <data name="MessageSendStickerMessageRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="MessageSendStoryMessage" xml:space="preserve">
+        <value>Bir hikaye gönderme</value>
+    </data>
+    <data name="MessageSendStoryMessageRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="MessageSendAnimationMessage" xml:space="preserve">
+        <value>Animasyon gönderme (gif)</value>
+    </data>
+    <data name="MessageSendAnimationMessageRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="MessageSendContactMessage" xml:space="preserve">
+        <value>Bir kişi gönder</value>
+    </data>
+    <data name="MessageSendContactMessageRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="MessageAddMessageReaction" xml:space="preserve">
+        <value>Mesaja tepki ekleme</value>
+    </data>
+    <data name="MessageAddMessageReactionRequest" xml:space="preserve">
+        <value>Reaksiyon Verileri</value>
+    </data>
+    <data name="MessageRemoveMessageReaction" xml:space="preserve">
+        <value>Bir mesajdan tepkiyi kaldırma</value>
+    </data>
+    <data name="MessageRemoveMessageReactionRequest" xml:space="preserve">
+        <value>Reaksiyon Verileri</value>
+    </data>
+    <data name="MessageForwardMessages" xml:space="preserve">
+        <value>Mesajları iletme</value>
+    </data>
+    <data name="MessageForwardMessagesRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="MessageDeleteMessages" xml:space="preserve">
+        <value>Mesajları silme</value>
+    </data>
+    <data name="MessageDeleteMessagesRequest" xml:space="preserve">
+        <value>Mesaj verileri</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhoto" xml:space="preserve">
+        <value>Profil fotoğrafını ayarlar. Dosya kimliğine göre kurulum yapmadan önce öncelikle dosyanın sunucuya yüklendiğinden emin olmalısınız.</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhotoRequest" xml:space="preserve">
+        <value>Profil fotoğrafını ayarlamak için veriler.</value>
+    </data>
+    <data name="ProfileSetPreviousProfilePhoto" xml:space="preserve">
+        <value>Kullanıcının önceki fotoğraflarından birini fotoğraf kimliğine göre ayarlar.</value>
+    </data>
+    <data name="ParameterphotoId" xml:space="preserve">
+        <value>Fotoğraflı kimlik.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhoto" xml:space="preserve">
+        <value>Profil fotoğrafını özel bir emoji olarak ayarlar.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhotoRequest" xml:space="preserve">
+        <value>Profil fotoğrafını ayarlamak için veriler.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhoto" xml:space="preserve">
+        <value>Profil fotoğrafınızı çıkartma olarak ayarlar.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhotoRequest" xml:space="preserve">
+        <value>Profil fotoğrafını ayarlamak için veriler.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhoto" xml:space="preserve">
+        <value>Profil fotoğrafını animasyon olarak ayarlar. Dosya kimliğine göre kurulum yapmadan önce öncelikle dosyanın sunucuya yüklendiğinden emin olmalısınız.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhotoRequest" xml:space="preserve">
+        <value>Profil fotoğrafını ayarlamak için veriler.</value>
+    </data>
+    <data name="ProfileSetBio" xml:space="preserve">
+        <value>Kullanıcı için biyografiyi ayarlayın.</value>
+    </data>
+    <data name="ProfileSetBioRequest" xml:space="preserve">
+        <value>Kullanıcının biyografisi hakkında bilgi içeren model.</value>
+    </data>
+    <data name="StoryPostPhotoStory" xml:space="preserve">
+        <value>Kullanıcı için fotoğraf biçiminde yeni bir hikaye belirler</value>
+    </data>
+    <data name="StoryPostPhotoStoryRequest" xml:space="preserve">
+        <value>Geçmiş ayar verileri.</value>
+    </data>
+    <data name="StoryPostVideoStory" xml:space="preserve">
+        <value>Kullanıcıya video şeklinde yeni bir hikaye ayarlar</value>
+    </data>
+    <data name="StoryPostVideoStoryRequest" xml:space="preserve">
+        <value>Geçmiş ayar verileri.</value>
+    </data>
+    <data name="StoryGetStory" xml:space="preserve">
+        <value>Bir kullanıcının geçmişini kimliğine göre alır</value>
+    </data>
+    <data name="ParameterStoryId" xml:space="preserve">
+        <value>Geçmiş Kimliği</value>
+    </data>
+    <data name="StoryGetUserActiveStories" xml:space="preserve">
+        <value>Bir kullanıcının aktif hikayeleri hakkında bilgi alın</value>
+    </data>
+    <data name="UsersGetUser" xml:space="preserve">
+        <value>Kullanıcı bilgilerini alma</value>
+    </data>
+    <data name="UsersGetMe" xml:space="preserve">
+        <value>Yetkili bir kullanıcı hakkında bilgi edinme</value>
+    </data>
+    <data name="UsersGetUserFullInfo" xml:space="preserve">
+        <value>Kullanıcı biyografisini alın</value>
+    </data>
+    <data name="UsersGetUserProfilePhotos" xml:space="preserve">
+        <value>Kullanıcı fotoğraflarının bir listesini alın</value>
+    </data>
+    <data name="SetPhoneNumberInputModel" xml:space="preserve">
+        <value>Bir telgraf hesabının telefon numarasını ayarlamak için giriş veri modeli</value>
+    </data>
+    <data name="CheckCodeInputModel" xml:space="preserve">
+        <value>Onay kodunu doğrulamak için giriş modeli</value>
+    </data>
+    <data name="Parametercode" xml:space="preserve">
+        <value>Onay kodu.</value>
+    </data>
+    <data name="CheckPasswordInputModel" xml:space="preserve">
+        <value>Parola doğrulaması için giriş modeli</value>
+    </data>
+    <data name="Parameterpassword" xml:space="preserve">
+        <value>Şifre</value>
+    </data>
+    <data name="TgReplyTo" xml:space="preserve">
+        <value>Bir mesajı yanıtlamaya yönelik bilgiler.</value>
+    </data>
+    <data name="ParameterchatId" xml:space="preserve">
+        <value>Sohbet kimliği.</value>
+    </data>
+    <data name="TgForwardInfo" xml:space="preserve">
+        <value>İletilen mesaj hakkında bilgi.</value>
+    </data>
+    <data name="Parameterdate" xml:space="preserve">
+        <value>Posta tarihi.</value>
+    </data>
+    <data name="TgMessageContent" xml:space="preserve">
+        <value>Özet mesaj verileri.</value>
+    </data>
+    <data name="TgMessage" xml:space="preserve">
+        <value>Mesaj sınıfı.</value>
+    </data>
+    <data name="ParametersenderId" xml:space="preserve">
+        <value>Gönderen Kimliği.</value>
+    </data>
+    <data name="ParametermessageId" xml:space="preserve">
+        <value>Mesaj Kimliği.</value>
+    </data>
+    <data name="ParameterisOutgoing" xml:space="preserve">
+        <value>Giden bir mesajdır.</value>
+    </data>
+    <data name="ParametercanBeEdited" xml:space="preserve">
+        <value>Düzenlenebilir.</value>
+    </data>
+    <data name="ParametercanBeForwarded" xml:space="preserve">
+        <value>İletilebilir.</value>
+    </data>
+    <data name="ParametercanBeDeletedForAllUsers" xml:space="preserve">
+        <value>Tüm kullanıcılar için kaldırılabilir.</value>
+    </data>
+    <data name="ParametereditDate" xml:space="preserve">
+        <value>Düzenleme tarihi.</value>
+    </data>
+    <data name="TgReactionType" xml:space="preserve">
+        <value>Reaksiyon sınıfı</value>
+    </data>
+    <data name="TgAvailableReaction" xml:space="preserve">
+        <value>Reaksiyon sınıfı</value>
+    </data>
+    <data name="ParameterisNeedPremium" xml:space="preserve">
+        <value>Reaksiyonun birinci sınıf bir reaksiyon olup olmadığını işaretleyin</value>
+    </data>
+    <data name="TgMessageAvailableReactions" xml:space="preserve">
+        <value>Bir Telegram mesajı için mevcut reaksiyonları temsil eden bir sınıf.</value>
+    </data>
+    <data name="ParametertopReactions" xml:space="preserve">
+        <value>En popüler reaksiyonların bir koleksiyonunu alır veya ayarlar.</value>
+    </data>
+    <data name="ParameterrecentReactions" xml:space="preserve">
+        <value>Son reaksiyonların bir koleksiyonunu alır veya ayarlar.</value>
+    </data>
+    <data name="ParameterpopularReactions" xml:space="preserve">
+        <value>Son reaksiyonların bir koleksiyonunu alır veya ayarlar.</value>
+    </data>
+    <data name="TgFile" xml:space="preserve">
+        <value>Bir dosyayı temsil eder</value>
+    </data>
+    <data name="ParameterfileId" xml:space="preserve">
+        <value>Dosya kimliği.</value>
+    </data>
+    <data name="Parametersize" xml:space="preserve">
+        <value>Dosya boyutu.</value>
+    </data>
+    <data name="ParameterremoteId" xml:space="preserve">
+        <value>Uzak dosya kimliği.</value>
+    </data>
+    <data name="TgProfilePhoto" xml:space="preserve">
+        <value>Profil resmi</value>
+    </data>
+    <data name="ParameterhasAnimation" xml:space="preserve">
+        <value>Animasyonlu fotoğraf</value>
+    </data>
+    <data name="ParameterisPersonal" xml:space="preserve">
+        <value>Geçerli kullanıcı tarafından yüklendi</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Kullanıcı durumu&lt;p&gt;Üyeler:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Çevrimiçi&lt;/i&gt; - Çevrimiçi kullanıcı&lt;/li&gt;&lt;li&gt;&lt;i&gt;Son zamanlarda&lt;/i&gt; - Kullanıcı yakın zamanda oturum açtı&lt;/i&gt; li &gt;&lt;li&gt;&lt;i&gt;Geçen Hafta&lt;/i&gt; - Kullanıcı bir haftadır oturum açmadı&lt;/li&gt;&lt;li&gt;&lt;i&gt;Geçen Ay&lt;/i&gt; - Kullanıcı bir aydır oturum açmadı&lt;/li&gt;&lt;li&gt;&lt;i&gt;Geçen Ay&lt;/i&gt; - Kullanıcı bir aydır oturum açmadı&lt;/li&gt;&lt;li&gt;&lt;i&gt;Geçen Ay&lt;/i&gt; li&gt;&lt;li&gt;&lt;i&gt;Çevrimdışı&lt;/ i&gt; - Çevrimdışı kullanıcı&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgUser" xml:space="preserve">
+        <value>Bir kişiyi temsil eden bir sınıf.</value>
+    </data>
+    <data name="Parameterid" xml:space="preserve">
+        <value>Tanımlayıcı.</value>
+    </data>
+    <data name="ParameterfirstName" xml:space="preserve">
+        <value>İsim.</value>
+    </data>
+    <data name="ParameterlastName" xml:space="preserve">
+        <value>Soyadı.</value>
+    </data>
+    <data name="Parameterusername" xml:space="preserve">
+        <value>Kullanıcı adı.</value>
+    </data>
+    <data name="ParameterisContact" xml:space="preserve">
+        <value>Bu iletişim</value>
+    </data>
+    <data name="ParameterisCloseFriend" xml:space="preserve">
+        <value>Yakın bir arkadaşımdır.</value>
+    </data>
+    <data name="ParameterisMutualContact" xml:space="preserve">
+        <value>Karşılıklı temastır.</value>
+    </data>
+    <data name="ParameterisFake" xml:space="preserve">
+        <value>Sahte bir iletişim.</value>
+    </data>
+    <data name="ParameterisScum" xml:space="preserve">
+        <value>Bu bir aldatmacadır.</value>
+    </data>
+    <data name="ParameterisVerified" xml:space="preserve">
+        <value>Doğrulandı.</value>
+    </data>
+    <data name="ParameterhasActiveStories" xml:space="preserve">
+        <value>Hikayeler var</value>
+    </data>
+    <data name="ParameterhasUnreadActiveStories" xml:space="preserve">
+        <value>Görülmemiş hikayeler var</value>
+    </data>
+    <data name="ParameterisPremium" xml:space="preserve">
+        <value>Özel hesap</value>
+    </data>
+    <data name="ParameterstatusEmojiId" xml:space="preserve">
+        <value>Durumdaki gülen yüz</value>
+    </data>
+    <data name="ImportContactInputModel" xml:space="preserve">
+        <value>Kişi eklemek için giriş modeli</value>
+    </data>
+    <data name="AddContactInputModel" xml:space="preserve">
+        <value>Kişi eklemek için giriş modeli</value>
+    </data>
+    <data name="RemoveContactInputModel" xml:space="preserve">
+        <value>Kullanıcı kişisini silmek için model</value>
+    </data>
+    <data name="FileIdRequestInputModel" xml:space="preserve">
+        <value>Dosya kimliğine sahip bir istek için giriş modeli.</value>
+    </data>
+    <data name="ParameterlocalId" xml:space="preserve">
+        <value>Yerel dosya kimliği</value>
+    </data>
+    <data name="FileMessageRequestInputModel" xml:space="preserve">
+        <value>Mesaj kimliği ve sohbet kimliğiyle istek için giriş modeli.</value>
+    </data>
+    <data name="SchedulingStateInputModel" xml:space="preserve">
+        <value>Mesaj gönderme zamanlamasının türünü tanımlayan giriş modeli</value>
+    </data>
+    <data name="ParametersendDate" xml:space="preserve">
+        <value>İletinin gönderildiği tarih Tarih boşsa, ileti planlama türü alıcının çevrimiçi olduğu tarih olacaktır.</value>
+    </data>
+    <data name="MessageSendOptionsInputModel" xml:space="preserve">
+        <value>Mesaj göndermek için giriş parametrelerinin modeli</value>
+    </data>
+    <data name="ParameterdisableNotification" xml:space="preserve">
+        <value>Bayrak - alıcı bildirimini devre dışı bırak</value>
+    </data>
+    <data name="ParameterprotectContent" xml:space="preserve">
+        <value>Bayrak - gönderilen mesajın iletilebilmesi veya kaydedilebilmesi</value>
+    </data>
+    <data name="SendTextMessageInputModel" xml:space="preserve">
+        <value>Kısa mesaj göndermek için giriş modeli.</value>
+    </data>
+    <data name="Parametermessage" xml:space="preserve">
+        <value>Mesaj metni.</value>
+    </data>
+    <data name="ParameterurlPreview" xml:space="preserve">
+        <value>URL önizlemesi.</value>
+    </data>
+    <data name="ParameterdisableUrlPreview" xml:space="preserve">
+        <value>URL önizlemelerini devre dışı bırakın.</value>
+    </data>
+    <data name="ParameterneedShowActivity" xml:space="preserve">
+        <value>Etkinliğin mesajdan önce gönderilip gönderilmeyeceğini belirten bayrak</value>
+    </data>
+    <data name="SendLocationMessageInputModel" xml:space="preserve">
+        <value>Konum mesajı göndermek için giriş modeli.</value>
+    </data>
+    <data name="Parameterlatitude" xml:space="preserve">
+        <value>Konumun enlemi.</value>
+    </data>
+    <data name="Parameterlongitude" xml:space="preserve">
+        <value>Konumun boylamı.</value>
+    </data>
+    <data name="ParameterhorizontalAccuracy" xml:space="preserve">
+        <value>Yatay konum doğruluğu.</value>
+    </data>
+    <data name="SendAudioMessageInputModel" xml:space="preserve">
+        <value>Sesli mesaj göndermek için giriş veri modeli.</value>
+    </data>
+    <data name="ParameterfileInBase64" xml:space="preserve">
+        <value>Mesajda gönderilecek Base64 dosyası.</value>
+    </data>
+    <data name="ParameterlocalFileId" xml:space="preserve">
+        <value>Yerel dosya kimliği</value>
+    </data>
+    <data name="ParameterremoteFileId" xml:space="preserve">
+        <value>Uzak dosya kimliği</value>
+    </data>
+    <data name="Parametercaption" xml:space="preserve">
+        <value>Dosya mesajı imzası.</value>
+    </data>
+    <data name="Parametertitle" xml:space="preserve">
+        <value>Sesli mesajın başlığı.</value>
+    </data>
+    <data name="Parameterperformer" xml:space="preserve">
+        <value>Sesli mesaj sanatçısı.</value>
+    </data>
+    <data name="ParameteralbumCoverThumbnailBase64" xml:space="preserve">
+        <value>Base64 formatında albüm önizlemesi.</value>
+    </data>
+    <data name="SendVoiceNoteMessageInputModel" xml:space="preserve">
+        <value>Sesli mesaj göndermek için veri modelini girin.</value>
+    </data>
+    <data name="SendVideoNoteMessageInputModel" xml:space="preserve">
+        <value>Bir daire göndermek için giriş verilerinin modeli.</value>
+    </data>
+    <data name="SendVideoMessageInputModel" xml:space="preserve">
+        <value>Videolu bir mesaj göndermek için giriş verilerinin modeli.</value>
+    </data>
+    <data name="ParameterneedShowRecordingActivity" xml:space="preserve">
+        <value>Kullanıcının video kaydettiği etkinliği göstermenin gerekli olup olmadığını belirten bayrak.</value>
+    </data>
+    <data name="SendDocumentMessageInputModel" xml:space="preserve">
+        <value>Bir belgenin gönderilmesi için giriş verilerinin modeli.</value>
+    </data>
+    <data name="SendPhotoMessageInputModel" xml:space="preserve">
+        <value>Fotoğraflı bir mesaj göndermek için veri modelini girin.</value>
+    </data>
+    <data name="SendStickerMessageInputModel" xml:space="preserve">
+        <value>Çıkartma içeren bir mesaj göndermek için giriş modeli.</value>
+    </data>
+    <data name="SendStoryMessageInputModel" xml:space="preserve">
+        <value>Geçmişli Mesaj Giriş Modeli</value>
+    </data>
+    <data name="ParameterstorySenderChatId" xml:space="preserve">
+        <value>Hikayenin yayınlandığı sohbetin kimliği</value>
+    </data>
+    <data name="ParameterstoryId" xml:space="preserve">
+        <value>Geçmiş Kimliği</value>
+    </data>
+    <data name="SendAnimationMessageInputModel" xml:space="preserve">
+        <value>Animasyonlu mesaj göndermek için giriş modeli</value>
+    </data>
+    <data name="ParameterhasSpoiler" xml:space="preserve">
+        <value>Animasyon önizlemesinin kapatılması gerekiyorsa doğrudur.</value>
+    </data>
+    <data name="Parameterheight" xml:space="preserve">
+        <value>Animasyon yüksekliği</value>
+    </data>
+    <data name="Parameterwidth" xml:space="preserve">
+        <value>Animasyon genişliği</value>
+    </data>
+    <data name="SendContactMessageInputModel" xml:space="preserve">
+        <value>Bir kişiye mesaj göndermek için giriş veri modeli.</value>
+    </data>
+    <data name="ParametercontactPhoneNumber" xml:space="preserve">
+        <value>İletişim telefon numarası.</value>
+    </data>
+    <data name="ParametercontactId" xml:space="preserve">
+        <value>İletişim kimliği.</value>
+    </data>
+    <data name="ParametervCard" xml:space="preserve">
+        <value>Kartvizit VCard.</value>
+    </data>
+    <data name="AddMessageReactionInputModel" xml:space="preserve">
+        <value>Bir mesajdan tepki göndermek için giriş veri modeli</value>
+    </data>
+    <data name="Parameteremoji" xml:space="preserve">
+        <value>Reaksiyon</value>
+    </data>
+    <data name="ParameteremojiId" xml:space="preserve">
+        <value>Premium reaksiyon</value>
+    </data>
+    <data name="RemoveMessageReactionInputModel" xml:space="preserve">
+        <value>Bir mesajdan tepkiyi kaldırmak için giriş modeli</value>
+    </data>
+    <data name="ForwardMessagesInputModel" xml:space="preserve">
+        <value>Mesaj iletme için giriş modeli</value>
+    </data>
+    <data name="ParameterfromChatId" xml:space="preserve">
+        <value>Mesajların iletildiği sohbetin kimliği</value>
+    </data>
+    <data name="ParametermessageIds" xml:space="preserve">
+        <value>İletilecek mesaj tanımlayıcıları dizisi</value>
+    </data>
+    <data name="ParameterremoveCaption" xml:space="preserve">
+        <value>Medya dosyalarındaki imzayı kaldırmak istiyorsanız doğru</value>
+    </data>
+    <data name="ParametersendCopy" xml:space="preserve">
+        <value>İletileri bu iletilerin kullanıcılarına referans vermeden iletmek istiyorsanız doğru</value>
+    </data>
+    <data name="DeleteMessagesInputModel" xml:space="preserve">
+        <value>Sohbet mesajlarını silmek için giriş modeli</value>
+    </data>
+    <data name="Parameterrevoke" xml:space="preserve">
+        <value>Tüm sohbet katılımcıları için silmek istiyorsanız doğrudur</value>
+    </data>
+    <data name="SetPictureProfilePhotoInputModel" xml:space="preserve">
+        <value>Profil fotoğrafını ayarlamak için veri modelini girin.</value>
+    </data>
+    <data name="BackgroundGradientInputModel" xml:space="preserve">
+        <value>Degrade arka planı ayarlama yeteneği için giriş veri modeli</value>
+    </data>
+    <data name="ParametertopColor" xml:space="preserve">
+        <value>HEX formatında üst arka plan rengi.</value>
+    </data>
+    <data name="ParameterbottomColor" xml:space="preserve">
+        <value>HEX formatında alt arka plan rengi.</value>
+    </data>
+    <data name="ParameterrotationAngle" xml:space="preserve">
+        <value>Degradenin derece cinsinden saat yönünde dönme açısı; 0-359. Her zaman 45'e bölünebilir olmalı</value>
+    </data>
+    <data name="BackgroundInputModel" xml:space="preserve">
+        <value>Profil fotoğrafınızda farklı arka planlar ayarlamak için seçebileceğiniz özellikleri içeren bir giriş veri modeli</value>
+    </data>
+    <data name="Parametercolor" xml:space="preserve">
+        <value>HEX formatında arka plan rengi</value>
+    </data>
+    <data name="Parametercolors" xml:space="preserve">
+        <value>HEX formatında 3 veya 4 serbest biçimli degrade rengin listesi</value>
+    </data>
+    <data name="SetEmojiProfilePhotoInputModel" xml:space="preserve">
+        <value>Bir emojiyi profil fotoğrafı olarak ayarlamak için giriş modeli.</value>
+    </data>
+    <data name="ParametercustomEmojiId" xml:space="preserve">
+        <value>Etiket Kimliği</value>
+    </data>
+    <data name="SetStickerProfilePhotoInputModel" xml:space="preserve">
+        <value>Bir çıkartmayı profil fotoğrafı olarak ayarlamak için giriş modeli.</value>
+    </data>
+    <data name="ParameterstickerSetId" xml:space="preserve">
+        <value>Çıkartma paketi kimliği</value>
+    </data>
+    <data name="ParameterstickerId" xml:space="preserve">
+        <value>Etiket Kimliği</value>
+    </data>
+    <data name="SetAnimationProfilePhotoInputModel" xml:space="preserve">
+        <value>Animasyonu profil fotoğrafı biçiminde ayarlamak için giriş modeli.</value>
+    </data>
+    <data name="ParametermainFrameTimestamp" xml:space="preserve">
+        <value>Animasyonun statik görüneceği çerçeve zaman damgası.</value>
+    </data>
+    <data name="SetUserBioInputModel" xml:space="preserve">
+        <value>Kullanıcı biyografisini ayarlamak için giriş veri modeli</value>
+    </data>
+    <data name="Parameterbio" xml:space="preserve">
+        <value>Biyolojik çizgi</value>
+    </data>
+    <data name="StoryPrivacySettingsContactsInputModel" xml:space="preserve">
+        <value>Kullanıcının kişilerinin geçmişini görmenizi sağlayan gizlilik ayarları</value>
+    </data>
+    <data name="ParameterexceptUserIds" xml:space="preserve">
+        <value>Geçmişi görmemesi gereken bir dizi kullanıcı kimliği</value>
+    </data>
+    <data name="StoryPrivacySettingsEveryoneInputModel" xml:space="preserve">
+        <value>Tüm kullanıcıların geçmişi görmesine olanak tanıyan gizlilik ayarları</value>
+    </data>
+    <data name="StoryPrivacySettingsSelectedUsersInputModel" xml:space="preserve">
+        <value>Seçilen kullanıcıların geçmişi görmesine olanak tanıyan gizlilik ayarları</value>
+    </data>
+    <data name="ParameteruserIds" xml:space="preserve">
+        <value>Hikayeyi görecek bir dizi kullanıcı kimliği</value>
+    </data>
+    <data name="StoryPrivacySettingsCloseFriendsInputModel" xml:space="preserve">
+        <value>Yakın arkadaş listesindeki kullanıcıların geçmişlerini görmesine olanak tanıyan gizlilik ayarları</value>
+    </data>
+    <data name="StoryPrivacySettingsInputModel" xml:space="preserve">
+        <value>Aralarından seçim yapılabilecek özellikleri içeren giriş veri modeli Geçmiş gizliliğini yapılandırmak için</value>
+    </data>
+    <data name="PostPhotoStoryInputModel" xml:space="preserve">
+        <value>Fotoğraflı bir hikaye göndermek için giriş modeli</value>
+    </data>
+    <data name="ParameteractivePeriod" xml:space="preserve">
+        <value>Geçmişin mevcut olacağı dönem (saat olarak)</value>
+    </data>
+    <data name="ParameterisPinned" xml:space="preserve">
+        <value>Geçerlilik süresi dolduktan sonra geçmişin kullanılabilir kalmasını istiyorsanız doğru</value>
+    </data>
+    <data name="TgStoryContent" xml:space="preserve">
+        <value>Tarihin soyut bağlamı.</value>
+    </data>
+    <data name="TgStoryPrivacySettings" xml:space="preserve">
+        <value>Gizlilik ayarları için numaralandırma&lt;p&gt;Üyeler:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Yakın Arkadaşlar&lt;/i&gt; - Yakın arkadaşlar için&lt;/li&gt;&lt;li&gt;&lt;i&gt;Kişiler&lt;/i&gt; - Kişiler için&lt; /li&gt;&lt;li&gt;&lt;i&gt;Herkes&lt;/i&gt; - Herkes için&lt;/li&gt;&lt;li&gt;&lt;i&gt;SeçiliKullanıcılar&lt;/i&gt; - Seçilen kullanıcılar için&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryFullInfo" xml:space="preserve">
+        <value>Telgraftaki geçmiş hakkında eksiksiz bilgi sağlar</value>
+    </data>
+    <data name="ParametersenderChatId" xml:space="preserve">
+        <value>Geçmiş gönderen kimliği (kullanıcı)</value>
+    </data>
+    <data name="ParameterviewCount" xml:space="preserve">
+        <value>Görüntüleme sayısı</value>
+    </data>
+    <data name="ParameterforwardCount" xml:space="preserve">
+        <value>Hikaye kaç kez iletildi?</value>
+    </data>
+    <data name="ParameterreactionCount" xml:space="preserve">
+        <value>Hikayelere verilen tepkilerin sayısı</value>
+    </data>
+    <data name="ParameterrecentViewerUserIds" xml:space="preserve">
+        <value>En son 3 geçmişi görüntüleyenlerin kimlikleri</value>
+    </data>
+    <data name="ParameterisBeingSent" xml:space="preserve">
+        <value>Geçerli kullanıcı hikayeyi gönderiyorsa doğrudur</value>
+    </data>
+    <data name="ParameterisBeingEdited" xml:space="preserve">
+        <value>Geçerli kullanıcı hikayeyi düzenliyorsa doğrudur</value>
+    </data>
+    <data name="ParameterisEdited" xml:space="preserve">
+        <value>Hikaye düzenlendiyse doğrudur</value>
+    </data>
+    <data name="ParameterisVisibleOnlyForSelf" xml:space="preserve">
+        <value>Yalnızca geçmişin sahibi tarafından görülebiliyorsa doğrudur</value>
+    </data>
+    <data name="ParametercanBeDeleted" xml:space="preserve">
+        <value>Kaldırılabiliyorsa doğrudur</value>
+    </data>
+    <data name="ParametercanBeReplied" xml:space="preserve">
+        <value>Eğer geçmişe cevap verilebilirse doğrudur</value>
+    </data>
+    <data name="ParametercanToggleIsPinned" xml:space="preserve">
+        <value>IsPinned değiştirilebilirse doğrudur</value>
+    </data>
+    <data name="ParametercanGetViewers" xml:space="preserve">
+        <value>Geçmişi görüntüleyen kullanıcılara ulaşmak mümkünse doğrudur</value>
+    </data>
+    <data name="PostVideoStoryInputModel" xml:space="preserve">
+        <value>Geçmişi videoyla göndermek için giriş modeli</value>
+    </data>
+    <data name="ParameterisAnimation" xml:space="preserve">
+        <value>Videonun sesi yoksa doğrudur</value>
+    </data>
+    <data name="TgStoryTypeList" xml:space="preserve">
+        <value>Geçmiş listesi türlerinin numaralandırılması&lt;p&gt;Üyeler:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Ana&lt;/i&gt; - Ana&lt;/li&gt;&lt;li&gt;&lt;i&gt;Arşiv&lt;/i&gt; - Arşiv&lt;/li &gt; &lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryInfo" xml:space="preserve">
+        <value>Bir kullanıcının aktif geçmişi hakkındaki bilgileri temsil eder</value>
+    </data>
+    <data name="ParameterisForCloseFriends" xml:space="preserve">
+        <value>Hikaye yakın arkadaşlar içinse doğrudur</value>
+    </data>
+    <data name="TgUserActiveStories" xml:space="preserve">
+        <value>Bir kullanıcının aktif hikayeleri hakkındaki bilgileri temsil eder</value>
+    </data>
+    <data name="Parameterorder" xml:space="preserve">
+        <value>Listedeki öykülerin sırasını belirlemek için kullanılır</value>
+    </data>
+    <data name="ParametermaxReadStoryId" xml:space="preserve">
+        <value>Son görüntülenen aktif geçmiş kimliği</value>
+    </data>
+    <data name="Parameterstories" xml:space="preserve">
+        <value>Her hikaye hakkında bilgi içeren bir dizi</value>
+    </data>
+    <data name="TgMiniThumbnail" xml:space="preserve">
+        <value>Küçük bir önizleme sunar</value>
+    </data>
+    <data name="ParameterminiThumbnail" xml:space="preserve">
+        <value>Küçük bir ön izleme.</value>
+    </data>
+    <data name="TgPhotoSize" xml:space="preserve">
+        <value>Bir fotoğrafın boyutunu temsil eder</value>
+    </data>
+    <data name="TgAnimatedChatPhoto" xml:space="preserve">
+        <value>Profil fotoğrafı olarak ayarlanmış bir animasyonu temsil eder</value>
+    </data>
+    <data name="Parameterlength" xml:space="preserve">
+        <value>Animasyonun genişliği ve yüksekliği.</value>
+    </data>
+    <data name="TgChatPhoto" xml:space="preserve">
+        <value>Bir profil fotoğrafını temsil eder</value>
+    </data>
+    <data name="ParameteraddedDate" xml:space="preserve">
+        <value>Fotoğrafın eklendiği zaman noktası.</value>
+    </data>
+    <data name="ParameterphotoSizes" xml:space="preserve">
+        <value>Farklı boyutlarda fotoğraf çeşitleri.</value>
+    </data>
+    <data name="TgText" xml:space="preserve">
+        <value>Metni temsil eder.</value>
+    </data>
+    <data name="Parametertext" xml:space="preserve">
+        <value>Mesaj metni.</value>
+    </data>
+    <data name="TgUserFullInfo" xml:space="preserve">
+        <value>Kullanıcı hakkındaki tüm bilgileri temsil eder.</value>
+    </data>
+    <data name="ParameterisStoriesBlocked" xml:space="preserve">
+        <value>Kullanıcı hikayelerinin engellenip engellenmediğini işaretleyin.</value>
+    </data>
+    <data name="ParameterisBlocked" xml:space="preserve">
+        <value>Kullanıcının engellenip engellenmediğini işaretleyin.</value>
+    </data>
+    <data name="ParametercanBeCalled" xml:space="preserve">
+        <value>Kullanıcı aranabiliyorsa doğrudur.</value>
+    </data>
+    <data name="ParametersupportsVideoCalls" xml:space="preserve">
+        <value>Kullanıcıyla video görüşmesi oluşturabiliyorsanız doğrudur.</value>
+    </data>
+    <data name="ParameterhasPrivateCalls" xml:space="preserve">
+        <value>Kullanıcı gizlilik ayarları nedeniyle aranamıyorsa doğrudur.</value>
+    </data>
+    <data name="ParameterhasPrivateForwards" xml:space="preserve">
+        <value>Kullanıcı, gizlilik ayarları nedeniyle iletilen iletilerle ilişkilendirilemezse doğrudur.</value>
+    </data>
+    <data name="ParameterhasRestrictedVoiceAndVideoNoteMessages" xml:space="preserve">
+        <value>Kullanıcıya sesli ve görüntülü notlar gönderilemiyor veya iletilemiyorsa doğrudur.</value>
+    </data>
+    <data name="ParameterhasPinnedStories" xml:space="preserve">
+        <value>Kullanıcının sabitlenmiş hikayeleri varsa doğrudur.</value>
+    </data>
+    <data name="ParameterneedPhoneNumberPrivacyException" xml:space="preserve">
+        <value>Geçerli kullanıcının addContact yöntemini kullanırken telefon numarasını kullanıcıyla paylaşmasına açıkça izin verilmesi gerekiyorsa doğrudur.</value>
+    </data>
+</root>

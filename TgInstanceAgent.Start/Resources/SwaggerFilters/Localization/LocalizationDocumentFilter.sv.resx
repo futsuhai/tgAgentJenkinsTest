@@ -1,0 +1,818 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AuthSetPhone" xml:space="preserve">
+        <value>Ställ in telefonnummer</value>
+    </data>
+    <data name="ParameterinstanceId" xml:space="preserve">
+        <value>Förekomst-ID</value>
+    </data>
+    <data name="AuthSetPhoneRequest" xml:space="preserve">
+        <value>Telefonnummer</value>
+    </data>
+    <data name="Response200" xml:space="preserve">
+        <value>Framgång</value>
+    </data>
+    <data name="Response400" xml:space="preserve">
+        <value>Ogiltig indata eller ogiltig begäran</value>
+    </data>
+    <data name="Response500" xml:space="preserve">
+        <value>Ett fel uppstod på servern</value>
+    </data>
+    <data name="AuthCheckCode" xml:space="preserve">
+        <value>Skicka verifieringskod</value>
+    </data>
+    <data name="AuthCheckCodeRequest" xml:space="preserve">
+        <value>Verifierings kod</value>
+    </data>
+    <data name="AuthCheckPassword" xml:space="preserve">
+        <value>Skicka lösenord</value>
+    </data>
+    <data name="AuthCheckPasswordRequest" xml:space="preserve">
+        <value>Lösenord</value>
+    </data>
+    <data name="ChatsGetChatHistory" xml:space="preserve">
+        <value>Hämta chatthistorik</value>
+    </data>
+    <data name="ParameterChatId" xml:space="preserve">
+        <value>Chatt-ID.</value>
+    </data>
+    <data name="ParameterUsername" xml:space="preserve">
+        <value>Användarnamn.</value>
+    </data>
+    <data name="ParameterPhoneNumber" xml:space="preserve">
+        <value>Telefonnummer.</value>
+    </data>
+    <data name="ParameterLimit" xml:space="preserve">
+        <value>Meddelandegräns.</value>
+    </data>
+    <data name="ParameterOffset" xml:space="preserve">
+        <value>Partiskhet.</value>
+    </data>
+    <data name="ParameterFromMessageId" xml:space="preserve">
+        <value>Börjar med meddelande-ID.</value>
+    </data>
+    <data name="ChatsGetMessage" xml:space="preserve">
+        <value>Få meddelandedata</value>
+    </data>
+    <data name="ParameterMessageId" xml:space="preserve">
+        <value>Meddelande-ID.</value>
+    </data>
+    <data name="ChatsGetMessageAvailableReactions" xml:space="preserve">
+        <value>Få en lista över tillgängliga reaktioner på ett meddelande</value>
+    </data>
+    <data name="ContactsGetContacts" xml:space="preserve">
+        <value>Få kontaktlista</value>
+    </data>
+    <data name="ContactsImportContacts" xml:space="preserve">
+        <value>Importera kontakter</value>
+    </data>
+    <data name="ContactsImportContactsRequest" xml:space="preserve">
+        <value>Kontaktuppgifter</value>
+    </data>
+    <data name="ContactsAddContact" xml:space="preserve">
+        <value>Lägg till kontakt</value>
+    </data>
+    <data name="ContactsAddContactRequest" xml:space="preserve">
+        <value>Användarens kontaktuppgifter</value>
+    </data>
+    <data name="ContactsRemoveContact" xml:space="preserve">
+        <value>Ta bort kontakt</value>
+    </data>
+    <data name="ContactsRemoveContactRequest" xml:space="preserve">
+        <value>Användarens kontaktuppgifter</value>
+    </data>
+    <data name="FileStartDownload" xml:space="preserve">
+        <value>Begäran att ladda ner en fil med fil-ID</value>
+    </data>
+    <data name="FileStartDownloadRequest" xml:space="preserve">
+        <value>Modell med fil-ID</value>
+    </data>
+    <data name="FileGetFile" xml:space="preserve">
+        <value>Hämtar en fil med fil-ID</value>
+    </data>
+    <data name="ParameterLocalId" xml:space="preserve">
+        <value>Lokalt fil-ID</value>
+    </data>
+    <data name="ParameterRemoteId" xml:space="preserve">
+        <value>Fjärrfil-ID</value>
+    </data>
+    <data name="FileStartDownloadFromMessage" xml:space="preserve">
+        <value>Begäran att ladda ner en fil från ett meddelande.</value>
+    </data>
+    <data name="FileStartDownloadFromMessageRequest" xml:space="preserve">
+        <value>Modell med chatt och meddelande-ID</value>
+    </data>
+    <data name="FileGetFileFromMessage" xml:space="preserve">
+        <value>Tar emot en fil från ett meddelande</value>
+    </data>
+    <data name="InstanceGetInstance" xml:space="preserve">
+        <value>Hämtar instansdata</value>
+    </data>
+    <data name="MessageSendTextMessage" xml:space="preserve">
+        <value>Skickar ett sms</value>
+    </data>
+    <data name="MessageSendTextMessageRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="MessageSendLocationMessage" xml:space="preserve">
+        <value>Skickar geolokalisering</value>
+    </data>
+    <data name="MessageSendLocationMessageRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="MessageSendAudioMessage" xml:space="preserve">
+        <value>Skickar ett ljudmeddelande</value>
+    </data>
+    <data name="MessageSendAudioMessageRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessage" xml:space="preserve">
+        <value>Skickar ett röstmeddelande</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessageRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="MessageSendVideoNoteMessage" xml:space="preserve">
+        <value>Skickar en cirkel</value>
+    </data>
+    <data name="MessageSendVideoNoteMessageRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="MessageSendVideoMessage" xml:space="preserve">
+        <value>Skickar en video</value>
+    </data>
+    <data name="MessageSendVideoMessageRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="MessageSendDocumentMessage" xml:space="preserve">
+        <value>Skickar ett dokument</value>
+    </data>
+    <data name="MessageSendDocumentMessageRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="MessageSendPhotoMessage" xml:space="preserve">
+        <value>Skickar ett foto</value>
+    </data>
+    <data name="MessageSendPhotoMessageRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="MessageSendStickerMessage" xml:space="preserve">
+        <value>Skickar ett klistermärke</value>
+    </data>
+    <data name="MessageSendStickerMessageRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="MessageSendStoryMessage" xml:space="preserve">
+        <value>Skickar in en berättelse</value>
+    </data>
+    <data name="MessageSendStoryMessageRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="MessageSendAnimationMessage" xml:space="preserve">
+        <value>Skickar animation (gif)</value>
+    </data>
+    <data name="MessageSendAnimationMessageRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="MessageSendContactMessage" xml:space="preserve">
+        <value>Skicka en kontakt</value>
+    </data>
+    <data name="MessageSendContactMessageRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="MessageAddMessageReaction" xml:space="preserve">
+        <value>Lägger till en reaktion på ett meddelande</value>
+    </data>
+    <data name="MessageAddMessageReactionRequest" xml:space="preserve">
+        <value>Reaktionsdata</value>
+    </data>
+    <data name="MessageRemoveMessageReaction" xml:space="preserve">
+        <value>Ta bort en reaktion från ett meddelande</value>
+    </data>
+    <data name="MessageRemoveMessageReactionRequest" xml:space="preserve">
+        <value>Reaktionsdata</value>
+    </data>
+    <data name="MessageForwardMessages" xml:space="preserve">
+        <value>Vidarebefordra meddelanden</value>
+    </data>
+    <data name="MessageForwardMessagesRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="MessageDeleteMessages" xml:space="preserve">
+        <value>Ta bort meddelanden</value>
+    </data>
+    <data name="MessageDeleteMessagesRequest" xml:space="preserve">
+        <value>Meddelandedata</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhoto" xml:space="preserve">
+        <value>Ställer in profilbilden. Innan du installerar med fil-ID måste du först se till att filen laddas upp till servern.</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhotoRequest" xml:space="preserve">
+        <value>Data för att ställa in ett profilfoto.</value>
+    </data>
+    <data name="ProfileSetPreviousProfilePhoto" xml:space="preserve">
+        <value>Ställer in en av användarens tidigare foton efter foto-id.</value>
+    </data>
+    <data name="ParameterphotoId" xml:space="preserve">
+        <value>Foto-ID.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhoto" xml:space="preserve">
+        <value>Ställer in profilbilden som en anpassad emoji.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhotoRequest" xml:space="preserve">
+        <value>Data för att ställa in ett profilfoto.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhoto" xml:space="preserve">
+        <value>Ställer in ditt profilfoto som ett klistermärke.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhotoRequest" xml:space="preserve">
+        <value>Data för att ställa in ett profilfoto.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhoto" xml:space="preserve">
+        <value>Ställer in profilbilden som en animation. Innan du installerar med fil-ID måste du först se till att filen laddas upp till servern.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhotoRequest" xml:space="preserve">
+        <value>Data för att ställa in ett profilfoto.</value>
+    </data>
+    <data name="ProfileSetBio" xml:space="preserve">
+        <value>Ställ in bio för användaren.</value>
+    </data>
+    <data name="ProfileSetBioRequest" xml:space="preserve">
+        <value>Modell med information om användarens bio.</value>
+    </data>
+    <data name="StoryPostPhotoStory" xml:space="preserve">
+        <value>Ställer in en ny berättelse för användaren i form av ett foto</value>
+    </data>
+    <data name="StoryPostPhotoStoryRequest" xml:space="preserve">
+        <value>Historik inställningsdata.</value>
+    </data>
+    <data name="StoryPostVideoStory" xml:space="preserve">
+        <value>Skapar en ny berättelse för användaren i form av en video</value>
+    </data>
+    <data name="StoryPostVideoStoryRequest" xml:space="preserve">
+        <value>Historik inställningsdata.</value>
+    </data>
+    <data name="StoryGetStory" xml:space="preserve">
+        <value>Hämtar en användares historik efter dess ID</value>
+    </data>
+    <data name="ParameterStoryId" xml:space="preserve">
+        <value>Historik-ID</value>
+    </data>
+    <data name="StoryGetUserActiveStories" xml:space="preserve">
+        <value>Få information om en användares aktiva berättelser</value>
+    </data>
+    <data name="UsersGetUser" xml:space="preserve">
+        <value>Få användarinformation</value>
+    </data>
+    <data name="UsersGetMe" xml:space="preserve">
+        <value>Få information om en auktoriserad användare</value>
+    </data>
+    <data name="UsersGetUserFullInfo" xml:space="preserve">
+        <value>Hämta användarbio</value>
+    </data>
+    <data name="UsersGetUserProfilePhotos" xml:space="preserve">
+        <value>Få en lista över användarens foton</value>
+    </data>
+    <data name="SetPhoneNumberInputModel" xml:space="preserve">
+        <value>Indatamodell för inställning av telefonnumret för ett telegramkonto</value>
+    </data>
+    <data name="CheckCodeInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för verifiering av bekräftelsekod</value>
+    </data>
+    <data name="Parametercode" xml:space="preserve">
+        <value>Bekräftelsekod.</value>
+    </data>
+    <data name="CheckPasswordInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för lösenordsverifiering</value>
+    </data>
+    <data name="Parameterpassword" xml:space="preserve">
+        <value>Lösenord</value>
+    </data>
+    <data name="TgReplyTo" xml:space="preserve">
+        <value>Information för att svara på ett meddelande.</value>
+    </data>
+    <data name="ParameterchatId" xml:space="preserve">
+        <value>Chatt-ID.</value>
+    </data>
+    <data name="TgForwardInfo" xml:space="preserve">
+        <value>Information om meddelandet som vidarebefordras.</value>
+    </data>
+    <data name="Parameterdate" xml:space="preserve">
+        <value>Postdatum.</value>
+    </data>
+    <data name="TgMessageContent" xml:space="preserve">
+        <value>Abstrakt meddelandedata.</value>
+    </data>
+    <data name="TgMessage" xml:space="preserve">
+        <value>Meddelandeklass.</value>
+    </data>
+    <data name="ParametersenderId" xml:space="preserve">
+        <value>Avsändar ID.</value>
+    </data>
+    <data name="ParametermessageId" xml:space="preserve">
+        <value>Meddelande-ID.</value>
+    </data>
+    <data name="ParameterisOutgoing" xml:space="preserve">
+        <value>Är ett utgående meddelande.</value>
+    </data>
+    <data name="ParametercanBeEdited" xml:space="preserve">
+        <value>Kan redigeras.</value>
+    </data>
+    <data name="ParametercanBeForwarded" xml:space="preserve">
+        <value>Kan skickas vidare.</value>
+    </data>
+    <data name="ParametercanBeDeletedForAllUsers" xml:space="preserve">
+        <value>Kan tas bort för alla användare.</value>
+    </data>
+    <data name="ParametereditDate" xml:space="preserve">
+        <value>Redigera datum.</value>
+    </data>
+    <data name="TgReactionType" xml:space="preserve">
+        <value>Reaktionsklass</value>
+    </data>
+    <data name="TgAvailableReaction" xml:space="preserve">
+        <value>Reaktionsklass</value>
+    </data>
+    <data name="ParameterisNeedPremium" xml:space="preserve">
+        <value>Flagga om reaktionen är en premiumreaktion</value>
+    </data>
+    <data name="TgMessageAvailableReactions" xml:space="preserve">
+        <value>En klass som representerar tillgängliga reaktioner för ett telegrammeddelande.</value>
+    </data>
+    <data name="ParametertopReactions" xml:space="preserve">
+        <value>Får eller sätter en samling av de mest populära reaktionerna.</value>
+    </data>
+    <data name="ParameterrecentReactions" xml:space="preserve">
+        <value>Hämtar eller ställer in en samling senaste reaktioner.</value>
+    </data>
+    <data name="ParameterpopularReactions" xml:space="preserve">
+        <value>Hämtar eller ställer in en samling senaste reaktioner.</value>
+    </data>
+    <data name="TgFile" xml:space="preserve">
+        <value>Representerar en fil</value>
+    </data>
+    <data name="ParameterfileId" xml:space="preserve">
+        <value>Fil-ID.</value>
+    </data>
+    <data name="Parametersize" xml:space="preserve">
+        <value>Filstorlek.</value>
+    </data>
+    <data name="ParameterremoteId" xml:space="preserve">
+        <value>Fjärrfil-ID.</value>
+    </data>
+    <data name="TgProfilePhoto" xml:space="preserve">
+        <value>Profilbild</value>
+    </data>
+    <data name="ParameterhasAnimation" xml:space="preserve">
+        <value>Animerat foto</value>
+    </data>
+    <data name="ParameterisPersonal" xml:space="preserve">
+        <value>Installerad av nuvarande användare</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Användarstatus&lt;p&gt;Medlemmar:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Online&lt;/i&gt; - Onlineanvändare&lt;/li&gt;&lt;li&gt;&lt;i&gt;Nyligen&lt;/i&gt; - Användare har nyligen loggat in&lt;/i&gt; li &gt;&lt;li&gt;&lt;i&gt;Sista veckan&lt;/i&gt; - Användaren har inte loggat in på en vecka&lt;/li&gt;&lt;li&gt;&lt;i&gt;Förra månaden&lt;/i&gt; - Användaren har inte loggat in på en månad&lt;/i&gt; li&gt;&lt;li&gt;&lt;i&gt;Offline&lt;/ i&gt; - Offlineanvändare&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgUser" xml:space="preserve">
+        <value>En klass som representerar en kontakt.</value>
+    </data>
+    <data name="Parameterid" xml:space="preserve">
+        <value>Identifierare.</value>
+    </data>
+    <data name="ParameterfirstName" xml:space="preserve">
+        <value>Namn.</value>
+    </data>
+    <data name="ParameterlastName" xml:space="preserve">
+        <value>Efternamn.</value>
+    </data>
+    <data name="Parameterusername" xml:space="preserve">
+        <value>Användarnamn.</value>
+    </data>
+    <data name="ParameterisContact" xml:space="preserve">
+        <value>Det här är kontakt</value>
+    </data>
+    <data name="ParameterisCloseFriend" xml:space="preserve">
+        <value>Är en nära vän.</value>
+    </data>
+    <data name="ParameterisMutualContact" xml:space="preserve">
+        <value>Är ömsesidig kontakt.</value>
+    </data>
+    <data name="ParameterisFake" xml:space="preserve">
+        <value>Är en falsk kontakt.</value>
+    </data>
+    <data name="ParameterisScum" xml:space="preserve">
+        <value>Är en bluff.</value>
+    </data>
+    <data name="ParameterisVerified" xml:space="preserve">
+        <value>Verifierad.</value>
+    </data>
+    <data name="ParameterhasActiveStories" xml:space="preserve">
+        <value>Det finns historier</value>
+    </data>
+    <data name="ParameterhasUnreadActiveStories" xml:space="preserve">
+        <value>Det finns osynliga historier</value>
+    </data>
+    <data name="ParameterisPremium" xml:space="preserve">
+        <value>Premiumkonto</value>
+    </data>
+    <data name="ParameterstatusEmojiId" xml:space="preserve">
+        <value>Smiley i status</value>
+    </data>
+    <data name="ImportContactInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för att lägga till en kontakt</value>
+    </data>
+    <data name="AddContactInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för att lägga till en kontakt</value>
+    </data>
+    <data name="RemoveContactInputModel" xml:space="preserve">
+        <value>Modell för att ta bort en användarkontakt</value>
+    </data>
+    <data name="FileIdRequestInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för en begäran med ett fil-ID.</value>
+    </data>
+    <data name="ParameterlocalId" xml:space="preserve">
+        <value>Lokalt fil-ID</value>
+    </data>
+    <data name="FileMessageRequestInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för begäran med meddelande-ID och chatt-ID.</value>
+    </data>
+    <data name="SchedulingStateInputModel" xml:space="preserve">
+        <value>Inmatningsmodell som definierar typen av schemaläggning av meddelandesändning</value>
+    </data>
+    <data name="ParametersendDate" xml:space="preserve">
+        <value>Datum då meddelandet skickades Om datumet är null, kommer meddelandets schemaläggningstyp att vara när mottagaren blir online</value>
+    </data>
+    <data name="MessageSendOptionsInputModel" xml:space="preserve">
+        <value>Modell av ingångsparametrar för att skicka ett meddelande</value>
+    </data>
+    <data name="ParameterdisableNotification" xml:space="preserve">
+        <value>Flagga - inaktivera mottagaravisering</value>
+    </data>
+    <data name="ParameterprotectContent" xml:space="preserve">
+        <value>Flagga - om det skickade meddelandet kan vidarebefordras eller sparas</value>
+    </data>
+    <data name="SendTextMessageInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för att skicka ett textmeddelande.</value>
+    </data>
+    <data name="Parametermessage" xml:space="preserve">
+        <value>Meddelandetext.</value>
+    </data>
+    <data name="ParameterurlPreview" xml:space="preserve">
+        <value>URL förhandsgranskning.</value>
+    </data>
+    <data name="ParameterdisableUrlPreview" xml:space="preserve">
+        <value>Inaktivera URL-förhandsgranskningar.</value>
+    </data>
+    <data name="ParameterneedShowActivity" xml:space="preserve">
+        <value>Flagga som anger om aktiviteten ska skickas före meddelandet</value>
+    </data>
+    <data name="SendLocationMessageInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för att skicka ett platsmeddelande.</value>
+    </data>
+    <data name="Parameterlatitude" xml:space="preserve">
+        <value>Platsens latitud.</value>
+    </data>
+    <data name="Parameterlongitude" xml:space="preserve">
+        <value>Placeringens longitud.</value>
+    </data>
+    <data name="ParameterhorizontalAccuracy" xml:space="preserve">
+        <value>Horisontell platsnoggrannhet.</value>
+    </data>
+    <data name="SendAudioMessageInputModel" xml:space="preserve">
+        <value>Indatamodell för att skicka ett ljudmeddelande.</value>
+    </data>
+    <data name="ParameterfileInBase64" xml:space="preserve">
+        <value>Base64-fil som kommer att skickas i meddelandet.</value>
+    </data>
+    <data name="ParameterlocalFileId" xml:space="preserve">
+        <value>Lokalt fil-ID</value>
+    </data>
+    <data name="ParameterremoteFileId" xml:space="preserve">
+        <value>Fjärrfil-ID</value>
+    </data>
+    <data name="Parametercaption" xml:space="preserve">
+        <value>Arkiv meddelandesignatur.</value>
+    </data>
+    <data name="Parametertitle" xml:space="preserve">
+        <value>Titeln på ljudmeddelandet.</value>
+    </data>
+    <data name="Parameterperformer" xml:space="preserve">
+        <value>Ljudmeddelande artist.</value>
+    </data>
+    <data name="ParameteralbumCoverThumbnailBase64" xml:space="preserve">
+        <value>Albumförhandsvisning i Base64-format.</value>
+    </data>
+    <data name="SendVoiceNoteMessageInputModel" xml:space="preserve">
+        <value>Indatamodell för att skicka ett röstmeddelande.</value>
+    </data>
+    <data name="SendVideoNoteMessageInputModel" xml:space="preserve">
+        <value>Modell av indata för att skicka en cirkel.</value>
+    </data>
+    <data name="SendVideoMessageInputModel" xml:space="preserve">
+        <value>Modell av indata för att skicka ett meddelande med video.</value>
+    </data>
+    <data name="ParameterneedShowRecordingActivity" xml:space="preserve">
+        <value>Flagga som anger om det är nödvändigt att visa aktiviteten att användaren spelar in en video.</value>
+    </data>
+    <data name="SendDocumentMessageInputModel" xml:space="preserve">
+        <value>Modell av indata för att skicka ett dokument.</value>
+    </data>
+    <data name="SendPhotoMessageInputModel" xml:space="preserve">
+        <value>Indatamodell för att skicka ett meddelande med ett foto.</value>
+    </data>
+    <data name="SendStickerMessageInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för att skicka ett meddelande med ett klistermärke.</value>
+    </data>
+    <data name="SendStoryMessageInputModel" xml:space="preserve">
+        <value>Meddelandeinmatningsmodell med historik</value>
+    </data>
+    <data name="ParameterstorySenderChatId" xml:space="preserve">
+        <value>ID för chatten där berättelsen publicerades</value>
+    </data>
+    <data name="ParameterstoryId" xml:space="preserve">
+        <value>Historik-ID</value>
+    </data>
+    <data name="SendAnimationMessageInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för att skicka ett meddelande med animation</value>
+    </data>
+    <data name="ParameterhasSpoiler" xml:space="preserve">
+        <value>Sant om animeringsförhandsvisningen ska stängas.</value>
+    </data>
+    <data name="Parameterheight" xml:space="preserve">
+        <value>Animationshöjd</value>
+    </data>
+    <data name="Parameterwidth" xml:space="preserve">
+        <value>Animationens bredd</value>
+    </data>
+    <data name="SendContactMessageInputModel" xml:space="preserve">
+        <value>Indatamodell för att skicka ett meddelande till en kontakt.</value>
+    </data>
+    <data name="ParametercontactPhoneNumber" xml:space="preserve">
+        <value>Kontaktnummer.</value>
+    </data>
+    <data name="ParametercontactId" xml:space="preserve">
+        <value>Kontakt-ID.</value>
+    </data>
+    <data name="ParametervCard" xml:space="preserve">
+        <value>Visitkort VCard.</value>
+    </data>
+    <data name="AddMessageReactionInputModel" xml:space="preserve">
+        <value>Indatamodell för att skicka en reaktion från ett meddelande</value>
+    </data>
+    <data name="Parameteremoji" xml:space="preserve">
+        <value>Reaktion</value>
+    </data>
+    <data name="ParameteremojiId" xml:space="preserve">
+        <value>Premiumreaktion</value>
+    </data>
+    <data name="RemoveMessageReactionInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för att ta bort en reaktion från ett meddelande</value>
+    </data>
+    <data name="ForwardMessagesInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för vidarebefordran av meddelanden</value>
+    </data>
+    <data name="ParameterfromChatId" xml:space="preserve">
+        <value>ID för chatten som meddelanden vidarebefordras från</value>
+    </data>
+    <data name="ParametermessageIds" xml:space="preserve">
+        <value>Array av meddelandeidentifierare att vidarebefordra</value>
+    </data>
+    <data name="ParameterremoveCaption" xml:space="preserve">
+        <value>Sant om du vill ta bort signaturen i mediafiler</value>
+    </data>
+    <data name="ParametersendCopy" xml:space="preserve">
+        <value>Sant om du vill vidarebefordra meddelanden utan referenser till användarna av dessa meddelanden</value>
+    </data>
+    <data name="DeleteMessagesInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för att radera chattmeddelanden</value>
+    </data>
+    <data name="Parameterrevoke" xml:space="preserve">
+        <value>Sant om du vill radera för alla chattdeltagare</value>
+    </data>
+    <data name="SetPictureProfilePhotoInputModel" xml:space="preserve">
+        <value>Indatamodell för att ställa in ett profilfoto.</value>
+    </data>
+    <data name="BackgroundGradientInputModel" xml:space="preserve">
+        <value>Indatamodell för möjligheten att ställa in en gradientbakgrund</value>
+    </data>
+    <data name="ParametertopColor" xml:space="preserve">
+        <value>Översta bakgrundsfärg i HEX-format.</value>
+    </data>
+    <data name="ParameterbottomColor" xml:space="preserve">
+        <value>Nedre bakgrundsfärg i HEX-format.</value>
+    </data>
+    <data name="ParameterrotationAngle" xml:space="preserve">
+        <value>Gradientens rotationsvinkel medurs, i grader; 0-359. Måste alltid vara delbart med 45</value>
+    </data>
+    <data name="BackgroundInputModel" xml:space="preserve">
+        <value>En indatamodell som innehåller egenskaper att välja mellan för att ställa in olika bakgrunder på ditt profilfoto</value>
+    </data>
+    <data name="Parametercolor" xml:space="preserve">
+        <value>Bakgrundsfärg i HEX-format</value>
+    </data>
+    <data name="Parametercolors" xml:space="preserve">
+        <value>Lista med 3 eller 4 friformsgradientfärger i HEX-format</value>
+    </data>
+    <data name="SetEmojiProfilePhotoInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för att ställa in en emoji som profilbild.</value>
+    </data>
+    <data name="ParametercustomEmojiId" xml:space="preserve">
+        <value>Dekal-ID</value>
+    </data>
+    <data name="SetStickerProfilePhotoInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för att ställa in ett klistermärke som ett profilfoto.</value>
+    </data>
+    <data name="ParameterstickerSetId" xml:space="preserve">
+        <value>ID för dekalpaket</value>
+    </data>
+    <data name="ParameterstickerId" xml:space="preserve">
+        <value>Dekal-ID</value>
+    </data>
+    <data name="SetAnimationProfilePhotoInputModel" xml:space="preserve">
+        <value>Ingångsmodell för inställning av animation i form av ett profilfoto.</value>
+    </data>
+    <data name="ParametermainFrameTimestamp" xml:space="preserve">
+        <value>Ram tidsstämpel när animeringen kommer att visas statisk.</value>
+    </data>
+    <data name="SetUserBioInputModel" xml:space="preserve">
+        <value>Indatamodell för inställning av användarbio</value>
+    </data>
+    <data name="Parameterbio" xml:space="preserve">
+        <value>Bio linje</value>
+    </data>
+    <data name="StoryPrivacySettingsContactsInputModel" xml:space="preserve">
+        <value>Sekretessinställningar som låter dig se historiken för användarens kontakter</value>
+    </data>
+    <data name="ParameterexceptUserIds" xml:space="preserve">
+        <value>En uppsättning användar-ID:n som inte ska se historiken</value>
+    </data>
+    <data name="StoryPrivacySettingsEveryoneInputModel" xml:space="preserve">
+        <value>Sekretessinställningar som tillåter alla användare att se historiken</value>
+    </data>
+    <data name="StoryPrivacySettingsSelectedUsersInputModel" xml:space="preserve">
+        <value>Sekretessinställningar som tillåter utvalda användare att se historiken</value>
+    </data>
+    <data name="ParameteruserIds" xml:space="preserve">
+        <value>En rad användar-ID:n som kommer att se historien</value>
+    </data>
+    <data name="StoryPrivacySettingsCloseFriendsInputModel" xml:space="preserve">
+        <value>Sekretessinställningar som tillåter användare på listan över nära vänner att se sin historik</value>
+    </data>
+    <data name="StoryPrivacySettingsInputModel" xml:space="preserve">
+        <value>Indatamodell som innehåller egenskaper att välja mellan För att konfigurera historikens sekretess</value>
+    </data>
+    <data name="PostPhotoStoryInputModel" xml:space="preserve">
+        <value>Inmatningsmodell för att skicka en berättelse med ett foto</value>
+    </data>
+    <data name="ParameteractivePeriod" xml:space="preserve">
+        <value>Period under vilken historiken kommer att vara tillgänglig (i timmar)</value>
+    </data>
+    <data name="ParameterisPinned" xml:space="preserve">
+        <value>Sant om du vill att historiken ska förbli tillgänglig efter utgången</value>
+    </data>
+    <data name="TgStoryContent" xml:space="preserve">
+        <value>Abstrakt bakgrund av historien.</value>
+    </data>
+    <data name="TgStoryPrivacySettings" xml:space="preserve">
+        <value>Uppräkning för sekretessinställningar&lt;p&gt;Medlemmar:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Nära vänner&lt;/i&gt; - För nära vänner&lt;/li&gt;&lt;li&gt;&lt;i&gt;Kontakter&lt;/i&gt; - För kontakter&lt; /li&gt;&lt;li&gt;&lt;i&gt;EveryOne&lt;/i&gt; - För alla&lt;/li&gt;&lt;li&gt;&lt;i&gt;SelectedUsers&lt;/i&gt; - För utvalda användare&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryFullInfo" xml:space="preserve">
+        <value>Ger fullständig information om historien i telegram</value>
+    </data>
+    <data name="ParametersenderChatId" xml:space="preserve">
+        <value>Historieavsändar-ID (användare)</value>
+    </data>
+    <data name="ParameterviewCount" xml:space="preserve">
+        <value>Antal visningar</value>
+    </data>
+    <data name="ParameterforwardCount" xml:space="preserve">
+        <value>Hur många gånger har historien vidarebefordrats?</value>
+    </data>
+    <data name="ParameterreactionCount" xml:space="preserve">
+        <value>Antal reaktioner på berättelser</value>
+    </data>
+    <data name="ParameterrecentViewerUserIds" xml:space="preserve">
+        <value>ID:n för upp till tre senaste historikbesökare</value>
+    </data>
+    <data name="ParameterisBeingSent" xml:space="preserve">
+        <value>Sant om den aktuella användaren skickar berättelsen</value>
+    </data>
+    <data name="ParameterisBeingEdited" xml:space="preserve">
+        <value>Sant om den aktuella användaren redigerar berättelsen</value>
+    </data>
+    <data name="ParameterisEdited" xml:space="preserve">
+        <value>Sant om berättelsen har redigerats</value>
+    </data>
+    <data name="ParameterisVisibleOnlyForSelf" xml:space="preserve">
+        <value>Sant om endast synligt för historikägaren</value>
+    </data>
+    <data name="ParametercanBeDeleted" xml:space="preserve">
+        <value>Sant om kan tas bort</value>
+    </data>
+    <data name="ParametercanBeReplied" xml:space="preserve">
+        <value>Sant om historien kan besvaras</value>
+    </data>
+    <data name="ParametercanToggleIsPinned" xml:space="preserve">
+        <value>Sant om IsPinned kan ändras</value>
+    </data>
+    <data name="ParametercanGetViewers" xml:space="preserve">
+        <value>Sant om det är möjligt att få användare som har sett historiken</value>
+    </data>
+    <data name="PostVideoStoryInputModel" xml:space="preserve">
+        <value>Ingångsmodell för att skicka historik med video</value>
+    </data>
+    <data name="ParameterisAnimation" xml:space="preserve">
+        <value>Sant om videon inte har något ljud</value>
+    </data>
+    <data name="TgStoryTypeList" xml:space="preserve">
+        <value>Uppräkning av historiklisttyper&lt;p&gt;Medlemmar:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Huvud&lt;/i&gt; - Huvud&lt;/li&gt;&lt;li&gt;&lt;i&gt;Arkiv&lt;/i&gt; - Arkiv&lt;/li &gt; &lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryInfo" xml:space="preserve">
+        <value>Representerar information om en användares aktiva historik</value>
+    </data>
+    <data name="ParameterisForCloseFriends" xml:space="preserve">
+        <value>Sant om historien är för nära vänner</value>
+    </data>
+    <data name="TgUserActiveStories" xml:space="preserve">
+        <value>Representerar information om en användares aktiva berättelser</value>
+    </data>
+    <data name="Parameterorder" xml:space="preserve">
+        <value>Används för att bestämma ordningen på berättelser i listan</value>
+    </data>
+    <data name="ParametermaxReadStoryId" xml:space="preserve">
+        <value>Senast visade aktiv historik-ID</value>
+    </data>
+    <data name="Parameterstories" xml:space="preserve">
+        <value>En array som innehåller information om varje berättelse</value>
+    </data>
+    <data name="TgMiniThumbnail" xml:space="preserve">
+        <value>Presenterar en liten förhandstitt</value>
+    </data>
+    <data name="ParameterminiThumbnail" xml:space="preserve">
+        <value>En liten förhandstitt.</value>
+    </data>
+    <data name="TgPhotoSize" xml:space="preserve">
+        <value>Representerar storleken på ett foto</value>
+    </data>
+    <data name="TgAnimatedChatPhoto" xml:space="preserve">
+        <value>Representerar en animationsuppsättning som ett profilfoto</value>
+    </data>
+    <data name="Parameterlength" xml:space="preserve">
+        <value>Bredd och höjd på animationen.</value>
+    </data>
+    <data name="TgChatPhoto" xml:space="preserve">
+        <value>Representerar ett profilfoto</value>
+    </data>
+    <data name="ParameteraddedDate" xml:space="preserve">
+        <value>Tidpunkten då bilden lades till.</value>
+    </data>
+    <data name="ParameterphotoSizes" xml:space="preserve">
+        <value>Variationer av fotografier i olika storlekar.</value>
+    </data>
+    <data name="TgText" xml:space="preserve">
+        <value>Representerar text.</value>
+    </data>
+    <data name="Parametertext" xml:space="preserve">
+        <value>Meddelandetext.</value>
+    </data>
+    <data name="TgUserFullInfo" xml:space="preserve">
+        <value>Representerar fullständig information om användaren.</value>
+    </data>
+    <data name="ParameterisStoriesBlocked" xml:space="preserve">
+        <value>Flagga om användarberättelser är blockerade.</value>
+    </data>
+    <data name="ParameterisBlocked" xml:space="preserve">
+        <value>Flagga om användaren är blockerad.</value>
+    </data>
+    <data name="ParametercanBeCalled" xml:space="preserve">
+        <value>Sant, om användaren kan kallas.</value>
+    </data>
+    <data name="ParametersupportsVideoCalls" xml:space="preserve">
+        <value>Sant, om du kan skapa ett videosamtal med användaren.</value>
+    </data>
+    <data name="ParameterhasPrivateCalls" xml:space="preserve">
+        <value>Sant om användaren inte kan anropas på grund av deras sekretessinställningar.</value>
+    </data>
+    <data name="ParameterhasPrivateForwards" xml:space="preserve">
+        <value>Sant om användaren inte kan associeras i vidarebefordrade meddelanden på grund av deras sekretessinställningar.</value>
+    </data>
+    <data name="ParameterhasRestrictedVoiceAndVideoNoteMessages" xml:space="preserve">
+        <value>Sant om röst- och videoanteckningar inte kan skickas eller vidarebefordras till användaren.</value>
+    </data>
+    <data name="ParameterhasPinnedStories" xml:space="preserve">
+        <value>Sant om användaren har fäst berättelser.</value>
+    </data>
+    <data name="ParameterneedPhoneNumberPrivacyException" xml:space="preserve">
+        <value>Sant om den aktuella användaren uttryckligen ska tillåtas att dela sitt telefonnummer med användaren när han använder addContact-metoden.</value>
+    </data>
+</root>

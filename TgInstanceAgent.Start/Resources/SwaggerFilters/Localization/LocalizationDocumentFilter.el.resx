@@ -1,0 +1,818 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AuthSetPhone" xml:space="preserve">
+        <value>Ορισμός αριθμού τηλεφώνου</value>
+    </data>
+    <data name="ParameterinstanceId" xml:space="preserve">
+        <value>Αναγνωριστικό παράδειγμα</value>
+    </data>
+    <data name="AuthSetPhoneRequest" xml:space="preserve">
+        <value>Τηλεφωνικό νούμερο</value>
+    </data>
+    <data name="Response200" xml:space="preserve">
+        <value>Επιτυχία</value>
+    </data>
+    <data name="Response400" xml:space="preserve">
+        <value>Μη έγκυρα δεδομένα εισαγωγής ή μη έγκυρο αίτημα</value>
+    </data>
+    <data name="Response500" xml:space="preserve">
+        <value>Παρουσιάστηκε σφάλμα στο διακομιστή</value>
+    </data>
+    <data name="AuthCheckCode" xml:space="preserve">
+        <value>Αποστολή κωδικού επαλήθευσης</value>
+    </data>
+    <data name="AuthCheckCodeRequest" xml:space="preserve">
+        <value>Κωδικός επαλήθευσης</value>
+    </data>
+    <data name="AuthCheckPassword" xml:space="preserve">
+        <value>Αποστολή κωδικού πρόσβασης</value>
+    </data>
+    <data name="AuthCheckPasswordRequest" xml:space="preserve">
+        <value>Κωδικός πρόσβασης</value>
+    </data>
+    <data name="ChatsGetChatHistory" xml:space="preserve">
+        <value>Λάβετε ιστορικό συνομιλιών</value>
+    </data>
+    <data name="ParameterChatId" xml:space="preserve">
+        <value>Αναγνωριστικό συνομιλίας.</value>
+    </data>
+    <data name="ParameterUsername" xml:space="preserve">
+        <value>Όνομα χρήστη.</value>
+    </data>
+    <data name="ParameterPhoneNumber" xml:space="preserve">
+        <value>Τηλεφωνικό νούμερο.</value>
+    </data>
+    <data name="ParameterLimit" xml:space="preserve">
+        <value>Όριο μηνυμάτων.</value>
+    </data>
+    <data name="ParameterOffset" xml:space="preserve">
+        <value>Προκατάληψη.</value>
+    </data>
+    <data name="ParameterFromMessageId" xml:space="preserve">
+        <value>Ξεκινώντας με το αναγνωριστικό μηνύματος.</value>
+    </data>
+    <data name="ChatsGetMessage" xml:space="preserve">
+        <value>Λάβετε δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="ParameterMessageId" xml:space="preserve">
+        <value>Αναγνωριστικό μηνύματος.</value>
+    </data>
+    <data name="ChatsGetMessageAvailableReactions" xml:space="preserve">
+        <value>Λάβετε μια λίστα με τις διαθέσιμες αντιδράσεις σε ένα μήνυμα</value>
+    </data>
+    <data name="ContactsGetContacts" xml:space="preserve">
+        <value>Λήψη λίστας επαφών</value>
+    </data>
+    <data name="ContactsImportContacts" xml:space="preserve">
+        <value>Εισαγωγή επαφών</value>
+    </data>
+    <data name="ContactsImportContactsRequest" xml:space="preserve">
+        <value>Στοιχεία επικοινωνίας</value>
+    </data>
+    <data name="ContactsAddContact" xml:space="preserve">
+        <value>Προσθέστε επαφή</value>
+    </data>
+    <data name="ContactsAddContactRequest" xml:space="preserve">
+        <value>Στοιχεία επικοινωνίας χρήστη</value>
+    </data>
+    <data name="ContactsRemoveContact" xml:space="preserve">
+        <value>Διαγραφή επαφής</value>
+    </data>
+    <data name="ContactsRemoveContactRequest" xml:space="preserve">
+        <value>Στοιχεία επικοινωνίας χρήστη</value>
+    </data>
+    <data name="FileStartDownload" xml:space="preserve">
+        <value>Αίτημα λήψης αρχείου κατά αναγνωριστικό αρχείου</value>
+    </data>
+    <data name="FileStartDownloadRequest" xml:space="preserve">
+        <value>Μοντέλο με αναγνωριστικό αρχείου</value>
+    </data>
+    <data name="FileGetFile" xml:space="preserve">
+        <value>Ανάκτηση αρχείου με αναγνωριστικό αρχείου</value>
+    </data>
+    <data name="ParameterLocalId" xml:space="preserve">
+        <value>Τοπικό αναγνωριστικό αρχείου</value>
+    </data>
+    <data name="ParameterRemoteId" xml:space="preserve">
+        <value>Αναγνωριστικό απομακρυσμένου αρχείου</value>
+    </data>
+    <data name="FileStartDownloadFromMessage" xml:space="preserve">
+        <value>Αίτημα λήψης αρχείου από μήνυμα.</value>
+    </data>
+    <data name="FileStartDownloadFromMessageRequest" xml:space="preserve">
+        <value>Μοντέλο με συνομιλία και αναγνωριστικό μηνύματος</value>
+    </data>
+    <data name="FileGetFileFromMessage" xml:space="preserve">
+        <value>Λήψη αρχείου από μήνυμα</value>
+    </data>
+    <data name="InstanceGetInstance" xml:space="preserve">
+        <value>Ανάκτηση δεδομένων παρουσίας</value>
+    </data>
+    <data name="MessageSendTextMessage" xml:space="preserve">
+        <value>Αποστολή μηνύματος κειμένου</value>
+    </data>
+    <data name="MessageSendTextMessageRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="MessageSendLocationMessage" xml:space="preserve">
+        <value>Αποστολή γεωγραφικής θέσης</value>
+    </data>
+    <data name="MessageSendLocationMessageRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="MessageSendAudioMessage" xml:space="preserve">
+        <value>Αποστολή ηχητικού μηνύματος</value>
+    </data>
+    <data name="MessageSendAudioMessageRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessage" xml:space="preserve">
+        <value>Αποστολή φωνητικού μηνύματος</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessageRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="MessageSendVideoNoteMessage" xml:space="preserve">
+        <value>Αποστολή κύκλου</value>
+    </data>
+    <data name="MessageSendVideoNoteMessageRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="MessageSendVideoMessage" xml:space="preserve">
+        <value>Αποστολή βίντεο</value>
+    </data>
+    <data name="MessageSendVideoMessageRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="MessageSendDocumentMessage" xml:space="preserve">
+        <value>Αποστολή εγγράφου</value>
+    </data>
+    <data name="MessageSendDocumentMessageRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="MessageSendPhotoMessage" xml:space="preserve">
+        <value>Αποστολή φωτογραφίας</value>
+    </data>
+    <data name="MessageSendPhotoMessageRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="MessageSendStickerMessage" xml:space="preserve">
+        <value>Αποστολή αυτοκόλλητου</value>
+    </data>
+    <data name="MessageSendStickerMessageRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="MessageSendStoryMessage" xml:space="preserve">
+        <value>Υποβολή ιστορίας</value>
+    </data>
+    <data name="MessageSendStoryMessageRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="MessageSendAnimationMessage" xml:space="preserve">
+        <value>Αποστολή κινούμενων εικόνων (gif)</value>
+    </data>
+    <data name="MessageSendAnimationMessageRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="MessageSendContactMessage" xml:space="preserve">
+        <value>Στείλτε μια επαφή</value>
+    </data>
+    <data name="MessageSendContactMessageRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="MessageAddMessageReaction" xml:space="preserve">
+        <value>Προσθήκη αντίδρασης σε μήνυμα</value>
+    </data>
+    <data name="MessageAddMessageReactionRequest" xml:space="preserve">
+        <value>Δεδομένα αντίδρασης</value>
+    </data>
+    <data name="MessageRemoveMessageReaction" xml:space="preserve">
+        <value>Αφαίρεση αντίδρασης από μήνυμα</value>
+    </data>
+    <data name="MessageRemoveMessageReactionRequest" xml:space="preserve">
+        <value>Δεδομένα αντίδρασης</value>
+    </data>
+    <data name="MessageForwardMessages" xml:space="preserve">
+        <value>Προώθηση μηνυμάτων</value>
+    </data>
+    <data name="MessageForwardMessagesRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="MessageDeleteMessages" xml:space="preserve">
+        <value>Διαγραφή μηνυμάτων</value>
+    </data>
+    <data name="MessageDeleteMessagesRequest" xml:space="preserve">
+        <value>Δεδομένα μηνυμάτων</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhoto" xml:space="preserve">
+        <value>Ορίζει τη φωτογραφία προφίλ. Πριν την εγκατάσταση με αναγνωριστικό αρχείου, πρέπει πρώτα να βεβαιωθείτε ότι το αρχείο έχει μεταφορτωθεί στον διακομιστή.</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhotoRequest" xml:space="preserve">
+        <value>Δεδομένα για τη ρύθμιση μιας φωτογραφίας προφίλ.</value>
+    </data>
+    <data name="ProfileSetPreviousProfilePhoto" xml:space="preserve">
+        <value>Ορίζει μία από τις προηγούμενες φωτογραφίες του χρήστη κατά αναγνωριστικό φωτογραφίας.</value>
+    </data>
+    <data name="ParameterphotoId" xml:space="preserve">
+        <value>Ταυτότητα φωτογραφίας.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhoto" xml:space="preserve">
+        <value>Ορίζει τη φωτογραφία προφίλ ως προσαρμοσμένο emoji.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhotoRequest" xml:space="preserve">
+        <value>Δεδομένα για τη ρύθμιση μιας φωτογραφίας προφίλ.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhoto" xml:space="preserve">
+        <value>Ορίζει τη φωτογραφία του προφίλ σας ως αυτοκόλλητο.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhotoRequest" xml:space="preserve">
+        <value>Δεδομένα για τη ρύθμιση μιας φωτογραφίας προφίλ.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhoto" xml:space="preserve">
+        <value>Ορίζει τη φωτογραφία προφίλ ως κινούμενη εικόνα. Πριν την εγκατάσταση με αναγνωριστικό αρχείου, πρέπει πρώτα να βεβαιωθείτε ότι το αρχείο έχει μεταφορτωθεί στον διακομιστή.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhotoRequest" xml:space="preserve">
+        <value>Δεδομένα για τη ρύθμιση μιας φωτογραφίας προφίλ.</value>
+    </data>
+    <data name="ProfileSetBio" xml:space="preserve">
+        <value>Ορισμός βιογραφικού για τον χρήστη.</value>
+    </data>
+    <data name="ProfileSetBioRequest" xml:space="preserve">
+        <value>Μοντέλο με πληροφορίες για το βιογραφικό του χρήστη.</value>
+    </data>
+    <data name="StoryPostPhotoStory" xml:space="preserve">
+        <value>Ορίζει μια νέα ιστορία για τον χρήστη με τη μορφή φωτογραφίας</value>
+    </data>
+    <data name="StoryPostPhotoStoryRequest" xml:space="preserve">
+        <value>Δεδομένα ρύθμισης ιστορικού.</value>
+    </data>
+    <data name="StoryPostVideoStory" xml:space="preserve">
+        <value>Ορίζει μια νέα ιστορία στο χρήστη με τη μορφή βίντεο</value>
+    </data>
+    <data name="StoryPostVideoStoryRequest" xml:space="preserve">
+        <value>Δεδομένα ρύθμισης ιστορικού.</value>
+    </data>
+    <data name="StoryGetStory" xml:space="preserve">
+        <value>Ανακτά το ιστορικό ενός χρήστη με το αναγνωριστικό του</value>
+    </data>
+    <data name="ParameterStoryId" xml:space="preserve">
+        <value>ID ιστορικού</value>
+    </data>
+    <data name="StoryGetUserActiveStories" xml:space="preserve">
+        <value>Λάβετε πληροφορίες σχετικά με τις ενεργές ιστορίες ενός χρήστη</value>
+    </data>
+    <data name="UsersGetUser" xml:space="preserve">
+        <value>Λήψη πληροφοριών χρήστη</value>
+    </data>
+    <data name="UsersGetMe" xml:space="preserve">
+        <value>Λήψη πληροφοριών σχετικά με έναν εξουσιοδοτημένο χρήστη</value>
+    </data>
+    <data name="UsersGetUserFullInfo" xml:space="preserve">
+        <value>Λήψη βιογραφικού χρήστη</value>
+    </data>
+    <data name="UsersGetUserProfilePhotos" xml:space="preserve">
+        <value>Λάβετε μια λίστα με τις φωτογραφίες των χρηστών</value>
+    </data>
+    <data name="SetPhoneNumberInputModel" xml:space="preserve">
+        <value>Μοντέλο δεδομένων εισαγωγής για τη ρύθμιση του αριθμού τηλεφώνου ενός λογαριασμού τηλεγραφήματος</value>
+    </data>
+    <data name="CheckCodeInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για επαλήθευση κωδικού επιβεβαίωσης</value>
+    </data>
+    <data name="Parametercode" xml:space="preserve">
+        <value>Κωδικός επιβεβαίωσης.</value>
+    </data>
+    <data name="CheckPasswordInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για επαλήθευση κωδικού πρόσβασης</value>
+    </data>
+    <data name="Parameterpassword" xml:space="preserve">
+        <value>Κωδικός πρόσβασης</value>
+    </data>
+    <data name="TgReplyTo" xml:space="preserve">
+        <value>Πληροφορίες για απάντηση σε μήνυμα.</value>
+    </data>
+    <data name="ParameterchatId" xml:space="preserve">
+        <value>Αναγνωριστικό συνομιλίας.</value>
+    </data>
+    <data name="TgForwardInfo" xml:space="preserve">
+        <value>Πληροφορίες σχετικά με το μήνυμα που προωθείται.</value>
+    </data>
+    <data name="Parameterdate" xml:space="preserve">
+        <value>Ημερομηνία ανάρτησης.</value>
+    </data>
+    <data name="TgMessageContent" xml:space="preserve">
+        <value>Αφηρημένα δεδομένα μηνυμάτων.</value>
+    </data>
+    <data name="TgMessage" xml:space="preserve">
+        <value>Κατηγορία μηνυμάτων.</value>
+    </data>
+    <data name="ParametersenderId" xml:space="preserve">
+        <value>Ταυτότητα αποστολέα.</value>
+    </data>
+    <data name="ParametermessageId" xml:space="preserve">
+        <value>Αναγνωριστικό μηνύματος.</value>
+    </data>
+    <data name="ParameterisOutgoing" xml:space="preserve">
+        <value>Είναι ένα εξερχόμενο μήνυμα.</value>
+    </data>
+    <data name="ParametercanBeEdited" xml:space="preserve">
+        <value>Μπορεί να υποβληθεί σε επεξεργασία.</value>
+    </data>
+    <data name="ParametercanBeForwarded" xml:space="preserve">
+        <value>Μπορεί να προωθηθεί.</value>
+    </data>
+    <data name="ParametercanBeDeletedForAllUsers" xml:space="preserve">
+        <value>Μπορεί να αφαιρεθεί για όλους τους χρήστες.</value>
+    </data>
+    <data name="ParametereditDate" xml:space="preserve">
+        <value>Επεξεργασία ημερομηνίας.</value>
+    </data>
+    <data name="TgReactionType" xml:space="preserve">
+        <value>Κατηγορία αντίδρασης</value>
+    </data>
+    <data name="TgAvailableReaction" xml:space="preserve">
+        <value>Κατηγορία αντίδρασης</value>
+    </data>
+    <data name="ParameterisNeedPremium" xml:space="preserve">
+        <value>Επισημάνετε εάν η αντίδραση είναι μια αντίδραση premium</value>
+    </data>
+    <data name="TgMessageAvailableReactions" xml:space="preserve">
+        <value>Μια τάξη που αντιπροσωπεύει τις διαθέσιμες αντιδράσεις για ένα μήνυμα Telegram.</value>
+    </data>
+    <data name="ParametertopReactions" xml:space="preserve">
+        <value>Λαμβάνει ή ορίζει μια συλλογή από τις πιο δημοφιλείς αντιδράσεις.</value>
+    </data>
+    <data name="ParameterrecentReactions" xml:space="preserve">
+        <value>Λαμβάνει ή ορίζει μια συλλογή από πρόσφατες αντιδράσεις.</value>
+    </data>
+    <data name="ParameterpopularReactions" xml:space="preserve">
+        <value>Λαμβάνει ή ορίζει μια συλλογή από πρόσφατες αντιδράσεις.</value>
+    </data>
+    <data name="TgFile" xml:space="preserve">
+        <value>Αντιπροσωπεύει ένα αρχείο</value>
+    </data>
+    <data name="ParameterfileId" xml:space="preserve">
+        <value>Αναγνωριστικό αρχείου.</value>
+    </data>
+    <data name="Parametersize" xml:space="preserve">
+        <value>Μέγεθος αρχείου.</value>
+    </data>
+    <data name="ParameterremoteId" xml:space="preserve">
+        <value>Αναγνωριστικό απομακρυσμένου αρχείου.</value>
+    </data>
+    <data name="TgProfilePhoto" xml:space="preserve">
+        <value>Η φωτογραφία προφίλ</value>
+    </data>
+    <data name="ParameterhasAnimation" xml:space="preserve">
+        <value>Κινούμενη φωτογραφία</value>
+    </data>
+    <data name="ParameterisPersonal" xml:space="preserve">
+        <value>Εγκαταστάθηκε από τον τρέχοντα χρήστη</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Κατάσταση χρήστη&lt;p&gt;Μέλη:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Σε σύνδεση&lt;/i&gt; - Διαδικτυακός χρήστης&lt;/li&gt;&lt;li&gt;&lt;i&gt;Πρόσφατα&lt;/i&gt; - Χρήστης που συνδέθηκε πρόσφατα&lt;/ li &gt;&lt;li&gt;&lt;i&gt;Τελευταία εβδομάδα&lt;/i&gt; - Ο χρήστης δεν έχει συνδεθεί για μια εβδομάδα&lt;/li&gt;&lt;li&gt;&lt;i&gt;LastMonth&lt;/i&gt; - Ο χρήστης δεν έχει συνδεθεί εδώ και ένα μήνα&lt;/ li&gt;&lt;li&gt;&lt;i&gt;Εκτός σύνδεσης&lt;/ i&gt; - Χρήστης εκτός σύνδεσης&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgUser" xml:space="preserve">
+        <value>Μια τάξη που αντιπροσωπεύει μια επαφή.</value>
+    </data>
+    <data name="Parameterid" xml:space="preserve">
+        <value>Αναγνωριστικό.</value>
+    </data>
+    <data name="ParameterfirstName" xml:space="preserve">
+        <value>Ονομα.</value>
+    </data>
+    <data name="ParameterlastName" xml:space="preserve">
+        <value>Επώνυμο.</value>
+    </data>
+    <data name="Parameterusername" xml:space="preserve">
+        <value>Όνομα χρήστη.</value>
+    </data>
+    <data name="ParameterisContact" xml:space="preserve">
+        <value>Αυτή είναι επαφή</value>
+    </data>
+    <data name="ParameterisCloseFriend" xml:space="preserve">
+        <value>Είναι στενός φίλος.</value>
+    </data>
+    <data name="ParameterisMutualContact" xml:space="preserve">
+        <value>Είναι αμοιβαία επαφή.</value>
+    </data>
+    <data name="ParameterisFake" xml:space="preserve">
+        <value>Είναι ψεύτικη επαφή.</value>
+    </data>
+    <data name="ParameterisScum" xml:space="preserve">
+        <value>Είναι απάτη.</value>
+    </data>
+    <data name="ParameterisVerified" xml:space="preserve">
+        <value>Επαληθεύτηκε.</value>
+    </data>
+    <data name="ParameterhasActiveStories" xml:space="preserve">
+        <value>Υπάρχουν ιστορίες</value>
+    </data>
+    <data name="ParameterhasUnreadActiveStories" xml:space="preserve">
+        <value>Υπάρχουν αόρατες ιστορίες</value>
+    </data>
+    <data name="ParameterisPremium" xml:space="preserve">
+        <value>Λογαριασμός Premium</value>
+    </data>
+    <data name="ParameterstatusEmojiId" xml:space="preserve">
+        <value>Χαμογέλα σε κατάσταση</value>
+    </data>
+    <data name="ImportContactInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για προσθήκη επαφής</value>
+    </data>
+    <data name="AddContactInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για προσθήκη επαφής</value>
+    </data>
+    <data name="RemoveContactInputModel" xml:space="preserve">
+        <value>Μοντέλο για τη διαγραφή επαφής χρήστη</value>
+    </data>
+    <data name="FileIdRequestInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για αίτημα με αναγνωριστικό αρχείου.</value>
+    </data>
+    <data name="ParameterlocalId" xml:space="preserve">
+        <value>Τοπικό αναγνωριστικό αρχείου</value>
+    </data>
+    <data name="FileMessageRequestInputModel" xml:space="preserve">
+        <value>Εισαγάγετε το μοντέλο για αίτημα με αναγνωριστικό μηνύματος και αναγνωριστικό συνομιλίας.</value>
+    </data>
+    <data name="SchedulingStateInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής που καθορίζει τον τύπο του προγραμματισμού αποστολής μηνυμάτων</value>
+    </data>
+    <data name="ParametersendDate" xml:space="preserve">
+        <value>Ημερομηνία αποστολής του μηνύματος Εάν η ημερομηνία είναι μηδενική, τότε ο τύπος προγραμματισμού μηνύματος θα είναι όταν ο παραλήπτης συνδεθεί</value>
+    </data>
+    <data name="MessageSendOptionsInputModel" xml:space="preserve">
+        <value>Μοντέλο παραμέτρων εισαγωγής για την αποστολή μηνύματος</value>
+    </data>
+    <data name="ParameterdisableNotification" xml:space="preserve">
+        <value>Σημαία - απενεργοποιήστε την ειδοποίηση παραλήπτη</value>
+    </data>
+    <data name="ParameterprotectContent" xml:space="preserve">
+        <value>Σημαία - εάν το απεσταλμένο μήνυμα μπορεί να προωθηθεί ή να αποθηκευτεί</value>
+    </data>
+    <data name="SendTextMessageInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για αποστολή μηνύματος κειμένου.</value>
+    </data>
+    <data name="Parametermessage" xml:space="preserve">
+        <value>Κείμενο μηνύματος.</value>
+    </data>
+    <data name="ParameterurlPreview" xml:space="preserve">
+        <value>Προεπισκόπηση URL.</value>
+    </data>
+    <data name="ParameterdisableUrlPreview" xml:space="preserve">
+        <value>Απενεργοποιήστε τις προεπισκοπήσεις URL.</value>
+    </data>
+    <data name="ParameterneedShowActivity" xml:space="preserve">
+        <value>Σημαία που υποδεικνύει εάν η δραστηριότητα πρέπει να σταλεί πριν από το μήνυμα</value>
+    </data>
+    <data name="SendLocationMessageInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για την αποστολή μηνύματος τοποθεσίας.</value>
+    </data>
+    <data name="Parameterlatitude" xml:space="preserve">
+        <value>Γεωγραφικό πλάτος της τοποθεσίας.</value>
+    </data>
+    <data name="Parameterlongitude" xml:space="preserve">
+        <value>Γεωγραφικό μήκος τοποθεσίας.</value>
+    </data>
+    <data name="ParameterhorizontalAccuracy" xml:space="preserve">
+        <value>Ακρίβεια οριζόντιας τοποθεσίας.</value>
+    </data>
+    <data name="SendAudioMessageInputModel" xml:space="preserve">
+        <value>Μοντέλο δεδομένων εισόδου για αποστολή ηχητικού μηνύματος.</value>
+    </data>
+    <data name="ParameterfileInBase64" xml:space="preserve">
+        <value>Το αρχείο Base64 που θα σταλεί στο μήνυμα.</value>
+    </data>
+    <data name="ParameterlocalFileId" xml:space="preserve">
+        <value>Τοπικό αναγνωριστικό αρχείου</value>
+    </data>
+    <data name="ParameterremoteFileId" xml:space="preserve">
+        <value>Αναγνωριστικό απομακρυσμένου αρχείου</value>
+    </data>
+    <data name="Parametercaption" xml:space="preserve">
+        <value>Υπογραφή μηνύματος αρχείου.</value>
+    </data>
+    <data name="Parametertitle" xml:space="preserve">
+        <value>Ο τίτλος του ηχητικού μηνύματος.</value>
+    </data>
+    <data name="Parameterperformer" xml:space="preserve">
+        <value>Εκτελεστής ηχητικών μηνυμάτων.</value>
+    </data>
+    <data name="ParameteralbumCoverThumbnailBase64" xml:space="preserve">
+        <value>Προεπισκόπηση άλμπουμ σε μορφή Base64.</value>
+    </data>
+    <data name="SendVoiceNoteMessageInputModel" xml:space="preserve">
+        <value>Μοντέλο δεδομένων εισαγωγής για αποστολή φωνητικού μηνύματος.</value>
+    </data>
+    <data name="SendVideoNoteMessageInputModel" xml:space="preserve">
+        <value>Μοντέλο δεδομένων εισόδου για αποστολή κύκλου.</value>
+    </data>
+    <data name="SendVideoMessageInputModel" xml:space="preserve">
+        <value>Μοντέλο δεδομένων εισόδου για αποστολή μηνύματος με βίντεο.</value>
+    </data>
+    <data name="ParameterneedShowRecordingActivity" xml:space="preserve">
+        <value>Επισήμανση που υποδεικνύει εάν είναι απαραίτητο να εμφανιστεί η δραστηριότητα που ο χρήστης καταγράφει ένα βίντεο.</value>
+    </data>
+    <data name="SendDocumentMessageInputModel" xml:space="preserve">
+        <value>Μοντέλο δεδομένων εισόδου για αποστολή εγγράφου.</value>
+    </data>
+    <data name="SendPhotoMessageInputModel" xml:space="preserve">
+        <value>Εισαγωγή μοντέλου δεδομένων για αποστολή μηνύματος με φωτογραφία.</value>
+    </data>
+    <data name="SendStickerMessageInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για αποστολή μηνύματος με αυτοκόλλητο.</value>
+    </data>
+    <data name="SendStoryMessageInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής μηνύματος με ιστορικό</value>
+    </data>
+    <data name="ParameterstorySenderChatId" xml:space="preserve">
+        <value>Αναγνωριστικό της συνομιλίας όπου δημοσιεύτηκε η ιστορία</value>
+    </data>
+    <data name="ParameterstoryId" xml:space="preserve">
+        <value>ID ιστορικού</value>
+    </data>
+    <data name="SendAnimationMessageInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για αποστολή μηνύματος με κινούμενα σχέδια</value>
+    </data>
+    <data name="ParameterhasSpoiler" xml:space="preserve">
+        <value>Σωστό εάν η προεπισκόπηση κινούμενων εικόνων πρέπει να κλείσει.</value>
+    </data>
+    <data name="Parameterheight" xml:space="preserve">
+        <value>Ύψος κινουμένων σχεδίων</value>
+    </data>
+    <data name="Parameterwidth" xml:space="preserve">
+        <value>Πλάτος κινούμενης εικόνας</value>
+    </data>
+    <data name="SendContactMessageInputModel" xml:space="preserve">
+        <value>Εισαγωγή μοντέλου δεδομένων για αποστολή μηνύματος σε επαφή.</value>
+    </data>
+    <data name="ParametercontactPhoneNumber" xml:space="preserve">
+        <value>Τηλέφωνο επικοινωνίας.</value>
+    </data>
+    <data name="ParametercontactId" xml:space="preserve">
+        <value>Ταυτότητα επικοινωνίας.</value>
+    </data>
+    <data name="ParametervCard" xml:space="preserve">
+        <value>Επαγγελματική κάρτα VCard.</value>
+    </data>
+    <data name="AddMessageReactionInputModel" xml:space="preserve">
+        <value>Εισαγωγή μοντέλου δεδομένων για αποστολή αντίδρασης από μήνυμα</value>
+    </data>
+    <data name="Parameteremoji" xml:space="preserve">
+        <value>Αντίδραση</value>
+    </data>
+    <data name="ParameteremojiId" xml:space="preserve">
+        <value>Αντίδραση κορυφαίας ποιότητας</value>
+    </data>
+    <data name="RemoveMessageReactionInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για την αφαίρεση μιας αντίδρασης από ένα μήνυμα</value>
+    </data>
+    <data name="ForwardMessagesInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για προώθηση μηνυμάτων</value>
+    </data>
+    <data name="ParameterfromChatId" xml:space="preserve">
+        <value>Αναγνωριστικό της συνομιλίας από την οποία προωθούνται τα μηνύματα</value>
+    </data>
+    <data name="ParametermessageIds" xml:space="preserve">
+        <value>Συστοιχία αναγνωριστικών μηνυμάτων προς προώθηση</value>
+    </data>
+    <data name="ParameterremoveCaption" xml:space="preserve">
+        <value>Σωστό εάν θέλετε να αφαιρέσετε την υπογραφή στα αρχεία πολυμέσων</value>
+    </data>
+    <data name="ParametersendCopy" xml:space="preserve">
+        <value>Σωστό εάν θέλετε να προωθήσετε μηνύματα χωρίς αναφορές στους χρήστες αυτών των μηνυμάτων</value>
+    </data>
+    <data name="DeleteMessagesInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για τη διαγραφή μηνυμάτων συνομιλίας</value>
+    </data>
+    <data name="Parameterrevoke" xml:space="preserve">
+        <value>Σωστό εάν θέλετε να διαγράψετε για όλους τους συμμετέχοντες στη συζήτηση</value>
+    </data>
+    <data name="SetPictureProfilePhotoInputModel" xml:space="preserve">
+        <value>Μοντέλο δεδομένων εισαγωγής για τη ρύθμιση φωτογραφίας προφίλ.</value>
+    </data>
+    <data name="BackgroundGradientInputModel" xml:space="preserve">
+        <value>Μοντέλο δεδομένων εισόδου για τη δυνατότητα ορισμού φόντου ντεγκραντέ</value>
+    </data>
+    <data name="ParametertopColor" xml:space="preserve">
+        <value>Κορυφαίο χρώμα φόντου σε μορφή HEX.</value>
+    </data>
+    <data name="ParameterbottomColor" xml:space="preserve">
+        <value>Κάτω χρώμα φόντου σε μορφή HEX.</value>
+    </data>
+    <data name="ParameterrotationAngle" xml:space="preserve">
+        <value>Γωνία περιστροφής της κλίσης δεξιόστροφα, σε μοίρες. 0-359. Πρέπει πάντα να διαιρείται με το 45</value>
+    </data>
+    <data name="BackgroundInputModel" xml:space="preserve">
+        <value>Ένα μοντέλο δεδομένων εισόδου που περιέχει ιδιότητες από τις οποίες μπορείτε να επιλέξετε για τη ρύθμιση διαφορετικών φόντων στη φωτογραφία προφίλ σας</value>
+    </data>
+    <data name="Parametercolor" xml:space="preserve">
+        <value>Χρώμα φόντου σε μορφή HEX</value>
+    </data>
+    <data name="Parametercolors" xml:space="preserve">
+        <value>Λίστα 3 ή 4 χρωμάτων ντεγκραντέ ελεύθερης μορφής σε μορφή HEX</value>
+    </data>
+    <data name="SetEmojiProfilePhotoInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για τη ρύθμιση ενός emoji ως φωτογραφίας προφίλ.</value>
+    </data>
+    <data name="ParametercustomEmojiId" xml:space="preserve">
+        <value>Ταυτότητα αυτοκόλλητου</value>
+    </data>
+    <data name="SetStickerProfilePhotoInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για τη ρύθμιση ενός αυτοκόλλητου ως φωτογραφίας προφίλ.</value>
+    </data>
+    <data name="ParameterstickerSetId" xml:space="preserve">
+        <value>ID πακέτου αυτοκόλλητων</value>
+    </data>
+    <data name="ParameterstickerId" xml:space="preserve">
+        <value>Ταυτότητα αυτοκόλλητου</value>
+    </data>
+    <data name="SetAnimationProfilePhotoInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για τη ρύθμιση κινούμενων εικόνων με τη μορφή φωτογραφίας προφίλ.</value>
+    </data>
+    <data name="ParametermainFrameTimestamp" xml:space="preserve">
+        <value>Χρονική σήμανση καρέ όταν η κινούμενη εικόνα θα εμφανίζεται στατική.</value>
+    </data>
+    <data name="SetUserBioInputModel" xml:space="preserve">
+        <value>Μοντέλο δεδομένων εισαγωγής για τη ρύθμιση βιογραφικού χρήστη</value>
+    </data>
+    <data name="Parameterbio" xml:space="preserve">
+        <value>Bio line</value>
+    </data>
+    <data name="StoryPrivacySettingsContactsInputModel" xml:space="preserve">
+        <value>Ρυθμίσεις απορρήτου που σας επιτρέπουν να δείτε το ιστορικό των επαφών του χρήστη</value>
+    </data>
+    <data name="ParameterexceptUserIds" xml:space="preserve">
+        <value>Μια σειρά από αναγνωριστικά χρηστών που δεν πρέπει να βλέπουν το ιστορικό</value>
+    </data>
+    <data name="StoryPrivacySettingsEveryoneInputModel" xml:space="preserve">
+        <value>Ρυθμίσεις απορρήτου που επιτρέπουν σε όλους τους χρήστες να δουν το ιστορικό</value>
+    </data>
+    <data name="StoryPrivacySettingsSelectedUsersInputModel" xml:space="preserve">
+        <value>Ρυθμίσεις απορρήτου που επιτρέπουν σε επιλεγμένους χρήστες να δουν το ιστορικό</value>
+    </data>
+    <data name="ParameteruserIds" xml:space="preserve">
+        <value>Μια σειρά από αναγνωριστικά χρηστών που θα δουν την ιστορία</value>
+    </data>
+    <data name="StoryPrivacySettingsCloseFriendsInputModel" xml:space="preserve">
+        <value>Ρυθμίσεις απορρήτου που επιτρέπουν στους χρήστες στη λίστα στενών φίλων να δουν το ιστορικό τους</value>
+    </data>
+    <data name="StoryPrivacySettingsInputModel" xml:space="preserve">
+        <value>Εισαγάγετε μοντέλο δεδομένων που περιέχει ιδιότητες για να επιλέξετε Για να διαμορφώσετε το απόρρητο του ιστορικού</value>
+    </data>
+    <data name="PostPhotoStoryInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για αποστολή ιστορίας με φωτογραφία</value>
+    </data>
+    <data name="ParameteractivePeriod" xml:space="preserve">
+        <value>Περίοδος κατά την οποία θα είναι διαθέσιμο το ιστορικό (σε ώρες)</value>
+    </data>
+    <data name="ParameterisPinned" xml:space="preserve">
+        <value>Σωστό αν θέλετε το ιστορικό να παραμείνει διαθέσιμο μετά τη λήξη</value>
+    </data>
+    <data name="TgStoryContent" xml:space="preserve">
+        <value>Αφηρημένο πλαίσιο της ιστορίας.</value>
+    </data>
+    <data name="TgStoryPrivacySettings" xml:space="preserve">
+        <value>Απαρίθμηση για ρυθμίσεις απορρήτου&lt;p&gt;Μέλη:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;CloseFriends&lt;/i&gt; - Για στενούς φίλους&lt;/li&gt;&lt;li&gt;&lt;i&gt;Επαφές&lt;/i&gt; - Για επαφές&lt; /li&gt;&lt;li&gt;&lt;i&gt;EveryOne&lt;/i&gt; - Για όλους&lt;/li&gt;&lt;li&gt;&lt;i&gt;SelectedUsers&lt;/i&gt; - Για επιλεγμένους χρήστες&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryFullInfo" xml:space="preserve">
+        <value>Παρέχει πλήρεις πληροφορίες για το ιστορικό στο τηλεγράφημα</value>
+    </data>
+    <data name="ParametersenderChatId" xml:space="preserve">
+        <value>Αναγνωριστικό αποστολέα ιστορικού (χρήστης)</value>
+    </data>
+    <data name="ParameterviewCount" xml:space="preserve">
+        <value>Αριθμός προβολών</value>
+    </data>
+    <data name="ParameterforwardCount" xml:space="preserve">
+        <value>Πόσες φορές έχει προωθηθεί η ιστορία;</value>
+    </data>
+    <data name="ParameterreactionCount" xml:space="preserve">
+        <value>Αριθμός αντιδράσεων σε ιστορίες</value>
+    </data>
+    <data name="ParameterrecentViewerUserIds" xml:space="preserve">
+        <value>Αναγνωριστικά έως και 3 πιο πρόσφατων θεατών ιστορικού</value>
+    </data>
+    <data name="ParameterisBeingSent" xml:space="preserve">
+        <value>Σωστό εάν ο τρέχων χρήστης υποβάλλει την ιστορία</value>
+    </data>
+    <data name="ParameterisBeingEdited" xml:space="preserve">
+        <value>Σωστό εάν ο τρέχων χρήστης επεξεργάζεται την ιστορία</value>
+    </data>
+    <data name="ParameterisEdited" xml:space="preserve">
+        <value>Σωστό αν η ιστορία έχει υποστεί επεξεργασία</value>
+    </data>
+    <data name="ParameterisVisibleOnlyForSelf" xml:space="preserve">
+        <value>Αληθές εάν είναι ορατό μόνο στον κάτοχο του ιστορικού</value>
+    </data>
+    <data name="ParametercanBeDeleted" xml:space="preserve">
+        <value>Σωστό αν μπορεί να αφαιρεθεί</value>
+    </data>
+    <data name="ParametercanBeReplied" xml:space="preserve">
+        <value>Σωστό αν μπορεί να απαντηθεί η ιστορία</value>
+    </data>
+    <data name="ParametercanToggleIsPinned" xml:space="preserve">
+        <value>Σωστό εάν το IsPinned μπορεί να αλλάξει</value>
+    </data>
+    <data name="ParametercanGetViewers" xml:space="preserve">
+        <value>Σωστό αν είναι δυνατό να ληφθούν χρήστες που έχουν δει το ιστορικό</value>
+    </data>
+    <data name="PostVideoStoryInputModel" xml:space="preserve">
+        <value>Μοντέλο εισαγωγής για αποστολή ιστορικού με βίντεο</value>
+    </data>
+    <data name="ParameterisAnimation" xml:space="preserve">
+        <value>Σωστό αν το βίντεο δεν έχει ήχο</value>
+    </data>
+    <data name="TgStoryTypeList" xml:space="preserve">
+        <value>Αριθμός τύπων λίστας ιστορικού&lt;p&gt;Μέλη:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Κύριο&lt;/i&gt; - Κύριο&lt;/li&gt;&lt;li&gt;&lt;i&gt;Αρχείο&lt;/i&gt; - Αρχείο&lt;/li &gt; &lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryInfo" xml:space="preserve">
+        <value>Αντιπροσωπεύει πληροφορίες σχετικά με το ενεργό ιστορικό ενός χρήστη</value>
+    </data>
+    <data name="ParameterisForCloseFriends" xml:space="preserve">
+        <value>Αλήθεια αν η ιστορία είναι για στενούς φίλους</value>
+    </data>
+    <data name="TgUserActiveStories" xml:space="preserve">
+        <value>Αντιπροσωπεύει πληροφορίες σχετικά με τις ενεργές ιστορίες ενός χρήστη</value>
+    </data>
+    <data name="Parameterorder" xml:space="preserve">
+        <value>Χρησιμοποιείται για τον προσδιορισμό της σειράς των ιστοριών στη λίστα</value>
+    </data>
+    <data name="ParametermaxReadStoryId" xml:space="preserve">
+        <value>Αναγνωριστικό ενεργού ιστορικού τελευταίας προβολής</value>
+    </data>
+    <data name="Parameterstories" xml:space="preserve">
+        <value>Ένας πίνακας που περιέχει πληροφορίες για κάθε ιστορία</value>
+    </data>
+    <data name="TgMiniThumbnail" xml:space="preserve">
+        <value>Παρουσιάζει μια μικρή προεπισκόπηση</value>
+    </data>
+    <data name="ParameterminiThumbnail" xml:space="preserve">
+        <value>Μια μικρή προεπισκόπηση.</value>
+    </data>
+    <data name="TgPhotoSize" xml:space="preserve">
+        <value>Αντιπροσωπεύει το μέγεθος μιας φωτογραφίας</value>
+    </data>
+    <data name="TgAnimatedChatPhoto" xml:space="preserve">
+        <value>Αντιπροσωπεύει ένα σύνολο κινούμενων εικόνων ως φωτογραφία προφίλ</value>
+    </data>
+    <data name="Parameterlength" xml:space="preserve">
+        <value>Πλάτος και ύψος του animation.</value>
+    </data>
+    <data name="TgChatPhoto" xml:space="preserve">
+        <value>Αντιπροσωπεύει μια φωτογραφία προφίλ</value>
+    </data>
+    <data name="ParameteraddedDate" xml:space="preserve">
+        <value>Το χρονικό σημείο που προστέθηκε η φωτογραφία.</value>
+    </data>
+    <data name="ParameterphotoSizes" xml:space="preserve">
+        <value>Παραλλαγές φωτογραφιών σε διάφορα μεγέθη.</value>
+    </data>
+    <data name="TgText" xml:space="preserve">
+        <value>Αντιπροσωπεύει κείμενο.</value>
+    </data>
+    <data name="Parametertext" xml:space="preserve">
+        <value>Κείμενο μηνύματος.</value>
+    </data>
+    <data name="TgUserFullInfo" xml:space="preserve">
+        <value>Αντιπροσωπεύει πλήρεις πληροφορίες για τον χρήστη.</value>
+    </data>
+    <data name="ParameterisStoriesBlocked" xml:space="preserve">
+        <value>Επισημάνετε εάν οι ιστορίες χρηστών είναι αποκλεισμένες.</value>
+    </data>
+    <data name="ParameterisBlocked" xml:space="preserve">
+        <value>Επισημάνετε εάν ο χρήστης είναι αποκλεισμένος.</value>
+    </data>
+    <data name="ParametercanBeCalled" xml:space="preserve">
+        <value>Αλήθεια, εάν ο χρήστης μπορεί να κληθεί.</value>
+    </data>
+    <data name="ParametersupportsVideoCalls" xml:space="preserve">
+        <value>Είναι αλήθεια, εάν μπορείτε να δημιουργήσετε μια βιντεοκλήση με τον χρήστη.</value>
+    </data>
+    <data name="ParameterhasPrivateCalls" xml:space="preserve">
+        <value>Σωστό εάν δεν είναι δυνατή η κλήση του χρήστη λόγω των ρυθμίσεων απορρήτου του.</value>
+    </data>
+    <data name="ParameterhasPrivateForwards" xml:space="preserve">
+        <value>Σωστό εάν ο χρήστης δεν μπορεί να συσχετιστεί στα προωθημένα μηνύματα λόγω των ρυθμίσεων απορρήτου του.</value>
+    </data>
+    <data name="ParameterhasRestrictedVoiceAndVideoNoteMessages" xml:space="preserve">
+        <value>Σωστό εάν οι σημειώσεις φωνής και βίντεο δεν μπορούν να σταλούν ή να προωθηθούν στον χρήστη.</value>
+    </data>
+    <data name="ParameterhasPinnedStories" xml:space="preserve">
+        <value>Σωστό αν ο χρήστης έχει καρφιτσώσει ιστορίες.</value>
+    </data>
+    <data name="ParameterneedPhoneNumberPrivacyException" xml:space="preserve">
+        <value>Σωστό εάν ο τρέχων χρήστης πρέπει να επιτρέπεται ρητά να μοιράζεται τον αριθμό τηλεφώνου του με τον χρήστη όταν χρησιμοποιεί τη μέθοδο addContact.</value>
+    </data>
+</root>

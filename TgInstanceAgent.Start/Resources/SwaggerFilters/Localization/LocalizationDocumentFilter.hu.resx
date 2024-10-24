@@ -1,0 +1,818 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AuthSetPhone" xml:space="preserve">
+        <value>Telefonszám beállítása</value>
+    </data>
+    <data name="ParameterinstanceId" xml:space="preserve">
+        <value>Példányazonosító</value>
+    </data>
+    <data name="AuthSetPhoneRequest" xml:space="preserve">
+        <value>Telefonszám</value>
+    </data>
+    <data name="Response200" xml:space="preserve">
+        <value>Siker</value>
+    </data>
+    <data name="Response400" xml:space="preserve">
+        <value>Érvénytelen bemeneti adat vagy érvénytelen kérés</value>
+    </data>
+    <data name="Response500" xml:space="preserve">
+        <value>Hiba történt a szerveren</value>
+    </data>
+    <data name="AuthCheckCode" xml:space="preserve">
+        <value>Ellenőrző kód küldése</value>
+    </data>
+    <data name="AuthCheckCodeRequest" xml:space="preserve">
+        <value>Ellenőrző kód</value>
+    </data>
+    <data name="AuthCheckPassword" xml:space="preserve">
+        <value>Jelszó küldése</value>
+    </data>
+    <data name="AuthCheckPasswordRequest" xml:space="preserve">
+        <value>Jelszó</value>
+    </data>
+    <data name="ChatsGetChatHistory" xml:space="preserve">
+        <value>Csevegési előzmények lekérése</value>
+    </data>
+    <data name="ParameterChatId" xml:space="preserve">
+        <value>Chat ID.</value>
+    </data>
+    <data name="ParameterUsername" xml:space="preserve">
+        <value>Felhasználónév.</value>
+    </data>
+    <data name="ParameterPhoneNumber" xml:space="preserve">
+        <value>Telefonszám.</value>
+    </data>
+    <data name="ParameterLimit" xml:space="preserve">
+        <value>Üzenetkorlát.</value>
+    </data>
+    <data name="ParameterOffset" xml:space="preserve">
+        <value>Elfogultság.</value>
+    </data>
+    <data name="ParameterFromMessageId" xml:space="preserve">
+        <value>Kezdve az üzenetazonosítóval.</value>
+    </data>
+    <data name="ChatsGetMessage" xml:space="preserve">
+        <value>Üzenetadatok lekérése</value>
+    </data>
+    <data name="ParameterMessageId" xml:space="preserve">
+        <value>Üzenetazonosító.</value>
+    </data>
+    <data name="ChatsGetMessageAvailableReactions" xml:space="preserve">
+        <value>Kapja meg az üzenetre elérhető reakciók listáját</value>
+    </data>
+    <data name="ContactsGetContacts" xml:space="preserve">
+        <value>Névjegylista lekérése</value>
+    </data>
+    <data name="ContactsImportContacts" xml:space="preserve">
+        <value>Névjegyek importálása</value>
+    </data>
+    <data name="ContactsImportContactsRequest" xml:space="preserve">
+        <value>Elérhetőségeit</value>
+    </data>
+    <data name="ContactsAddContact" xml:space="preserve">
+        <value>Kapcsolat hozzáadása</value>
+    </data>
+    <data name="ContactsAddContactRequest" xml:space="preserve">
+        <value>Felhasználó elérhetőségei</value>
+    </data>
+    <data name="ContactsRemoveContact" xml:space="preserve">
+        <value>Névjegy törlése</value>
+    </data>
+    <data name="ContactsRemoveContactRequest" xml:space="preserve">
+        <value>Felhasználó elérhetőségei</value>
+    </data>
+    <data name="FileStartDownload" xml:space="preserve">
+        <value>Fájl letöltésének kérése fájlazonosító alapján</value>
+    </data>
+    <data name="FileStartDownloadRequest" xml:space="preserve">
+        <value>Modell fájlazonosítóval</value>
+    </data>
+    <data name="FileGetFile" xml:space="preserve">
+        <value>Fájl lekérése fájlazonosító alapján</value>
+    </data>
+    <data name="ParameterLocalId" xml:space="preserve">
+        <value>Helyi fájlazonosító</value>
+    </data>
+    <data name="ParameterRemoteId" xml:space="preserve">
+        <value>Távoli fájlazonosító</value>
+    </data>
+    <data name="FileStartDownloadFromMessage" xml:space="preserve">
+        <value>Fájl letöltésének kérése üzenetből.</value>
+    </data>
+    <data name="FileStartDownloadFromMessageRequest" xml:space="preserve">
+        <value>Modell chattel és üzenetazonosítóval</value>
+    </data>
+    <data name="FileGetFileFromMessage" xml:space="preserve">
+        <value>Fájl fogadása üzenetből</value>
+    </data>
+    <data name="InstanceGetInstance" xml:space="preserve">
+        <value>Példányadatok lekérése</value>
+    </data>
+    <data name="MessageSendTextMessage" xml:space="preserve">
+        <value>Szöveges üzenet küldése</value>
+    </data>
+    <data name="MessageSendTextMessageRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="MessageSendLocationMessage" xml:space="preserve">
+        <value>Földrajzi adatok küldése</value>
+    </data>
+    <data name="MessageSendLocationMessageRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="MessageSendAudioMessage" xml:space="preserve">
+        <value>Hangüzenet küldése</value>
+    </data>
+    <data name="MessageSendAudioMessageRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessage" xml:space="preserve">
+        <value>Hangüzenet küldése</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessageRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="MessageSendVideoNoteMessage" xml:space="preserve">
+        <value>Kör küldése</value>
+    </data>
+    <data name="MessageSendVideoNoteMessageRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="MessageSendVideoMessage" xml:space="preserve">
+        <value>Videó küldése</value>
+    </data>
+    <data name="MessageSendVideoMessageRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="MessageSendDocumentMessage" xml:space="preserve">
+        <value>Dokumentum küldése</value>
+    </data>
+    <data name="MessageSendDocumentMessageRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="MessageSendPhotoMessage" xml:space="preserve">
+        <value>Fénykép küldése</value>
+    </data>
+    <data name="MessageSendPhotoMessageRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="MessageSendStickerMessage" xml:space="preserve">
+        <value>Matrica küldése</value>
+    </data>
+    <data name="MessageSendStickerMessageRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="MessageSendStoryMessage" xml:space="preserve">
+        <value>Történet beküldése</value>
+    </data>
+    <data name="MessageSendStoryMessageRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="MessageSendAnimationMessage" xml:space="preserve">
+        <value>Animáció küldése (gif)</value>
+    </data>
+    <data name="MessageSendAnimationMessageRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="MessageSendContactMessage" xml:space="preserve">
+        <value>Névjegy küldése</value>
+    </data>
+    <data name="MessageSendContactMessageRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="MessageAddMessageReaction" xml:space="preserve">
+        <value>Reakció hozzáadása üzenethez</value>
+    </data>
+    <data name="MessageAddMessageReactionRequest" xml:space="preserve">
+        <value>Reakció adatok</value>
+    </data>
+    <data name="MessageRemoveMessageReaction" xml:space="preserve">
+        <value>Reakció eltávolítása az üzenetből</value>
+    </data>
+    <data name="MessageRemoveMessageReactionRequest" xml:space="preserve">
+        <value>Reakció adatok</value>
+    </data>
+    <data name="MessageForwardMessages" xml:space="preserve">
+        <value>Üzenetek továbbítása</value>
+    </data>
+    <data name="MessageForwardMessagesRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="MessageDeleteMessages" xml:space="preserve">
+        <value>Üzenetek törlése</value>
+    </data>
+    <data name="MessageDeleteMessagesRequest" xml:space="preserve">
+        <value>Üzenetadatok</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhoto" xml:space="preserve">
+        <value>Beállítja a profilfotót. A fájlazonosító szerinti telepítés előtt először meg kell győződnie arról, hogy a fájl fel van töltve a szerverre.</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhotoRequest" xml:space="preserve">
+        <value>Adatok profilfotó beállításához.</value>
+    </data>
+    <data name="ProfileSetPreviousProfilePhoto" xml:space="preserve">
+        <value>Beállítja a felhasználó egyik korábbi fényképét fényképazonosító alapján.</value>
+    </data>
+    <data name="ParameterphotoId" xml:space="preserve">
+        <value>Fényképes igazolvány.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhoto" xml:space="preserve">
+        <value>Beállítja a profilfotót egyéni hangulatjelként.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhotoRequest" xml:space="preserve">
+        <value>Adatok profilfotó beállításához.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhoto" xml:space="preserve">
+        <value>Beállítja a profilfotóját matricaként.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhotoRequest" xml:space="preserve">
+        <value>Adatok profilfotó beállításához.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhoto" xml:space="preserve">
+        <value>A profilfotót animációként állítja be. A fájlazonosító szerinti telepítés előtt először meg kell győződnie arról, hogy a fájl fel van töltve a szerverre.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhotoRequest" xml:space="preserve">
+        <value>Adatok profilfotó beállításához.</value>
+    </data>
+    <data name="ProfileSetBio" xml:space="preserve">
+        <value>Bio beállítása a felhasználó számára.</value>
+    </data>
+    <data name="ProfileSetBioRequest" xml:space="preserve">
+        <value>Modell a felhasználó életrajzával kapcsolatos információkkal.</value>
+    </data>
+    <data name="StoryPostPhotoStory" xml:space="preserve">
+        <value>Új történetet állít be a felhasználó számára fénykép formájában</value>
+    </data>
+    <data name="StoryPostPhotoStoryRequest" xml:space="preserve">
+        <value>Az előzmények beállítási adatai.</value>
+    </data>
+    <data name="StoryPostVideoStory" xml:space="preserve">
+        <value>Új történetet állít a felhasználó elé videó formájában</value>
+    </data>
+    <data name="StoryPostVideoStoryRequest" xml:space="preserve">
+        <value>Az előzmények beállítási adatai.</value>
+    </data>
+    <data name="StoryGetStory" xml:space="preserve">
+        <value>Lekéri a felhasználó előzményeit az azonosítója alapján</value>
+    </data>
+    <data name="ParameterStoryId" xml:space="preserve">
+        <value>Előzményazonosító</value>
+    </data>
+    <data name="StoryGetUserActiveStories" xml:space="preserve">
+        <value>Információkat kaphat a felhasználó aktív történeteiről</value>
+    </data>
+    <data name="UsersGetUser" xml:space="preserve">
+        <value>Felhasználói információk megszerzése</value>
+    </data>
+    <data name="UsersGetMe" xml:space="preserve">
+        <value>Információk beszerzése egy jogosult felhasználóról</value>
+    </data>
+    <data name="UsersGetUserFullInfo" xml:space="preserve">
+        <value>Szerezze be a felhasználói életrajzot</value>
+    </data>
+    <data name="UsersGetUserProfilePhotos" xml:space="preserve">
+        <value>Szerezzen listát a felhasználók fényképeiről</value>
+    </data>
+    <data name="SetPhoneNumberInputModel" xml:space="preserve">
+        <value>Bemeneti adatmodell egy táviratfiók telefonszámának beállításához</value>
+    </data>
+    <data name="CheckCodeInputModel" xml:space="preserve">
+        <value>Bemeneti modell a megerősítő kód ellenőrzéséhez</value>
+    </data>
+    <data name="Parametercode" xml:space="preserve">
+        <value>Megerősítő kód.</value>
+    </data>
+    <data name="CheckPasswordInputModel" xml:space="preserve">
+        <value>Beviteli modell a jelszó ellenőrzéséhez</value>
+    </data>
+    <data name="Parameterpassword" xml:space="preserve">
+        <value>Jelszó</value>
+    </data>
+    <data name="TgReplyTo" xml:space="preserve">
+        <value>Információ az üzenet megválaszolásához.</value>
+    </data>
+    <data name="ParameterchatId" xml:space="preserve">
+        <value>Chat ID.</value>
+    </data>
+    <data name="TgForwardInfo" xml:space="preserve">
+        <value>Információ az üzenet továbbításáról.</value>
+    </data>
+    <data name="Parameterdate" xml:space="preserve">
+        <value>Feladás dátuma.</value>
+    </data>
+    <data name="TgMessageContent" xml:space="preserve">
+        <value>Absztrakt üzenet adatok.</value>
+    </data>
+    <data name="TgMessage" xml:space="preserve">
+        <value>Üzenet osztály.</value>
+    </data>
+    <data name="ParametersenderId" xml:space="preserve">
+        <value>Feladó azonosítója.</value>
+    </data>
+    <data name="ParametermessageId" xml:space="preserve">
+        <value>Üzenetazonosító.</value>
+    </data>
+    <data name="ParameterisOutgoing" xml:space="preserve">
+        <value>Egy kimenő üzenet.</value>
+    </data>
+    <data name="ParametercanBeEdited" xml:space="preserve">
+        <value>Szerkeszthető.</value>
+    </data>
+    <data name="ParametercanBeForwarded" xml:space="preserve">
+        <value>Továbbítható.</value>
+    </data>
+    <data name="ParametercanBeDeletedForAllUsers" xml:space="preserve">
+        <value>Minden felhasználó számára eltávolítható.</value>
+    </data>
+    <data name="ParametereditDate" xml:space="preserve">
+        <value>Dátum szerkesztése.</value>
+    </data>
+    <data name="TgReactionType" xml:space="preserve">
+        <value>Reakció osztály</value>
+    </data>
+    <data name="TgAvailableReaction" xml:space="preserve">
+        <value>Reakció osztály</value>
+    </data>
+    <data name="ParameterisNeedPremium" xml:space="preserve">
+        <value>Jelölje meg, hogy a reakció prémium reakció-e</value>
+    </data>
+    <data name="TgMessageAvailableReactions" xml:space="preserve">
+        <value>Egy távirat-üzenetre elérhető reakciókat képviselő osztály.</value>
+    </data>
+    <data name="ParametertopReactions" xml:space="preserve">
+        <value>Lekéri vagy beállítja a legnépszerűbb reakciók gyűjteményét.</value>
+    </data>
+    <data name="ParameterrecentReactions" xml:space="preserve">
+        <value>Lekéri vagy beállítja a legutóbbi reakciók gyűjteményét.</value>
+    </data>
+    <data name="ParameterpopularReactions" xml:space="preserve">
+        <value>Lekéri vagy beállítja a legutóbbi reakciók gyűjteményét.</value>
+    </data>
+    <data name="TgFile" xml:space="preserve">
+        <value>Egy fájlt jelöl</value>
+    </data>
+    <data name="ParameterfileId" xml:space="preserve">
+        <value>Fájlazonosító.</value>
+    </data>
+    <data name="Parametersize" xml:space="preserve">
+        <value>Fájl méret.</value>
+    </data>
+    <data name="ParameterremoteId" xml:space="preserve">
+        <value>Távoli fájlazonosító.</value>
+    </data>
+    <data name="TgProfilePhoto" xml:space="preserve">
+        <value>Profilkép</value>
+    </data>
+    <data name="ParameterhasAnimation" xml:space="preserve">
+        <value>Animált fotó</value>
+    </data>
+    <data name="ParameterisPersonal" xml:space="preserve">
+        <value>A jelenlegi felhasználó telepítette</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Felhasználó állapota&lt;p&gt;Tagok:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Online&lt;/i&gt; – Online felhasználó&lt;/li&gt;&lt;li&gt;&lt;i&gt;Nemrég&lt;/i&gt; – Nemrég bejelentkezett felhasználó&lt;/i&gt; li &gt;&lt;li&gt;&lt;i&gt;Múlt hét&lt;/i&gt; - A felhasználó egy hete nem jelentkezett be&lt;/li&gt;&lt;li&gt;&lt;i&gt;Múlt hónap&lt;/i&gt; - A felhasználó egy hónapja nem jelentkezett be&lt;/i&gt; li&gt;&lt;li&gt;&lt;i&gt;Offline&lt;/ i&gt; – Offline felhasználó&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgUser" xml:space="preserve">
+        <value>Egy kapcsolattartó osztály.</value>
+    </data>
+    <data name="Parameterid" xml:space="preserve">
+        <value>Azonosító.</value>
+    </data>
+    <data name="ParameterfirstName" xml:space="preserve">
+        <value>Név.</value>
+    </data>
+    <data name="ParameterlastName" xml:space="preserve">
+        <value>Vezetéknév.</value>
+    </data>
+    <data name="Parameterusername" xml:space="preserve">
+        <value>Felhasználónév.</value>
+    </data>
+    <data name="ParameterisContact" xml:space="preserve">
+        <value>Ez a kapcsolattartás</value>
+    </data>
+    <data name="ParameterisCloseFriend" xml:space="preserve">
+        <value>Egy közeli barát.</value>
+    </data>
+    <data name="ParameterisMutualContact" xml:space="preserve">
+        <value>Kölcsönös érintkezés.</value>
+    </data>
+    <data name="ParameterisFake" xml:space="preserve">
+        <value>Hamis kapcsolat.</value>
+    </data>
+    <data name="ParameterisScum" xml:space="preserve">
+        <value>Átverés.</value>
+    </data>
+    <data name="ParameterisVerified" xml:space="preserve">
+        <value>Ellenőrzött.</value>
+    </data>
+    <data name="ParameterhasActiveStories" xml:space="preserve">
+        <value>Vannak történetek</value>
+    </data>
+    <data name="ParameterhasUnreadActiveStories" xml:space="preserve">
+        <value>Vannak láthatatlan történetek</value>
+    </data>
+    <data name="ParameterisPremium" xml:space="preserve">
+        <value>Prémium fiók</value>
+    </data>
+    <data name="ParameterstatusEmojiId" xml:space="preserve">
+        <value>Smiley állapotában</value>
+    </data>
+    <data name="ImportContactInputModel" xml:space="preserve">
+        <value>Bemeneti modell névjegy hozzáadásához</value>
+    </data>
+    <data name="AddContactInputModel" xml:space="preserve">
+        <value>Bemeneti modell névjegy hozzáadásához</value>
+    </data>
+    <data name="RemoveContactInputModel" xml:space="preserve">
+        <value>Felhasználói névjegy törlésének modellje</value>
+    </data>
+    <data name="FileIdRequestInputModel" xml:space="preserve">
+        <value>Bemeneti modell egy fájlazonosítóval rendelkező kérelemhez.</value>
+    </data>
+    <data name="ParameterlocalId" xml:space="preserve">
+        <value>Helyi fájlazonosító</value>
+    </data>
+    <data name="FileMessageRequestInputModel" xml:space="preserve">
+        <value>Bemeneti modell kéréshez üzenetazonosítóval és chatazonosítóval.</value>
+    </data>
+    <data name="SchedulingStateInputModel" xml:space="preserve">
+        <value>Bemeneti modell, amely meghatározza az üzenetküldés ütemezésének típusát</value>
+    </data>
+    <data name="ParametersendDate" xml:space="preserve">
+        <value>Az üzenet elküldésének dátuma Ha a dátum nulla, akkor az üzenet ütemezési típusa akkor lesz, amikor a címzett online lesz</value>
+    </data>
+    <data name="MessageSendOptionsInputModel" xml:space="preserve">
+        <value>Üzenet küldéséhez szükséges bemeneti paraméterek modellje</value>
+    </data>
+    <data name="ParameterdisableNotification" xml:space="preserve">
+        <value>Megjelölés – a címzett értesítésének letiltása</value>
+    </data>
+    <data name="ParameterprotectContent" xml:space="preserve">
+        <value>Jelző – az elküldött üzenet továbbítható vagy menthető</value>
+    </data>
+    <data name="SendTextMessageInputModel" xml:space="preserve">
+        <value>Bemeneti modell szöveges üzenet küldéséhez.</value>
+    </data>
+    <data name="Parametermessage" xml:space="preserve">
+        <value>Üzenet szövege.</value>
+    </data>
+    <data name="ParameterurlPreview" xml:space="preserve">
+        <value>URL előnézete.</value>
+    </data>
+    <data name="ParameterdisableUrlPreview" xml:space="preserve">
+        <value>Az URL-előnézetek letiltása.</value>
+    </data>
+    <data name="ParameterneedShowActivity" xml:space="preserve">
+        <value>Jelző, amely azt jelzi, hogy a tevékenységet el kell-e küldeni az üzenet előtt</value>
+    </data>
+    <data name="SendLocationMessageInputModel" xml:space="preserve">
+        <value>Bemeneti modell helyüzenet küldéséhez.</value>
+    </data>
+    <data name="Parameterlatitude" xml:space="preserve">
+        <value>A hely szélessége.</value>
+    </data>
+    <data name="Parameterlongitude" xml:space="preserve">
+        <value>A hely hosszúsági foka.</value>
+    </data>
+    <data name="ParameterhorizontalAccuracy" xml:space="preserve">
+        <value>Vízszintes helymeghatározási pontosság.</value>
+    </data>
+    <data name="SendAudioMessageInputModel" xml:space="preserve">
+        <value>Bemeneti adatmodell hangüzenet küldéséhez.</value>
+    </data>
+    <data name="ParameterfileInBase64" xml:space="preserve">
+        <value>Base64 fájl, amely elküldésre kerül az üzenetben.</value>
+    </data>
+    <data name="ParameterlocalFileId" xml:space="preserve">
+        <value>Helyi fájlazonosító</value>
+    </data>
+    <data name="ParameterremoteFileId" xml:space="preserve">
+        <value>Távoli fájlazonosító</value>
+    </data>
+    <data name="Parametercaption" xml:space="preserve">
+        <value>Fájl üzenet aláírása.</value>
+    </data>
+    <data name="Parametertitle" xml:space="preserve">
+        <value>A hangüzenet címe.</value>
+    </data>
+    <data name="Parameterperformer" xml:space="preserve">
+        <value>Hangüzenet előadó.</value>
+    </data>
+    <data name="ParameteralbumCoverThumbnailBase64" xml:space="preserve">
+        <value>Album előnézet Base64 formátumban.</value>
+    </data>
+    <data name="SendVoiceNoteMessageInputModel" xml:space="preserve">
+        <value>Bemeneti adatmodell hangüzenet küldéséhez.</value>
+    </data>
+    <data name="SendVideoNoteMessageInputModel" xml:space="preserve">
+        <value>Bemeneti adatok modellje kör küldéséhez.</value>
+    </data>
+    <data name="SendVideoMessageInputModel" xml:space="preserve">
+        <value>Bemeneti adatok modellje üzenetküldéshez videóval.</value>
+    </data>
+    <data name="ParameterneedShowRecordingActivity" xml:space="preserve">
+        <value>Jelző, amely azt jelzi, hogy szükséges-e annak a tevékenységnek a megjelenítése, hogy a felhasználó videót rögzít.</value>
+    </data>
+    <data name="SendDocumentMessageInputModel" xml:space="preserve">
+        <value>Bemeneti adatok modellje dokumentum küldéséhez.</value>
+    </data>
+    <data name="SendPhotoMessageInputModel" xml:space="preserve">
+        <value>Bemeneti adatmodell fényképes üzenet küldéséhez.</value>
+    </data>
+    <data name="SendStickerMessageInputModel" xml:space="preserve">
+        <value>Bemeneti modell matricával ellátott üzenetküldéshez.</value>
+    </data>
+    <data name="SendStoryMessageInputModel" xml:space="preserve">
+        <value>Üzenetbeviteli modell előzményekkel</value>
+    </data>
+    <data name="ParameterstorySenderChatId" xml:space="preserve">
+        <value>A csevegés azonosítója, ahol a történetet közzétették</value>
+    </data>
+    <data name="ParameterstoryId" xml:space="preserve">
+        <value>Előzményazonosító</value>
+    </data>
+    <data name="SendAnimationMessageInputModel" xml:space="preserve">
+        <value>Bemeneti modell animációval ellátott üzenetküldéshez</value>
+    </data>
+    <data name="ParameterhasSpoiler" xml:space="preserve">
+        <value>Igaz, ha az animáció előnézetét be kell zárni.</value>
+    </data>
+    <data name="Parameterheight" xml:space="preserve">
+        <value>Animáció magassága</value>
+    </data>
+    <data name="Parameterwidth" xml:space="preserve">
+        <value>Animáció szélessége</value>
+    </data>
+    <data name="SendContactMessageInputModel" xml:space="preserve">
+        <value>Bemeneti adatmodell üzenet küldéséhez egy kapcsolattartónak.</value>
+    </data>
+    <data name="ParametercontactPhoneNumber" xml:space="preserve">
+        <value>Kapcsolattartási telefonszám.</value>
+    </data>
+    <data name="ParametercontactId" xml:space="preserve">
+        <value>Kapcsolattartó azonosítója.</value>
+    </data>
+    <data name="ParametervCard" xml:space="preserve">
+        <value>Névjegykártya VCard.</value>
+    </data>
+    <data name="AddMessageReactionInputModel" xml:space="preserve">
+        <value>Bemeneti adatmodell üzenetből való reakció küldéséhez</value>
+    </data>
+    <data name="Parameteremoji" xml:space="preserve">
+        <value>Reakció</value>
+    </data>
+    <data name="ParameteremojiId" xml:space="preserve">
+        <value>Prémium reakció</value>
+    </data>
+    <data name="RemoveMessageReactionInputModel" xml:space="preserve">
+        <value>Bemeneti modell a reakció üzenetből való eltávolításához</value>
+    </data>
+    <data name="ForwardMessagesInputModel" xml:space="preserve">
+        <value>Bemeneti modell üzenettovábbításhoz</value>
+    </data>
+    <data name="ParameterfromChatId" xml:space="preserve">
+        <value>Annak a csevegésnek az azonosítója, amelyből az üzenetek továbbításra kerülnek</value>
+    </data>
+    <data name="ParametermessageIds" xml:space="preserve">
+        <value>Továbbítandó üzenetazonosítók tömbje</value>
+    </data>
+    <data name="ParameterremoveCaption" xml:space="preserve">
+        <value>Igaz, ha el akarja távolítani az aláírást a médiafájlokból</value>
+    </data>
+    <data name="ParametersendCopy" xml:space="preserve">
+        <value>Igaz, ha üzeneteket szeretne továbbítani anélkül, hogy az üzenetek felhasználóira hivatkozna</value>
+    </data>
+    <data name="DeleteMessagesInputModel" xml:space="preserve">
+        <value>Bemeneti modell a chat üzenetek törléséhez</value>
+    </data>
+    <data name="Parameterrevoke" xml:space="preserve">
+        <value>Igaz, ha törölni szeretné a csevegés összes résztvevőjét</value>
+    </data>
+    <data name="SetPictureProfilePhotoInputModel" xml:space="preserve">
+        <value>Bemeneti adatmodell profilfotó beállításához.</value>
+    </data>
+    <data name="BackgroundGradientInputModel" xml:space="preserve">
+        <value>Bemeneti adatmodell a gradiens háttér beállításához</value>
+    </data>
+    <data name="ParametertopColor" xml:space="preserve">
+        <value>Felső háttérszín HEX formátumban.</value>
+    </data>
+    <data name="ParameterbottomColor" xml:space="preserve">
+        <value>Alsó háttérszín HEX formátumban.</value>
+    </data>
+    <data name="ParameterrotationAngle" xml:space="preserve">
+        <value>A gradiens elforgatási szöge az óramutató járásával megegyező irányban, fokban; 0-359. Mindig oszthatónak kell lennie 45-tel</value>
+    </data>
+    <data name="BackgroundInputModel" xml:space="preserve">
+        <value>Bemeneti adatmodell, amely tulajdonságokat tartalmaz a profilfotó különböző háttereinek beállításához</value>
+    </data>
+    <data name="Parametercolor" xml:space="preserve">
+        <value>Háttérszín HEX formátumban</value>
+    </data>
+    <data name="Parametercolors" xml:space="preserve">
+        <value>3 vagy 4 szabad formájú gradiens szín listája HEX formátumban</value>
+    </data>
+    <data name="SetEmojiProfilePhotoInputModel" xml:space="preserve">
+        <value>Beviteli modell egy hangulatjel profilfotóként való beállításához.</value>
+    </data>
+    <data name="ParametercustomEmojiId" xml:space="preserve">
+        <value>Matricaazonosító</value>
+    </data>
+    <data name="SetStickerProfilePhotoInputModel" xml:space="preserve">
+        <value>Bemeneti modell egy matrica profilfotóként való beállításához.</value>
+    </data>
+    <data name="ParameterstickerSetId" xml:space="preserve">
+        <value>Matricacsomag azonosítója</value>
+    </data>
+    <data name="ParameterstickerId" xml:space="preserve">
+        <value>Matricaazonosító</value>
+    </data>
+    <data name="SetAnimationProfilePhotoInputModel" xml:space="preserve">
+        <value>Bemeneti modell az animáció beállításához profilfotó formájában.</value>
+    </data>
+    <data name="ParametermainFrameTimestamp" xml:space="preserve">
+        <value>Képkocka időbélyegzője, amikor az animáció statikusan jelenik meg.</value>
+    </data>
+    <data name="SetUserBioInputModel" xml:space="preserve">
+        <value>Bemeneti adatmodell a felhasználói életrajz beállításához</value>
+    </data>
+    <data name="Parameterbio" xml:space="preserve">
+        <value>Bio vonal</value>
+    </data>
+    <data name="StoryPrivacySettingsContactsInputModel" xml:space="preserve">
+        <value>Adatvédelmi beállítások, amelyek lehetővé teszik a felhasználó névjegyeinek előzményeinek megtekintését</value>
+    </data>
+    <data name="ParameterexceptUserIds" xml:space="preserve">
+        <value>Felhasználói azonosítók tömbje, amelyeknek nem szabad látniuk az előzményeket</value>
+    </data>
+    <data name="StoryPrivacySettingsEveryoneInputModel" xml:space="preserve">
+        <value>Adatvédelmi beállítások, amelyek lehetővé teszik az összes felhasználó számára az előzmények megtekintését</value>
+    </data>
+    <data name="StoryPrivacySettingsSelectedUsersInputModel" xml:space="preserve">
+        <value>Adatvédelmi beállítások, amelyek lehetővé teszik a kiválasztott felhasználók számára az előzmények megtekintését</value>
+    </data>
+    <data name="ParameteruserIds" xml:space="preserve">
+        <value>Felhasználói azonosítók tömbje, amely látni fogja a történetet</value>
+    </data>
+    <data name="StoryPrivacySettingsCloseFriendsInputModel" xml:space="preserve">
+        <value>Adatvédelmi beállítások, amelyek lehetővé teszik, hogy a közeli barátok listáján szereplő felhasználók megtekinthessék előzményeiket</value>
+    </data>
+    <data name="StoryPrivacySettingsInputModel" xml:space="preserve">
+        <value>Választható tulajdonságokat tartalmazó bemeneti adatmodell Az előzmények adatvédelmének konfigurálása</value>
+    </data>
+    <data name="PostPhotoStoryInputModel" xml:space="preserve">
+        <value>Bemeneti modell fotóval ellátott történet küldéséhez</value>
+    </data>
+    <data name="ParameteractivePeriod" xml:space="preserve">
+        <value>Időszak, amely alatt az előzmények elérhetők lesznek (órában)</value>
+    </data>
+    <data name="ParameterisPinned" xml:space="preserve">
+        <value>Igaz, ha azt szeretné, hogy az előzmények elérhetők maradjanak a lejárat után is</value>
+    </data>
+    <data name="TgStoryContent" xml:space="preserve">
+        <value>A történelem absztrakt kontextusa.</value>
+    </data>
+    <data name="TgStoryPrivacySettings" xml:space="preserve">
+        <value>Az adatvédelmi beállítások felsorolása&lt;p&gt;Tagok:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;CloseFriends&lt;/i&gt; - Közeli barátok számára&lt;/li&gt;&lt;li&gt;&lt;i&gt;Kapcsolattartók&lt;/i&gt; - Kapcsolatok&lt; /li&gt;&lt;li&gt;&lt;i&gt;EveryOne&lt;/i&gt; – Mindenkinek&lt;/li&gt;&lt;li&gt;&lt;i&gt;Kiválasztott felhasználók&lt;/i&gt; – Kiválasztott felhasználóknak&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryFullInfo" xml:space="preserve">
+        <value>Teljes információt nyújt az előzményekről táviratban</value>
+    </data>
+    <data name="ParametersenderChatId" xml:space="preserve">
+        <value>Előzmények küldőazonosítója (felhasználó)</value>
+    </data>
+    <data name="ParameterviewCount" xml:space="preserve">
+        <value>Megtekintések száma</value>
+    </data>
+    <data name="ParameterforwardCount" xml:space="preserve">
+        <value>Hányszor adták tovább a történetet?</value>
+    </data>
+    <data name="ParameterreactionCount" xml:space="preserve">
+        <value>A történetekre adott reakciók száma</value>
+    </data>
+    <data name="ParameterrecentViewerUserIds" xml:space="preserve">
+        <value>Legfeljebb 3 legutóbbi előzményeket megtekintő azonosítója</value>
+    </data>
+    <data name="ParameterisBeingSent" xml:space="preserve">
+        <value>Igaz, ha az aktuális felhasználó küldi be a történetet</value>
+    </data>
+    <data name="ParameterisBeingEdited" xml:space="preserve">
+        <value>Igaz, ha az aktuális felhasználó szerkeszti a történetet</value>
+    </data>
+    <data name="ParameterisEdited" xml:space="preserve">
+        <value>Igaz, ha a történetet szerkesztették</value>
+    </data>
+    <data name="ParameterisVisibleOnlyForSelf" xml:space="preserve">
+        <value>Igaz, ha csak az előzmények tulajdonosa láthatja</value>
+    </data>
+    <data name="ParametercanBeDeleted" xml:space="preserve">
+        <value>Igaz, ha eltávolítható</value>
+    </data>
+    <data name="ParametercanBeReplied" xml:space="preserve">
+        <value>Igaz, ha a történelem megválaszolható</value>
+    </data>
+    <data name="ParametercanToggleIsPinned" xml:space="preserve">
+        <value>Igaz, ha az IsPinned módosítható</value>
+    </data>
+    <data name="ParametercanGetViewers" xml:space="preserve">
+        <value>Igaz, ha lehetséges olyan felhasználókat szerezni, akik megtekintették az előzményeket</value>
+    </data>
+    <data name="PostVideoStoryInputModel" xml:space="preserve">
+        <value>Bemeneti modell az előzmények videóval történő küldéséhez</value>
+    </data>
+    <data name="ParameterisAnimation" xml:space="preserve">
+        <value>Igaz, ha a videónak nincs hangja</value>
+    </data>
+    <data name="TgStoryTypeList" xml:space="preserve">
+        <value>Előzménylista-típusok felsorolása&lt;p&gt;Tagok:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Fő&lt;/i&gt; - Fő&lt;/li&gt;&lt;li&gt;&lt;i&gt;Archívum&lt;/i&gt; - Archívum&lt;/li &gt; &lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryInfo" xml:space="preserve">
+        <value>A felhasználó aktív előzményeivel kapcsolatos információkat jelent</value>
+    </data>
+    <data name="ParameterisForCloseFriends" xml:space="preserve">
+        <value>Igaz, ha a történet közeli barátoknak szól</value>
+    </data>
+    <data name="TgUserActiveStories" xml:space="preserve">
+        <value>Információkat jelent a felhasználó aktív történeteiről</value>
+    </data>
+    <data name="Parameterorder" xml:space="preserve">
+        <value>A listában szereplő történetek sorrendjének meghatározására szolgál</value>
+    </data>
+    <data name="ParametermaxReadStoryId" xml:space="preserve">
+        <value>Utoljára megtekintett aktív előzményazonosító</value>
+    </data>
+    <data name="Parameterstories" xml:space="preserve">
+        <value>Egy tömb, amely információkat tartalmaz az egyes történetekről</value>
+    </data>
+    <data name="TgMiniThumbnail" xml:space="preserve">
+        <value>Egy kis előzetest mutat be</value>
+    </data>
+    <data name="ParameterminiThumbnail" xml:space="preserve">
+        <value>Egy kis előzetes.</value>
+    </data>
+    <data name="TgPhotoSize" xml:space="preserve">
+        <value>Egy fénykép méretét jelzi</value>
+    </data>
+    <data name="TgAnimatedChatPhoto" xml:space="preserve">
+        <value>Egy animációs készletet ábrázol profilfotóként</value>
+    </data>
+    <data name="Parameterlength" xml:space="preserve">
+        <value>Az animáció szélessége és magassága.</value>
+    </data>
+    <data name="TgChatPhoto" xml:space="preserve">
+        <value>Profilfotót ábrázol</value>
+    </data>
+    <data name="ParameteraddedDate" xml:space="preserve">
+        <value>A fénykép hozzáadásának időpontja.</value>
+    </data>
+    <data name="ParameterphotoSizes" xml:space="preserve">
+        <value>Fényképváltozatok különböző méretekben.</value>
+    </data>
+    <data name="TgText" xml:space="preserve">
+        <value>Szöveget jelent.</value>
+    </data>
+    <data name="Parametertext" xml:space="preserve">
+        <value>Üzenet szövege.</value>
+    </data>
+    <data name="TgUserFullInfo" xml:space="preserve">
+        <value>Teljes információt jelent a felhasználóról.</value>
+    </data>
+    <data name="ParameterisStoriesBlocked" xml:space="preserve">
+        <value>Jelölje meg, ha a felhasználói történetek le vannak tiltva.</value>
+    </data>
+    <data name="ParameterisBlocked" xml:space="preserve">
+        <value>Jelölje meg, ha a felhasználó le van tiltva.</value>
+    </data>
+    <data name="ParametercanBeCalled" xml:space="preserve">
+        <value>Igaz, ha a felhasználó hívható.</value>
+    </data>
+    <data name="ParametersupportsVideoCalls" xml:space="preserve">
+        <value>Igaz, ha videohívást tud létrehozni a felhasználóval.</value>
+    </data>
+    <data name="ParameterhasPrivateCalls" xml:space="preserve">
+        <value>Igaz, ha a felhasználó adatvédelmi beállításai miatt nem hívható.</value>
+    </data>
+    <data name="ParameterhasPrivateForwards" xml:space="preserve">
+        <value>Igaz, ha a felhasználó adatvédelmi beállításai miatt nem társítható a továbbított üzenetekhez.</value>
+    </data>
+    <data name="ParameterhasRestrictedVoiceAndVideoNoteMessages" xml:space="preserve">
+        <value>Igaz, ha hang- és videojegyzeteket nem lehet elküldeni vagy továbbítani a felhasználónak.</value>
+    </data>
+    <data name="ParameterhasPinnedStories" xml:space="preserve">
+        <value>Igaz, ha a felhasználó rögzített történeteket.</value>
+    </data>
+    <data name="ParameterneedPhoneNumberPrivacyException" xml:space="preserve">
+        <value>Igaz, ha az aktuális felhasználónak kifejezetten engedélyezni kell, hogy megossza telefonszámát a felhasználóval az addContact metódus használatakor.</value>
+    </data>
+</root>

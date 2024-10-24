@@ -1,0 +1,818 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="AuthSetPhone" xml:space="preserve">
+        <value>Усталяваць нумар тэлефона</value>
+    </data>
+    <data name="ParameterinstanceId" xml:space="preserve">
+        <value>Ідэнтыфікатар інстансу</value>
+    </data>
+    <data name="AuthSetPhoneRequest" xml:space="preserve">
+        <value>Нумар тэлефона</value>
+    </data>
+    <data name="Response200" xml:space="preserve">
+        <value>Success</value>
+    </data>
+    <data name="Response400" xml:space="preserve">
+        <value>Некарэктныя ўваходныя дадзеныя або невалідны запыт</value>
+    </data>
+    <data name="Response500" xml:space="preserve">
+        <value>Узнікла памылка на серверы</value>
+    </data>
+    <data name="AuthCheckCode" xml:space="preserve">
+        <value>Адправіць праверачны код</value>
+    </data>
+    <data name="AuthCheckCodeRequest" xml:space="preserve">
+        <value>Праверачны код</value>
+    </data>
+    <data name="AuthCheckPassword" xml:space="preserve">
+        <value>Адправіць пароль</value>
+    </data>
+    <data name="AuthCheckPasswordRequest" xml:space="preserve">
+        <value>Пароль</value>
+    </data>
+    <data name="ChatsGetChatHistory" xml:space="preserve">
+        <value>Атрымаць гісторыю чата</value>
+    </data>
+    <data name="ParameterChatId" xml:space="preserve">
+        <value>Ідэнтыфікатар чата.</value>
+    </data>
+    <data name="ParameterUsername" xml:space="preserve">
+        <value>Імя карыстальніка.</value>
+    </data>
+    <data name="ParameterPhoneNumber" xml:space="preserve">
+        <value>Нумар тэлефона.</value>
+    </data>
+    <data name="ParameterLimit" xml:space="preserve">
+        <value>Ліміт паведамленняў.</value>
+    </data>
+    <data name="ParameterOffset" xml:space="preserve">
+        <value>Зрушэнне.</value>
+    </data>
+    <data name="ParameterFromMessageId" xml:space="preserve">
+        <value>Пачынаючы з ідэнтыфікатара паведамлення.</value>
+    </data>
+    <data name="ChatsGetMessage" xml:space="preserve">
+        <value>Атрымаць дадзеныя паведамлення</value>
+    </data>
+    <data name="ParameterMessageId" xml:space="preserve">
+        <value>Ідэнтыфікатар паведамлення.</value>
+    </data>
+    <data name="ChatsGetMessageAvailableReactions" xml:space="preserve">
+        <value>Атрымаць спіс даступных рэакцый на паведамленне</value>
+    </data>
+    <data name="ContactsGetContacts" xml:space="preserve">
+        <value>Атрымаць спіс кантактаў</value>
+    </data>
+    <data name="ContactsImportContacts" xml:space="preserve">
+        <value>Імпартаваць кантакты</value>
+    </data>
+    <data name="ContactsImportContactsRequest" xml:space="preserve">
+        <value>Дадзеныя кантактаў</value>
+    </data>
+    <data name="ContactsAddContact" xml:space="preserve">
+        <value>Дадаць кантакт</value>
+    </data>
+    <data name="ContactsAddContactRequest" xml:space="preserve">
+        <value>Дадзеныя кантакту карыстальніка</value>
+    </data>
+    <data name="ContactsRemoveContact" xml:space="preserve">
+        <value>Выдаліць кантакт</value>
+    </data>
+    <data name="ContactsRemoveContactRequest" xml:space="preserve">
+        <value>Дадзеныя кантакту карыстальніка</value>
+    </data>
+    <data name="FileStartDownload" xml:space="preserve">
+        <value>Запыт на загрузку файла па ідэнтыфікатары файла</value>
+    </data>
+    <data name="FileStartDownloadRequest" xml:space="preserve">
+        <value>Мадэль з ідэнтыфікатарам файла</value>
+    </data>
+    <data name="FileGetFile" xml:space="preserve">
+        <value>Атрыманне файла па ідэнтыфікатары файла</value>
+    </data>
+    <data name="ParameterLocalId" xml:space="preserve">
+        <value>Лакальны ідэнтыфікатар файла</value>
+    </data>
+    <data name="ParameterRemoteId" xml:space="preserve">
+        <value>Выдалены ідэнтыфікатар файла</value>
+    </data>
+    <data name="FileStartDownloadFromMessage" xml:space="preserve">
+        <value>Запыт на загрузку файла з паведамлення.</value>
+    </data>
+    <data name="FileStartDownloadFromMessageRequest" xml:space="preserve">
+        <value>Мадэль з ідэнтыфікатарам чата і паведамленні</value>
+    </data>
+    <data name="FileGetFileFromMessage" xml:space="preserve">
+        <value>Атрыманне файла з паведамлення</value>
+    </data>
+    <data name="InstanceGetInstance" xml:space="preserve">
+        <value>Атрыманне дадзеных інстансу</value>
+    </data>
+    <data name="MessageSendTextMessage" xml:space="preserve">
+        <value>Адпраўка тэкставага паведамлення</value>
+    </data>
+    <data name="MessageSendTextMessageRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленні</value>
+    </data>
+    <data name="MessageSendLocationMessage" xml:space="preserve">
+        <value>Адпраўка геолокации</value>
+    </data>
+    <data name="MessageSendLocationMessageRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленні</value>
+    </data>
+    <data name="MessageSendAudioMessage" xml:space="preserve">
+        <value>Адпраўка аўдыё-паведамленні</value>
+    </data>
+    <data name="MessageSendAudioMessageRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленні</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessage" xml:space="preserve">
+        <value>Адпраўка галасавога паведамлення</value>
+    </data>
+    <data name="MessageSendVoiceNoteMessageRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленні</value>
+    </data>
+    <data name="MessageSendVideoNoteMessage" xml:space="preserve">
+        <value>Адпраўка кружочка</value>
+    </data>
+    <data name="MessageSendVideoNoteMessageRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленні</value>
+    </data>
+    <data name="MessageSendVideoMessage" xml:space="preserve">
+        <value>Адпраўка відэа</value>
+    </data>
+    <data name="MessageSendVideoMessageRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленні</value>
+    </data>
+    <data name="MessageSendDocumentMessage" xml:space="preserve">
+        <value>Адпраўка дакумента</value>
+    </data>
+    <data name="MessageSendDocumentMessageRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленні</value>
+    </data>
+    <data name="MessageSendPhotoMessage" xml:space="preserve">
+        <value>Адпраўка фота</value>
+    </data>
+    <data name="MessageSendPhotoMessageRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленні</value>
+    </data>
+    <data name="MessageSendStickerMessage" xml:space="preserve">
+        <value>Адпраўка стыкера</value>
+    </data>
+    <data name="MessageSendStickerMessageRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленні</value>
+    </data>
+    <data name="MessageSendStoryMessage" xml:space="preserve">
+        <value>Адпраўка гісторыі</value>
+    </data>
+    <data name="MessageSendStoryMessageRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленні</value>
+    </data>
+    <data name="MessageSendAnimationMessage" xml:space="preserve">
+        <value>Адпраўка анімацыі(гіф)</value>
+    </data>
+    <data name="MessageSendAnimationMessageRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленні</value>
+    </data>
+    <data name="MessageSendContactMessage" xml:space="preserve">
+        <value>Адпраўка кантакту</value>
+    </data>
+    <data name="MessageSendContactMessageRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленні</value>
+    </data>
+    <data name="MessageAddMessageReaction" xml:space="preserve">
+        <value>Даданне рэакцыі на паведамленне</value>
+    </data>
+    <data name="MessageAddMessageReactionRequest" xml:space="preserve">
+        <value>Дадзеныя рэакцыі</value>
+    </data>
+    <data name="MessageRemoveMessageReaction" xml:space="preserve">
+        <value>Выдаленне рэакцыі з паведамлення</value>
+    </data>
+    <data name="MessageRemoveMessageReactionRequest" xml:space="preserve">
+        <value>Дадзеныя рэакцыі</value>
+    </data>
+    <data name="MessageForwardMessages" xml:space="preserve">
+        <value>Перасылка паведамленняў</value>
+    </data>
+    <data name="MessageForwardMessagesRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленняў</value>
+    </data>
+    <data name="MessageDeleteMessages" xml:space="preserve">
+        <value>Выдаленне паведамленняў</value>
+    </data>
+    <data name="MessageDeleteMessagesRequest" xml:space="preserve">
+        <value>Дадзеныя паведамленняў</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhoto" xml:space="preserve">
+        <value>Усталёўвае фатаграфію профіля. Перад усталёўкай па ідэнтыфікатары файла неабходна папярэдне пераканацца, што файл загружаны на сервер.</value>
+    </data>
+    <data name="ProfileSetPictureProfilePhotoRequest" xml:space="preserve">
+        <value>Дадзеныя для ўстаноўкі фатаграфіі профілю.</value>
+    </data>
+    <data name="ProfileSetPreviousProfilePhoto" xml:space="preserve">
+        <value>Устанаўлівае адну з папярэдніх фатаграфій карыстальніка па id фатаграфіі.</value>
+    </data>
+    <data name="ParameterphotoId" xml:space="preserve">
+        <value>Ідэнтыфікатар фатаграфіі.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhoto" xml:space="preserve">
+        <value>Усталёўвае фатаграфію профіля ў выглядзе кастамнага эмоджы.</value>
+    </data>
+    <data name="ProfileSetEmojiProfilePhotoRequest" xml:space="preserve">
+        <value>Дадзеныя для ўстаноўкі фатаграфіі профілю.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhoto" xml:space="preserve">
+        <value>Усталёўвае фатаграфію профіля ў выглядзе стыкера.</value>
+    </data>
+    <data name="ProfileSetStickerProfilePhotoRequest" xml:space="preserve">
+        <value>Дадзеныя для ўстаноўкі фатаграфіі профілю.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhoto" xml:space="preserve">
+        <value>Усталёўвае фатаграфію профіля ў выглядзе анімацыі. Перад усталёўкай па ідэнтыфікатары файла неабходна папярэдне пераканацца, што файл загружаны на сервер.</value>
+    </data>
+    <data name="ProfileSetAnimationProfilePhotoRequest" xml:space="preserve">
+        <value>Дадзеныя для ўстаноўкі фатаграфіі профілю.</value>
+    </data>
+    <data name="ProfileSetBio" xml:space="preserve">
+        <value>Устанавіць бія карыстачу.</value>
+    </data>
+    <data name="ProfileSetBioRequest" xml:space="preserve">
+        <value>Мадэль з інфармацыяй аб бія карыстальніка.</value>
+    </data>
+    <data name="StoryPostPhotoStory" xml:space="preserve">
+        <value>Усталёўвае новую гісторыю карыстачу ў выглядзе фатаграфіі</value>
+    </data>
+    <data name="StoryPostPhotoStoryRequest" xml:space="preserve">
+        <value>Дадзеныя для ўстаноўкі гісторыі.</value>
+    </data>
+    <data name="StoryPostVideoStory" xml:space="preserve">
+        <value>Усталёўвае новую гісторыю карыстачу ў выглядзе відэа</value>
+    </data>
+    <data name="StoryPostVideoStoryRequest" xml:space="preserve">
+        <value>Дадзеныя для ўстаноўкі гісторыі.</value>
+    </data>
+    <data name="StoryGetStory" xml:space="preserve">
+        <value>Атрымлівае гісторыю карыстальніка па яе ідэнтыфікатару</value>
+    </data>
+    <data name="ParameterStoryId" xml:space="preserve">
+        <value>Ідэнтыфікатар гісторыі</value>
+    </data>
+    <data name="StoryGetUserActiveStories" xml:space="preserve">
+        <value>Атрымаць інфармацыю аб актыўных гісторыях карыстальніка</value>
+    </data>
+    <data name="UsersGetUser" xml:space="preserve">
+        <value>Атрыманне інфармацыі аб карыстальніку</value>
+    </data>
+    <data name="UsersGetMe" xml:space="preserve">
+        <value>Атрыманне інфармацыі аб аўтарызаваным карыстальніку</value>
+    </data>
+    <data name="UsersGetUserFullInfo" xml:space="preserve">
+        <value>Атрымаць бія карыстальніка</value>
+    </data>
+    <data name="UsersGetUserProfilePhotos" xml:space="preserve">
+        <value>Атрымаць спіс фатаграфій карыстальніка</value>
+    </data>
+    <data name="SetPhoneNumberInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для ўстаноўкі нумара тэлефона тэлеграм акаўнта</value>
+    </data>
+    <data name="CheckCodeInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для праверкі кода пацверджання</value>
+    </data>
+    <data name="Parametercode" xml:space="preserve">
+        <value>Код пацверджання.</value>
+    </data>
+    <data name="CheckPasswordInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для праверкі пароля</value>
+    </data>
+    <data name="Parameterpassword" xml:space="preserve">
+        <value>Пароль</value>
+    </data>
+    <data name="TgReplyTo" xml:space="preserve">
+        <value>Інфармацыя для адказу на паведамленне.</value>
+    </data>
+    <data name="ParameterchatId" xml:space="preserve">
+        <value>Ідэнтыфікатар чата.</value>
+    </data>
+    <data name="TgForwardInfo" xml:space="preserve">
+        <value>Інфармацыя аб паведамленні, якое перасылаецца.</value>
+    </data>
+    <data name="Parameterdate" xml:space="preserve">
+        <value>Дата паведамлення.</value>
+    </data>
+    <data name="TgMessageContent" xml:space="preserve">
+        <value>Абстрактныя дадзеныя паведамлення.</value>
+    </data>
+    <data name="TgMessage" xml:space="preserve">
+        <value>Клас паведамлення.</value>
+    </data>
+    <data name="ParametersenderId" xml:space="preserve">
+        <value>Ідэнтыфікатар адпраўніка.</value>
+    </data>
+    <data name="ParametermessageId" xml:space="preserve">
+        <value>Ідэнтыфікатар паведамлення.</value>
+    </data>
+    <data name="ParameterisOutgoing" xml:space="preserve">
+        <value>З'яўляецца выходным паведамленнем.</value>
+    </data>
+    <data name="ParametercanBeEdited" xml:space="preserve">
+        <value>Можа быць адрэдагавана.</value>
+    </data>
+    <data name="ParametercanBeForwarded" xml:space="preserve">
+        <value>Можа быць пераслана.</value>
+    </data>
+    <data name="ParametercanBeDeletedForAllUsers" xml:space="preserve">
+        <value>Можа быць выдалена для ўсіх карыстальнікаў.</value>
+    </data>
+    <data name="ParametereditDate" xml:space="preserve">
+        <value>Дата рэдагавання.</value>
+    </data>
+    <data name="TgReactionType" xml:space="preserve">
+        <value>Клас рэакцыі</value>
+    </data>
+    <data name="TgAvailableReaction" xml:space="preserve">
+        <value>Клас рэакцыі</value>
+    </data>
+    <data name="ParameterisNeedPremium" xml:space="preserve">
+        <value>Сцяг, ці з'яўляецца рэакцыя прэміум-рэакцыяй</value>
+    </data>
+    <data name="TgMessageAvailableReactions" xml:space="preserve">
+        <value>Клас, які прадстаўляе даступныя рэакцыі для паведамлення ў Telegram.</value>
+    </data>
+    <data name="ParametertopReactions" xml:space="preserve">
+        <value>Вяртае або ўстанаўлівае калекцыю найбольш папулярных рэакцый.</value>
+    </data>
+    <data name="ParameterrecentReactions" xml:space="preserve">
+        <value>Вяртае або ўстанаўлівае калекцыю нядаўніх рэакцый.</value>
+    </data>
+    <data name="ParameterpopularReactions" xml:space="preserve">
+        <value>Вяртае або ўстанаўлівае калекцыю нядаўніх рэакцый.</value>
+    </data>
+    <data name="TgFile" xml:space="preserve">
+        <value>Уяўляе файл</value>
+    </data>
+    <data name="ParameterfileId" xml:space="preserve">
+        <value>Ідэнтыфікатар файла.</value>
+    </data>
+    <data name="Parametersize" xml:space="preserve">
+        <value>Памер файла.</value>
+    </data>
+    <data name="ParameterremoteId" xml:space="preserve">
+        <value>Выдалены ідэнтыфікатар файла.</value>
+    </data>
+    <data name="TgProfilePhoto" xml:space="preserve">
+        <value>Фота профілю</value>
+    </data>
+    <data name="ParameterhasAnimation" xml:space="preserve">
+        <value>Аніміраванае фота</value>
+    </data>
+    <data name="ParameterisPersonal" xml:space="preserve">
+        <value>Устаноўлена бягучым карыстальнікам</value>
+    </data>
+    <data name="Status" xml:space="preserve">
+        <value>Статус карыстальніка&lt;p&gt;Members:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Online&lt;/i&gt; - Карыстальнік онлайн&lt;/li&gt;&lt;li&gt;&lt;i&gt;Recently&lt;/i&gt; - Карыстальнік заходзіў нядаўна&lt;/li &gt;&lt;li&gt;&lt;i&gt;LastWeek&lt;/i&gt; - Карыстальнік не заходзіў тыдзень&lt;/li&gt;&lt;li&gt;&lt;i&gt;LastMonth&lt;/i&gt; - Карыстальнік не заходзіў месяц&lt;/li&gt;&lt;li&gt;&lt;i&gt;Offline&lt;/ i&gt; - Карыстальнік афлайн&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgUser" xml:space="preserve">
+        <value>Клас прадстаўляе кантакт.</value>
+    </data>
+    <data name="Parameterid" xml:space="preserve">
+        <value>Ідэнтыфікатар.</value>
+    </data>
+    <data name="ParameterfirstName" xml:space="preserve">
+        <value>Імя.</value>
+    </data>
+    <data name="ParameterlastName" xml:space="preserve">
+        <value>Прозвішча.</value>
+    </data>
+    <data name="Parameterusername" xml:space="preserve">
+        <value>Імя карыстальніка.</value>
+    </data>
+    <data name="ParameterisContact" xml:space="preserve">
+        <value>Гэта кантакт</value>
+    </data>
+    <data name="ParameterisCloseFriend" xml:space="preserve">
+        <value>З'яўляецца блізкім сябрам.</value>
+    </data>
+    <data name="ParameterisMutualContact" xml:space="preserve">
+        <value>З'яўляецца ўзаемным кантактам.</value>
+    </data>
+    <data name="ParameterisFake" xml:space="preserve">
+        <value>З'яўляецца фэйкавым кантактам.</value>
+    </data>
+    <data name="ParameterisScum" xml:space="preserve">
+        <value>З'яўляецца лавам.</value>
+    </data>
+    <data name="ParameterisVerified" xml:space="preserve">
+        <value>Верыфікаваны.</value>
+    </data>
+    <data name="ParameterhasActiveStories" xml:space="preserve">
+        <value>Ёсць гісторыі</value>
+    </data>
+    <data name="ParameterhasUnreadActiveStories" xml:space="preserve">
+        <value>Ёсць непрагледжаныя гісторыі</value>
+    </data>
+    <data name="ParameterisPremium" xml:space="preserve">
+        <value>Прэміум рахунак</value>
+    </data>
+    <data name="ParameterstatusEmojiId" xml:space="preserve">
+        <value>Смайлік у статусе</value>
+    </data>
+    <data name="ImportContactInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для дадання кантакту</value>
+    </data>
+    <data name="AddContactInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для дадання кантакту</value>
+    </data>
+    <data name="RemoveContactInputModel" xml:space="preserve">
+        <value>Мадэль для выдалення кантакту карыстальніка</value>
+    </data>
+    <data name="FileIdRequestInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для запыту з ідэнтыфікатарам файла.</value>
+    </data>
+    <data name="ParameterlocalId" xml:space="preserve">
+        <value>Лакальны ідэнтыфікатар файла</value>
+    </data>
+    <data name="FileMessageRequestInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для запыту з ідэнтыфікатарам паведамлення і ідэнтыфікатарам чата.</value>
+    </data>
+    <data name="SchedulingStateInputModel" xml:space="preserve">
+        <value>Уваходная мадэль, якая вызначае тып планавання адпраўкі паведамлення</value>
+    </data>
+    <data name="ParametersendDate" xml:space="preserve">
+        <value>Дата адпраўкі паведамлення Калі дата null, то тып планавання паведамлення будзе, калі атрымальнік стане анлайн</value>
+    </data>
+    <data name="MessageSendOptionsInputModel" xml:space="preserve">
+        <value>Мадэль уваходных параметраў адпраўкі паведамлення</value>
+    </data>
+    <data name="ParameterdisableNotification" xml:space="preserve">
+        <value>Сцяг - выключыць апавяшчэнне атрымальніка</value>
+    </data>
+    <data name="ParameterprotectContent" xml:space="preserve">
+        <value>Сцяг - ці можна перасылаць, захоўваць адпраўленае паведамленне</value>
+    </data>
+    <data name="SendTextMessageInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для адпраўкі тэкставага паведамлення.</value>
+    </data>
+    <data name="Parametermessage" xml:space="preserve">
+        <value>Тэкст паведамлення.</value>
+    </data>
+    <data name="ParameterurlPreview" xml:space="preserve">
+        <value>папярэдні прагляд URL-адрасу.</value>
+    </data>
+    <data name="ParameterdisableUrlPreview" xml:space="preserve">
+        <value>Адключэнне прэв'ю URL-адрасу.</value>
+    </data>
+    <data name="ParameterneedShowActivity" xml:space="preserve">
+        <value>Сцяг, які паказвае, ці трэба адпраўляць актыўнасць перад паведамленнем</value>
+    </data>
+    <data name="SendLocationMessageInputModel" xml:space="preserve">
+        <value>Мадэль ўваходных дадзеных для адпраўкі паведамлення з месцазнаходжаннем.</value>
+    </data>
+    <data name="Parameterlatitude" xml:space="preserve">
+        <value>Шырата месцазнаходжання.</value>
+    </data>
+    <data name="Parameterlongitude" xml:space="preserve">
+        <value>Доўгата месцазнаходжання.</value>
+    </data>
+    <data name="ParameterhorizontalAccuracy" xml:space="preserve">
+        <value>Гарызантальная дакладнасць месцазнаходжання.</value>
+    </data>
+    <data name="SendAudioMessageInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для адпраўкі аўдыё-паведамленні.</value>
+    </data>
+    <data name="ParameterfileInBase64" xml:space="preserve">
+        <value>Файл у фармаце Base64, які будзе дасланы ў паведамленні.</value>
+    </data>
+    <data name="ParameterlocalFileId" xml:space="preserve">
+        <value>Лакальны ідэнтыфікатар файла</value>
+    </data>
+    <data name="ParameterremoteFileId" xml:space="preserve">
+        <value>Выдалены ідэнтыфікатар файла</value>
+    </data>
+    <data name="Parametercaption" xml:space="preserve">
+        <value>Подпіс да файлавага паведамлення.</value>
+    </data>
+    <data name="Parametertitle" xml:space="preserve">
+        <value>Загаловак аўдыё-паведамленні.</value>
+    </data>
+    <data name="Parameterperformer" xml:space="preserve">
+        <value>Выканаўца аўдыё-паведамлення.</value>
+    </data>
+    <data name="ParameteralbumCoverThumbnailBase64" xml:space="preserve">
+        <value>папярэдні прагляд альбома ў фармаце Base64.</value>
+    </data>
+    <data name="SendVoiceNoteMessageInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для адпраўкі галасавога паведамлення.</value>
+    </data>
+    <data name="SendVideoNoteMessageInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для адпраўкі кружочка.</value>
+    </data>
+    <data name="SendVideoMessageInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для адпраўкі паведамлення з відэа.</value>
+    </data>
+    <data name="ParameterneedShowRecordingActivity" xml:space="preserve">
+        <value>Сцяг, ці неабходна паказваць актыўнасць, што карыстач запісвае відэа.</value>
+    </data>
+    <data name="SendDocumentMessageInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для адпраўкі дакумента.</value>
+    </data>
+    <data name="SendPhotoMessageInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для адпраўкі паведамлення з фатаграфіяй.</value>
+    </data>
+    <data name="SendStickerMessageInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для адпраўкі паведамлення са стыкерам.</value>
+    </data>
+    <data name="SendStoryMessageInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных паведамлення з гісторыяй</value>
+    </data>
+    <data name="ParameterstorySenderChatId" xml:space="preserve">
+        <value>Ідэнтыфікатар чата, у якім апублікавана гісторыя</value>
+    </data>
+    <data name="ParameterstoryId" xml:space="preserve">
+        <value>Ідэнтыфікатар гісторыі</value>
+    </data>
+    <data name="SendAnimationMessageInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для адпраўкі паведамлення з анімацыяй</value>
+    </data>
+    <data name="ParameterhasSpoiler" xml:space="preserve">
+        <value>Сапраўды, калі прэв'ю анімацыі павінна быць зачынена.</value>
+    </data>
+    <data name="Parameterheight" xml:space="preserve">
+        <value>Вышыня анімацыі</value>
+    </data>
+    <data name="Parameterwidth" xml:space="preserve">
+        <value>Шырыня анімацыі</value>
+    </data>
+    <data name="SendContactMessageInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для адпраўкі паведамлення з кантактам.</value>
+    </data>
+    <data name="ParametercontactPhoneNumber" xml:space="preserve">
+        <value>Нумар тэлефона кантакту.</value>
+    </data>
+    <data name="ParametercontactId" xml:space="preserve">
+        <value>Ідэнтыфікатар кантакту.</value>
+    </data>
+    <data name="ParametervCard" xml:space="preserve">
+        <value>Візітка VCard.</value>
+    </data>
+    <data name="AddMessageReactionInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для адпраўкі рэакцыі з паведамлення</value>
+    </data>
+    <data name="Parameteremoji" xml:space="preserve">
+        <value>Рэакцыя</value>
+    </data>
+    <data name="ParameteremojiId" xml:space="preserve">
+        <value>Прэміум-рэакцыя</value>
+    </data>
+    <data name="RemoveMessageReactionInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для выдалення рэакцыі з паведамлення</value>
+    </data>
+    <data name="ForwardMessagesInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для перасылкі паведамленняў</value>
+    </data>
+    <data name="ParameterfromChatId" xml:space="preserve">
+        <value>Ідэнтыфікатар чата, з якога робіцца перасыланне паведамленняў</value>
+    </data>
+    <data name="ParametermessageIds" xml:space="preserve">
+        <value>Масіў ідэнтыфікатара паведамленняў для перасылкі</value>
+    </data>
+    <data name="ParameterremoveCaption" xml:space="preserve">
+        <value>Сапраўды, калі патрабуецца прыбраць подпіс у медыя файлах</value>
+    </data>
+    <data name="ParametersendCopy" xml:space="preserve">
+        <value>Сапраўды, калі патрабуецца пераслаць паведамленні без спасылак на карыстальнікаў гэтых паведамленняў</value>
+    </data>
+    <data name="DeleteMessagesInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для выдалення паведамленняў у чаце</value>
+    </data>
+    <data name="Parameterrevoke" xml:space="preserve">
+        <value>Сапраўды, калі патрабуецца выдаліць для ўсіх удзельнікаў чата</value>
+    </data>
+    <data name="SetPictureProfilePhotoInputModel" xml:space="preserve">
+        <value>Мадэль ўваходных дадзеных для ўстаноўкі фота профіля.</value>
+    </data>
+    <data name="BackgroundGradientInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для магчымасці ўсталёўкі градыентнага фону</value>
+    </data>
+    <data name="ParametertopColor" xml:space="preserve">
+        <value>Верхні колер фону ў фармаце HEX.</value>
+    </data>
+    <data name="ParameterbottomColor" xml:space="preserve">
+        <value>Ніжні колер фону ў фармаце HEX.</value>
+    </data>
+    <data name="ParameterrotationAngle" xml:space="preserve">
+        <value>Кут павароту градыенту па гадзіннікавай стрэлцы, у градусах; 0-359. Заўсёды павінна дзяліцца на 45</value>
+    </data>
+    <data name="BackgroundInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных, якая змяшчае ў сабе ўласцівасці на выбар для ўстаноўкі розных фонавым на фатаграфію профілю</value>
+    </data>
+    <data name="Parametercolor" xml:space="preserve">
+        <value>Колер фону ў фармаце HEX</value>
+    </data>
+    <data name="Parametercolors" xml:space="preserve">
+        <value>Спіс з 3 ці 4 колераў градыентаў адвольнай формы ў фармаце HEX</value>
+    </data>
+    <data name="SetEmojiProfilePhotoInputModel" xml:space="preserve">
+        <value>Мадэль ўваходных дадзеных для ўстаноўкі эмоджы ў якасці фота профілю.</value>
+    </data>
+    <data name="ParametercustomEmojiId" xml:space="preserve">
+        <value>Ідэнтыфікатар стыкера</value>
+    </data>
+    <data name="SetStickerProfilePhotoInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для ўстаноўкі стыкера ў якасці фота профілю.</value>
+    </data>
+    <data name="ParameterstickerSetId" xml:space="preserve">
+        <value>Ідэнтыфікатар набору стыкераў</value>
+    </data>
+    <data name="ParameterstickerId" xml:space="preserve">
+        <value>Ідэнтыфікатар стыкера</value>
+    </data>
+    <data name="SetAnimationProfilePhotoInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для ўстаноўкі анімацыі ў выглядзе фатаграфіі профілю.</value>
+    </data>
+    <data name="ParametermainFrameTimestamp" xml:space="preserve">
+        <value>Часавая пазнака кадра, калі анімацыя будзе адлюстроўвацца статычнай.</value>
+    </data>
+    <data name="SetUserBioInputModel" xml:space="preserve">
+        <value>Мадэль ўваходных дадзеных для ўстаноўкі бія карыстальніка</value>
+    </data>
+    <data name="Parameterbio" xml:space="preserve">
+        <value>Радок бія</value>
+    </data>
+    <data name="StoryPrivacySettingsContactsInputModel" xml:space="preserve">
+        <value>Налады прыватнасці, якія дазваляюць убачыць гісторыю кантактам карыстальніка</value>
+    </data>
+    <data name="ParameterexceptUserIds" xml:space="preserve">
+        <value>Масіў ідэнтыфікатараў карыстальнікаў, які не павінны ўбачыць гісторыю</value>
+    </data>
+    <data name="StoryPrivacySettingsEveryoneInputModel" xml:space="preserve">
+        <value>Налады прыватнасці, якія дазваляюць убачыць гісторыю ўсім карыстальнікам</value>
+    </data>
+    <data name="StoryPrivacySettingsSelectedUsersInputModel" xml:space="preserve">
+        <value>Налады прыватнасці, якія дазваляюць убачыць гісторыю абраным карыстальнікам</value>
+    </data>
+    <data name="ParameteruserIds" xml:space="preserve">
+        <value>Масіў ідэнтыфікатараў карыстальнікаў, які ўбачаць гісторыю</value>
+    </data>
+    <data name="StoryPrivacySettingsCloseFriendsInputModel" xml:space="preserve">
+        <value>Налады прыватнасці, якія дазваляюць убачыць гісторыю карыстальнікам, якія знаходзяцца ў спісе блізкіх сяброў</value>
+    </data>
+    <data name="StoryPrivacySettingsInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных, якая змяшчае ў сабе ўласцівасці на выбар Для наладкі прыватнасці гісторыі</value>
+    </data>
+    <data name="PostPhotoStoryInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для адпраўкі гісторыі з фатаграфіяй</value>
+    </data>
+    <data name="ParameteractivePeriod" xml:space="preserve">
+        <value>Перыяд, у які будзе даступная гісторыя (у гадзінах)</value>
+    </data>
+    <data name="ParameterisPinned" xml:space="preserve">
+        <value>Сапраўды, калі хочаце, каб гісторыя заставалася даступнай пасля заканчэння тэрміну дзеяння</value>
+    </data>
+    <data name="TgStoryContent" xml:space="preserve">
+        <value>Абстрактны кантект гісторыі.</value>
+    </data>
+    <data name="TgStoryPrivacySettings" xml:space="preserve">
+        <value>Пералік для настроек прыватнасці&lt;p&gt;Members:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;CloseFriends&lt;/i&gt; - Для блізкіх сяброў&lt;/li&gt;&lt;li&gt;&lt;i&gt;Contacts&lt;/i&gt; - Для кантактаў&lt; /li&gt;&lt;li&gt;&lt;i&gt;EveryOne&lt;/i&gt; - Для ўсіх&lt;/li&gt;&lt;li&gt;&lt;i&gt;SelectedUsers&lt;/i&gt; - Для выбраных карыстальнікаў&lt;/li&gt;&lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryFullInfo" xml:space="preserve">
+        <value>Уяўляе поўную інфармацыю аб гісторыі ў тэлеграм</value>
+    </data>
+    <data name="ParametersenderChatId" xml:space="preserve">
+        <value>Ідэнтыфікатар адпраўніка гісторыі(карыстальніка)</value>
+    </data>
+    <data name="ParameterviewCount" xml:space="preserve">
+        <value>Коль-ць праглядаў</value>
+    </data>
+    <data name="ParameterforwardCount" xml:space="preserve">
+        <value>Колькі разоў была пераслана гісторыя</value>
+    </data>
+    <data name="ParameterreactionCount" xml:space="preserve">
+        <value>Коль-ць рэакцый на гісторыі</value>
+    </data>
+    <data name="ParameterrecentViewerUserIds" xml:space="preserve">
+        <value>Ідэнтыфікатары не больш за 3 апошнія гледачы гісторыі</value>
+    </data>
+    <data name="ParameterisBeingSent" xml:space="preserve">
+        <value>Сапраўды, калі гісторыю адпраўляе бягучы карыстальнік</value>
+    </data>
+    <data name="ParameterisBeingEdited" xml:space="preserve">
+        <value>Сапраўды, калі гісторыю рэдагуе бягучы карыстальнік</value>
+    </data>
+    <data name="ParameterisEdited" xml:space="preserve">
+        <value>Сапраўды, калі гісторыя была адрэдагавана</value>
+    </data>
+    <data name="ParameterisVisibleOnlyForSelf" xml:space="preserve">
+        <value>Сапраўды, калі бачная толькі ўладальніку гісторыі</value>
+    </data>
+    <data name="ParametercanBeDeleted" xml:space="preserve">
+        <value>Сапраўды, калі можа быць выдалена</value>
+    </data>
+    <data name="ParametercanBeReplied" xml:space="preserve">
+        <value>Сапраўды, калі на гісторыю можна адказаць</value>
+    </data>
+    <data name="ParametercanToggleIsPinned" xml:space="preserve">
+        <value>Калі IsPinned можна мяняць</value>
+    </data>
+    <data name="ParametercanGetViewers" xml:space="preserve">
+        <value>Сапраўды, калі можна атрымаць карыстальнікаў праглядзець гісторыю</value>
+    </data>
+    <data name="PostVideoStoryInputModel" xml:space="preserve">
+        <value>Мадэль уваходных дадзеных для адпраўкі гісторыі з відэа</value>
+    </data>
+    <data name="ParameterisAnimation" xml:space="preserve">
+        <value>Сапраўды, калі відэа не мае гуку</value>
+    </data>
+    <data name="TgStoryTypeList" xml:space="preserve">
+        <value>Пералік тыпаў спісу гісторый&lt;p&gt;Members:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Main&lt;/i&gt; - Асноўны&lt;/li&gt;&lt;li&gt;&lt;i&gt;Archive&lt;/i&gt; - Архіў&lt;/li&gt; &lt;/ul&gt;</value>
+    </data>
+    <data name="TgStoryInfo" xml:space="preserve">
+        <value>Уяўляе інфармацыю аб актыўнай гісторыі карыстальніка</value>
+    </data>
+    <data name="ParameterisForCloseFriends" xml:space="preserve">
+        <value>Сапраўды, калі гісторыя для блізкіх сяброў</value>
+    </data>
+    <data name="TgUserActiveStories" xml:space="preserve">
+        <value>Уяўляе інфармацыю аб актыўных гісторыях карыстальніка</value>
+    </data>
+    <data name="Parameterorder" xml:space="preserve">
+        <value>Выкарыстоўваецца для вызначэння парадку гісторый у спісе</value>
+    </data>
+    <data name="ParametermaxReadStoryId" xml:space="preserve">
+        <value>Ідэнтыфікатар апошняй прагледжанай актыўнай гісторыі</value>
+    </data>
+    <data name="Parameterstories" xml:space="preserve">
+        <value>Масіў, які змяшчае ў сабе інфармацыю аб кожнай гісторыі</value>
+    </data>
+    <data name="TgMiniThumbnail" xml:space="preserve">
+        <value>Уяўляе маленькае прэв'ю</value>
+    </data>
+    <data name="ParameterminiThumbnail" xml:space="preserve">
+        <value>Маленькае прэв'ю.</value>
+    </data>
+    <data name="TgPhotoSize" xml:space="preserve">
+        <value>Уяўляе памер фатаграфіі</value>
+    </data>
+    <data name="TgAnimatedChatPhoto" xml:space="preserve">
+        <value>Уяўляе анімацыю, усталяваную ў выглядзе фатаграфіі профіля</value>
+    </data>
+    <data name="Parameterlength" xml:space="preserve">
+        <value>Шырыня і вышыня анімацыі.</value>
+    </data>
+    <data name="TgChatPhoto" xml:space="preserve">
+        <value>Уяўляе фатаграфію профілю</value>
+    </data>
+    <data name="ParameteraddedDate" xml:space="preserve">
+        <value>Момант часу, калі фатаграфія была дададзена.</value>
+    </data>
+    <data name="ParameterphotoSizes" xml:space="preserve">
+        <value>Варыяцыі фатаграфіі ў розных памерах.</value>
+    </data>
+    <data name="TgText" xml:space="preserve">
+        <value>Уяўляе тэкст.</value>
+    </data>
+    <data name="Parametertext" xml:space="preserve">
+        <value>Тэкст паведамлення.</value>
+    </data>
+    <data name="TgUserFullInfo" xml:space="preserve">
+        <value>Уяўляе поўную інфармацыю аб карыстальніку.</value>
+    </data>
+    <data name="ParameterisStoriesBlocked" xml:space="preserve">
+        <value>Сцяг, ці заблакаваныя гісторыі карыстальніка.</value>
+    </data>
+    <data name="ParameterisBlocked" xml:space="preserve">
+        <value>Сцяг, ці заблакаваны карыстальнік.</value>
+    </data>
+    <data name="ParametercanBeCalled" xml:space="preserve">
+        <value>Праўда, калі карыстальніка можна выклікаць.</value>
+    </data>
+    <data name="ParametersupportsVideoCalls" xml:space="preserve">
+        <value>Праўда, калі з карыстальнікам можна стварыць відэазванок.</value>
+    </data>
+    <data name="ParameterhasPrivateCalls" xml:space="preserve">
+        <value>Сапраўды, калі карыстачу немагчыма патэлефанаваць з-за яго налад канфідэнцыйнасці.</value>
+    </data>
+    <data name="ParameterhasPrivateForwards" xml:space="preserve">
+        <value>Сапраўды, калі карыстача нельга звязаць у перасыланых паведамленнях з-за яго налад канфідэнцыйнасці.</value>
+    </data>
+    <data name="ParameterhasRestrictedVoiceAndVideoNoteMessages" xml:space="preserve">
+        <value>Сапраўды, калі галасавыя і відэанататкі немагчыма адправіць або пераслаць карыстальніку.</value>
+    </data>
+    <data name="ParameterhasPinnedStories" xml:space="preserve">
+        <value>Сапраўды, калі карыстач замацаваў гісторыі.</value>
+    </data>
+    <data name="ParameterneedPhoneNumberPrivacyException" xml:space="preserve">
+        <value>Сапраўды, калі бягучаму карыстачу неабходна відавочна дазволіць дзяліцца сваім нумарам тэлефона з карыстачом пры выкарыстанні метаду addContact.</value>
+    </data>
+</root>
