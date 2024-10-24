@@ -4,18 +4,13 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <!-- Убедимся, что проект отмечен как тестовый -->
         <IsTestProject>true</IsTestProject>
     </PropertyGroup>
 
     <ItemGroup>
-        <!-- Адаптер для запуска xUnit тестов -->
         <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3" />
-        <!-- Пакет для тестирования -->
         <PackageReference Include="xunit" Version="2.4.1" />
-        <!-- Microsoft Test SDK для запуска тестов -->
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.0" />
-        <!-- Moq для моков в тестах -->
         <PackageReference Include="Moq" Version="4.20.70" />
     </ItemGroup>
 
