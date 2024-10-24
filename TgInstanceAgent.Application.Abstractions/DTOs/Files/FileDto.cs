@@ -14,4 +14,6 @@ public class FileDto
     /// Поток с файлом
     /// </summary>
     public required Stream FileStream { get; init; }
+    
+    ///
 }
